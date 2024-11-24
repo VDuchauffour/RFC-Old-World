@@ -194,7 +194,7 @@ def onGreatPersonBorn(unit, iPlayer):
 
 class CityName(object):
 	
-	def __init__(self, name, bRenaming=False, bRelocation=False, iBefore=None, iAfter=None, bFound=False, bSmall=False, bCommunist=False):
+	def __init__(self, name, bRenaming=False, bRelocation=False, iBefore=None, iAfter=None, iReligion=None, bFound=False, bSmall=False, bCommunist=False, bOriginal=False, bConquest=False, bReconquest=False, bAutocratic=False, bCapital=False):
 		self.name = name
 		
 		self.bRenaming = bRenaming
@@ -202,10 +202,16 @@ class CityName(object):
 		
 		self.iBefore = iBefore
 		self.iAfter = iAfter
+		self.iReligion = iReligion
 		
 		self.bFound = bFound
 		self.bSmall = bSmall
 		self.bCommunist = bCommunist
+		self.bOriginal = bOriginal
+		self.bConquest = bConquest
+		self.bReconquest = bReconquest
+		self.bAutocratic = bAutocratic
+		self.bCapital = bCapital
 	
 	def isValid(self, city, bFound=False):
 		if self.iBefore is not None:
@@ -216,15 +222,43 @@ class CityName(object):
 			if player(city).getCurrentEra() < self.iAfter:
 				return False
 		
+		if self.iReligion is not None:
+			if is_minor(city):
+				if not city.isHasReligion(self.iReligion):
+					return False
+			else:
+				if player(city).getStateReligion() != self.iReligion:
+					return False
+		
 		if self.bFound and not bFound:
 			return False
 		
 		if self.bSmall:
-			if city.getPopulation() > player(city).getCurrentEra():
+			if city.getPopulation() > player(city).getCurrentEra() + 1:
 				return False
 		
 		if self.bCommunist:
 			if not isCommunist(city.getOwner()):
+				return False
+		
+		if self.bOriginal:
+			if city.getOriginalCiv() != city.getCivilizationType():
+				return False
+		
+		if self.bConquest:
+			if city.getGameTurnAcquired() == city.getGameTurnFounded():
+				return False
+		
+		if self.bReconquest:
+			if city.getGameTurnCivLost(city.getCivilizationType()) < 0:
+				return False
+		
+		if self.bAutocratic:
+			if not isAutocratic(city.getOwner()):
+				return False
+		
+		if self.bCapital:
+			if not city.isCapital():
 				return False
 		
 		return True
@@ -363,16 +397,19 @@ def relocateCity(city, name):
 
 ### NAME CHANGES ###
 
-iNumLanguages = 40
+iNumLanguages = 51
 lLanguages = (
-	iArabic, iBerber, iBurmese, iByzantine, iCeltic, 
-	iChinese, iCoptic, iDravidian, iDutch, iEgyptian, 
-	iEgyptianArabic, iEnglish, iEthiopian, iFrench, iGerman, 
-	iGreek, iHarappan, iHittite, iItalian, iJapanese, 
-	iLangKhmer, iKorean, iLatin, iLocal, iMalay, 
-	iManchu, iModernGreek, iNorse, iNubian, iPhoenician, 
-	iPolish, iPolynesian, iPortuguese, iQuechua, iRus, 
-	iRussian, iSpanish, iSwedish, iThai, iTurkish,
+	iArabic, iBabylonian, iBerber, iBurmese, iByzantine, 
+	iCeltic, iChinese, iCongolese, iCoptic, iDravidian, 
+	iDutch, iEgyptian, iEgyptianArabic, iEnglish, iEthiopian, 
+	iFrench, iGerman, iGreek, iHarappan, iHittite, 
+	iIndian, iItalian, iJapanese, iJavanese, iLangKhmer, 
+	iKiswahili, iKorean, iKushan, iLatin, iLocal, 
+	iMalay, iManchu, iMande, iModernGreek, iMongol, 
+	iNorse, iNubian, iPersian, iPhoenician, iPolish, 
+	iPolynesian, iPortuguese, iQuechua, iRus, iRussian, 
+	iSomali, iSpanish, iSwedish, iThai, iTibetan, 
+	iTurkish,
 ) = range(iNumLanguages)
 
 name_changes = {
@@ -419,13 +456,13 @@ name_changes = {
 	},
 	"Abakansk": {
 		iRussian: (
-			translate("Abakan", after=iGlobal), 
+			translate("Abakan", iAfter=iGlobal), 
 			_,
 		),
 	},
 	"Abalessa": {
 		iLangArabic: (
-			relocate("Tamanrasset", after=iRenaissance),
+			relocate("Tamanrasset", iAfter=iRenaissance),
 			_,
 		),
 	},
@@ -595,13 +632,13 @@ name_changes = {
 			"Acre",
 		),
 	},
-	"Ako": (
+	"Ako": {
 		iJapanese: _,
 		iRussian: (
 			translate("Alexandrovsk-Sakhalinsky", iAfter=iGlobal),
 			"Alexandrovka",
 		),
-	),
+	},
 	"Akordat": {
 		iArabic: relocate("Kassala"),
 		iEnglish: relocate("Keren"),
@@ -798,17 +835,17 @@ name_changes = {
 		iLatin: "Alexandria ad Euphrates",
 	},
 	"Alexandro-Grushevskaya": {
-		iRussian: {
+		iRussian: (
 			translate("Shakhty", iAfter=iGlobal),
 			_,
-		},
+		),
 	},
 	"Alexandrovskoye": {
-		iRussian: {
+		iRussian: (
 			translate("Kuybyshevka-Vostochnaya", bCommunist=True),
 			translate("Belogorsk", iAfter=iGlobal),
 			_,
-		},
+		),
 	},
 	"Alicante": {
 		iArabic: "Al-Laqant",
@@ -945,7 +982,7 @@ name_changes = {
 	},
 	"Angkor Borei": {
 		iLangKhmer: (
-			relocate("Phnom Penh", bIndustrial=True),
+			relocate("Phnom Penh", iAfter=iIndustrial),
 			_,
 		),
 	},
@@ -1373,7 +1410,7 @@ name_changes = {
 		iTurkish: "Torino",
 	},
 	"Aulona": {
-		iEnglish: "Avlona"
+		iEnglish: "Avlona",
 		iGreek: "Avlonas",
 		iItalian: "Valona",
 		iLatin: _,
@@ -1425,7 +1462,7 @@ name_changes = {
 		iGerman: "Audschila",
 		iItalian: "Augila",
 		iPolish: "Audzila",
-		iPortguese: "Aujila",
+		iPortuguese: "Aujila",
 	},
 	"Ayapir": {
 		iArabic: "Idhaj",
@@ -1549,10 +1586,10 @@ name_changes = {
 	"Baku": {
 		iArabic: "Bakuya",
 		iLocal: "Baki", # Azerbaijani
-		iPersian: {
+		iPersian: (
 			translate("Bad-kube", iBefore=iClassical),
 			_,
-		},
+		),
 		iRussian: _,
 		iTurkish: u"Bakü",
 	},
@@ -1634,12 +1671,12 @@ name_changes = {
 			_,
 		),
 	},
-	"Banten": (
+	"Banten": {
 		iMalay: (
 			translate("Serang", iAfter=iIndustrial),
 			_,
 		),
-	),
+	},
 	"Baranavichi": {
 		iEnglish: "Baranavichy",
 		iGerman: "Baranawitschy",
@@ -1704,7 +1741,7 @@ name_changes = {
 		),
 		iBabylonian: _,
 		iGreek: (
-			found("Alexandreia i en Ephrati")
+			found("Alexandreia i en Ephrati"),
 			"Borsippa",
 		),
 	},
@@ -1894,7 +1931,7 @@ name_changes = {
 		iModernGreek: u"Veligrádhi",
 		iNorse: "Beograd",
 		iPolish: "Belgrad",
-		iPortguese: "Belgrado",
+		iPortuguese: "Belgrado",
 		iRussian: "Belgrad",
 		iSpanish: "Belgrado",
 		iTurkish: "Belgrad",
@@ -2021,7 +2058,7 @@ name_changes = {
 			"Bilbaum",
 		),
 		iLocal: "Bilbo", # Basque
-		iPortguese: "Bilbau",
+		iPortuguese: "Bilbau",
 		iSpanish: _,
 	},
 	u"Bir Moghreïn": {
@@ -2111,13 +2148,13 @@ name_changes = {
 	"Boma": {
 		iEnglish: rename("Lundazi"),
 		iLocal: _,
-		iSwahili: _,
+		iKiswahili: _,
 	},
 	"Bomani": {
 		iArabic: rename("Baraka"),
 		iDutch: rename("Baraka"),
 		iFrench: rename("Baraka"),
-		iSwahili: rename("Baraka"),
+		iKiswahili: rename("Baraka"),
 	},
 	"Bononia": {
 		iChinese: "Boluoniya",
@@ -2163,7 +2200,7 @@ name_changes = {
 		iKorean: "Boreudo",
 		iLatin: "Burdigala",
 		iLocal: translate(u"Bordèu", iAfter=iMedieval), # Occitan
-		iPortguese: u"Bordéus",
+		iPortuguese: u"Bordéus",
 		iSpanish: "Burdeos",
 		iSwedish: _,
 	},
@@ -2273,7 +2310,7 @@ name_changes = {
 		iFrench: u"Brême",
 		iGerman: _,
 		iGreek: u"Vrémi",
-		iItalian: "Brema"
+		iItalian: "Brema",
 		iJapanese: "Buremen",
 		iKorean: "Beuremen",
 		iLatin: "Brema",
@@ -2282,7 +2319,7 @@ name_changes = {
 			_,
 		),
 		iPolish: "Brema",
-		iPortguese: "Brema",
+		iPortuguese: "Brema",
 		iSpanish: "Brema",
 		iSwedish: _,
 		iTurkish: _,
@@ -2611,7 +2648,7 @@ name_changes = {
 	},
 	"Constantinopolis": {  # renamed from Byzantion
 		iArabic: "Qustantiniyya",
-		iChinese: "Junshitandingbao"
+		iChinese: "Junshitandingbao",
 		iDutch: "Constantinopel",
 		iEnglish: "Constantinople",
 		iFrench: "Constantinople",
@@ -2702,7 +2739,7 @@ name_changes = {
 	"Flaviobriga": {  # founded on Bilbao
 		iCeltic: "Portus Amanum",
 		iLatin: _,
-		iSpanish: "Castro Urdial
+		iSpanish: "Castro Urdial",
 	},
 	"Fort Arenberg": {
 		iFrench: _,
