@@ -11912,6 +11912,15 @@ bool CvUnitAI::AI_cityAttack(int iRange, int iOddsThreshold, bool bFollow)
 							}
 						}
 
+						// Leoreth: never attack independent cities outside of war map
+						if (GET_PLAYER(pLoopPlot->getOwnerINLINE()).isIndependent() && !GET_PLAYER(getOwnerINLINE()).isMinorCiv() && !GET_PLAYER(getOwnerINLINE()).isBarbarian())
+						{
+							if (iRange > 1 && pLoopPlot->getWarValue(getOwnerINLINE()) == 0)
+							{
+								continue;
+							}
+						}
+
 						if (AI_potentialEnemy(pLoopPlot->getTeam(), pLoopPlot))
 						{
 							if (!atPlot(pLoopPlot) && ((bFollow) ? canMoveInto(pLoopPlot, true) : (generatePath(pLoopPlot, 0, true, &iPathTurns) && (iPathTurns <= iRange))))
