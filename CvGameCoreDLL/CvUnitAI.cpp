@@ -2024,17 +2024,20 @@ void CvUnitAI::AI_attackMove()
 			{
 				if (area()->getNumUnrevealedTiles(getTeam()) > 0)
 				{
-					if (GET_PLAYER(getOwnerINLINE()).AI_areaMissionAIs(area(), MISSIONAI_EXPLORE, getGroup()) < (GET_PLAYER(getOwnerINLINE()).AI_neededExplorers(area()) + 1))
+					// Leoreth: only if there is no other explorer
+					//if (GET_PLAYER(getOwnerINLINE()).AI_areaMissionAIs(area(), MISSIONAI_EXPLORE, getGroup()) < (GET_PLAYER(getOwnerINLINE()).AI_neededExplorers(area()) + 1))
+					if (GET_PLAYER(getOwnerINLINE()).AI_areaMissionAIs(area(), MISSIONAI_EXPLORE, getGroup()) == 0)
 					{
-						if (AI_exploreRange(3))
+						//if (AI_exploreRange(3))
+						if (AI_exploreRange(4))
 						{
 							return;
 						}
 
-						if (AI_explore())
+						/*if (AI_explore())
 						{
 							return;
-						}
+						}*/
 					}
 				}
 			}
