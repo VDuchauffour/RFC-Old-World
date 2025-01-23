@@ -32645,6 +32645,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=73,y=43
+	BonusType=BONUS_SALT
 	TerrainType=TERRAIN_SEMIDESERT
 	PlotType=2
 EndPlot
