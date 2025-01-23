@@ -50,8 +50,8 @@ tSpreadFactors = (
 # Protestantism
 {
 	iCore :		[rBritain, rLowerGermany, rScandinavia, rAtlanticSeaboard, rMidwest, rOntario, rGreatPlains, rDeepSouth, rMaritimes],
-	iHistorical :	[rCalifornia, rCascadia, rAmericanArctic, rAustralia],
-	iPeriphery :	[rFrance, rOceania, rCape, rZambezi],
+	iHistorical :	[rBaltics, rCalifornia, rCascadia, rAmericanArctic, rAustralia],
+	iPeriphery :	[rFrance, rOceania, rCape, rZambezi, rSwahiliCoast],
 	iMinority : 	[rPoland, rCentralEurope, rBrazil, rKorea]
 },
 # Islam
