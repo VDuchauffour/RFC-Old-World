@@ -5134,8 +5134,10 @@ int CvCity::determineArtStyleType() const
 		case REGION_BALTICS:
 		case REGION_SCANDINAVIA:
 			return GC.getCivilizationInfo(NORSE).getArtStyleType();
+		case REGION_RUSSIA:
 		case REGION_RUTHENIA:
 		case REGION_EUROPEAN_ARCTIC:
+		case REGION_VOLGA:
 		case REGION_URALS:
 		case REGION_SIBERIA:
 			return GC.getCivilizationInfo(RUSSIA).getArtStyleType();

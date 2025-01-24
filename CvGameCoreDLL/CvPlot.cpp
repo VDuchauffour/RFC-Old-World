@@ -5940,7 +5940,9 @@ int CvPlot::determineVariety(FeatureTypes eFeature) const
 			case REGION_POLAND:
 			case REGION_BALTICS:
 			case REGION_SCANDINAVIA:
+			case REGION_RUSSIA:
 			case REGION_RUTHENIA:
+			case REGION_VOLGA:
 			case REGION_URALS:
 			case REGION_MANCHURIA:
 			case REGION_AMUR:
@@ -12134,7 +12136,9 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
 	case REGION_POLAND:
 	case REGION_BALTICS:
 	case REGION_SCANDINAVIA:
+	case REGION_RUSSIA:
 	case REGION_RUTHENIA:
+	case REGION_VOLGA:
 	case REGION_PONTIC_STEPPE:
 	case REGION_URALS:
 		return REGION_GROUP_EUROPE;
