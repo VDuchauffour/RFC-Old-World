@@ -133,9 +133,9 @@ dResourcesDict = {
 	(42, 25)  : (1650,  iSugar),	# Central Brazil
 	(46, 30)  : (1650,  iCotton),   # Northern Brazil
 	(47, 25)  : (1650,  iCocoa),    # Northern Brazil
-	(18, 54)  : (1700,  iWheat),    # Nebraska
-	(19, 62)  : (1700,  iWheat),    # Manitoba
-	(15, 63)  : (1700,  iWheat),    # Alberta
+	(17, 53)  : (1700,  iWheat),    # Nebraska
+	(19, 63)  : (1700,  iWheat),    # Manitoba
+	(14, 64)  : (1700,  iWheat),    # Alberta
 	(20, 57)  : (1700,  iWheat),    # Iowa
 	(37, 13)  : (1700,  iWheat),    # Argentina
 	(126, 52) : (1700,  iCorn),     # China
@@ -148,7 +148,7 @@ dResourcesDict = {
 	(57, 63)  : (1700,  iPotato),   # England
 	(17, 51)  : (1700,  iCow),      # Texas
 	(18, 50)  : (1700,  iCow),      # Texas
-	(16, 62)  : (1700,  iCow),      # Alberta
+	(15, 62)  : (1700,  iCow),      # Alberta
 	(41, 23)  : (1700,  iCow),      # Central Brazil
 	(36, 14)  : (1700,  iCow),      # Patagonia
 	(32, 11)  : (1700,  iCow),      # Chile
@@ -441,6 +441,13 @@ def setupScenarioResources():
 		for (x, y), iResource, iYear in lResources:
 			if year(iYear) <= iStartTurn:
 				createResource(x, y, iResource)
+
+
+def createAllResources():
+	for lResources in dResources.values():
+		for (x, y), iResource in lResources:
+			createResource(x, y, iResource)
+	
 	
 
 # Leoreth: bonus removal alerts by edead
