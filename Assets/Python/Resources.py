@@ -404,6 +404,11 @@ def setupScenarioResources():
 	setup()
 	iStartTurn = scenarioStartTurn()
 	
+	for iTurn, lResources in dRemovedResources:
+		if iTurn <= iStartTurn:
+			for x, y in lResources:
+				removeResource(x, y)
+	
 	for iTurn, lResources in dResources:
 		if iTurn <= iStartTurn:
 			for (x, y), iResource in lResources:
@@ -413,11 +418,6 @@ def setupScenarioResources():
 		if year(dBirth[iCiv]) <= iStartTurn and any(iEnd >= iStartTurn for iStart, iEnd in dResurrections[iCiv]):
 			for (x, y), iResource in lResources:
 				createResource(x, y, iResource)
-	
-	for iTurn, lResources in dRemovedResources:
-		if iTurn <= iStartTurn:
-			for x, y in lResources:
-				removeResource(x, y)
 	
 	for iTurn, lFeatures in dFeatures:
 		if iTurn <= iStartTurn:
