@@ -76,6 +76,8 @@ class CvCivicsScreen:
 		self.PlayerCivics = []
 		self.SelectedCivics = []
 		self.DisplayedCivics = []
+		
+		self.CurrentHover = -1
 
 
 
@@ -214,17 +216,21 @@ class CvCivicsScreen:
 		iCategory = gc.getCivicInfo(iCivic).getCivicOptionType()
 		iDisplayedCivic = iCivic
 		
-		if self.SelectedCivics[iCategory] == iCivic:
+		if self.SelectedCivics[iCategory] == iCivic and self.CurrentHover != iCivic:
 			iDisplayedCivic = self.getBaseCivic(iCategory)
 
 		if bHover:
 			if self.DisplayedCivics[iCategory] != iDisplayedCivic:
 				self.DisplayedCivics[iCategory] = iDisplayedCivic
+				self.CurrentHover = iDisplayedCivic
 				return True
 
-		elif self.DisplayedCivics[iCategory] != self.SelectedCivics[iCategory]:
-			self.DisplayedCivics[iCategory] = self.SelectedCivics[iCategory]
-			return True
+		else:
+			self.CurrentHover = -1
+
+			if self.DisplayedCivics[iCategory] != self.SelectedCivics[iCategory]:
+				self.DisplayedCivics[iCategory] = self.SelectedCivics[iCategory]
+				return True
 
 		return False
 
