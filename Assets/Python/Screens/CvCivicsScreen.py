@@ -212,10 +212,14 @@ class CvCivicsScreen:
 	def hoverCivic(self, iCivic, bHover):
 		''
 		iCategory = gc.getCivicInfo(iCivic).getCivicOptionType()
+		iDisplayedCivic = iCivic
+		
+		if self.SelectedCivics[iCategory] == iCivic:
+			iDisplayedCivic = self.getBaseCivic(iCategory)
 
 		if bHover:
-			if self.DisplayedCivics[iCategory] != iCivic:
-				self.DisplayedCivics[iCategory] = iCivic
+			if self.DisplayedCivics[iCategory] != iDisplayedCivic:
+				self.DisplayedCivics[iCategory] = iDisplayedCivic
 				return True
 
 		elif self.DisplayedCivics[iCategory] != self.SelectedCivics[iCategory]:
@@ -400,7 +404,10 @@ class CvCivicsScreen:
 					screen.hide("CivicButton" + str(iCivic))
 					sText = CyTranslator().changeTextColor(sText, gc.getInfoTypeForString('COLOR_LIGHT_GREY'))
 			screen.setText(sName, "", sText, CvUtil.FONT_RIGHT_JUSTIFY, xPos - self.MARGIN, iLine, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-
+	
+	
+	def getBaseCivic(self, iCategory):
+		return next(iCivic for iCivic in range(gc.getNumCivicInfos()) if gc.getCivicInfo(iCivic).getCivicOptionType() == iCategory)
 
 
 	def handleInput(self, inputClass):
@@ -419,9 +426,14 @@ class CvCivicsScreen:
 				if inputClass.getFlags() & MouseFlags.MOUSE_RBUTTONUP:
 					CvScreensInterface.pediaJumpToCivic((inputClass.getID(), ))
 				else:
+					iCivic = inputClass.getID()
+					iCategory = gc.getCivicInfo(iCivic).getCivicOptionType()
+					if self.SelectedCivics[iCategory] == iCivic:
+						iCivic = self.getBaseCivic(iCategory)
+					
 					# Select civic
-					self.selectCivic(inputClass.getID())
-					self.showCivic(gc.getCivicInfo(inputClass.getID()).getCivicOptionType())
+					self.selectCivic(iCivic)
+					self.showCivic(iCategory)
 					self.updateCivicCosts()
 					self.updateRevolution()
 
