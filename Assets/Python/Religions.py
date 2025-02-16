@@ -5,7 +5,12 @@ from Core import *
 from Events import handler, popup_handler
 
 
-# initialise coordinates
+## CONSTANTS
+
+lJudaismFoundRegions = [rEgypt, rLevant, rMesopotamia]
+lJudaismEuropeRegions = [rIberia, rFrance, rLowerGermany, rCentralEurope, rPoland, rItaly, rBritain, rRuthenia, rBalkans]
+lJudaismMiddleEastRegions = [rLevant, rMesopotamia, rAnatolia, rEgypt]
+lJudaismNewWorldRegions = [rOntario, rMaritimes, rAtlanticSeaboard, rMidwest, rCalifornia]
 
 dCatholicPreference = CivDict({
 iEgypt		: 80,
@@ -35,6 +40,9 @@ iAmerica	: 20,
 
 def getCatholicPreference(iPlayer):
 	return dCatholicPreference[iPlayer]
+
+
+## HANDLERS
 	
 
 @handler("buildingBuilt")	
@@ -81,7 +89,7 @@ def checkJudaism(iGameTurn):
 		return
 
 	if iGameTurn == year(-1500) - turns(data.iSeed % 5):
-		foundReligion(selectHolyCity(plots.regions(rEgypt, rLevant, rMesopotamia), tJerusalem), iJudaism)
+		foundReligion(selectHolyCity(plots.regions(*lJudaismFoundRegions), tJerusalem), iJudaism)
 
 
 @handler("BeginGameTurn")
@@ -137,9 +145,9 @@ def checkSchism(iGameTurn):
 
 @handler("BeginGameTurn")
 def spreadJudaism():
-	spreadReligionToRegion(iJudaism, [rIberia, rFrance, rLowerGermany, rCentralEurope, rPoland, rItaly, rBritain, rRuthenia, rBalkans], 1000, 10)
-	spreadReligionToRegion(iJudaism, [rMesopotamia, rAnatolia, rEgypt], 600, 20)
-	spreadReligionToRegion(iJudaism, [rOntario, rMaritimes, rAtlanticSeaboard, rMidwest], 1850, 10)
+	spreadReligionToRegion(iJudaism, lJudaismEuropeRegions, 1000, 10)
+	spreadReligionToRegion(iJudaism, lJudaismMiddleEastRegions, 600, 20)
+	spreadReligionToRegion(iJudaism, lJudaismNewWorldRegions, 1850, 10)
 
 
 @handler("BeginGameTurn")
@@ -228,6 +236,9 @@ def lateReligionFounding(iTech):
 				
 	for iReligion in range(iNumReligions):
 		checkLateReligionFounding(iReligion, iTech)
+
+
+## IMPLEMENTATION
 
 
 def foundReligion(location, iReligion):
