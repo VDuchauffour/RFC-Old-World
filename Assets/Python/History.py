@@ -641,6 +641,8 @@ def giveColonists(iPlayer):
 	pTeam = team(iPlayer)
 	iCiv = civ(iPlayer)
 	
+	iMiddleAtlantic = 45
+	
 	if pPlayer.isExisting() and not pPlayer.isHuman() and iCiv in dMaxColonists:
 		if pTeam.isHasTech(iExploration) and data.players[iPlayer].iColonistsAlreadyGiven < dMaxColonists[iCiv]:
 			sourceCities = cities.core(iCiv).owner(iPlayer)
@@ -651,7 +653,7 @@ def giveColonists(iPlayer):
 				if colonialCities:
 					sourceCities = colonialCities
 					
-			city = sourceCities.coastal().random()
+			city = sourceCities.coastal().minimum(lambda city: abs(city.getX() - iMiddleAtlantic))
 			if city:
 				tSeaPlot = findSeaPlots(city, 1, iCiv)
 				if not tSeaPlot: tSeaPlot = city
