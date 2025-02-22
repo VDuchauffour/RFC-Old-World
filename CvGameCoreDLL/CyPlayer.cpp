@@ -2771,3 +2771,8 @@ int CyPlayer::getModifiedCommerceRate(CommerceTypes eIndex)
 {
 	return m_pPlayer ? m_pPlayer->getModifiedCommerceRate(eIndex) : -1;
 }
+
+bool CyPlayer::canBuySlaves() const
+{
+	return m_pPlayer ? m_pPlayer->canBuySlaves() : false;
+}
