@@ -20461,6 +20461,7 @@
 			<bReformGovernment>1</bReformGovernment>
 			<bResolveCrisis>1</bResolveCrisis>
 			<bDiplomaticMission>1</bDiplomaticMission>
+			<bInvisible>1</bInvisible>
 			<bNukeImmune>1</bNukeImmune>
 			<UnitAIs>
 				<UnitAI>
@@ -20520,6 +20521,12 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_COMMANDO</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_GREAT_GENERAL</Class>
@@ -21205,6 +21212,7 @@
 			<bReformGovernment>1</bReformGovernment>
 			<bResolveCrisis>1</bResolveCrisis>
 			<bDiplomaticMission>1</bDiplomaticMission>
+			<bInvisible>1</bInvisible>
 			<bNukeImmune>1</bNukeImmune>
 			<UnitAIs>
 				<UnitAI>
@@ -21264,6 +21272,12 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_COMMANDO</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</UnitInfo>
 		<UnitInfo>
