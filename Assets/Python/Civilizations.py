@@ -644,7 +644,7 @@ dStartingUnits = CivDict({
 		iWorkerSea: 1,
 	},
 	iIndia: {
-		iSettle: 1,
+		iSettle: 2,
 		iWork: 2,
 		iDefend: 1,
 		iCounter: 1,
