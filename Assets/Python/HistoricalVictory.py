@@ -643,8 +643,8 @@ dGoals = {
 		AllowOnly(plots.regions(rDravida, rDeccan, rBengal, rIndochina, rIndonesia).named(SOUTH_ASIA), civs(*lSouthAsianCivs).named(LOCAL), at=1900),
 	),
 	iSweden: (
-		CultureCover(plots.all().adjacent_region(rBalticSea).land().named(BALTIC_SEA_REGION), by=1650),
-		StateReligionCount(group(iCivGroupEurope).named(EUROPEAN), iProtestantism, 6, by=1700),
+		StateReligionCount(group(iCivGroupEurope).named(EUROPEAN), iProtestantism, 6, by=1650),
+		CultureCover(plots.all().adjacent_region(rBalticSea).land().named(BALTIC_SEA_REGION), by=1700),
 		HappiestTurns(50, by=1980),
 	),
 	iRussia: (
