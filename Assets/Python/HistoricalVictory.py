@@ -254,7 +254,7 @@ dGoals = {
 			Control(
 				plots.rectangle(tPhoenicianItaly).without(lPhoenicianItalyExceptions).named(ITALY),
 				plots.region(rIberia),
-				by=-150
+				at=-150
 			),
 		),
 		RevealedPercent(plots.all().sea().adjacent_regions(*lAfricanCoastRegions).named(AFRICAN_COAST), 60, by=1),
