@@ -4,6 +4,9 @@ from Locations import *
 
 lHappinessResources = [iResource for iResource in infos.bonuses() if infos.bonus(iResource).getHappiness() > 0]
 
+# third Phoenician goal: reveal 50% of the African coast by 1 AD
+lAfricanCoastRegions = [rRegion for rRegion in lAfrica if rRegion != rMadagascar]
+
 # first Norse goal: control a European core in 1050 AD
 lNorseTargets = [plots.core(iCiv) for iCiv in dCivGroups[iCivGroupEurope] if iCiv != iNorse and dBirth[iCiv] <= 1050]
 
@@ -254,7 +257,7 @@ dGoals = {
 				by=-150
 			),
 		),
-		RevealedPercent(plots.all().water().adjacent_regions(*lAfrica).named(AFRICAN_COAST), 50, by=1),
+		RevealedPercent(plots.all().sea().adjacent_regions(*lAfricanCoastRegions).named(AFRICAN_COAST), 60, by=1),
 	),
 	iPolynesia: (
 		Settle(
