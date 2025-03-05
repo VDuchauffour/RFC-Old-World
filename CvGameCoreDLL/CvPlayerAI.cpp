@@ -10286,7 +10286,7 @@ int CvPlayerAI::AI_civicValue(CivicTypes eCivic) const
 		}
 	}
 
-	iTradeCommerceModifier = (100 + AI_averageTradeMultiplier()) * std::max(AI_averageCommerceMultiplier(COMMERCE_GOLD), AI_averageCommerceMultiplier(COMMERCE_RESEARCH)) / 100;
+	iTradeCommerceModifier = (AI_averageTradeMultiplier()) * std::max(AI_averageCommerceMultiplier(COMMERCE_GOLD), AI_averageCommerceMultiplier(COMMERCE_RESEARCH)) / 100;
 
 	iValue += kCivic.getTradeRoutes() * (std::max(0, iConnectedForeignCities - getNumCities() * 3) + getNumCities() * 2) * 3 * iTradeCommerceModifier / 100;
 	iValue += -((kCivic.isNoForeignTrade()) ? (iConnectedForeignCities * /*3*/ 4) : 0);
@@ -16851,7 +16851,7 @@ void CvPlayerAI::AI_calculateAverages() const
 			m_aiAverageCommerceMultiplier[iI] += iPopulation * pLoopCity->getTotalCommerceRateModifier((CommerceTypes)iI);
 		}
 		m_iAverageGreatPeopleMultiplier += iPopulation * pLoopCity->getTotalGreatPeopleRateModifier();
-		m_iAverageTradeMultiplier += iPopulation * (pLoopCity->getTradeRouteModifier() + pLoopCity->getForeignTradeRouteModifier());
+		m_iAverageTradeMultiplier += iPopulation * (100 + pLoopCity->getTradeRouteModifier() + pLoopCity->getForeignTradeRouteModifier());
 	}
 
 
