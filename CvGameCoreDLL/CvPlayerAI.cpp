@@ -1925,6 +1925,11 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 	{
 		pLoopPlot = plotCity(iX, iY, iI);
 
+		if (pLoopPlot == NULL)
+		{
+			continue;
+		}
+
 		if (iSettlerMapValue == 1)
 		{
 			// Leoreth: 10+ city site in radius

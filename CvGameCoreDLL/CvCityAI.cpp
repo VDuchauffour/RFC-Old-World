@@ -1065,7 +1065,7 @@ void CvCityAI::AI_chooseProduction()
 	if (bLog) log(CvWString::format(L"before early settler check: %d settlers, max %d settlers", iNumSettlers, iMaxSettlers));
 
 	// Leoreth: in the late game we need to be more proactive about settling before considering other buildings
-	if (iNumSettlers == 0 && iNumSettlers < iMaxSettlers)
+	if (iNumSettlers <= 1 && iNumSettlers < iMaxSettlers && GET_PLAYER(getOwnerINLINE()).AI_getNumTrainAIUnits(UNITAI_SETTLE) == 0)
 	{
 		if (bLog) log("no settlers");
 		if (GET_PLAYER(getOwnerINLINE()).getCurrentEra() >= ERA_RENAISSANCE)

@@ -11913,7 +11913,7 @@ bool CvUnitAI::AI_cityAttack(int iRange, int iOddsThreshold, bool bFollow)
 						}
 
 						// Leoreth: never attack independent cities outside of war map
-						if (GET_PLAYER(pLoopPlot->getOwnerINLINE()).isIndependent() && !GET_PLAYER(getOwnerINLINE()).isMinorCiv() && !GET_PLAYER(getOwnerINLINE()).isBarbarian())
+						if (pLoopPlot->isOwned() && GET_PLAYER(pLoopPlot->getOwnerINLINE()).isIndependent() && !GET_PLAYER(getOwnerINLINE()).isMinorCiv() && !GET_PLAYER(getOwnerINLINE()).isBarbarian())
 						{
 							if (iRange > 1 && pLoopPlot->getWarValue(getOwnerINLINE()) == 0)
 							{
@@ -16574,7 +16574,6 @@ CvPlot* CvUnitAI::AI_defensiveNukeTarget() const
 	int iValue;
 	int iBestValue;
 	int iLoop;
-	int iI;
 	int iDX, iDY;
 
 	pBestPlot = NULL;
@@ -16667,7 +16666,6 @@ CvCity* CvUnitAI::AI_offensiveSatelliteTarget() const
 {
 	CvCity* pLoopCity;
 	PlayerTypes eOtherPlayer;
-	int iI;
 	int iValue;
 	int iLoop;
 
