@@ -383,9 +383,10 @@ def changeConquerorPlotTypes(iConquerorPlayer, iTargetPlayer):
 		plot(tile).setPlotType(type, True, True)
 
 
-@handler("cityAcquiredAndKept")
-def spreadCivGroupResourcesOnConquest(iPlayer, city):
-	spreadCivGroupResources(city)
+@handler("cityAcquired")
+def spreadCivGroupResourcesOnConquest(iOwner, iPlayer, city, bConquest):
+	if bConquest:
+		spreadCivGroupResources(city)
 
 
 @handler("cityBuilt")
