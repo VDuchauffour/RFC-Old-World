@@ -122,6 +122,16 @@ def americanPioneerAbility(city):
 			createRoleUnit(iPlayer, city, iWork, 1)
 
 
+### CITY GIFTED ###
+
+
+@handler("cityGifted")
+def giftedCityDefenders(city):
+	if not player(city).isHuman():
+		iNumDefenders = max(2, 1 + player(city).getCurrentEra() / 2)
+		createGarrisons(city, city.getOwner(), iNumDefenders)
+
+
 ### COMBAT RESULT ###
 		
 @handler("combatResult")

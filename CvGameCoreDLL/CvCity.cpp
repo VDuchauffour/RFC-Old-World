@@ -1524,8 +1524,14 @@ void CvCity::doTask(TaskTypes eTask, int iData1, int iData2, bool bOption, bool 
 		}
 		else
 		{
+			CvPlot* pPlot = plot();
 			GET_PLAYER((PlayerTypes)iData1).acquireCity(this, false, true, true);
 			GET_PLAYER(getOwnerINLINE()).updateMaintenance(); // Leoreth
+
+			if (pPlot->isCity())
+			{
+				CvEventReporter::getInstance().cityGifted(pPlot->getPlotCity());
+			}
 		}
 		break;
 
