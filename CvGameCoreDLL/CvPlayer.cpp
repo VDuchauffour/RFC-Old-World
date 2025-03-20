@@ -3073,7 +3073,7 @@ void CvPlayer::doTurn()
 	}
 
 	CvEventReporter::getInstance().endPlayerTurn( GC.getGameINLINE().getGameTurn(),  getID());
-	m_bTurnPlayed = 1; //Rhye
+	m_bTurnPlayed = true; //Rhye
 }
 
 
@@ -6000,6 +6000,12 @@ void CvPlayer::found(int iX, int iY)
 		{
 			foundReligion(eReligion, eReligion, true);
 		}
+	}
+
+	// Leoreth
+	if (isHuman() && getNumCities() == 1)
+	{
+		m_bTurnPlayed = false;
 	}
 }
 
