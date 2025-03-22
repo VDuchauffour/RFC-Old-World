@@ -126,8 +126,9 @@ def isWonder(iBuilding):
 	return isWorldWonderClass(infos.building(iBuilding).getBuildingClassType())
 
 
-def log_with_trace(context):
-	print "%s called near:" % context
+def log_with_trace(context = ""):
+	if context:
+		print "%s called near:" % context
 	stacktrace()
 
 
