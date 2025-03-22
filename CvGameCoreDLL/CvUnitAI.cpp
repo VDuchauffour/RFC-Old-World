@@ -18836,7 +18836,13 @@ bool CvUnitAI::AI_rebuildMove(int iMinimumCost)
 
 	if (pBestCity != NULL)
 	{
-		getGroup()->pushMission(MISSION_MOVE_TO, pBestCity->getX(), pBestCity->getY(), MOVE_SAFE_TERRITORY, false, false, MISSIONAI_REBUILD);
+		if (!atPlot(pBestCity->plot()))
+		{
+			getGroup()->pushMission(MISSION_MOVE_TO, pBestCity->getX(), pBestCity->getY(), MOVE_SAFE_TERRITORY, false, false, MISSIONAI_REBUILD);
+			return true;
+		}
+
+		getGroup()->pushMission(MISSION_REBUILD);
 		return true;
 	}
 

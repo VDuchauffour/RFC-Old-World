@@ -4169,7 +4169,7 @@ bool CvCity::canConscript(bool bForce) const
 		// Turkish UP: extra conscript requires non-state religion
 		if (getCivilizationType() == OTTOMANS && GET_PLAYER(getOwnerINLINE()).getConscriptCount() - GET_PLAYER(getOwnerINLINE()).getMaxConscript() >= -2)
 		{
-			if (!GET_PLAYER(getOwnerINLINE()).isStateReligion())
+			if (GET_PLAYER(getOwnerINLINE()).getStateReligion() == NO_RELIGION)
 			{
 				if (getReligionCount() == 0)
 				{
