@@ -4,6 +4,7 @@ from DynamicCivs import *
 from Locations import *
 from RFCUtils import *
 from Slots import *
+from Scenarios import *
 
 from Events import events, handler
 from Collapse import completeCollapse
@@ -101,6 +102,11 @@ def initBirths():
 @handler("GameStart")
 def initCamera():
 	plot(dCapitals[active()]).cameraLookAt()
+
+
+@handler("GameStart")
+def cleanupGreatWall():
+	getScenario().greatWall.cleanup()
 
 
 @handler("BeginGameTurn")
