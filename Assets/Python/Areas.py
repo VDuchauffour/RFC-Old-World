@@ -144,7 +144,6 @@ iCanada : 		((6, 59),	(37, 68)),
 
 dExtendedBirthArea = CivDict({
 iSpain : 		((54, 51),	(62, 54)),
-iEngland :		((55, 62),	(59, 71)),
 iJava :			((122, 24), (128, 25)),
 iInca : 		((29, 20),	(35, 25)),
 iMongols : 		((91, 52),	(132, 66)),
