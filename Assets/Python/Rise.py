@@ -1024,7 +1024,7 @@ class Birth(object):
 		team(iOwner).declareWar(self.player.getTeam(), False, WarPlanTypes.WARPLAN_ATTACKED_RECENT)
 	
 	def flippedArea(self):
-		if self.iCiv == iEngland:
+		if self.iCiv == iEngland and not self.isHuman():
 			area = plots.birth(self.iPlayer) + plots.region(rBritain).where(lambda p: not p.isOwned() or is_minor(p.getOwner()))
 			return area.unique()
 		
