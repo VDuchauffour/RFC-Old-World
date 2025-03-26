@@ -281,9 +281,6 @@ class GreatWall(object):
 		iOldArea = city.getArea()
 		iNewArea = plots.capital(iAmerica).getArea()
 		
-		greatWall = plots.rectangle(self.tGraphicsTL, self.tGraphicsBR)
-		areaChange = greatWall.expand(1).land().without(self.lBorderExceptions)
-		
 		for plot in self.areaChange:
 			plot.setArea(iNewArea)
 			
@@ -297,6 +294,10 @@ class GreatWall(object):
 			plot.setWithinGreatWall(True)
 	
 	def cleanup(self):
+		city = getBuildingCity(iGreatWall, False)
+		if not city:
+			return
+		
 		iOldArea = plots.capital(iTibet).getArea()
 		
 		for plot in self.areaChange:
