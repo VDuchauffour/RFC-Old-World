@@ -8598,7 +8598,19 @@ void CvGameTextMgr::setTechTradeHelp(CvWStringBuffer &szBuffer, TechTypes eTech,
 					szBuffer.append(szTempBuffer);
 				}
 
-				if (GET_TEAM(GC.getGameINLINE().getActiveTeam()).getTechLeaderModifier() != 0)
+				if (GET_TEAM(GC.getGameINLINE().getActiveTeam()).getTechDifferenceModifier() != 0)
+				{
+					iCostChange = iCost * GET_TEAM(GC.getGameINLINE().getActiveTeam()).getTechDifferenceModifier();
+					iCostChange /= 100;
+
+					szBuffer.append(NEWLINE);
+					szBuffer.append(" ");
+					szBuffer.append(gDLL->getText("TXT_KEY_TECH_DIFFERENCE"));
+					szTempBuffer.Format(L" %s%d %c", (iCostChange > 0) ? "+" : "", iCostChange, GC.getCommerceInfo(COMMERCE_RESEARCH).getChar());
+					szBuffer.append(szTempBuffer);
+				}
+
+				/*if (GET_TEAM(GC.getGameINLINE().getActiveTeam()).getTechLeaderModifier() != 0)
 				{
 					iCostChange = iCost * GET_TEAM(GC.getGameINLINE().getActiveTeam()).getTechLeaderModifier();
 					iCostChange /= 100;
@@ -8608,7 +8620,7 @@ void CvGameTextMgr::setTechTradeHelp(CvWStringBuffer &szBuffer, TechTypes eTech,
 					szBuffer.append(gDLL->getText("TXT_KEY_TECH_LEADER_MODIFIER"));
 					szTempBuffer.Format(L" %s%d %c", (iCostChange > 0) ? "+" : "", iCostChange, GC.getCommerceInfo(COMMERCE_RESEARCH).getChar());
 					szBuffer.append(szTempBuffer);
-				}
+				}*/
 
 				if (GET_TEAM(GC.getGameINLINE().getActiveTeam()).getSpreadResearchModifier(eTech) != 0)
 				{

@@ -92,6 +92,7 @@ public:
 	int getScenarioResearchModifier() const;
 	int getCivilizationResearchModifier() const;
 	int getTechLeaderModifier() const;
+	int getTechDifferenceModifier() const;
 	int getSpreadResearchModifier(TechTypes eTech) const;
 	int getTurnResearchModifier() const;
 	int getModernizationResearchModifier(TechTypes eTech) const;
