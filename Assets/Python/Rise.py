@@ -814,7 +814,7 @@ class Birth(object):
 		if self.iCiv in lExpansionCivs:
 			capital_continent = plot_(self.location).getContinentArea()
 			
-			for plot in plots.all().without(self.area).where(lambda p: p.getPlayerWarValue(self.iPlayer) >= 4).where(lambda p: p.getContinentArea() == capital_continent or distance(self.location, p) <= 32).land().where(lambda p: not p.isPeak()):
+			for plot in plots.all().without(self.area).where(lambda p: p.getPlayerWarValue(self.iPlayer) >= 5).where(lambda p: p.getContinentArea() == capital_continent or distance(self.location, p) <= 32).land().where(lambda p: not p.isPeak()):
 				plot.setExpansion(self.iPlayer)
 
 			self.iExpansionDelay = rand(turns(5)) + 1
