@@ -2180,8 +2180,10 @@ dBuildingPreferences = {
 		iWembley: 20,
 		iIberianTradingCompanyBuilding: 20,
 		iTorreDeBelem: 15,
-		iNotreDame: 15,
 		iMezquita: 15,
+		
+		iNotreDame: -20,
+		iOldSynagogue: -30,
 	},
 	iEngland : {
 		iTradingCompanyBuilding: 50,
