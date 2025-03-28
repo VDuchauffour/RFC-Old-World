@@ -2898,6 +2898,12 @@ int CvTeam::getTechDifferenceModifier() const
 		return 0;
 	}
 
+	if (countContacts() * 3 < GC.getGameINLINE().countCivTeamsAlive())
+	{
+		return 0;
+	}
+	
+
 	int iRelativeTechValue = 100 * getTotalTechValue() / GC.getGameINLINE().getMedianTechValue();
 	int iModifier = 0;
 
@@ -7349,4 +7355,22 @@ bool CvTeam::isAllied(TeamTypes eTeam) const
 	}
 
 	return false;
+}
+
+int CvTeam::countContacts() const
+{
+	int iNumContacts = 0;
+
+	for (int iI = 0; iI < MAX_TEAMS; iI++)
+	{
+		if (GET_TEAM((TeamTypes)iI).isAlive() && !GET_TEAM((TeamTypes)iI).isMinorCiv())
+		{
+			if (canContact((TeamTypes)iI))
+			{
+				iNumContacts++;
+			}
+		}
+	}
+
+	return iNumContacts;
 }
