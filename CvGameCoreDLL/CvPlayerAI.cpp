@@ -1918,9 +1918,9 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 	}
 
 	// Leoreth: prevent Europeans from expanding into the Americas again
-	if (GC.getGameINLINE().getGameTurnYear() >= 1800 && (pPlot->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pPlot->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA))
+	if (getCivilizationType() == SPAIN || getCivilizationType() == FRANCE)
 	{
-		if (pPlot->area()->getCitiesPerPlayer(getID()) == 0)
+		if (GC.getGameINLINE().getGameTurn() >= getTurnForYear(1800) && (pPlot->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pPlot->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA))
 		{
 			return 0;
 		}
