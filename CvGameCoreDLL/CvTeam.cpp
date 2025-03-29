@@ -2898,7 +2898,7 @@ int CvTeam::getTechDifferenceModifier() const
 		return 0;
 	}
 
-	if (countContacts() * 3 < GC.getGameINLINE().countCivTeamsAlive())
+	if (countContacts() * 5 < GC.getGameINLINE().countCivTeamsAlive())
 	{
 		return 0;
 	}
