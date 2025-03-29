@@ -575,7 +575,7 @@ barbarians = [
 	Barbarians(600, 1000, {iHolkan: 1}, ((19, 38), (25, 44)), 4, NATIVES, adjective="TXT_KEY_ADJECTIVE_MAYA"),
 	Barbarians(600, 900, {iDogSoldier: 1, iJaguar: 2}, ((11, 44), (19, 51)), 14, NOMADS, iOwner=iNative, target_area=((14, 40), (23, 45)), adjective="TXT_KEY_ADJECTIVE_NAHUA"),
 	Barbarians(600, 1100, {iSkirmisher: 1}, ((54, 33), (57, 38)), 12, NATIVES, iOwner=iNative, target_area=((57, 32), (64, 39)), adjective="TXT_KEY_ADJECTIVE_FULA"),
-	Barbarians(650, 1100, {iHorseArcher: 2, iLancer: 2}, ((74, 54), (81, 60)), 9, INVADERS, target_area=((73, 49), (79, 57)), adjective="TXT_KEY_ADJECTIVE_BULGARIAN"),
+	Barbarians(650, 1100, {iHorseArcher: 2, iLancer: 1}, ((74, 54), (81, 60)), 12, INVADERS, target_area=((73, 49), (79, 57)), adjective="TXT_KEY_ADJECTIVE_BULGARIAN"),
 	Barbarians(650, 950, {iHorseArcher: 2}, ((85, 57), (92, 63)), 9, MINORS, adjective="TXT_KEY_ADJECTIVE_KHAZAR"),
 	Barbarians(700, 1600, {iHeavyGalley: 1}, ((54, 42), (69, 50)), 8, PIRATES, adjective="TXT_KEY_ADJECTIVE_BARBARY"),
 	Barbarians(700, 1700, {iHeavyGalley: 1}, ((84, 22), (95, 37)), 18, PIRATES, adjective="TXT_KEY_ADJECTIVE_SOMALI"),
