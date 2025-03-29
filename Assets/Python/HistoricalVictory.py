@@ -346,8 +346,9 @@ dGoals = {
 	iEthiopia: (
 		ResourceCount(iIncense, 5, by=400),
 		All(
+			StateReligion(iOrthodoxy),
 			SpecialistCount(iSpecialistGreatProphet, 5),
-			AttitudeCount(AttitudeTypes.ATTITUDE_PLEASED, 10, iStateReligion=sum(iOrthodoxy, iCatholicism).named(CHRISTIAN)),
+			AttitudeCount(AttitudeTypes.ATTITUDE_PLEASED, 8, iStateReligion=sum(iOrthodoxy, iCatholicism).named(CHRISTIAN)),
 			by=1200,
 		),
 		All(
