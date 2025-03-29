@@ -1133,7 +1133,7 @@
 					<bBuild>1</bBuild>
 				</Build>
 				<Build>
-					<BuildType>BUILD_REMOVE_SAVANNA</BuildType>
+					<BuildType>BUILD_DEFORESTATION_SAVANNA</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
 				<Build>
