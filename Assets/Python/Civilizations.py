@@ -1984,6 +1984,12 @@ dBuildingPreferences = {
 		iBorobudur: -30,
 		iBrandenburgGate: -30,
 	},
+	iNubia : {
+		iPyramids: 20,
+		iGreatSphinx: 20,
+		
+		iHangingGardens: -30,
+	},
 	iGreece : {
 		iColossus: 30,
 		iOracle: 30,
