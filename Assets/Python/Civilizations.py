@@ -566,10 +566,10 @@ lCivilizations = [
 	Civilization(
 		iArgentina,
 		iGold=1200,
-		iAdvancedStartPoints=100,
+		iAdvancedStartPoints=400,
 		iStateReligion=iCatholicism,
 		lCivics=[iDemocracy, iConstitution, iIndividualism, iFreeEnterprise, iSecularism, iNationhood],
-		techs=techs.column(12).including(iRepresentation, iNationalism)
+		techs=techs.column(12).including(iBiology, iRepresentation, iNationalism)
 	),
 	Civilization(
 		iMexico,
@@ -582,7 +582,7 @@ lCivilizations = [
 	Civilization(
 		iColombia,
 		iGold=750,
-		iAdvancedStartPoints=150,
+		iAdvancedStartPoints=200,
 		iStateReligion=iCatholicism,
 		lCivics=[iDespotism, iConstitution, iIndividualism, iRegulatedTrade, iClergy, iNationhood],
 		techs=techs.column(12).including(iRepresentation, iNationalism)
@@ -1047,10 +1047,11 @@ dStartingUnits = CivDict({
 	},
 	iArgentina: {
 		iSettle: 2,
-		iWork: 2,
-		iAttack: 1,
+		iWork: 3,
+		iAttack: 3,
 		iDefend: 2,
 		iSiege: 2,
+		iShock: 2,
 		iMissionary: 1,
 		iFerry: 1,
 		iEscort: 2,
