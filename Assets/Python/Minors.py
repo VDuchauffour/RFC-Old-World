@@ -580,7 +580,7 @@ barbarians = [
 	Barbarians(700, 1600, {iHeavyGalley: 1}, ((54, 42), (69, 50)), 8, PIRATES, adjective="TXT_KEY_ADJECTIVE_BARBARY"),
 	Barbarians(700, 1700, {iHeavyGalley: 1}, ((84, 22), (95, 37)), 18, PIRATES, adjective="TXT_KEY_ADJECTIVE_SOMALI"),
 	Barbarians(750, 950, {iLongship: 1, iAxeman: 2}, ((53, 48), (63, 72)), 6, SEA_INVADERS, adjective="TXT_KEY_ADJECTIVE_VIKING"),
-	Barbarians(800, 1200, {iLongbowman: 2, iWarElephant: 1}, ((116, 37), (119, 43)), 8, INVADERS, target_area=((118, 34), (124, 39)), adjective="TXT_KEY_ADJECTIVE_TAI"),
+	Barbarians(800, 1200, {iPatiyodha: 2, iWarElephant: 1}, ((116, 37), (119, 43)), 8, INVADERS, target_area=((118, 34), (124, 39)), adjective="TXT_KEY_ADJECTIVE_TAI"),
 	Barbarians(800, 1100, {iHeavySwordsman: 1}, ((113, 50), (120, 56)), 6, INVADERS, target_area=((112, 57), (123, 56)), adjective="TXT_KEY_ADJECTIVE_TANGUT", condition=is_free_of_civ(iTibet)),
 	Barbarians(850, 1000, {iHorseArcher: 2}, ((65, 57), (77, 61)), 7, INVADERS, target_area=((64, 56), (72, 65)), adjective="TXT_KEY_ADJECTIVE_MAGYAR"),
 	Barbarians(850, 1100, {iHorseArcher: 2}, ((79, 58), (88, 62)), 9, NOMADS, target_area=((73, 49), (84, 66)), adjective="TXT_KEY_ADJECTIVE_PECHENEG"),
