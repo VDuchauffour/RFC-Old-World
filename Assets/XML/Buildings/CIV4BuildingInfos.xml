@@ -1309,6 +1309,12 @@
 						<iYield>1</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_OLIVES</BonusType>
+					<YieldChanges>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
 			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
