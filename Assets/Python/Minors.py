@@ -607,6 +607,7 @@ barbarians = [
 	Barbarians(1250, 1450, {iHeavyGalley: 2}, ((125, 44), (134, 57)), 18, PIRATES, adjective="TXT_KEY_ADJECTIVE_WOKOU"),
 	Barbarians(1300, 1550, {iJaguar: 2}, ((13, 41), (17, 46)), 12, MINORS, iOwner=iNative, adjective="TXT_KEY_ADJECTIVE_PUREPECHA"),
 	Barbarians(1300, 1600, {iDogSoldier: 2}, ((11, 44), (19, 51)), 8, INVADERS, iOwner=iNative, target_area=((13, 41), (19, 47)), adjective="TXT_KEY_ADJECTIVE_CHICHIMECA"),
+	Barbarians(1300, 1600, {iChangSuek: 1}, ((118, 38), (121, 41)), 10, INVADERS, target_area=((118, 35), (122, 39)), adjective="TXT_KEY_ADJECTIVE_LAO"),
 	Barbarians(1300, 1800, {iHeavySwordsman: 1}, ((54, 33), (58, 38)), 12, NATIVES, adjective="TXT_KEY_ADJECTIVE_WOLOF"),
 	Barbarians(1400, 1550, {iKeshik: 1}, ((96, 62), (108, 69)), 10, NOMADS, target_area=((80, 59), (95, 70)), adjective="TXT_KEY_ADJECTIVE_TATAR"),
 	Barbarians(1400, 1700, {iHeavySwordsman: 1}, ((75, 17), (80, 23)), 10, MINORS, iOwner=iNative, adjective="TXT_KEY_ADJECTIVE_SHONA"),
