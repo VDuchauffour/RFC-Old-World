@@ -1875,6 +1875,8 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	iCaptureGold *= 100 + getCaptureGoldModifier();
 	iCaptureGold /= 100;
+
+	iCaptureGold = getTurns(iCaptureGold);
 	
 	changeGold(iCaptureGold);
 
