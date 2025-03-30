@@ -24899,13 +24899,13 @@ bool CvPlayer::isTolerating(ReligionTypes eReligion) const
 	return false;
 }
 
-ReligionSpreadTypes CvPlayer::getSpreadType(CvPlot* pPlot, ReligionTypes eReligion, bool bDistant) const
+ReligionSpreadTypes CvPlayer::getSpreadType(CvPlot* pPlot, ReligionTypes eReligion, bool bDistant, bool bRemove) const
 {
 	bool bStateReligion = getStateReligion() == eReligion;
 	bool bPromoted = bStateReligion || isTolerating(eReligion);
 	int iSpreadFactor = pPlot->getSpreadFactor(eReligion);
 
-	if (!bStateReligion && isNoNonStateReligionSpread()) return RELIGION_SPREAD_NONE;
+	if (!bRemove && !bStateReligion && isNoNonStateReligionSpread()) return RELIGION_SPREAD_NONE;
 
 	if ((isMinorCiv() || isBarbarian()) && iSpreadFactor <= REGION_SPREAD_MINORITY) return RELIGION_SPREAD_NONE;
 

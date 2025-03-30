@@ -18763,8 +18763,8 @@ struct disappearingReligionCompare
 
 		if (city != NULL)
 		{
-			iLeftValue += GET_PLAYER(city->getOwnerINLINE()).getSpreadType(city->plot(), eLeftReligion) * 3;
-			iRightValue += GET_PLAYER(city->getOwnerINLINE()).getSpreadType(city->plot(), eRightReligion) * 3;
+			iLeftValue += GET_PLAYER(city->getOwnerINLINE()).getSpreadType(city->plot(), eLeftReligion, false, true) * 3;
+			iRightValue += GET_PLAYER(city->getOwnerINLINE()).getSpreadType(city->plot(), eRightReligion, false, true) * 3;
 
 			iLeftValue += city->getReligionInfluence(eLeftReligion);
 			iRightValue += city->getReligionInfluence(eRightReligion);
@@ -18798,7 +18798,7 @@ ReligionTypes CvCity::disappearingReligion(ReligionTypes eNewReligion, bool bCon
 		eReligion = (ReligionTypes)iI;
 		if (eReligion != eNewReligion && GET_PLAYER(getOwnerINLINE()).isStateReligion() && GET_PLAYER(getOwnerINLINE()).getStateReligion() != eReligion)
 		{
-			if (isHasReligion(eReligion) && !isHolyCity(eReligion) && GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion) == RELIGION_SPREAD_NONE)
+			if (isHasReligion(eReligion) && !isHolyCity(eReligion) && GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion, false, true) == RELIGION_SPREAD_NONE)
 			{
 				religions.push_back(eReligion);
 			}
@@ -18818,7 +18818,7 @@ ReligionTypes CvCity::disappearingReligion(ReligionTypes eNewReligion, bool bCon
 	int iMaxReligions = std::max(2, 1 + getPopulation() / 5);
 
 	ReligionSpreadTypes eCurrentSpread;
-	ReligionSpreadTypes eNewReligionSpread = eNewReligion != NO_RELIGION ? GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eNewReligion) : RELIGION_SPREAD_MINORITY;
+	ReligionSpreadTypes eNewReligionSpread = eNewReligion != NO_RELIGION ? GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eNewReligion, false, true) : RELIGION_SPREAD_MINORITY;
 	religions.clear();
 
 	if (bConquest || getReligionCount() > iMaxReligions)
@@ -18828,7 +18828,7 @@ ReligionTypes CvCity::disappearingReligion(ReligionTypes eNewReligion, bool bCon
 			eReligion = (ReligionTypes)iI;
 			if (eReligion != eNewReligion && isHasReligion(eReligion) && GET_PLAYER(getOwnerINLINE()).getStateReligion() != eReligion)
 			{
-				eCurrentSpread = GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion);
+				eCurrentSpread = GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion, false, true);
 				if (eCurrentSpread <= eNewReligionSpread)
 				{
 					religions.push_back(eReligion);

@@ -1275,7 +1275,7 @@ public:
 
 	bool isTolerating(ReligionTypes eReligion) const;
 	bool isDistantSpread(const CvCity* pCity, ReligionTypes eReligion) const;
-	ReligionSpreadTypes getSpreadType(CvPlot* pPlot, ReligionTypes eReligion, bool bDistant = false) const;
+	ReligionSpreadTypes getSpreadType(CvPlot* pPlot, ReligionTypes eReligion, bool bDistant = false, bool bRemove = false) const;
 
 	int getStabilityParameter(ParameterTypes eParameter) const;
 	void setStabilityParameter(ParameterTypes eParameter, int iNewValue);
