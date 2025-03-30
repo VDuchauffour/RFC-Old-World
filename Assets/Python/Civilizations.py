@@ -522,7 +522,7 @@ lCivilizations = [
 		iGold=300,
 		iAdvancedStartPoints=200,
 		iStateReligion=iIslam,
-		lCivics=[iDespotism, iTheocracy, iSlavery, iMerchantTrade, iFanaticism, iHegemony],
+		lCivics=[iDespotism, iTheocracy, iSlavery, iMerchantTrade, iSyncretism, iHegemony],
 		techs=techs.column(7).including(iCommune, iCropRotation, iPaper, iDoctrine, iGunpowder)
 	),
 	Civilization(
