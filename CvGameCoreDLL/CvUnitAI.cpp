@@ -16647,7 +16647,7 @@ CvCity* CvUnitAI::AI_offensiveNukeTarget() const
 
 	pBestCity = NULL;
 
-	iBestValue = 0;
+	iBestValue = 25; // Leoreth: threshold so we don't target useless cities
 
 	for (iI = 0; iI < MAX_PLAYERS; iI++)
 	{
@@ -17673,6 +17673,12 @@ int CvUnitAI::AI_nukeValue(CvCity* pCity) const
 		return 0;
 	}
 
+	// Leoreth: avoid targeting own culture
+	if (pCity->calculateCulturePercent(getOwnerINLINE()) >= 20)
+	{
+		return 0;
+	}
+
 	for (int iI = 0; iI < MAX_TEAMS; iI++)
 	{
 		CvTeam& kLoopTeam = GET_TEAM((TeamTypes)iI);
@@ -17692,6 +17698,9 @@ int CvUnitAI::AI_nukeValue(CvCity* pCity) const
 	iValue += std::max(0, pCity->getPopulation() - 10);
 
 	iValue += ((pCity->getPopulation() * (100 + pCity->calculateCulturePercent(pCity->getOwnerINLINE()))) / 100);
+
+	// Leoreth: consider buildings
+	iValue += pCity->getNumBuildings() / 2;
 
 	iValue += -(GET_PLAYER(getOwnerINLINE()).AI_getAttitudeVal(pCity->getOwnerINLINE()) / 3);
 
