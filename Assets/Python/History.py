@@ -512,11 +512,10 @@ def createArabArmies(iPlayer):
 		if not player(iArabia).isHuman() and bBaghdad:
 			makeUnits(iArabia, iSpearman, tBaghdad, 2)
 		
-		coastal_city = cities.owner(iArabia).coastal().random()
+		coastal_city = cities.owner(iArabia).coastal().adjacent_region(rMediterraneanSea).random()
 		if coastal_city:
 			createRoleUnit(iArabia, coastal_city, iEscort, 2)
 			createRoleUnit(iArabia, coastal_city, iExploreSea, 1)
-			createRoleUnit(iArabia, coastal_city, iSettleSea, 1)
 			createRoleUnit(iArabia, coastal_city, iFerry, 1)
 	
 
