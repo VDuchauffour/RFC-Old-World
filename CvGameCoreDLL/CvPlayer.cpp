@@ -7205,6 +7205,11 @@ void CvPlayer::processBuilding(BuildingTypes eBuilding, int iChange, CvArea* pAr
 			if (!pLoopUnit->canFight() && pLoopUnit->getDomainType() == DOMAIN_LAND)
 			{
 				pLoopUnit->setHasPromotion(PROMOTION_MORALE, iChange > 0);
+
+				if (iChange > 0)
+				{
+					pLoopUnit->changeMoves(GC.getMOVE_DENOMINATOR());
+				}
 			}
 		}
 	}
