@@ -1109,6 +1109,7 @@
 			<Upkeep>UPKEEP_LOW</Upkeep>
 			<bNoSlavery>1</bNoSlavery>
 			<iMaxConscript>3</iMaxConscript>
+			<iCapitalBuildingProductionModifier>25</iCapitalBuildingProductionModifier>
 			<ImprovementYieldChanges>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
