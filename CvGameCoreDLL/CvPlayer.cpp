@@ -8921,10 +8921,10 @@ int CvPlayer::unitsRequiredForGoldenAge() const
 {
 	int iNumUnitGoldenAges = getNumUnitGoldenAges();
 
-	// Leoreth: Eiffel Tower effect: golden age cost capped at 3 GPs
+	// Leoreth: Eiffel Tower effect: golden age requires one fewer great person
 	if (isHasBuildingEffect((BuildingTypes)EIFFEL_TOWER))
 	{
-		iNumUnitGoldenAges = std::min(iNumUnitGoldenAges, 1);
+		iNumUnitGoldenAges = std::max(0, iNumUnitGoldenAges - 1);
 	}
 
 	return (GC.getDefineINT("BASE_GOLDEN_AGE_UNITS") + (iNumUnitGoldenAges * GC.getDefineINT("GOLDEN_AGE_UNITS_MULTIPLIER")));
