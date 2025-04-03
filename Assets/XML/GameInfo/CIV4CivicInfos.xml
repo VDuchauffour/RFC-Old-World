@@ -588,12 +588,16 @@
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iTradeRoutes>1</iTradeRoutes>
-			<FeatureHappinessChanges>
-				<FeatureHappinessChange>
-					<FeatureType>FEATURE_OASIS</FeatureType>
-					<iHappinessChange>1</iHappinessChange>
-				</FeatureHappinessChange>
-			</FeatureHappinessChanges>
+			<BuildingProductionModifiers>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDINGCLASS_MARKET</BuildingType>
+					<iProductionModifier>100</iProductionModifier>
+				</BuildingProductionModifier>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDINGCLASS_LIGHTHOUSE</BuildingType>
+					<iProductionModifier>100</iProductionModifier>
+				</BuildingProductionModifier>
+			</BuildingProductionModifiers>
 			<SpecialistTypeExtraYields>
 				<SpecialistTypeExtraYield>
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
