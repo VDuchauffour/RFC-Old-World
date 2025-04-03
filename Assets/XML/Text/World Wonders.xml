@@ -2347,11 +2347,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GARDENS_BY_THE_BAY_HELP</Tag>
-		<English>[ICON_BULLET]+1[ICON_HAPPY] per [ICON_HEALTHY] provided by buildings</English>
-		<French>[ICON_BULLET]+1[ICON_HAPPY] per [ICON_HEALTHY] provided by buildings</French>
-		<German>[ICON_BULLET]+1[ICON_HAPPY] per [ICON_HEALTHY] provided by buildings</German>
-		<Italian>[ICON_BULLET]+1[ICON_HAPPY] per [ICON_HEALTHY] provided by buildings</Italian>
-		<Spanish>[ICON_BULLET]+1[ICON_HAPPY] per [ICON_HEALTHY] provided by buildings</Spanish>
+		<English>[ICON_BULLET]+1[ICON_HAPPY] per building that provides [ICON_HEALTHY]</English>
+		<French>[ICON_BULLET]+1[ICON_HAPPY] per building that provides [ICON_HEALTHY]</French>
+		<German>[ICON_BULLET]+1[ICON_HAPPY] per building that provides [ICON_HEALTHY]</German>
+		<Italian>[ICON_BULLET]+1[ICON_HAPPY] per building that provides [ICON_HEALTHY]</Italian>
+		<Spanish>[ICON_BULLET]+1[ICON_HAPPY] per building that provides [ICON_HEALTHY]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GARDENS_BY_THE_BAY_STRATEGY</Tag>

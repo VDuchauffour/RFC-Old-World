@@ -7271,7 +7271,7 @@ void CvPlayer::processBuilding(BuildingTypes eBuilding, int iChange, CvArea* pAr
 			CvBuildingInfo& kBuilding = GC.getBuildingInfo((BuildingTypes)iI);
 			if (kBuilding.getHealth() > 0)
 			{
-				changeExtraBuildingHappiness((BuildingTypes)iI, kBuilding.getHealth());
+				changeExtraBuildingHappiness((BuildingTypes)iI, iChange);
 			}
 		}
 	}
