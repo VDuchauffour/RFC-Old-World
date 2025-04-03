@@ -13031,6 +13031,9 @@ int CvCity::getMaxSpecialistCount(SpecialistTypes eIndex, bool bIgnoreCivic) con
 		iMaxSpecialistCount *= 2;
 	}
 
+	// Leoreth: extra specialist slots
+	iMaxSpecialistCount += GET_PLAYER(getOwnerINLINE()).getSpecialistExtraCount(eIndex);
+
 	return iMaxSpecialistCount;
 }
 

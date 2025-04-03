@@ -80,6 +80,7 @@ CvPlayer::CvPlayer()
 	m_paiExtraBuildingHealth = NULL;
 	m_paiBuildingProductionModifiers = NULL; // Leoreth
 	m_paiFeatureHappiness = NULL;
+	m_paiSpecialistExtraCounts = NULL; // Leoreth
 	m_paiUnitClassCount = NULL;
 	m_paiUnitClassMaking = NULL;
 	m_paiBuildingClassCount = NULL;
@@ -345,6 +346,7 @@ void CvPlayer::uninit()
 	SAFE_DELETE_ARRAY(m_paiExtraBuildingHealth);
 	SAFE_DELETE_ARRAY(m_paiBuildingProductionModifiers); // Leoreth
 	SAFE_DELETE_ARRAY(m_paiFeatureHappiness);
+	SAFE_DELETE_ARRAY(m_paiSpecialistExtraCounts); // Leoreth
 	SAFE_DELETE_ARRAY(m_paiUnitClassCount);
 	SAFE_DELETE_ARRAY(m_paiUnitClassMaking);
 	SAFE_DELETE_ARRAY(m_paiBuildingClassCount);
@@ -810,9 +812,12 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 		FAssertMsg(0 < GC.getNumSpecialistInfos(), "GC.getNumSpecialistInfos() is not greater than zero but it is used to allocate memory in CvPlayer::reset");
 		FAssertMsg(m_paiSpecialistValidCount==NULL, "about to leak memory, CvPlayer::m_paiSpecialistValidCount");
 		m_paiSpecialistValidCount = new int[GC.getNumSpecialistInfos()];
+		FAssertMsg(m_paiSpecialistExtraCounts == NULL, "about to leak memory, CvPlayer::m_paiSpecialistExtraSlots");
+		m_paiSpecialistExtraCounts = new int[GC.getNumSpecialistInfos()];
 		for (iI = 0; iI < GC.getNumSpecialistInfos(); iI++)
 		{
 			m_paiSpecialistValidCount[iI] = 0;
+			m_paiSpecialistExtraCounts[iI] = 0;
 		}
 
 		FAssertMsg(0 < GC.getNumTechInfos(), "GC.getNumTechInfos() is not greater than zero but it is used to allocate memory in CvPlayer::reset");
@@ -13405,6 +13410,28 @@ void CvPlayer::changeFeatureHappiness(FeatureTypes eIndex, int iChange)
 }
 
 
+int CvPlayer::getSpecialistExtraCount(SpecialistTypes eSpecialist) const
+{
+	FAssertMsg(eSpecialist >= 0, "eSpecialist is expected to be non-negative (invalid index)");
+	FAssertMsg(eSpecialist < GC.getNumSpecialistInfos(), "eSpecialist is expected to be within maximum bounds (invalid index)");
+	return m_paiSpecialistExtraCounts[eSpecialist];
+}
+
+
+void CvPlayer::changeSpecialistExtraCount(SpecialistTypes eSpecialist, int iChange)
+{
+	FAssertMsg(eSpecialist >= 0, "eSpecialist is expected to be non-negative (invalid index)");
+	FAssertMsg(eSpecialist < GC.getNumSpecialistInfos(), "eSpecialist is expected to be within maximum bounds (invalid index)");
+
+	if (iChange != 0)
+	{
+		m_paiSpecialistExtraCounts[eSpecialist] += iChange;
+
+		AI_makeAssignWorkDirty();
+	}
+}
+
+
 int CvPlayer::getUnitClassCount(UnitClassTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
@@ -18368,6 +18395,7 @@ void CvPlayer::processCivics(CivicTypes eCivic, int iChange)
 	for (iI = 0; iI < GC.getNumSpecialistInfos(); iI++)
 	{
 		changeSpecialistValidCount(((SpecialistTypes)iI), ((GC.getCivicInfo(eCivic).isSpecialistValid(iI)) ? iChange : 0));
+		changeSpecialistExtraCount((SpecialistTypes)iI, GC.getCivicInfo(eCivic).getSpecialistCount(iI));
 	}
 
 	for (iI = 0; iI < GC.getNumImprovementInfos(); iI++)
@@ -18733,6 +18761,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 	pStream->Read(GC.getNumBuildingInfos(), m_paiExtraBuildingHealth);
 	pStream->Read(GC.getNumBuildingInfos(), m_paiBuildingProductionModifiers); // Leoreth
 	pStream->Read(GC.getNumFeatureInfos(), m_paiFeatureHappiness);
+	pStream->Read(GC.getNumSpecialistInfos(), m_paiSpecialistExtraCounts); // Leoreth
 	pStream->Read(GC.getNumUnitClassInfos(), m_paiUnitClassCount);
 	pStream->Read(GC.getNumUnitClassInfos(), m_paiUnitClassMaking);
 	pStream->Read(GC.getNumBuildingClassInfos(), m_paiBuildingClassCount);
@@ -19162,6 +19191,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 	pStream->Write(GC.getNumBuildingInfos(), m_paiExtraBuildingHealth);
 	pStream->Write(GC.getNumBuildingInfos(), m_paiBuildingProductionModifiers); // Leoreth
 	pStream->Write(GC.getNumFeatureInfos(), m_paiFeatureHappiness);
+	pStream->Write(GC.getNumSpecialistInfos(), m_paiSpecialistExtraCounts); // Leoreth
 	pStream->Write(GC.getNumUnitClassInfos(), m_paiUnitClassCount);
 	pStream->Write(GC.getNumUnitClassInfos(), m_paiUnitClassMaking);
 	pStream->Write(GC.getNumBuildingClassInfos(), m_paiBuildingClassCount);

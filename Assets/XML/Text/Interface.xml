@@ -3745,12 +3745,12 @@
 		<Spanish></Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_HAPPY_FEATURES</Tag>
-		<English>+%d1_Change[ICON_HAPPY]: "We prosper close to Oases!"</English>
-		<French>+%d1_Change[ICON_HAPPY]: "We prosper close to Oases!"</French>
-		<German>+%d1_Change[ICON_HAPPY]: "We prosper close to Oases!"</German>
-		<Italian>+%d1_Change[ICON_HAPPY]: "We prosper close to Oases!"</Italian>
-		<Spanish>+%d1_Change[ICON_HAPPY]: "We prosper close to Oases!"</Spanish>
+		<Tag>TXT_KEY_CIVIC_SPECIALIST_COUNT</Tag>
+		<English>[ICON_BULLET]%D1_Change slots for[SPACE]</English>
+		<French>[ICON_BULLET]%D1_Change slots for[SPACE]</French>
+		<German>[ICON_BULLET]%D1_Change slots for[SPACE]</German>
+		<Italian>[ICON_BULLET]%D1_Change slots for[SPACE]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change slots for[SPACE]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_</Tag>

@@ -7842,6 +7842,20 @@ void CvGameTextMgr::parseCivicInfo(CvWStringBuffer &szHelpText, CivicTypes eCivi
 		szHelpText.append(gDLL->getText("TXT_KEY_CIVIC_CULTURED_CITIES_FREE_SPECIALISTS", GC.getCivicInfo(eCivic).getCulturedCityFreeSpecialists(), bPlayerContext ? GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getTargetNumCities()-1 : 3));
 	}
 
+	// Specialist Count
+	iLast = 0;
+	for (iI = 0; iI < GC.getNumSpecialistInfos(); ++iI)
+	{
+		if (GC.getCivicInfo(eCivic).getSpecialistCount(iI) != 0)
+		{
+			szFirstBuffer.Format(L"%s%s", NEWLINE, gDLL->getText("TXT_KEY_CIVIC_SPECIALIST_COUNT", GC.getCivicInfo(eCivic).getSpecialistCount(iI)).c_str());
+			CvWString szSpecialist;
+			szSpecialist.Format(L"<link=literal>%s</link>", GC.getSpecialistInfo((SpecialistTypes)iI).getDescription());
+			setListHelp(szHelpText, szFirstBuffer, szSpecialist, L", ", (GC.getCivicInfo(eCivic).getSpecialistCount(iI) != iLast));
+			iLast = GC.getCivicInfo(eCivic).getSpecialistCount(iI);
+		}
+	}
+
 	// Capture gold modifier
 	if (GC.getCivicInfo(eCivic).getCaptureGoldModifier() != 0)
 	{

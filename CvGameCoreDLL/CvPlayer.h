@@ -875,6 +875,10 @@ public:
 	int getFeatureHappiness(FeatureTypes eIndex) const;																								// Exposed to Python
 	void changeFeatureHappiness(FeatureTypes eIndex, int iChange);
 
+	// Leoreth
+	int getSpecialistExtraCount(SpecialistTypes eSpecialist) const;
+	void changeSpecialistExtraCount(SpecialistTypes eSpecialist, int iChange);
+
 	int getUnitClassCount(UnitClassTypes eIndex) const;																								// Exposed to Python
 	bool isUnitClassMaxedOut(UnitClassTypes eIndex, int iExtra = 0) const;														// Exposed to Python
 	void changeUnitClassCount(UnitClassTypes eIndex, int iChange);
@@ -1585,6 +1589,7 @@ protected:
 	int** m_paiExtraBuildingYield;
 	int** m_paiExtraBuildingCommerce;
 	int* m_paiFeatureHappiness;
+	int* m_paiSpecialistExtraCounts; // Leoreth
 	int* m_paiUnitClassCount;
 	int* m_paiUnitClassMaking;
 	int* m_paiBuildingClassCount;

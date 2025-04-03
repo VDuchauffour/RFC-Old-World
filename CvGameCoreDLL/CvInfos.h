@@ -1456,6 +1456,7 @@ public:
 	int getBuildingHealthChanges(int i) const;				// Exposed to Python
 	int getBuildingProductionModifier(int i) const;	//Leoreth
 	int getFeatureHappinessChanges(int i) const;				// Exposed to Python
+	int getSpecialistCount(int i) const;
 
 	int getDomainExperienceModifier(int i) const; // Leoreth
 
@@ -1557,6 +1558,7 @@ protected:
 	int* m_paiBuildingHealthChanges;
 	int* m_paiBuildingProductionModifiers; // Leoreth
 	int* m_paiFeatureHappinessChanges;
+	int* m_paiSpecialistCounts; // Leoreth
 
 	int* m_paiDomainExperienceModifiers; // Leoreth
 
