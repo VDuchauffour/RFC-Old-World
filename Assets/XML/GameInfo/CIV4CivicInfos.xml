@@ -956,11 +956,11 @@
 					<iProductionModifier>100</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
-					<BuildingType>BUILDINGCLASS_LIGHTHOUSE</BuildingType>
+					<BuildingType>BUILDINGCLASS_WHARF</BuildingType>
 					<iProductionModifier>100</iProductionModifier>
 				</BuildingProductionModifier>
 				<BuildingProductionModifier>
-					<BuildingType>BUILDINGCLASS_WHARF</BuildingType>
+					<BuildingType>BUILDINGCLASS_DRYDOCK</BuildingType>
 					<iProductionModifier>100</iProductionModifier>
 				</BuildingProductionModifier>
 			</BuildingProductionModifiers>
