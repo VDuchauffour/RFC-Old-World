@@ -18547,8 +18547,6 @@ int CvPlayerAI::AI_getNumAdjacentAreaCitySites(int iWaterAreaID, int iExcludeAre
 		}
 	}
 	return iCount;
-
-
 }
 
 CvPlot* CvPlayerAI::AI_getCitySite(int iIndex) const
