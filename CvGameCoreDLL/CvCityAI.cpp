@@ -741,7 +741,7 @@ void CvCityAI::AI_chooseProduction()
     int iTargetCulturePerTurn = AI_calculateTargetCulturePerTurn();
 
 	int iAreaBestSettlerValue = kPlayer.AI_bestCitySiteSettlerValue(pArea->getID());
-	int iWaterAreaBestSettlerValue = pWaterArea ? kPlayer.AI_bestCitySiteSettlerValue(pWaterArea->getID()) : 0;
+	int iWaterAreaBestSettlerValue = pWaterArea ? kPlayer.AI_bestAdjacentCitySiteSettlerValue(pWaterArea->getID()) : 0;
 
     int iAreaBestFoundValue;
     int iNumAreaCitySites = kPlayer.AI_getNumAreaCitySites(getArea(), iAreaBestFoundValue);
