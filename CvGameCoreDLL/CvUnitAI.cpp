@@ -13502,9 +13502,14 @@ bool CvUnitAI::AI_settlerSeaTransport()
 	{
 		FAssert(!(pBestPlot->isImpassable()));
 
-		if (pBestFoundPlot->area()->getNumTiles() > 1)
+		if (getCivilizationType() != AMERICA && !isFull())
 		{
-			if ((getUnitAICargo(UNITAI_CITY_DEFENSE) == 0 || getUnitAICargo(UNITAI_WORKER) == 0) && getCivilizationType() != AMERICA)
+			if (getUnitAICargo(UNITAI_CITY_DEFENSE) == 0 && pBestFoundPlot->area()->getNumOwnedTiles() > 0)
+			{
+				return false;
+			}
+
+			if (getUnitAICargo(UNITAI_WORKER) == 0 && pBestFoundPlot->area()->getNumAIUnits(getOwnerINLINE(), UNITAI_WORKER) < pBestFoundPlot->area()->getCitiesPerPlayer(getOwnerINLINE()))
 			{
 				return false;
 			}
