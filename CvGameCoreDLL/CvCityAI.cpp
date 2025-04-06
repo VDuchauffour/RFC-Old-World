@@ -1104,14 +1104,11 @@ void CvCityAI::AI_chooseProduction()
 			if (iAreaBestFoundValue == 0 || iWaterAreaBestFoundValue > iAreaBestFoundValue
     			|| (iWaterPercent > 60 && GC.getGameINLINE().getSorenRandNum(4, "AI Train Early Sea Explore or Settler") == 0))
 			{
-				if (bLog) log(CvWString::format(L"maybe water area: iNunSettlers=%d, iWaterAreaBestSettlerValue=%d", iNumSettlers, iWaterAreaBestSettlerValue));
-
 				// Leoreth: if stuck on an island, we need to settle elsewhere
 				if (iNumSettlers == 0 && iWaterAreaBestSettlerValue >= 10 && area()->getNumUnownedTiles() <= 1 && GET_PLAYER(getOwnerINLINE()).AI_getNumTrainAIUnits(UNITAI_SETTLE) == 0)
 				{
 					if (AI_chooseUnit(UNITAI_SETTLE))
 					{
-						if (bLog) log("choose unit settler other landmass");
 						return;
 					}
 				}
