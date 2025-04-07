@@ -564,10 +564,10 @@ class Birth(object):
 			revealed += peerRevealed
 		
 		# for AI, reveal nearby settler and expansion targets to improve settler AI and help with expansion
-		if True or not self.isHuman():
-			land_plots = plots.all().land()
-			revealed += land_plots.where(lambda p: p.getSettlerValue(self.iCiv) >= 10).where(lambda p: distance(self.location, p) <= 15).expand(2)
-			revealed += land_plots.where(lambda p: p.getExpansion() == self.iPlayer).expand(1)
+		if not self.isHuman():
+			region_plots = plots.all().land().where(lambda p: p.getRegionGroup() == plot_(self.location).getRegionGroup())
+			revealed += region_plots.where(lambda p: p.getSettlerValue(self.iCiv) >= 10).where(lambda p: distance(self.location, p) <= 15).expand(2)
+			revealed += region_plots.where(lambda p: p.getExpansion() == self.iPlayer).expand(1)
 		
 		# reveal tiles
 		for plot in revealed:
