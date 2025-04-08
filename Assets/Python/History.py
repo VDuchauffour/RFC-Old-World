@@ -632,7 +632,9 @@ def giveEarlyColonists(iCiv):
 		capital = pPlayer.getCapitalCity()
 
 		if iCiv == iRome:
-			capital = cities.owner(iCiv).region(rIberia).random()
+			city = cities.owner(iCiv).region(rIberia).random()
+			if city:
+				capital = city
 			
 		if capital:
 			tSeaPlot = findSeaPlots(capital, 1, iCiv)
