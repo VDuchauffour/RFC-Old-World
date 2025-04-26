@@ -1134,6 +1134,15 @@ name_changes = {
 			_,
 		),
 	},
+	"Algeciras": {  # founded on Gadir
+		iArabic: "Al-Jazirah al-Khadra",
+		iCeltic: "Caetaria",
+		iChinese: "Aohexilasi",
+		iFrench: u"Algésiras",
+		iLatin: "Iulia Traducta",
+		iRussian: "Al'Khesiras",
+		iSpanish: _,
+	},
 	"Alicante": {
 		iArabic: "Al-Laqant",
 		iChinese: "Alikante",
@@ -2390,6 +2399,13 @@ name_changes = {
 		iRussian: "Bejrut",
 		iSpanish: "Beirut",
 		iTurkish: "Beyrut",
+	},
+	"Baytabaw": {
+		iArabic: _,
+		iEnglish: "Baidoa",
+		iEthiopian: found("Gode"),
+		iItalian: "Iscia Baidoa",
+		iSomali: "Baydhabo",
 	},
 	"Bayyu": {
 		iArabic: "Daim az-Zubayr",
@@ -4114,6 +4130,11 @@ name_changes = {
 			"Kostantiniyye",
 		),
 	},
+	"Consuegra": {  # founded and relocated from Qal'at Rabah
+		iCeltic: "Consabura",
+		iLatin: "Consaburum",
+		iSpanish: _,
+	},
 	"Cooktown": {
 		iDutch: found("'t Landt Van Carpentarie"),
 		iEnglish: _,
@@ -5480,6 +5501,30 @@ name_changes = {
 		iEnglish: "Garissa",
 		iSomali: _,
 	},
+	"Gadir": {
+		iArabic: "Al-Qadis",
+		iCeltic: found("Algeciras"),
+		iChinese: "Jiadesi",
+		iEnglish: (
+			found("Gibraltar"),
+			"Cales",
+		),
+		iFrench: "Cadix",
+		iGerman: "Cadiz",
+		iGreek: "Gadeira",
+		iItalian: u"Càdice",
+		iJapanese: "Kadisu",
+		iKorean: "Kadiseu",
+		iLatin: (
+			found("Algeciras"),
+			"Gades",
+		),
+		iPolish: "Kadyks",
+		iPortuguese: u"Cádis",
+		iRussian: "Kadis",
+		iSpanish: u"Cádiz",
+		iPhoenician: _,
+	},
 	"Gaillimh": {
 		iCelts: _,
 		iEnglish: "Galway",
@@ -5528,6 +5573,15 @@ name_changes = {
 		iCongolese: _,
 		iPortuguese: "Vila Mariano Machado",
 	},
+	"Ganja": {  # relocated from Qabala
+		iArabic: "Janza",
+		iPersian: _,
+		iRussian: (
+			translate("Kirovabad", bCommunist=True),
+			"Yelizatevpol",
+		),
+		iTurkish: "Gence",
+	},
 	"Ganyushkino": {
 		iMongol: u"Sarai Jük",
 		iRussian: _,
@@ -5559,6 +5613,11 @@ name_changes = {
 	"Gardez": {
 		iHarappan: found("Rana Ghundai"),
 		iPersian: _,
+	},
+	"Garoowe": {
+		iEthiopian: "Garowe",
+		iItalian: "Garoe",
+		iSomali: _,
 	},
 	"Garwa": {
 		iCongolese: "Garua",
@@ -5796,6 +5855,19 @@ name_changes = {
 		iChinese: "Yining",
 		iTurkish: _,
 	},
+	"Gibraltar": {  # founded on Gadir
+		iArabic: "Jabal Tariq",
+		iCeltic: u"Giobráltar",
+		iChinese: "Zhibuluotuo",
+		iEnglish: _,
+		iGreek: u"Ghivraltár",
+		iItalian: "Gibilterra",
+		iJapanese: "Jiburarutaru",
+		iKorean: "Jibeurolteo",
+		iPortuguese: _,
+		iSpanish: _,
+		iTurkish: "Cebelitarik",
+	},
 	u"Gijón": {  # relocated from Oviedo
 		iLocal: u"Xixón", # Asturian
 		iSpanish: _,
@@ -5861,6 +5933,10 @@ name_changes = {
 			found("Porto-Novo"),
 			u"Ajudá",
 		),
+	},
+	"Gode": {  # founded on Baytabaw
+		iEthiopian: _,
+		iSomali: "Godey",
 	},
 	"Godhavn": {
 		iLocal: "Qeqertarsuaq", # Greenlandic
@@ -6180,6 +6256,10 @@ name_changes = {
 		),
 		iLocal: _,
 		iSpanish: u"Agaña",
+	},
+	"Hailar": {  # founded on Hulunbuir
+		iChinese: _,
+		iMongol: "Qayilar",
 	},
 	"Haines": {
 		iEnglish: _,
@@ -6747,6 +6827,13 @@ name_changes = {
 			translate("Stalinobod", bCommunist=True),
 			u"Düshenbe",
 		),
+	},
+	"Hulunbuir": {
+		iChinese: (
+			found("Hailar"),
+			"Hulunbu'er",
+		),
+		iMongol: _,
 	},
 	"Hvalsey": {
 		iLocal: "Qaqortoq",
@@ -8245,6 +8332,10 @@ name_changes = {
 			translate("Gitega", iAfter=iGlobal),
 			_,
 		),
+	},
+	"Kitu": {
+		iQuechua: _,
+		iSpanish: "Quito",
 	},
 	"Klagenfurt": {
 		iGerman: _,
@@ -10604,6 +10695,13 @@ name_changes = {
 			_,
 		),
 	},
+	"Mustaganim": {  # founded on Qartan
+		iArabic: _,
+		iFrench: "Mostaganem",
+		iLatin: "Murustaq",
+		iPhoenician: "Murustaga",
+		iTurkish: u"Müstaganem",
+	},
 	"Musumba": {
 		iCongolese: relocate("Kolwezi"),
 		iDutch: relocate("Kolwezi"),
@@ -12166,6 +12264,10 @@ name_changes = {
 		iDutch: found("Eijland St. Fran"),
 		iEnglish: _,
 	},
+	"Peoria": {
+		iEnglish: _,
+		iFrench: found("Fort Crevecoeur"),
+	},
 	"Per-Atum": {
 		iArabic: relocate("Fayed"),
 		iEgyptian: _,
@@ -12613,6 +12715,10 @@ name_changes = {
 		iGreek: "Phasis",
 		iLocal: _, # Georgian
 	},
+	u"Potosí": {  # founded on Q'ochapampa
+		iQuechua: "Potojsi",
+		iSpanish: _,
+	},
 	"Poznan": {
 		iChinese: "Bozinan",
 		iDutch: "Posen",
@@ -12871,6 +12977,252 @@ name_changes = {
 		iLocal: "Peireguers",
 	},
 	
+	### Q ###
+	
+	"Q'illu Uta": {
+		iQuechua: _,
+		iSpanish: (
+			found(u"Valparaíso"),
+			"Quillota",
+		),
+	},
+	"Q'ochapampa": {
+		iQuechua: _,
+		iSpanish: (
+			found(u"Potosí"),
+			"Cochabamba",
+		),
+	},
+	"Q'umarkaj": {
+		iMayan: _,
+		iNahuatl: "Utatlan",
+		iSpanish: (
+			found("Quetzaltenango"),
+			u"Utatlán",
+		),
+	},
+	"Qabala": {
+		iArabic: _,
+		iPersian: (
+			relocate("Ganja", iAfter=iMedieval),
+			"Gabala",
+		),
+		iRussian: relocate("Ganja"),
+		iSpanish: "Gabala",
+		iTurkish: "Kebele",
+	},
+	"Qaghiliq": {
+		iChinese: (
+			translate("Yecheng", iAfter=iMedieval),
+			"Xiye",
+		),
+		iMongol: _,
+		iTurkish: "Kargilik",
+	},
+	"Qal'at Rabah": {
+		iArabic: _,
+		iCeltic: found("Consuegra"),
+		iLatin: found("Consuegra"),
+		iSpanish: (
+			found("Ciudad Real"),
+			relocate("Ciudad Real", iAfter=iRenaissance),
+			"Calatrava",
+		),
+	},
+	"Qana": {
+		iArabic: (
+			translate("Bi'r Ali", iReligion=iIslam),
+			_,
+		),
+		iGreek: "Kane",
+		iLatin: "Cana",
+	},
+	"Qara Qorum": {
+		iChinese: "Halahelin",
+		iMongol: _,
+		iRussian: "Karakorum",
+	},
+	"Qarqan": {
+		iChinese: "Qiemo",
+		iTurkish: _,
+	},
+	"Qart-Hadasht": {
+		iArabic: (
+			relocate("Tunus"),
+			"Qartaj",
+		),
+		iByzantine: "Karthago",
+		iGreek: "Karkhedon",
+		iLatin: "Carthago",
+		iPhoenician: _,
+	},
+	"Qartan": {
+		iArabic: (
+			found("Mustaganim"),
+			"Tanas",
+		),
+		iFrench: u"Ténès",
+		iGreek: "Kartennai",
+		iLatin: "Cartennae",
+		iPhoenician: _,
+		iPortuguese: u"Tenés",
+		iSpanish: u"Tenés",
+	},
+	"Qatrun": {
+		iArabic: _,
+		iItalian: "Gatrone",
+	},
+	"Qazimbazar": {  # founded on Bishnupur
+		iEnglish: "Cassimbazar",
+		iPersian: _,
+	},
+	"Qianzhong": {
+		iChinese: (
+			relocate("Huaihua", iAfter=iMedieval),
+			_,
+		),
+	},
+	"Qianzhou": {
+		iChinese: (
+			translate("Ganzhou", iAfter=iMedieval),
+			_,
+		),
+	},
+	"Qinglong": {
+		iChinese: (
+			translate("Shanghai", iAfter=iRenaissance),
+			_,
+		),
+		iEnglish: _,
+		iFrench: _,
+		iGerman: _,
+		iGreek: u"Sankái",
+		iItalian: _,
+		iJapanese: "Shanhai",
+		iKorean: "Sanghae",
+		iMongol: "Shankhain",
+		iPolish: "Szanghaj",
+		iPolynesian: "Hangahai",
+		iPortuguese: "Xangai",
+		iRussian: "Shankhay",
+		iSpanish: _,
+		iTurkish: "Shangay",
+		iVietnamese: "Thuong Hai",
+	},
+	"Qiongzhou": {
+		iChinese: (
+			translate("Haikou", iAfter=iIndustrial),
+			_,
+		),
+	},
+	"Qiz Yar": {  # founded on Mariupol
+		iRussian: (
+			translate("Melitopol", iAfter=iIndustrial),
+			"Novoolexandrivka",
+		),
+		iTurkish: _,
+	},
+	"Qocho": {
+		iChinese: (
+			relocate("Turpan", iAfter=iMedieval),
+			"Gaochang",
+		),
+		iKushan: "Kara-Khojo",
+		iTurkish: (
+			relocate("Turpan", iAfter=iMedieval),
+			_,
+		),
+	},
+	"Qohaito": {
+		iEgyptian: found("Adulis"),
+		iEthiopian: _,
+		iGreek: "Koloe",
+		iItalian: relocate("Asmara"),
+		iLatin: "Coloe",
+	},
+	"Qonirat": {
+		iRussian: (
+			translate("Kungrad", iAfter=iDigital),
+			"Zheleznodorozhny",
+		),
+		iTurkish: _,
+	},
+	"Qoqak": {
+		iChinese: "Tacheng",
+		iTurkish: _,
+	},
+	"Queenstown": {
+		iEnglish: _,
+		iLocal: "Komani",
+	},
+	"Quelimane": {
+		iJapanese: "Kerimane",
+		iPortuguese: _,
+		iSwahili: "Mkalimani",
+	},
+	"Quetzaltenango": {  # founded on Q'umarkaj
+		iMayan: u"Xelajú",
+		iSpanish: _,
+	},
+	"Qufu": {
+		iChinese: _,
+		iKorean: "Gokbu",
+	},
+	"Qulqi Tampu": {  # founded on Viluma
+		iQuechua: _,
+		iSpanish: "Coquimbo",
+	},
+	"Qupayapu": {
+		iQuechua: _,
+		iSpanish: u"Copiapó",
+	},
+	"Qurtubah": {
+		iArabic: _,
+		iCeltic: found("Ibolca"),
+		iDutch: "Cordoba",
+		iEnglish: "Cordova",
+		iFrench: "Cordoue",
+		iGerman: "Cordoba",
+		iGreek: "Kordhova",
+		iItalian: "Cordova",
+		iJapanese: "Korudoba",
+		iKorean: "Koreudoba",
+		iLatin: "Corduba",
+		iPhoenician: "Qart-Oba",
+		iPolish: "Kordowa",
+		iPortuguese: u"Córdova",
+		iSpanish: u"Córdoba",
+	},
+	"Qusqu": {
+		iEnglish: "Cusco",
+		iQuechua: _,
+		iSpanish: "Cuzco",
+	},
+	u"Québec": {
+		iEnglish: "Quebec",
+		iFrench: _,
+		iLocal: u"Kébec", # Algonquian
+	},
+	"Qyzyl-Su": {
+		iRussian: "Krasnovodsk",
+		iTurkish: (
+			translate(u"Türkmenbashy", iAfter=iDigital),
+			_,
+		),
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -12941,31 +13293,6 @@ name_changes = {
 	
 	
 	
-	"Qazimbazar": {  # founded on Bishnupur
-		iEnglish: "Cassimbazar",
-		iPersian: _,
-	},
-	"Qiz Yar": {  # founded on Mariupol
-		iRussian: (
-			translate("Melitopol", iAfter=iIndustrial),
-			"Novoolexandrivka",
-		),
-		iTurkish: _,
-	},
-	"Qohaito": {
-		iEgyptian: found("Adulis"),
-		iEthiopian: _,
-		iGreek: "Koloe",
-		iItalian: relocate("Asmara"),
-		iLatin: "Coloe",
-	},
-	"Qonirat": {
-		iRussian: (
-			translate("Kungrad", iAfter=iDigital),
-			"Zheleznodorozhny",
-		),
-		iTurkish: _,
-	},
 	"Rajshahi": {  # relocated from Lakshmanavati
 		iEnglish: "Beuleah",
 		iPersian: _,
@@ -13096,6 +13423,10 @@ name_changes = {
 	"Santiago de la Vega": {  # founded on Port Royal
 		iEnglish: "Spanish Town",
 		iSpanish: _,
+	},
+	"Sarqan": {
+		iRussian: "Sarkand",
+		iTurkish: _,
 	},
 	"Sassari": {  # founded on Olbia
 		iItalian: _,
@@ -13713,9 +14044,28 @@ name_changes = {
 		iLatin: "Dongola",
 		iNubian: _,
 	},
+	"Tunus": {  # relocated from Qart-Hadasht
+		iArabic: _,
+		iDutch: "Tunis",
+		iEnglish: "Tunis",
+		iFrench: "Tunis",
+		iGerman: "Tunis",
+		iGreek: "Tunida",
+		iItalian: "Tunisi",
+		iNorse: "Tunis",
+		iPolish: "Tunis",
+		iPortuguese: "Tunes",
+		iRussian: "Tunis",
+		iSpanish: u"Túnez",
+		iTurkish: _,
+	},
 	"Tupua'i": {
 		iFrench: "Tubuai",
 		iPolynesian: _,
+	},
+	"Turpan": {  # relocated from Qocho
+		iChinese: "Turfan",
+		iTurkish: _,
 	},
 	"Tysfwn": {
 		iArabic: (
@@ -13807,6 +14157,11 @@ name_changes = {
 	"Vilanculos": {  # relocated from Manyikeni
 		iPortuguese: _,
 		iKiswahili: "Vilankulo",
+	},
+	"Viluma": {
+		iLocal: _, # Manpundugun
+		iQuechua: found("Qulqi Tampu"),
+		iSpanish: "La Serena",
 	},
 	"Viratnagara": {
 		iIndian: (
@@ -13918,6 +14273,10 @@ name_changes = {
 			translate(u"Uíge", iAfter=iDigital),
 			"Carmona",
 		),
+	},
+	"Wollongong": {
+		iEnglish: _,
+		iLocal: "Woolyungah", # Dharawal
 	},
 	"Wulabo": {
 		iChinese: (
