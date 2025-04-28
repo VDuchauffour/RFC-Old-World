@@ -74,6 +74,7 @@ BUILDINGS:
 
 WONDERS
 * merijn_v1: Dujiangyan, Channel Tunnel, Prambanan, Metropolitain, Gardens by the Bay, Silver Tree Fountain, Old Synagogue
+* Evan Darzekot: Gur-e-Amir
 
 WONDER MOVIES:
 * Nexus CinematiX (<Nexus>)
