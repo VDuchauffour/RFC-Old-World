@@ -531,6 +531,8 @@ iGreece : {
 		"Kimon", # 5th BC
 		"Epaminondas", # 4th BC
 		"Isokrates", # 4th BC
+		"Polybios", # 2nd BC
+		"Arrianos", # 2nd
 		iIndustrial,
 		"Adamantios Korais", # 19th
 		"Ioannis Kapodistrias", # 19th
@@ -1022,18 +1024,24 @@ iRome : {
 		"fClaudia Quinta", # 3rd BC
 		"Petrus", # 1st
 		"Paulus Tarsensis", # 1st
-		"Augustinus Hipponensis", # 4th
+		"Irenaeus", # 2nd
+		"Tertullianus", # 2nd
+		"Arius", # 3rd
+		"Aurelius Augustinus Hipponensis", # 4th
 		"Aurelius Ambrosius", # 4th
 		"Eusebius Pamphili", # 4th
 		"fMarcella", # 4th
 	],
 	iGreatArtist : [
 		"Quintus Ennius", # 3rd BC
+		"Titus Maccius Plautus", # 3rd BC
 		"Publius Vergilius Maro", # 1st BC
 		"fIaia", # 1st BC
+		"Quintus Horatius Flaccus", # 1st BC
 		"Titus Livius", # 1st
 		"Publius Ovidius Naso", # 1st
-		"Plutarchus", # 1st
+		"Lucius Mestrius Plutarchus", # 1st
+		"Marcus Annaeus Lucanus", # 1st
 		"Decimus Iunius Iuvenalis", # 2nd
 	],
 	iGreatScientist : [
@@ -1045,12 +1053,23 @@ iRome : {
 		"Gaius Plinius Secundus", # 1st
 		"Strabo", # 1st
 		"Lucius Annaeus Seneca", # 1st
+		"Columella", # 1st
+		"Plotinus", # 3rd
+		"Cassiodorus", # 6th
 	],
 	iGreatMerchant : [
 		"Marcus Crassus", # 1st BC
 		"Publius Sittius", # 1st BC
 		"Titus Pomponius Atticus", # 1st BC
+		"Sergius Orata", # 1st BC
 		"Lucius Caecilius Iucundus", # 1st
+		"Pomponius Mela", # 1st
+		"fViria Acte", # 1st
+		"Annius Plocamus", # 1st
+		"Marcus Iulius Alexander", # 1st
+		"Aulus Umbricis Scaurus", # 1st
+		"fUmbricia Fortunata", # 1st
+		"fFlavia Seia Isaurica", # 2nd
 	],
 	iGreatEngineer : [
 		"Sergius Orata", # 2nd BC
@@ -1065,10 +1084,14 @@ iRome : {
 		"Lucius Quinctius Cincinnatus", # 5th BC
 		"Quintus Hortensius", # 3rd BC
 		"Marcus Porcius Cato", # 2nd BC
+		"Tiberius Sempronius Gracchus", # 2nd BC
 		"Marcus Tullius Cicero", # 1st BC
 		"Lucius Cornelius Sulla", # 1st BC
 		"fLivia Drusilla", # 1st BC
-		"fFulvia", # 1st AD
+		"Marcus Vipsanius Agrippa", # 1st BC
+		"Publius Cornelius Tacitus", # 1st
+		"fFulvia", # 1st
+		"Lucius Cassius Dio", # 2nd
 		"Diocletianus", # 3rd
 	],
 	iGreatGeneral : [
@@ -1081,6 +1104,7 @@ iRome : {
 		"fAgrippina", # 1st AD
 		"Hadrianus", # 2nd
 		"fAlbia Dominica", # 4th AD
+		"Flavius Aetius", # 5th AD
 	],
 	iGreatSpy : [
 		"Gaius Flavius Fimbria", # 1st BC
@@ -1398,6 +1422,7 @@ iKorea : {
 },
 iByzantium : {
 	iGreatProphet : [
+		"Anathasius Alexandrinus", # 4th
 		"Nestorios", # 5th
 		"fTheodora", # 6th
 		"Ioannis o Damaskinos", # 8th
@@ -2464,6 +2489,7 @@ iFrance : {
 		"Maurice de Saxe", # 18th
 		"Louis-Joseph de Montcalm", # 18th
 		u"Louis-René de Latouche-Tréville", # 18th
+		"Lazare Carnot", # 18th
 		iIndustrial,
 		u"André Masséna", # 18th
 		"Louis-Nicolas Davout", # 18th
@@ -3218,22 +3244,33 @@ iInca : {
 },
 iItaly : {
 	iGreatProphet : [
+		"Alberto Avogadro", # 12th
 		"Bonaventura da Bagnoregio", # 13th
 		"Tommaso d'Aquino", # 13th
 		"Francesco d'Assisi", # 13th
 		"fGuglielma", # 13th
+		"fAngela da Foligno", # 13th
+		"fChiara d'Assisi", # 13th
+		"Pietro Angelerio", # 13th
 		"fCaterina Benincasa", # 14th
 		iRenaissance,
 		"Giuliano della Rovere", # 15th
+		"Giovanni da Capestrano", # 15th
 		"fAngela Merici", # 16th
 		"Camillo Borghese", # 16th
 		"Giulio de' Medici", # 16th
 		"Carlo Borromeo", # 16th
 		"Matteo Ricci", # 16th
+		"Gerolamo Emiliani", # 16th
+		"Roberto Bellarmino", # 16th
+		"Camillo de Lellis", # 16th
+		"fAngela Merici", # 16th
 		"Prospero Lorenzo Lambertini", # 18th
+		"Alfonso Maria de' Liguori", # 18th
 		iIndustrial,
 		"Giovanni Maria Mastai-Ferretti", # 19th
 		"Giovanni Bosco", # 19th
+		"fVincenza Gerosa", # 19th
 		iGlobal,
 		"Angelo Giuseppe Roncalli", # 20th
 		"Pio da Pietrelcina", # 20th
@@ -3245,11 +3282,13 @@ iItaly : {
 		"Giovanni Boccaccio", # 14th
 		"Donatello", # 15th
 		iRenaissance,
+		"Sandro Botticelli", # 15th
 		"Michelangelo Buonarroti", # 16th
 		"Raffaello Sanzio", # 16th
 		"Giovanni Pierluigi da Palestrina", # 16th
 		"fSofonisba Anguissola", # 16th
 		"Michelangelo Merisi da Caravaggio", # 16th
+		"Tiziano Vecellio", # 16th
 		"Claudio Monteverdi", # 17th
 		"fArtemisia Gentileschi", # 17th
 		"Antonio Vivaldi", # 18th
@@ -3257,32 +3296,45 @@ iItaly : {
 		"Alessandro Manzoni", # 19th
 		"Giuseppe Verdi", # 19th
 		"Giacomo Puccini", # 19th
+		"Vincenzo Bellini", # 19th
+		"Francesco Hayez", # 19th
 		iGlobal,
 		"Umberto Boccioni", # 20th
 		"fGrazia Deledda", # 20th
 		"Federico Fellini", # 20th
+		"Giuseppe Ungaretti", # 20th
 		u"Gian Maria Volontè", # Contest Reward
 	],
 	iGreatScientist : [
 		"fTrotula di Salerno", # 12th
+		"Tommaso d'Aquino", # 13th
 		"Francesco Petrarca", # 14th
 		iRenaissance,
 		"Pico della Mirandola", # 15th
+		"Leon Battista Alberti", # 15th
 		"Giordano Bruno", # 16th
 		"Galileo Galilei", # 16th
+		"Gabriele Falloppio", # 16th
 		"fElena Cornaro Piscopia", # 17th
+		"Evangelisto Torricelli", # 17th
 		"Luigi Galvani", # 18th
 		"Alessandro Volta", # 18th
 		"fMaria Gaetana Agnesi", # 18th
+		"Giovanni Battista Venturi", # 18th
 		iIndustrial,
+		"Leonardo Ximenes", # 18th
 		"Amedeo Avogadro", # 19th
 		"Camillo Golgi", # 19th
+		"Giuseppe Mercalli", # 19th
+		"Ulisse Dini", # 19th
 		iGlobal,
 		"fMaria Montessori", # 20th
 		"Enrico Fermi", # 20th
 		"fRita Levi-Montalcini", # 20th
+		"Giulio Natta", # 20th
 	],
 	iGreatMerchant : [
+		"Domini Guardato", # 12th
 		"Marco Polo", # 13th
 		"Simone de' Bardi", # 13th
 		"Giovanni de' Medici", # 14th
@@ -3291,12 +3343,24 @@ iItaly : {
 		iRenaissance,
 		"Giovanni Caboto", # 15th
 		"Amerigo Vespucci", # 15th
+		"Paladino Gondola", # 15th
 		"fTullia d'Aragona", # 16th
+		"Pietro Verri", # 18th
+		"Alessandro Malaspina", # 18th
+		iIndustrial,
+		"Giovanni Agnelli", # 19th
 		iGlobal,
 		"Enzo Ferrari", # 20th
 		"Gianni Versace", # 20th
+		"Enrico Mattei", # 20th
+		"Franco Modigliani", # 20th
+		"Adriano Olivetti", # 20th
+		"Ferruccio Lamborghini", # 20th
+		"Pietro Ferrero", # 20th
 	],
 	iGreatEngineer : [
+		"Giovanni Pisano", # 13th
+		"Andrea Pisano", # 14th
 		"Taccola", # 15th
 		"Filippo Brunelleschi", # 15th
 		"Giovanni Fontana", # 15th
@@ -3305,22 +3369,36 @@ iItaly : {
 		"Leonardo da Vinci", # 15th
 		"Donato Bramante", # 15th
 		"Andrea Palladio", # 16th
+		"Giorgio Vasari", # 16th
+		u"Niccolò Fontana Tartaglia", # 16th
+		"Bernardo Buontalenti", # 16th
+		"Gian Lorenzo Bernini", # 17th
+		"Francesco Borromini", # 17th
 		iIndustrial, 
+		"Luigi Vanvitelli", # 18th
 		"Alois Negrelli", # 19th
 		"Antonio Meucci", # 19th
 		iGlobal,
 		"Guglielmo Marconi", # 20th
 		"Giovanni Battista Caproni", # 20th
 		"Angiolo Mazzoni", # 20th
+		"Mario Tchou", # 20th
+		"Nicola Materazzi", # 20th
 		"Gabriele Trovato", # 20th
 	],
 	iGreatStatesman : [
 		"Giovanni Villani", # 13th
+		"Guglielmo Boccanegra", # 13th
+		"Gian Galeazzo Visconti", # 14th
 		iRenaissance,
 		"fLucrezia Borgia", # 15th
 		u"Niccolò Machiavelli", # 15th
+		"Ludovico Sforza", # 15th
+		"Leonardo Loredan", # 15th
+		"Lorenzo de' Medici", # 15th
 		"fIsabella d'Este", # 16th
 		"Francesco Guicciardini", # 16th
+		"Carlo Emanuele di Savoia", # 16th
 		"Giambattista Vico", # 18th
 		"Cesare Beccaria", # 18th
 		"Pasquale Paoli", # 18th
@@ -3328,18 +3406,26 @@ iItaly : {
 		"Giuseppe Garibaldi", # 19th
 		"Giuseppe Mazzini", # 19th
 		"Francesco Crispi", # 19th
+		"Benedetto Croce", # 20th
 		iGlobal,
 		"Antonio Gramsci", # 20th
+		"Alcide de Gasperi", # 20th
 	],
 	iGreatGeneral : [
 		"fMatilde di Canossa", # 11th
+		"Guglielmo Embriaco", # 11th
+		"Guido da Landriano", # 12th
+		"Ruggero d'Altavilla", # 12th
 		"Enrico Dandolo", # 13th
 		"Simone Boccanegra", # 14th
 		"Francesco Sforza", # 15th
 		iRenaissance, 
 		"Cesare Borgia", # 15th
+		"Bartolomeo Colleoni", # 15th
+		"Federico da Montefeltro", # 15th
 		"Andrea Doria", # 16th
 		"Sebastiano Venier", # 16th
+		"Alessandro Farnese", # 16th
 		iIndustrial,
 		"Alessandro Ferrero La Marmora", # 19th
 		"Giuseppe Garibaldi", # 19th
@@ -3361,9 +3447,11 @@ iItaly : {
 },
 iMongols : {
 	iGreatProphet : [
-		"Abaqa", # 13th
-		"Arghun", # 13th
-		"Sartaq", # 13th
+		"Qiu Chuji", # 12th (also Chinese)
+		"Berke", # 13th
+		u"Özbeg", # 13th
+		"Adud al-Din al-Iji", # 13th
+		u"Drogön Chögyal Phagpa", # 13th
 		iRenaissance,
 		"Zanabazar", # 17th
 		"Zaya Pandita", # 17th
@@ -3371,10 +3459,13 @@ iMongols : {
 		"Bogd Khan", # 20th
 	],
 	iGreatArtist : [
-		"Oghul Qaimish", # 13th
-		"Tolui", # 13th
-		"Guillaume Boucher", # 13th
-		"Uzbeg", # 14th
+		"Huang Gongwang", # 13th (also Chinese)
+		"Zhao Mengfu", # 13th
+		"fGuan Daosheng", # 13th
+		"Guan Hanqing", # 13th
+		"Abu Sulayman Banakati", # 13th
+		"Saadi Shirazi", # 13th
+		u"Tugh Temür", # 14th
 		iIndustrial, 
 		"Dulduityn Danzanravjaa", # 19th
 		iGlobal,
@@ -3384,29 +3475,35 @@ iMongols : {
 	],
 	iGreatScientist : [
 		"Isa Khelmerchi", # 13th
-		"Kaidu", # 13th
 		"Nasir al-Din al-Tusi", # 13th (also Persian)
-		"Ulugh Beg", # 15th
-		"Mandukhai", # 15th
+		"Mu'ayyad al-Din al-Urdi", # 13th
+		"Jamal ad-Din Bukhari", # 13th
+		"Guo Shoujing", # 13th
+		"fZhu Shijie", # 13th
 		iRenaissance,
-		"Nurhaci", # 16th
+		"Minggatu", # 18th
 		iGlobal, 
 		"Jamsrangiin Tseveen", # 20th
 	],
 	iGreatMerchant : [
-		"Hulagu", # 13th
-		u"Güyük", # 13th
-		"Mengu-Timur", # 13th
+		"Mahmud Yalavach", # 13th
+		"Mengu Timur", # 13th
 		"Gaykhatu", # 13th
-		"Qawsun", # 14th
+		"Qawsun", # 13th
+		"Bolad", # 13th
+		"Pu Shougeng", # 13th
+		"Sa'ad al-Dawla", # 13th
+		"Wang Dayuan", # 14th
 		iRenaissance,
 		"Altan", # 16th
 	],
 	iGreatEngineer : [
-		"Duwa", # 13th
+		"Guillaume Boucher", # 13th
+		"Liu Bingzhong", # 13th
 		"Zhang Wenqian", # 13th
-		"Toqta", # 14th
+		"Araniko", # 13th
 		"Ismail", # 14th
+		"Wang Zhen", # 14th
 		iGlobal,
 		"Li Siguang", # 20th
 	],
@@ -3417,6 +3514,7 @@ iMongols : {
 		"fOrghana", # 13th
 		"Ghazan", # 13th
 		u"Temür Khan", # 13th
+		"Toqto'a", # 14th
 		"Dayan Khan", # 15th
 		iIndustrial,
 		"Balingiin Tserendorj", # 19th
@@ -3429,12 +3527,19 @@ iMongols : {
 		"Subutai", # 13th
 		u"Ögodei", # 13th
 		"Chagatai", # 13th
+		"Tolui", # 13th
 		u"Möngke", # 13th
+		"Hulagu", # 13th
+		"Bayan", # 13th
 		"fKhutulun", # 13th
+		u"Köke Temür", # 14th
+		"Tokhtamysh", # 14th
+		"Esen Taishi", # 15th
+		"fMandukhai", # 15th
 		iRenaissance,
 		"fAnu Qatun", # 17th
 		iGlobal, 
-		"Khorloogiin Choibalsan", # 20th
+		u"Damdin Sükhbaatar", # 20th
 	],
 },
 iAztecs : {
