@@ -349,6 +349,7 @@ class Birth(object):
 		self.protectionEnd = None
 		self.canceled = until(self.iTurn) < 0
 		
+		self.bFlip = False
 		self.bSwitch = False
 		
 		self.iExpansionDelay = 0
@@ -689,9 +690,8 @@ class Birth(object):
 		elif iUntilBirth == 1:
 			self.birth()
 			self.checkSwitch()
-		elif iUntilBirth == 0 and not scenarioStart():
-			self.flip()
-			self.wars()
+		elif -turns(3) <= iUntilBirth <= 0 and not scenarioStart():
+			self.checkFlip()
 			
 		if iUntilBirth < 0:
 			self.checkExpansion()
@@ -1022,6 +1022,13 @@ class Birth(object):
 	
 	def declareWarOnFlip(self, iOwner):
 		team(iOwner).declareWar(self.player.getTeam(), False, WarPlanTypes.WARPLAN_ATTACKED_RECENT)
+	
+	def checkFlip(self):
+		if not self.bFlip and (self.player.getNumCities() > 0 or self.iCiv in lInvasionCivs):
+			self.flip()
+			self.wars()
+			
+			self.bFlip = True
 	
 	def flippedArea(self):
 		if self.iCiv == iEngland and not self.isHuman():
