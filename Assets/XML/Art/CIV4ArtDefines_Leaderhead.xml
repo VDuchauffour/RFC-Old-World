@@ -688,11 +688,11 @@
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_ALFRED</Type>
-			<Button>Art/LeaderHeads/Harold/Harold.dds</Button>
-			<NIF>art/LeaderHeads/Harold/ragnar_lodbrok.nif</NIF>
-			<KFM>art/LeaderHeads/Harold/ragnar_lodbrok.kfm</KFM>
-			<NoShaderNIF>art/LeaderHeads/Harold/ragnar_lodbrok.nif</NoShaderNIF>
-			<BackgroundKFM>art/LeaderHeads/Harold/Ragnar_BG.kfm</BackgroundKFM>
+			<Button>Art/Leaderheads/Alfred/Button_Aelfred.dds</Button>
+			<NIF>Art/Leaderheads/Alfred/Charlemagne.nif</NIF>
+			<KFM>Art/Leaderheads/Alfred/Charlemagne.kfm</KFM>
+			<NoShaderNIF>Art/Leaderheads/Alfred/Charlemagne.nif</NoShaderNIF>
+			<BackgroundKFM>Art/Leaderheads/Alfred/Charlemagne_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_CHANDRAGUPTA</Type>
