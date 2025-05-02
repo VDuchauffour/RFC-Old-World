@@ -1094,16 +1094,12 @@
 		<Spanish>George I</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_KHOSROW</Tag>
-		<English>Khosrow I</English>
-		<French>
-			<Text>Khosro Ier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Khosrow I</German>
-		<Italian>Khosrow I</Italian>
-		<Spanish>Khosrow I</Spanish>
+		<Tag>TXT_KEY_LEADER_SHAPUR</Tag>
+		<English>Shapur</English>
+		<French>Shapur</French>
+		<German>Shapur</German>
+		<Italian>Shapur</Italian>
+		<Spanish>Shapur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_EZANA</Tag>

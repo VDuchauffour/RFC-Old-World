@@ -63,14 +63,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_KHOSROW</LeaderType>
+							<LeaderType>LEADER_SHAPUR</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_KHOSROW</Text>
+						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SHAPUR</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6883,14 +6883,14 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_KHOSROW</LeaderType>
+							<LeaderType>LEADER_SHAPUR</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
 					</Leaders>
 					<Attitudes/>
 					<DiplomacyPowers/>
 					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_LEADER_KHOSROW</Text>
+						<Text>AI_DIPLO_DEMAND_TRIBUTE_LEADER_SHAPUR</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>

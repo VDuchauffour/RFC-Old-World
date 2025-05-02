@@ -36,7 +36,7 @@ LEADER_DATES = {
 	iAhoeitu: 900,
 	iCyrus: -550,
 	iDarius: -520,
-	iKhosrow: 540,
+	iShapur: 300,
 	iBrennus: -380,
 	iBrianBoru: 1000,
 	iJuliusCaesar: -50,

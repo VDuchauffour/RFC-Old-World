@@ -15666,10 +15666,10 @@
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
 		<LeaderHeadInfo>
-			<Type>LEADER_KHOSROW</Type> <!-- Personality: Frederick -->
-			<Description>TXT_KEY_LEADER_KHOSROW</Description>
-			<Civilopedia>TXT_KEY_LEADER_KHOSROW_PEDIA</Civilopedia>
-			<ArtDefineTag>ART_DEF_LEADER_KHOSROW</ArtDefineTag>
+			<Type>LEADER_SHAPUR</Type> <!-- Personality: Frederick -->
+			<Description>TXT_KEY_LEADER_SHAPUR</Description>
+			<Civilopedia>TXT_KEY_LEADER_SHAPUR_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_LEADER_SHAPUR</ArtDefineTag>
 			<iWonderConstructRand>20</iWonderConstructRand>
 			<iBaseAttitude>0</iBaseAttitude>
 			<iBasePeaceWeight>6</iBasePeaceWeight>

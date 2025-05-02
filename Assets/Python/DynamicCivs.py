@@ -2111,7 +2111,7 @@ def leader(iPlayer):
 		if iEra >= iGlobal: return iKhomeini
 		
 	elif iCiv == iPersia:
-		if getColumn(iPlayer) >= 6: return iKhosrow
+		if getColumn(iPlayer) >= 6: return iShapur
 			
 		if bEmpire:
 			return iDarius
