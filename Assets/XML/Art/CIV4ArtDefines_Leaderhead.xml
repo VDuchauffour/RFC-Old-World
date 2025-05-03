@@ -55,6 +55,14 @@
 			<BackgroundKFM>art/LeaderHeads/Cyrus/Cyrus_BG.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_DJOSER</Type>
+			<Button>Art/Leaderheads/Djoser/Djoser.dds</Button>
+			<NIF>Art/Leaderheads/Djoser/Gilgamesh.nif</NIF>
+			<KFM>Art/Leaderheads/Djoser/Gilgamesh.kfm</KFM>
+			<NoShaderNIF>Art/Leaderheads/Djoser/Gilgamesh.nif</NoShaderNIF>
+			<BackgroundKFM>Art/Leaderheads/Djoser/Gilgamesh_Backgrnd.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_ELIZABETH</Type>
 			<Button>,Art/interface/LeaderHeads/Btn_LH_England_ElizabethI.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,8,10</Button>
 			<NIF>art/LeaderHeads/Elizabeth/elizabeth.nif</NIF>

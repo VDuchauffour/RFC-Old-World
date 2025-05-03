@@ -254,6 +254,14 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_LEADER_DJOSER</Tag>
+		<English>Djoser</English>
+		<French>Djoser</French>
+		<German>Djoser</German>
+		<Italian>Djoser</Italian>
+		<Spanish>Djoser</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_LEADER_DOM_PEDRO</Tag>
 		<English>Pedro II</English>
 		<French>

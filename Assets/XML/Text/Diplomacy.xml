@@ -690,6 +690,70 @@
 		<Spanish>When the prison doors are opened, the real dragon will fly out. So don't make us angry!</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DJOSER_1</Tag>
+		<English>I am [OUR_NAME]! Divine king of [OUR_CIV_SHORT]! Who are you who comes into such rich and fertile lands at this day and hour?</English>
+		<French>I am [OUR_NAME]! Divine king of [OUR_CIV_SHORT]! Who are you who comes into such rich and fertile lands at this day and hour?</French>
+		<German>I am [OUR_NAME]! Divine king of [OUR_CIV_SHORT]! Who are you who comes into such rich and fertile lands at this day and hour?</German>
+		<Italian>I am [OUR_NAME]! Divine king of [OUR_CIV_SHORT]! Who are you who comes into such rich and fertile lands at this day and hour?</Italian>
+		<Spanish>I am [OUR_NAME]! Divine king of [OUR_CIV_SHORT]! Who are you who comes into such rich and fertile lands at this day and hour?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_DJOSER_1</Tag>
+		<English>You have been deemed an unworthy rascal in the world, [CT_NAME]. I do not trust you, and so any discussion we have will be futile.</English>
+		<French>You have been deemed an unworthy rascal in the world, [CT_NAME]. I do not trust you, and so any discussion we have will be futile.</French>
+		<German>You have been deemed an unworthy rascal in the world, [CT_NAME]. I do not trust you, and so any discussion we have will be futile.</German>
+		<Italian>You have been deemed an unworthy rascal in the world, [CT_NAME]. I do not trust you, and so any discussion we have will be futile.</Italian>
+		<Spanish>You have been deemed an unworthy rascal in the world, [CT_NAME]. I do not trust you, and so any discussion we have will be futile.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_DJOSER_1</Tag>
+		<English>The gods shall not rest until you are finished, [CT_NAME]! Begone!</English>
+		<French>The gods shall not rest until you are finished, [CT_NAME]! Begone!</French>
+		<German>The gods shall not rest until you are finished, [CT_NAME]! Begone!</German>
+		<Italian>The gods shall not rest until you are finished, [CT_NAME]! Begone!</Italian>
+		<Spanish>The gods shall not rest until you are finished, [CT_NAME]! Begone!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DJOSER_1</Tag>
+		<English>Ah, good day, [CT_NAME], greatest of all mortals! How about a nice game of Senet and a cruise on the Nile?</English>
+		<French>Ah, good day, [CT_NAME], greatest of all mortals! How about a nice game of Senet and a cruise on the Nile?</French>
+		<German>Ah, good day, [CT_NAME], greatest of all mortals! How about a nice game of Senet and a cruise on the Nile?</German>
+		<Italian>Ah, good day, [CT_NAME], greatest of all mortals! How about a nice game of Senet and a cruise on the Nile?</Italian>
+		<Spanish>Ah, good day, [CT_NAME], greatest of all mortals! How about a nice game of Senet and a cruise on the Nile?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DJOSER_1</Tag>
+		<English>It is [CT_NAME], he who foolishly enjoys playing with the gods... what is it now?</English>
+		<French>It is [CT_NAME], he who foolishly enjoys playing with the gods... what is it now?</French>
+		<German>It is [CT_NAME], he who foolishly enjoys playing with the gods... what is it now?</German>
+		<Italian>It is [CT_NAME], he who foolishly enjoys playing with the gods... what is it now?</Italian>
+		<Spanish>It is [CT_NAME], he who foolishly enjoys playing with the gods... what is it now?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LEADER_DJOSER_1</Tag>
+		<English>Even gods like myself need help sometime, [CT_NAME].</English>
+		<French>Even gods like myself need help sometime, [CT_NAME].</French>
+		<German>Even gods like myself need help sometime, [CT_NAME].</German>
+		<Italian>Even gods like myself need help sometime, [CT_NAME].</Italian>
+		<Spanish>Even gods like myself need help sometime, [CT_NAME].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LEADER_DJOSER_1</Tag>
+		<English>[OUR_NAME], great pharaoh of the two lands, has a small favor to ask of you, [CT_NAME].</English>
+		<French>[OUR_NAME], great pharaoh of the two lands, has a small favor to ask of you, [CT_NAME].</French>
+		<German>[OUR_NAME], great pharaoh of the two lands, has a small favor to ask of you, [CT_NAME].</German>
+		<Italian>[OUR_NAME], great pharaoh of the two lands, has a small favor to ask of you, [CT_NAME].</Italian>
+		<Spanish>[OUR_NAME], great pharaoh of the two lands, has a small favor to ask of you, [CT_NAME].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LEADER_DJOSER_1</Tag>
+		<English>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </English>
+		<French>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </French>
+		<German>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </German>
+		<Italian>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </Italian>
+		<Spanish>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_</Tag>
 		<English></English>
 		<French></French>

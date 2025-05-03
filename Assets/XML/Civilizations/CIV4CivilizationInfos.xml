@@ -1668,6 +1668,10 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
+					<LeaderName>LEADER_DJOSER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
 					<LeaderName>LEADER_HATSHEPSUT</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
