@@ -1254,6 +1254,14 @@
 		<Spanish>Ho Chi Minh</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_LEADER_PTOLEMY</Tag>
+		<English>Ptolemy</English>
+		<French>Ptolemy</French>
+		<German>Ptolemy</German>
+		<Italian>Ptolemy</Italian>
+		<Spanish>Ptolemy</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_LEADER_</Tag>
 		<English></English>
 		<French></French>

@@ -16,6 +16,7 @@ LEADER_DATES = {
 	iDjoser: -2700,
 	iHatshepsut: -1600,
 	iRamesses: -1300,
+	iPtolemy: -330,
 	iBaibars: 1260,
 	iSargon: -2400,
 	iHammurabi: -1800,

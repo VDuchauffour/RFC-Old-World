@@ -1133,21 +1133,22 @@ iVictorySecularism = 11
 
 
 #leaders
-iNumLeaders = 140
-(iLeaderBarbarian, iNativeLeader, iIndependentLeader, iDjoser, iHatshepsut, iRamesses, iBaibars, iNasser, iSargon, iHammurabi, 
-iWentAntu,iAshurbanipal, iQinShiHuang, iTaizong, iHongwu, iMao, iMursili, iPericles, iAlexanderTheGreat, iGeorge, 
-iAsoka, iChandragupta, iShivaji, iGandhi, iHiram, iHannibal, iTaharqa, iAhoeitu, iCyrus, iDarius, 
-iShapur, iBrennus, iBrianBoru, iJuliusCaesar, iAugustus, iPacal, iRajendra, iKrishnaDevaRaya, iEzana, iZaraYaqob, 
-iMenelik, iTopiltzin, iKanishka, iWangKon, iSejong, iSuryavarman, iMansaMusa, iJustinian, iBasil, iCharlemagne, 
-iLouis, iNapoleon, iDeGaulle, iSriJayanasa, iTunPerak, iKammu, iOdaNobunaga, iMeiji, iRagnar, iChristian, 
-iGerhardsen, iBumin, iAlpArslan, iTamerlane, iHarun, iSaladin, iSongtsen, iLobsangGyatso, iRahman, iYaqub, 
-iHayamWuruk, iSuharto, iIsabella, iPhilip, iFranco, iAlfred, iElizabeth, iVictoria, iChurchill, iBarbarossa, 
-iCharles, iFrancis, iAnawrahta, iBayinnaung, iYaroslav, iLeLoi, iHoChiMinh, iDawud, iCasimir, iSobieski, 
-iPilsudski, iWalesa, iAfonso, iJoao, iMaria, iHuaynaCapac, iCastilla, iLorenzo, iCavour, iMussolini, 
-iGenghisKhan, iKublaiKhan, iMontezuma, iTughluq, iAkbar, iBhutto, iNaresuan, iMongkut, iGustav, iIvan, 
-iPeter, iCatherine, iAlexanderI, iStalin, iMehmed, iSuleiman, iAtaturk, iMbemba, iAbbas, iKhomeini, 
-iWillemVanOranje, iWilliam, iFrederick, iBismarck, iHitler, iWashington, iLincoln, iRoosevelt, iSanMartin, iPeron, 
-iJuarez, iSantaAnna, iCardenas, iBolivar, iPedro, iVargas, iMacDonald, iTrudeau, iBoudica, iSittingBull) = range(iNumLeaders)
+iNumLeaders = 141
+(iLeaderBarbarian, iNativeLeader, iIndependentLeader, iDjoser, iHatshepsut, iRamesses, iPtolemy, iBaibars, iNasser, iSargon, 
+iHammurabi, iWentAntu,iAshurbanipal, iQinShiHuang, iTaizong, iHongwu, iMao, iMursili, iPericles, iAlexanderTheGreat, 
+iGeorge, iAsoka, iChandragupta, iShivaji, iGandhi, iHiram, iHannibal, iTaharqa, iAhoeitu, iCyrus, 
+iDarius, iShapur, iBrennus, iBrianBoru, iJuliusCaesar, iAugustus, iPacal, iRajendra, iKrishnaDevaRaya, iEzana, 
+iZaraYaqob, iMenelik, iTopiltzin, iKanishka, iWangKon, iSejong, iSuryavarman, iMansaMusa, iJustinian, iBasil, 
+iCharlemagne, iLouis, iNapoleon, iDeGaulle, iSriJayanasa, iTunPerak, iKammu, iOdaNobunaga, iMeiji, iRagnar, 
+iChristian, iGerhardsen, iBumin, iAlpArslan, iTamerlane, iHarun, iSaladin, iSongtsen, iLobsangGyatso, iRahman, 
+iYaqub, iHayamWuruk, iSuharto, iIsabella, iPhilip, iFranco, iAlfred, iElizabeth, iVictoria, iChurchill, 
+iBarbarossa, iCharles, iFrancis, iAnawrahta, iBayinnaung, iYaroslav, iLeLoi, iHoChiMinh, iDawud, iCasimir, 
+iSobieski, iPilsudski, iWalesa, iAfonso, iJoao, iMaria, iHuaynaCapac, iCastilla, iLorenzo, iCavour, 
+iMussolini, iGenghisKhan, iKublaiKhan, iMontezuma, iTughluq, iAkbar, iBhutto, iNaresuan, iMongkut, iGustav, 
+iIvan, iPeter, iCatherine, iAlexanderI, iStalin, iMehmed, iSuleiman, iAtaturk, iMbemba, iAbbas, 
+iKhomeini, iWillemVanOranje, iWilliam, iFrederick, iBismarck, iHitler, iWashington, iLincoln, iRoosevelt, iSanMartin, 
+iPeron, iJuarez, iSantaAnna, iCardenas, iBolivar, iPedro, iVargas, iMacDonald, iTrudeau, iBoudica, 
+iSittingBull) = range(iNumLeaders)
 
 dResurrectionLeaders = CivDict({
 	iChina : iHongwu,
@@ -1156,12 +1157,13 @@ dResurrectionLeaders = CivDict({
 })
 
 # update DLL constants when this changes
-iNumPeriods = 25
-(iPeriodMing, iPeriodMaratha, iPeriodModernGreece, iPeriodCarthage, iPeriodInsularCelts,
-iPeriodVijayanagara, iPeriodByzantineConstantinople, iPeriodSeljuks, iPeriodMeiji, iPeriodDenmark, 
-iPeriodNorway, iPeriodUzbeks, iPeriodSaudi, iPeriodMorocco, iPeriodSpain, 
-iPeriodAustria, iPeriodUnitedKingdom, iPeriodGreatBritain, iPeriodYuan, iPeriodPeru, 
-iPeriodLateInca, iPeriodModernItaly, iPeriodPakistan, iPeriodOttomanConstantinople, iPeriodModernGermany) = range(iNumPeriods)
+iNumPeriods = 26
+(iPeriodPtolemaicEgypt, iPeriodMing, iPeriodMaratha, iPeriodModernGreece, iPeriodCarthage, 
+iPeriodInsularCelts, iPeriodVijayanagara, iPeriodByzantineConstantinople, iPeriodSeljuks, iPeriodMeiji, 
+iPeriodDenmark, iPeriodNorway, iPeriodUzbeks, iPeriodSaudi, iPeriodMorocco, 
+iPeriodSpain, iPeriodAustria, iPeriodUnitedKingdom, iPeriodGreatBritain, iPeriodYuan, 
+iPeriodPeru, iPeriodLateInca, iPeriodModernItaly, iPeriodPakistan, iPeriodOttomanConstantinople, 
+iPeriodModernGermany) = range(iNumPeriods)
 
 iNumImpacts = 5
 (iImpactMarginal, iImpactLimited, iImpactSignificant, iImpactCritical, iImpactPlayer) = range(iNumImpacts)

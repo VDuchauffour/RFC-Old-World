@@ -689,6 +689,7 @@ def onPeriodChange(iPlayer, iPeriod):
 		revertAdjectiveChange(iPlayer)
 	
 	checkName(iPlayer)
+	checkLeader(iPlayer)
 	
 
 @handler("religionFounded")
@@ -1596,7 +1597,7 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 				return "TXT_KEY_SULTANATE_ADJECTIVE"
 			return "TXT_KEY_KINGDOM_ADJECTIVE"
 			
-		if slot(iGreece) in lPreviousOwners:
+		if player(iPlayer).getPeriod() == iPeriodPtolemaicEgypt or slot(iGreece) in lPreviousOwners:
 			return "TXT_KEY_CIV_EGYPT_PTOLEMAIC"
 			
 		if bCityStates:
@@ -2074,6 +2075,8 @@ def leader(iPlayer):
 		if not bMonarchy and iEra >= iGlobal: return iNasser
 		
 		if bResurrected or scenario() >= i600AD: return iBaibars
+		
+		if player(iPlayer).getPeriod() == iPeriodPtolemaicEgypt: return iPtolemy
 		
 		if getColumn(iPlayer) >= 3: return iRamesses
 		

@@ -1680,6 +1680,10 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 				<Leader>
+					<LeaderName>LEADER_PTOLEMY</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
 					<LeaderName>LEADER_BAIBARS</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
