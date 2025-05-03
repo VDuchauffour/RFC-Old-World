@@ -501,7 +501,7 @@ dStartingLeaders = [
 	iTurks : iBumin,
 	iArabia : iHarun,
 	iTibet : iSongtsen,
-	iKhmer : iSuryavarman,
+	iKhmer : iNeangNeak,
 	iMoors : iRahman,
 	iJava : iHayamWuruk,
 	iSpain : iIsabella,
@@ -2135,6 +2135,9 @@ def leader(iPlayer):
 		if iEra >= iRenaissance: return iSejong
 		
 		if scenario() >= i1700AD: return iSejong
+	
+	elif iCiv == iKhmer:
+		if iEra >= iMedieval: return iSuryavarman
 		
 	elif iCiv == iJapan:
 		if iEra >= iIndustrial: return iMeiji

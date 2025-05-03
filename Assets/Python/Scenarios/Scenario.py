@@ -56,6 +56,7 @@ LEADER_DATES = {
 	iKanishka: 130,
 	iWangKon: 920,
 	iSejong: 1420,
+	iNeangNeak: 100,
 	iSuryavarman: 1120,
 	iJustinian: 530,
 	iBasil: 980,
