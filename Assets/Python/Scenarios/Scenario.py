@@ -13,8 +13,8 @@ from Parsers import *
 START_HISTORY = -3000
 
 LEADER_DATES = {
+	iHatshepsut: -1600,
 	iRamesses: -1300,
-	iCleopatra: -50,
 	iBaibars: 1260,
 	iSargon: -2400,
 	iHammurabi: -1800,

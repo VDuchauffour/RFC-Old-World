@@ -473,7 +473,7 @@ dStartingLeaders = [
 	iIndependent : iIndependentLeader,
 	iIndependent2 : iIndependentLeader,
 	iNative : iNativeLeader,
-	iEgypt : iRamesses,
+	iEgypt : iHatshepsut,
 	iIndia : iAsoka,
 	iBabylonia : iSargon,
 	iHarappa : iWentAntu,
@@ -2075,7 +2075,7 @@ def leader(iPlayer):
 		
 		if bResurrected or scenario() >= i600AD: return iBaibars
 		
-		if getColumn(iPlayer) >= 4: return iCleopatra
+		if getColumn(iPlayer) >= 3: return iRamesses
 		
 	elif iCiv == iIndia:
 		if not bMonarchy and iEra >= iGlobal: return iGandhi

@@ -398,18 +398,6 @@
 		<Spanish>Harun al-Rashid</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_LEADER_HATSHEPSUT</Tag>
-		<English>Cleopatra</English>
-		<French>
-			<Text>Cl&#233;op&#226;tre</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Cleopatra</German>
-		<Italian>Cleopatra</Italian>
-		<Spanish>Cleopatra</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_LEADER_HAYAM_WURUK</Tag>
 		<English>Hayam Wuruk</English>
 		<French>
