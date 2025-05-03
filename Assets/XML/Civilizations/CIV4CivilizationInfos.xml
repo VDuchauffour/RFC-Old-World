@@ -5528,6 +5528,10 @@
 			</InitialCivics>
 			<Leaders>
 				<Leader>
+					<LeaderName>LEADER_SCIPIO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
 					<LeaderName>LEADER_JULIUS_CAESAR</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>

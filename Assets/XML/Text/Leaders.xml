@@ -1262,6 +1262,14 @@
 		<Spanish>Ptolemy</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_LEADER_SCIPIO</Tag>
+		<English>Scipio</English>
+		<French>Scipio</French>
+		<German>Scipio</German>
+		<Italian>Scipio</Italian>
+		<Spanish>Scipio</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_LEADER_</Tag>
 		<English></English>
 		<French></French>

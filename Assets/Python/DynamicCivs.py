@@ -485,7 +485,7 @@ dStartingLeaders = [
 	iPersia : iCyrus,
 	iCarthage : iHiram,
 	iPolynesia : iAhoeitu,
-	iRome : iJuliusCaesar,
+	iRome : iScipio,
 	iCelts : iBrennus,
 	iMaya : iPacal,
 	iJapan : iKammu,
@@ -2127,7 +2127,9 @@ def leader(iPlayer):
 		if capital.getRegionID() not in [rMesopotamia, rAnatolia]: return iHannibal
 		
 	elif iCiv == iRome:
-		if bEmpire or not bCityStates: return iAugustus
+		if not bCityStates: return iAugustus
+		
+		if tPlayer.isHasTech(iGeneralship): return iJuliusCaesar
 		
 	elif iCiv == iKorea:		
 		if iEra >= iRenaissance: return iSejong

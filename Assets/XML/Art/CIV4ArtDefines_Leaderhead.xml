@@ -1150,5 +1150,13 @@
 			<NoShaderNIF>Art/Leaderheads/Ptolemy/Pericles.nif</NoShaderNIF>
 			<BackgroundKFM>Art/Leaderheads/Ptolemy/leader_bg.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SCIPIO</Type>
+			<Button>Art/Leaderheads/Scipio/Btn_Scipio.dds</Button>
+			<NIF>Art/Leaderheads/Scipio/antony.nif</NIF>
+			<KFM>Art/Leaderheads/Scipio/augustus_caesar.kfm</KFM>
+			<NoShaderNIF>Art/Leaderheads/Scipio/antony.nif</NoShaderNIF>
+			<BackgroundKFM>Art/Leaderheads/Scipio/antony_BG.kfm</BackgroundKFM>
+		</LeaderheadArtInfo>
 	</LeaderheadArtInfos>
 </Civ4ArtDefines>

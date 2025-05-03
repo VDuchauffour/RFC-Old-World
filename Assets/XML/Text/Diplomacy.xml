@@ -754,6 +754,70 @@
 		<Spanish>The influence of the [OUR_EMPIRE] and its ruler, the god-king [OUR_NAME], can be seen in every land in this world! I don't think asking for a little gift from the [CT_CIV_SHORT] will be too much, will it? </Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SCIPIO_1</Tag>
+		<English>Hail [CT_NAME], and welcome to the [OUR_EMPIRE]! I am [OUR_NAME], one of the bravest generals ever to walk this earth! Care to sue for peace when you're done shaking in your boots?</English>
+		<French>Hail [CT_NAME], and welcome to the [OUR_EMPIRE]! I am [OUR_NAME], one of the bravest generals ever to walk this earth! Care to sue for peace when you're done shaking in your boots?</French>
+		<German>Hail [CT_NAME], and welcome to the [OUR_EMPIRE]! I am [OUR_NAME], one of the bravest generals ever to walk this earth! Care to sue for peace when you're done shaking in your boots?</German>
+		<Italian>Hail [CT_NAME], and welcome to the [OUR_EMPIRE]! I am [OUR_NAME], one of the bravest generals ever to walk this earth! Care to sue for peace when you're done shaking in your boots?</Italian>
+		<Spanish>Hail [CT_NAME], and welcome to the [OUR_EMPIRE]! I am [OUR_NAME], one of the bravest generals ever to walk this earth! Care to sue for peace when you're done shaking in your boots?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SCIPIO_1</Tag>
+		<English>What are you doing here? Cato's already a beast to deal with and I definitely don't need your assistance!</English>
+		<French>What are you doing here? Cato's already a beast to deal with and I definitely don't need your assistance!</French>
+		<German>What are you doing here? Cato's already a beast to deal with and I definitely don't need your assistance!</German>
+		<Italian>What are you doing here? Cato's already a beast to deal with and I definitely don't need your assistance!</Italian>
+		<Spanish>What are you doing here? Cato's already a beast to deal with and I definitely don't need your assistance!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_SCIPIO_1</Tag>
+		<English>Peace? Sorry, [CT_NAME], but we're not finished decimating the [CT_CIV_ADJ] nuisance yet!</English>
+		<French>Peace? Sorry, [CT_NAME], but we're not finished decimating the [CT_CIV_ADJ] nuisance yet!</French>
+		<German>Peace? Sorry, [CT_NAME], but we're not finished decimating the [CT_CIV_ADJ] nuisance yet!</German>
+		<Italian>Peace? Sorry, [CT_NAME], but we're not finished decimating the [CT_CIV_ADJ] nuisance yet!</Italian>
+		<Spanish>Peace? Sorry, [CT_NAME], but we're not finished decimating the [CT_CIV_ADJ] nuisance yet!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SCIPIO_1</Tag>
+		<English>How do you do, [CT_NAME]? How about we toss the old discus for a while? It's a little game I learned in my overseas campaigns.</English>
+		<French>How do you do, [CT_NAME]? How about we toss the old discus for a while? It's a little game I learned in my overseas campaigns.</French>
+		<German>How do you do, [CT_NAME]? How about we toss the old discus for a while? It's a little game I learned in my overseas campaigns.</German>
+		<Italian>How do you do, [CT_NAME]? How about we toss the old discus for a while? It's a little game I learned in my overseas campaigns.</Italian>
+		<Spanish>How do you do, [CT_NAME]? How about we toss the old discus for a while? It's a little game I learned in my overseas campaigns.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SCIPIO_1</Tag>
+		<English>Now I know why Cato keeps on yammering about destroying you, [CT_NAME]!</English>
+		<French>Now I know why Cato keeps on yammering about destroying you, [CT_NAME]!</French>
+		<German>Now I know why Cato keeps on yammering about destroying you, [CT_NAME]!</German>
+		<Italian>Now I know why Cato keeps on yammering about destroying you, [CT_NAME]!</Italian>
+		<Spanish>Now I know why Cato keeps on yammering about destroying you, [CT_NAME]!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LEADER_SCIPIO_1</Tag>
+		<English>Hello, [CT_NAME]. How about you swear your loyalty to [OUR_CIV_SHORT] or I cut you up with my sword?</English>
+		<French>Hello, [CT_NAME]. How about you swear your loyalty to [OUR_CIV_SHORT] or I cut you up with my sword?</French>
+		<German>Hello, [CT_NAME]. How about you swear your loyalty to [OUR_CIV_SHORT] or I cut you up with my sword?</German>
+		<Italian>Hello, [CT_NAME]. How about you swear your loyalty to [OUR_CIV_SHORT] or I cut you up with my sword?</Italian>
+		<Spanish>Hello, [CT_NAME]. How about you swear your loyalty to [OUR_CIV_SHORT] or I cut you up with my sword?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LEADER_SCIPIO_1</Tag>
+		<English>[CT_NAME], you are growing too powerful for [OUR_CIV_SHORT]. We need to keep your might in check. Give us this now.</English>
+		<French>[CT_NAME], you are growing too powerful for [OUR_CIV_SHORT]. We need to keep your might in check. Give us this now.</French>
+		<German>[CT_NAME], you are growing too powerful for [OUR_CIV_SHORT]. We need to keep your might in check. Give us this now.</German>
+		<Italian>[CT_NAME], you are growing too powerful for [OUR_CIV_SHORT]. We need to keep your might in check. Give us this now.</Italian>
+		<Spanish>[CT_NAME], you are growing too powerful for [OUR_CIV_SHORT]. We need to keep your might in check. Give us this now.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LEADER_SCIPIO_1</Tag>
+		<English>[CT_NAME], it seems you are much weaker than us. Your only reason to exist is to shower [OUR_CIV_SHORT] with vast quantities of tribute. You can start with this.</English>
+		<French>[CT_NAME], it seems you are much weaker than us. Your only reason to exist is to shower [OUR_CIV_SHORT] with vast quantities of tribute. You can start with this.</French>
+		<German>[CT_NAME], it seems you are much weaker than us. Your only reason to exist is to shower [OUR_CIV_SHORT] with vast quantities of tribute. You can start with this.</German>
+		<Italian>[CT_NAME], it seems you are much weaker than us. Your only reason to exist is to shower [OUR_CIV_SHORT] with vast quantities of tribute. You can start with this.</Italian>
+		<Spanish>[CT_NAME], it seems you are much weaker than us. Your only reason to exist is to shower [OUR_CIV_SHORT] with vast quantities of tribute. You can start with this.</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_</Tag>
 		<English></English>
 		<French></French>
