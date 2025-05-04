@@ -13276,7 +13276,7 @@
 			<PrereqReligion>RELIGION_ISLAM</PrereqReligion>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_GEOGRAPHY</PrereqTech>
-			<ObsoleteTech>TECH_GLOBALISM</ObsoleteTech>
+			<ObsoleteTech>TECH_GEOPOLITICS</ObsoleteTech>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
@@ -15429,7 +15429,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_UNITED_NATIONS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_UNITED_NATIONS</MovieDefineTag>
 			<VictoryPrereq>VICTORY_DIPLOMATIC</VictoryPrereq>
-			<PrereqTech>TECH_GLOBALISM</PrereqTech>
+			<PrereqTech>TECH_GEOPOLITICS</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_STATESMAN</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
@@ -15568,7 +15568,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BERLAYMONT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BERLAYMONT</MovieDefineTag>
 			<MaxStartEra>ERA_DIGITAL</MaxStartEra>
-			<PrereqTech>TECH_GLOBALISM</PrereqTech>
+			<PrereqTech>TECH_GEOPOLITICS</PrereqTech>
 			<PrereqCivic>CIVIC_MULTILATERALISM</PrereqCivic>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_STATESMAN</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -15616,7 +15616,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WORLD_TRADE_CENTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WORLD_TRADE_CENTER</MovieDefineTag>
 			<MaxStartEra>ERA_DIGITAL</MaxStartEra>
-			<PrereqTech>TECH_GLOBALISM</PrereqTech>
+			<PrereqTech>TECH_GEOPOLITICS</PrereqTech>
 			<PrereqCivic>CIVIC_FREE_ENTERPRISE</PrereqCivic>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_MERCHANT</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>

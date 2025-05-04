@@ -4513,9 +4513,9 @@
 		</TechInfo>
 
 		<TechInfo>
-			<Type>TECH_GLOBALISM</Type>
-			<Description>TXT_KEY_TECH_GLOBALISM</Description>
-			<Civilopedia>TXT_KEY_TECH_GLOBALISM_PEDIA</Civilopedia>
+			<Type>TECH_GEOPOLITICS</Type>
+			<Description>TXT_KEY_TECH_GEOPOLITICS</Description>
+			<Civilopedia>TXT_KEY_TECH_GEOPOLITICS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>9000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -4551,10 +4551,10 @@
 				<PrereqTech>TECH_MACROECONOMICS</PrereqTech>
 				<PrereqTech>TECH_SOCIAL_SERVICES</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_GLOBALISM_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_GEOPOLITICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP>AS2D_TECH_GENERIC</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Globalization.dds</Button>
+			<Button>Art/Interface/Buttons/TechTree/Geopolitics.dds</Button>
 		</TechInfo>
 
 <!-- #18 -->
@@ -4780,7 +4780,7 @@
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_TELEVISION</PrereqTech>
-				<PrereqTech>TECH_GLOBALISM</PrereqTech>
+				<PrereqTech>TECH_GEOPOLITICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_TOURISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
@@ -4823,7 +4823,7 @@
 				<PrereqTech>TECH_SYNTHETICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_GLOBALISM</PrereqTech>
+				<PrereqTech>TECH_GEOPOLITICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ECOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
