@@ -610,6 +610,7 @@ class CvTopCivs:
 			"TXT_KEY_TOPCIVS_TECH",
 			"TXT_KEY_TOPCIVS_CULTURE",
 			"TXT_KEY_TOPCIVS_SIZE",
+			"TXT_KEY_TOPCIVS_POPULATION",
 		]
 
 		# Randomly choose what category will be used
@@ -685,6 +686,8 @@ class CvTopCivs:
 			typeFunction = CyPlayer.countTotalCulture
 		elif szType == "TXT_KEY_TOPCIVS_SIZE":
 			typeFunction = CyPlayer.getTotalLand
+		elif szType == "TXT_KEY_TOPCIVS_POPULATION":
+			typeFunction = CyPlayer.getTotalPopulation
 			
 		self.topPlayers = players.major().existing().sort(lambda p: typeFunction(player(p)), reverse=True)
 		
