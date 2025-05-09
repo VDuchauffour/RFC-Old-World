@@ -199,7 +199,7 @@ class DefeatedUnits(TrackRequirement):
 		self.handle("combatResult", self.increment_defeated)
 	
 	def increment_defeated(self, goal, unit):
-		if unit.getOwner() in self.lCivs:
+		if unit.getVisualOwner() in self.lCivs:
 			self.increment()
 			goal.check()
 
