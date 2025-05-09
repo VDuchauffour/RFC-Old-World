@@ -3761,6 +3761,22 @@
 		<Spanish>Most Populous</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_STRENGTHS</Tag>
+		<English>Strengths</English>
+		<French>Strengths</French>
+		<German>Strengths</German>
+		<Italian>Strengths</Italian>
+		<Spanish>Strengths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACE_CHALLENGES</Tag>
+		<English>Challenges</English>
+		<French>Challenges</French>
+		<German>Challenges</German>
+		<Italian>Challenges</Italian>
+		<Spanish>Challenges</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_</Tag>
 		<English></English>
 		<French></French>
