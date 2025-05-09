@@ -6492,55 +6492,52 @@ void CvGameTextMgr::parseCivInfos(CvWStringBuffer &szInfoText, CivilizationTypes
 
 		gDLL->getPythonIFace()->callFunction(PYScreensModule, "getHistoricalVictoryDescriptions", historicalVictoryDescriptionsArgs.makeFunctionArgs(), &historicalVictoryDescriptions);
 
-		szText = historicalVictoryDescriptions;
-		szText += NEWLINE L"  ";
+		if (!bDawnOfMan)
+		{
+			szInfoText.append(NEWLINE);
+		}
+
+		szInfoText.append(historicalVictoryDescriptions.GetCString());
 
 		if (bDawnOfMan)
 		{
-			swprintf(szTempString, L"%s", szText.GetCString());
-		}
-		else
-		{
-			swprintf(szTempString, L"%s  %s", NEWLINE, szText.GetCString());
-		}
-		szInfoText.append(szTempString);
+			szInfoText.append(NEWLINE);
 
-		if (bDawnOfMan) swprintf(szTempString, L"%s", szText.GetCString());
-		else swprintf(szTempString, L"%s  %s", NEWLINE, szText.GetCString());
-		
-		szInfoText.append(szTempString);
-
-		// Strengths
-		if (bDawnOfMan)
-		{
-			szText = NEWLINE + gDLL->getText("TXT_KEY_INTERFACE_STRENGTHS");
+			// Significance
+			szText = NEWLINE + gDLL->getText("TXT_KEY_INTERFACE_SIGNIFICANCE");
 			swprintf(szTempString, SETCOLR L"%s: " ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), szText.GetCString());
-		}
-		else
-		{
+			szInfoText.append(szTempString);
+
+			if (GC.getCivilizationInfo(eCivilization).getImpact() == 0)
+			{
+				swprintf(szTempString, L"%c" NEWLINE, gDLL->getSymbolID(SILVER_STAR_CHAR));
+				szInfoText.append(szTempString);
+			}
+			else
+			{
+				for (int iI = 0; iI < GC.getCivilizationInfo(eCivilization).getImpact(); iI++)
+				{
+					swprintf(szTempString, L"%c", gDLL->getSymbolID(STAR_CHAR));
+					szInfoText.append(szTempString);
+				}
+				szInfoText.append(NEWLINE);
+			}
+
+			// Strengths
 			szText = gDLL->getText("TXT_KEY_INTERFACE_STRENGTHS");
-			swprintf(szTempString, NEWLINE SETCOLR L"%s" ENDCOLR NEWLINE, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"), szText.GetCString());
-		}
-		szInfoText.append(szTempString);
+			swprintf(szTempString, SETCOLR L"%s: " ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), szText.GetCString());
+			szInfoText.append(szTempString);
 
-		swprintf(szTempString, L"%s" NEWLINE, gDLL->getText("TXT_KEY_STRENGTHS_" + GC.getCivilizationInfo(eCivilization).getIdentifier()).GetCString());
-		szInfoText.append(szTempString);
+			swprintf(szTempString, L"%s" NEWLINE, gDLL->getText("TXT_KEY_STRENGTHS_" + GC.getCivilizationInfo(eCivilization).getIdentifier()).GetCString());
+			szInfoText.append(szTempString);
 
-		// Challenges
-		if (bDawnOfMan)
-		{
 			szText = gDLL->getText("TXT_KEY_INTERFACE_CHALLENGES");
 			swprintf(szTempString, SETCOLR L"%s: " ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), szText.GetCString());
-		}
-		else
-		{
-			szText = gDLL->getText("TXT_KEY_INTERFACE_CHALLENGES");
-			swprintf(szTempString, NEWLINE SETCOLR L"%s" ENDCOLR NEWLINE, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"), szText.GetCString());
-		}
-		szInfoText.append(szTempString);
+			szInfoText.append(szTempString);
 
-		swprintf(szTempString, L"%s" NEWLINE, gDLL->getText("TXT_KEY_CHALLENGES_" + GC.getCivilizationInfo(eCivilization).getIdentifier()).GetCString());
-		szInfoText.append(szTempString);
+			swprintf(szTempString, L"%s", gDLL->getText("TXT_KEY_CHALLENGES_" + GC.getCivilizationInfo(eCivilization).getIdentifier()).GetCString());
+			szInfoText.append(szTempString);
+		}
 	}
 	else
 	{
