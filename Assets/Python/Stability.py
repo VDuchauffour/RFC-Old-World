@@ -516,13 +516,17 @@ def calculateStability(iPlayer):
 	iAdministration = cities.owner(iPlayer).sum(calculateAdministration) + 10
 	iSeparatism = cities.owner(iPlayer).sum(calculateSeparatism)
 	
+	iRecentConquestTurns = 20
+	if iElective in civics:
+		iRecentConquestTurns = 30
+	
 	for city in cities.owner(iPlayer):
 		iPopulation = city.getPopulation()
 		bHistorical = city.plot().getPlayerSettlerValue(iPlayer) > 0
 		bConquest = city.plot().getPlayerWarValue(iPlayer) > 1
 		
 		# Recent conquests
-		if since(city.getGameTurnAcquired()) <= turns(20):
+		if since(city.getGameTurnAcquired()) <= turns(iRecentConquestTurns):
 			if city.getPreviousCiv() < 0:
 				if bHistorical:
 					iRecentlyFounded += 1
@@ -886,6 +890,11 @@ def calculateStability(iPlayer):
 			
 			debug(pPlayer.getCivilizationAdjective(0) + ' war against ' + pEnemy.getCivilizationShortDescription(0) + '\nWar Success Stability: ' + str(iTempWarSuccessStability) + '\nWar Weariness: ' + str(iTempWarWearinessStability))
 	
+	if iWarSuccessStability > 0:
+		if iElective in civics or iHegemony in civics:
+			iWarSuccessStability *= 2
+			iWarSuccessStability /= 3
+	
 	lParameters[iParameterWarSuccess] = iWarSuccessStability
 	lParameters[iParameterWarWeariness] = iWarWearinessStability
 	
@@ -955,6 +964,7 @@ def getCivicStability(iPlayer, civics=None):
 		
 		if iCurrentEra == iMedieval:
 			if iMonarchy in civics: iStability += 2
+			if iElective in civics: iStability += 3
 			if iManorialism in civics: iStability += 3
 			
 	if iRepublic in civics:
@@ -999,6 +1009,7 @@ def getCivicStability(iPlayer, civics=None):
 		
 	if iElective in civics:
 		if iBureaucracy in civics: iStability -= 5
+		if iMerchantTrade in civics: iStability += 2
 		
 	if iConstitution in civics:
 		if iDemocracy in civics: iStability += 2

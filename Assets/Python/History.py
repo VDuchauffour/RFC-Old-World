@@ -301,7 +301,7 @@ def conquistadors(iTeamX, iHasMetTeamY):
 
 @handler("firstContact")
 def firstContactMongolConquerors(iTeamX, iHasMetTeamY):
-	if not scenarioStartTurn() and civ(iHasMetTeamY) == iMongols and not player(iMongols).isHuman() and since(player(iMongols).getLastBirthTurn()) >= 2:
+	if not scenarioStartTurn() and civ(iHasMetTeamY) == iMongols and civ() != iMongols and since(player(iMongols).getLastBirthTurn()) >= 2:
 		mongolConquerors(iTeamX)
 
 
