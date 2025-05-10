@@ -523,7 +523,21 @@ class CvPediaMain(CvPediaScreen.CvPediaScreen):
 
 
 	def placeTechs(self):
-		self.list = self.getSortedList(gc.getNumTechInfos(), gc.getTechInfo)
+		lTechs = []
+		dTechs = dict((iX, []) for iX in range(23))
+		
+		for iTech in range(gc.getNumTechInfos()):
+			techInfo = gc.getTechInfo(iTech)
+			dTechs[techInfo.getGridX()].append((techInfo.getGridY(), techInfo.getDescription(), iTech))
+		
+		for iX in range(23):
+			if lTechs:
+				lTechs.append(("", -1))
+			
+			for iY, szDescription, iTech in sorted(dTechs[iX]):
+				lTechs.append((szDescription, iTech))
+		
+		self.list = lTechs
 		self.placeItems(WidgetTypes.WIDGET_PEDIA_JUMP_TO_TECH, gc.getTechInfo)
 
 
