@@ -439,28 +439,24 @@
 
 
 	<TEXT>
-		<Tag>TXT_KEY_TECH_AUTOMATION</Tag>
-		<English>Automation</English>
-		<French>
-			<Text>Automatisation</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Automation</German>
-		<Italian>Automation</Italian>
-		<Spanish>Automation</Spanish>
+		<Tag>TXT_KEY_TECH_CYBERNETICS</Tag>
+		<English>Cybernetics</English>
+		<French>Cybernetics</French>
+		<German>Cybernetics</German>
+		<Italian>Cybernetics</Italian>
+		<Spanish>Cybernetics</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_AUTOMATION_QUOTE</Tag>
-		<English>"We are becoming the servants in thought, as in action, of the machine we have created to serve us."[PARAGRAPH:2]- John Kenneth Galbraith, The New Industrial State</English>
-		<French>"Nous devenons les serviteurs, en pens&#233;e comme en action, de la machine que nous avons cr&#233;&#233;e pour nous servir."[PARAGRAPH:2]- John Kenneth Galbraith, Le Nouvel &#201;tat industriel</French>
-		<German>"We are becoming the servants in thought, as in action, of the machine we have created to serve us."[PARAGRAPH:2]- John Kenneth Galbraith, The New Industrial State</German>
-		<Italian>"We are becoming the servants in thought, as in action, of the machine we have created to serve us."[PARAGRAPH:2]- John Kenneth Galbraith, The New Industrial State</Italian>
-		<Spanish>"We are becoming the servants in thought, as in action, of the machine we have created to serve us."[PARAGRAPH:2]- John Kenneth Galbraith, The New Industrial State</Spanish>
+		<Tag>TXT_KEY_TECH_CYBERNETICS_QUOTE</Tag>
+		<English>"The purpose of a system is what it does."[PARAGRAPH:2]- Stafford Beer</English>
+		<French>"The purpose of a system is what it does."[PARAGRAPH:2]- Stafford Beer</French>
+		<German>"The purpose of a system is what it does."[PARAGRAPH:2]- Stafford Beer</German>
+		<Italian>"The purpose of a system is what it does."[PARAGRAPH:2]- Stafford Beer</Italian>
+		<Spanish>"The purpose of a system is what it does."[PARAGRAPH:2]- Stafford Beer</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_AUTOMATION_PEDIA</Tag>
-		<English>Automation is the art of making machines which perform tasks on their own, without active input or oversight from a human operator. Automatic constructs have existed as toys for the rich since ancient times, the products of individual craftsmanship, but widespread use of automation to control machines is a twentieth-century phenomenon.[PARAGRAPH:2]The demand for automation first came from the need to make machinery function where humans cannot or will not; be it in an extremely hostile environment, in a factory where machines ran faster than the human eye can follow, or in a job too menial and unstimulating for the average person to be content doing. Over time, automation has become more popular and flexible, especially with the rise of electronic computers.[PARAGRAPH:2]Automatic equipment invariably saves human labor, but it also displaces labour. The simple tasks involved in doing the machine's job are replaced by specialized jobs tending the machines. Or not replaced at all.</English>
+		<Tag>TXT_KEY_TECH_CYBERNETICS_PEDIA</Tag>
+		<English>Cybernetics is the transdisciplinary study of circular causal processes such as feedback and recursion, where the effects of a system's actions (its outputs) return as inputs to that system, influencing subsequent action. It is concerned with general principles that are relevant across multiple contexts, including in engineering, ecological, economic, biological, cognitive and social systems and also in practical activities such as designing, learning, and managing. Cybernetics' transdisciplinary character has meant that it intersects with a number of other fields, leading to it having both wide influence and diverse interpretations.[PARAGRAPH:2]Early focuses included purposeful behaviour, neural networks, heterarchy, information theory, and self-organising systems. As cybernetics developed, it became broader in scope to include work in design, family therapy, management and organisation, pedagogy, sociology, the creative arts and the counterculture.</English>
 		<French>No Translation</French>
 		<German>No Translation</German>
 		<Italian>No Translation</Italian>

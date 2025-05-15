@@ -5934,7 +5934,7 @@
 			<Strategy>TXT_KEY_BUILDING_AUTOMATED_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AUTOMATED_FACTORY</ArtDefineTag>
-			<PrereqTech>TECH_AUTOMATION</PrereqTech>
+			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
 			<PrereqBonuses>
 				<Bonus>BONUS_RARE_EARTHS</Bonus>
 			</PrereqBonuses>
