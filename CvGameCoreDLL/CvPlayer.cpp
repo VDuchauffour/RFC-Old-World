@@ -6415,9 +6415,17 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 		}
 
 		// Leoreth
-		if (eBuilding == (BuildingTypes)TRAFALGAR_SQUARE)
+		if (eBuilding == TRAFALGAR_SQUARE)
 		{
 			if (getHighestNavalUnitLevel() < 3)
+			{
+				return false;
+			}
+		}
+
+		else if (eBuilding == OLD_SYNAGOGUE)
+		{
+			if (!isHuman() && countReligionCities(JUDAISM) < 3)
 			{
 				return false;
 			}

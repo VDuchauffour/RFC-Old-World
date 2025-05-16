@@ -1931,7 +1931,7 @@ dTechPreferences = {
 
 dDefaultWonderPreferences = {
 	iEgypt: -15,
-	iBabylonia: -40,
+	iBabylonia: -15,
 	iGreece: -15,
 	iIndia: -15,
 	iRome: -20,
@@ -2118,6 +2118,8 @@ dBuildingPreferences = {
 		iBerlaymont: 20,
 		iLargeHadronCollider: 20,
 		iITER: 20,
+		
+		iOldSynagogue: -20,
 	},
 	iMalays : {
 		iGardensByTheBay: 40,
