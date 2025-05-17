@@ -17712,6 +17712,7 @@
 			<Civilopedia>TXT_KEY_UNIT_PORTUGUESE_CARRACK_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_PORTUGUESE_CARRACK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bPillage>1</bPillage>
 			<bRivalTerritory>1</bRivalTerritory>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
