@@ -14786,7 +14786,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_LEVERAGE</PrereqTech>
-			<iCost>45</iCost>
+			<iCost>40</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -14827,7 +14827,7 @@
 			<iCollateralDamage>40</iCollateralDamage>
 			<iCollateralDamageLimit>40</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>2</iCollateralDamageMaxUnits>
-			<iCityAttack>50</iCityAttack>
+			<iCityAttack>75</iCityAttack>
 			<UnitCombatCollateralImmunes>
 				<UnitCombatCollateralImmune>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
