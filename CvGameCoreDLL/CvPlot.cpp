@@ -5449,6 +5449,12 @@ void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotG
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 				pUnitNode = nextUnitNode(pUnitNode);
 
+				// Leoreth: bump out animals
+				if (pLoopUnit->isAnimal())
+				{
+					pLoopUnit->jumpToNearestValidPlot();
+				}
+
 				if (pLoopUnit->getTeam() != getTeam() && (getTeam() == NO_TEAM || !GET_TEAM(getTeam()).isVassal(pLoopUnit->getTeam())))
 				{
 					GET_PLAYER(pLoopUnit->getOwnerINLINE()).changeNumOutsideUnits(1);
