@@ -311,6 +311,10 @@
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>2</iFlavor>
 				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
 			</Flavors>
 			<AndPreReqs>
 				<PrereqTech>TECH_POTTERY</PrereqTech>
