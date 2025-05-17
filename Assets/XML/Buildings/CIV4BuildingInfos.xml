@@ -9848,7 +9848,6 @@
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
-			<FreeBuilding>BUILDINGCLASS_LIGHTHOUSE</FreeBuilding>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_MERCHANT</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
@@ -9860,7 +9859,8 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>15</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
-			<iTradeRoutes>2</iTradeRoutes>
+			<iTradeRouteModifier>100</iTradeRouteModifier>
+			<iTradeRoutes>4</iTradeRoutes>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
