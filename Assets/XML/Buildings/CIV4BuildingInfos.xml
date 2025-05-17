@@ -9779,7 +9779,7 @@
 			<Description>TXT_KEY_BUILDING_TEMPLE_OF_ARTEMIS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TEMPLE_OF_ARTEMIS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TEMPLE_OF_ARTEMIS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE_OF_ARTEMIS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TEMPLE_OF_ARTEMIS</MovieDefineTag>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
@@ -9788,6 +9788,7 @@
 				<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			</TechTypes>
 			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
+			<FreeBuilding>BUILDINGCLASS_HARBOR</FreeBuilding>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_MERCHANT</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
@@ -9799,7 +9800,6 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
-			<iTradeRouteModifier>100</iTradeRouteModifier>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
