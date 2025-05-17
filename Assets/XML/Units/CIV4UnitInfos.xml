@@ -9723,6 +9723,12 @@
 					<bTerrainImpassable>1</bTerrainImpassable>
 				</TerrainImpassable>
 			</TerrainImpassables>
+			<TerrainAttacks>
+				<TerrainAttack>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<iTerrainAttack>25</iTerrainAttack>
+				</TerrainAttack>
+			</TerrainAttacks>
 			<FeatureImpassables>
 				<FeatureImpassable>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -9737,17 +9743,11 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
 			<iCombat>4</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iWithdrawalProb>20</iWithdrawalProb>
+			<iWithdrawalProb>30</iWithdrawalProb>
 			<iPlainsAttack>25</iPlainsAttack>
 			<iPlainsDefense>25</iPlainsDefense>
 			<iCultureGarrison>4</iCultureGarrison>
