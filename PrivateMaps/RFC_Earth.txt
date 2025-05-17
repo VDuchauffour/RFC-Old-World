@@ -34101,6 +34101,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=46
+	BonusType=BONUS_CLAM
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 EndPlot
