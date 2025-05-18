@@ -10938,7 +10938,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_PRAMBANAN_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_PRAMBANAN_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_PRAMBANAN_HELP</Help>
-			<Advisor>ADVISOR_GROWTH</Advisor>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PRAMBANAN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PRAMBANAN</MovieDefineTag>
 			<StateReligion>RELIGION_BUDDHISM</StateReligion>

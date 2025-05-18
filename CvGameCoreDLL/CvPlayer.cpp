@@ -7183,12 +7183,6 @@ void CvPlayer::processBuilding(BuildingTypes eBuilding, int iChange, CvArea* pAr
 		updatePlotGroups();
 	}
 
-	// Prambanan
-	if (eBuilding == PRAMBANAN)
-	{
-		updateYield();
-	}
-
 	// Great Adobe Mosque
 	else if (eBuilding == GREAT_ADOBE_MOSQUE)
 	{

@@ -6895,15 +6895,6 @@ int CvPlot::calculateNatureYield(YieldTypes eYield, TeamTypes eTeam, bool bIgnor
 					}
 				}
 			}
-
-			// Prambanan effect: +1 production on islands
-			if (eTeam != NO_TEAM && GET_PLAYER(GET_TEAM(eTeam).getLeaderID()).isHasBuildingEffect((BuildingTypes)PRAMBANAN))
-			{
-				if (isWater() && eYield == YIELD_PRODUCTION && GC.getFeatureInfo(getFeatureType()).getYieldChange(eYield) > 0)
-				{
-					iYield += 1;
-				}
-			}
 		}
 	}
 

@@ -2395,24 +2395,6 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 		if (iNumWaterTiles < 20) return false;
 	}
 
-	// Leoreth: Prambanan requires islands in city radius
-	if (eBuilding == PRAMBANAN)
-	{
-		bool bFound = false;
-		for (iI = 0; iI < NUM_CITY_PLOTS; iI++)
-		{
-			if (getCityIndexPlot(iI)->getFeatureType() == FEATURE_ISLANDS)
-			{
-				bFound = true;
-			}
-		}
-
-		if (!bFound)
-		{
-			return false;
-		}
-	}
-
 	// Leoreth: Guadalupe Basilica needs to be on different continent than Catholic holy city
 	if (eBuilding == GUADALUPE_BASILICA)
 	{
@@ -4721,6 +4703,12 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 					}
 				}
 			}
+		}
+
+		// Prambanan
+		if (eBuilding == PRAMBANAN)
+		{
+			changeBuildingYieldChange((BuildingClassTypes)GC.getBuildingInfo(eBuilding).getBuildingClassType(), YIELD_PRODUCTION, getBonusGoodHappiness() * iChange);
 		}
 
 		// Louvre
@@ -8389,6 +8377,12 @@ void CvCity::changeBonusGoodHappiness(int iChange)
 		if (isHasBuildingEffect((BuildingTypes)PYRAMIDS))
 		{
 			changeBuildingGreatPeopleRateChange((BuildingClassTypes)GC.getBuildingInfo((BuildingTypes)PYRAMIDS).getBuildingClassType(), iChange);
+		}
+
+		// Leoreth: Prambanan effect
+		if (isHasBuildingEffect((BuildingTypes)PRAMBANAN))
+		{
+			changeBuildingYieldChange((BuildingClassTypes)GC.getBuildingInfo((BuildingTypes)PRAMBANAN).getBuildingClassType(), YIELD_PRODUCTION, iChange);
 		}
 	}
 }
