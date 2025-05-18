@@ -5747,11 +5747,7 @@ int CvCity::happyLevel() const
 	iHappiness += std::max(0, (getExtraHappiness() + GET_PLAYER(getOwnerINLINE()).getExtraHappiness()));
 	iHappiness += std::max(0, GC.getHandicapInfo(getHandicapType()).getHappyBonusByID(getOwner()));
 	iHappiness += std::max(0, getVassalHappiness());
-
-	if (getHappinessTimer() > 0)
-	{
-		iHappiness += GC.getDefineINT("TEMP_HAPPY");
-	}
+	iHappiness += std::max(0, getTempHappiness()); // Leoreth: more than +1 temporary happiness
 
 	// Leoreth: Shalimar Gardens effect
 	if (isHasBuildingEffect((BuildingTypes)SHALIMAR_GARDENS))
@@ -17005,7 +17001,7 @@ void CvCity::applyEvent(EventTypes eEvent, const EventTriggeredData& kTriggeredD
 
 		if (kEvent.getHappyTurns() != 0)
 		{
-			changeHappinessTimer(kEvent.getHappyTurns());
+			changeHappinessTimer(getTurns(kEvent.getHappyTurns())); // Leoreth: scaled by game speed
 		}
 
 		if (kEvent.getFood() != 0 || kEvent.getFoodPercent() != 0)
@@ -19696,4 +19692,11 @@ bool CvCity::rebuild(EraTypes eEra)
 int CvCity::getRegionGroup() const
 {
 	return plot()->getRegionGroup();
+}
+
+int CvCity::getTempHappiness() const
+{
+	int iHappinessTurns = getTurns(GC.getDefineINT("TEMP_HAPPY_TURNS"));
+
+	return (getHappinessTimer() + iHappinessTurns - 1) / iHappinessTurns;
 }

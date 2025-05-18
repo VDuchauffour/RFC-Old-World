@@ -20743,7 +20743,7 @@ void CvPlayer::applyEvent(EventTypes eEvent, int iEventTriggeredId, bool bUpdate
 
 			for (CvCity* pLoopCity = firstCity(&iLoop); NULL != pLoopCity; pLoopCity = nextCity(&iLoop))
 			{
-				pLoopCity->changeHappinessTimer(kEvent.getHappyTurns());
+				pLoopCity->changeHappinessTimer(getTurns(kEvent.getHappyTurns())); // Leoreth: scaled by game speed
 			}
 		}
 

@@ -13484,9 +13484,9 @@ void CvGameTextMgr::setHappyHelp(CvWStringBuffer &szBuffer, CvCity& city)
 			szBuffer.append(NEWLINE);
 		}
 
-		if (city.getHappinessTimer() > 0)
+		iHappy = city.getTempHappiness();
+		if (iHappy > 0)
 		{
-			iHappy = GC.getDefineINT("TEMP_HAPPY");
 			iTotalHappy += iHappy;
 			szBuffer.append(gDLL->getText("TXT_KEY_HAPPY_TEMP", iHappy, city.getHappinessTimer()));
 			szBuffer.append(NEWLINE);
@@ -19360,12 +19360,12 @@ void CvGameTextMgr::setEventHelp(CvWStringBuffer& szBuffer, EventTypes eEvent, i
 		if (kEvent.isCityEffect() || kEvent.isOtherPlayerCityEffect())
 		{
 			szBuffer.append(NEWLINE);
-			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_TEMP_HAPPY_CITY", GC.getDefineINT("TEMP_HAPPY"), kEvent.getHappyTurns(), szCity.GetCString()));
+			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_TEMP_HAPPY_CITY", kEvent.getHappyTurns() / GC.getDefineINT("TEMP_HAPPY_TURNS"), kEvent.getHappyTurns(), szCity.GetCString()));
 		}
 		else
 		{
 			szBuffer.append(NEWLINE);
-			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_TEMP_HAPPY", GC.getDefineINT("TEMP_HAPPY"), kEvent.getHappyTurns()));
+			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_TEMP_HAPPY", kEvent.getHappyTurns() / GC.getDefineINT("TEMP_HAPPY_TURNS"), kEvent.getHappyTurns()));
 		}
 	}
 
