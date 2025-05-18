@@ -1010,7 +1010,10 @@ int CvArea::getEnemyPower(PlayerTypes ePlayer, bool bIncludeMinors) const
 		{
 			if (GET_TEAM(kPlayer.getTeam()).isAtWar(GET_PLAYER(ePlayer).getTeam()))
 			{
-				iPower += kPlayer.getPower();
+				if (getCitiesPerPlayer((PlayerTypes)iI) > 0)
+				{
+					iPower += kPlayer.getPower();
+				}
 			}
 		}
 	}
