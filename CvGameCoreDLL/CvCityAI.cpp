@@ -2432,7 +2432,8 @@ UnitTypes CvCityAI::AI_bestUnit(bool bAsync, AdvisorTypes eIgnoreAdvisor, UnitAI
 		aiUnitAIVal[UNITAI_CITY_DEFENSE] /= 2;
 		break;
 	case ASSYRIA:
-		aiUnitAIVal[UNITAI_ATTACK_CITY] *= 2;
+		aiUnitAIVal[UNITAI_CITY_DEFENSE] /= 2;
+		aiUnitAIVal[UNITAI_ATTACK_CITY] *= 3;
 		aiUnitAIVal[UNITAI_SETTLE] /= 50;
 		break;
 	case NUBIA:

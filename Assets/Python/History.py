@@ -197,6 +197,21 @@ def createSilkRoute():
 			plot.setRouteType(iRouteRoad)
 
 
+### BEGIN PLAYER TURN ###
+
+
+@handler("BeginPlayerTurn")
+def earlyArmies(iGameTurn, iPlayer):
+	if iGameTurn == year(-1200):
+		if not player(iPlayer).isHuman():
+			if civ(iPlayer) == iHittites:
+				createRoleUnit(iPlayer, capital(iPlayer), iShockCity, 2)
+			elif civ(iPlayer) == iAssyria:
+				createRoleUnit(iPlayer, capital(iPlayer), iDefend)
+				createRoleUnit(iPlayer, capital(iPlayer), iCityAttack)
+				createRoleUnit(iPlayer, capital(iPlayer), iSiege)
+
+
 ### FIRST CONTACT ###
 
 @handler("firstContact")

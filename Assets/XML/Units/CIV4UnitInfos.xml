@@ -4358,7 +4358,7 @@
 			<Type>UNIT_ASSYRIAN_AZMARU</Type>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_CITY</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_ASSYRIAN_AZMARU</Description>
 			<Civilopedia>TXT_KEY_UNIT_ASSYRIAN_AZMARU_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_ASSYRIAN_AZMARU_STRATEGY</Strategy>
@@ -4374,6 +4374,10 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
