@@ -1543,7 +1543,7 @@
 			<Description>TXT_KEY_TECH_FEUDALISM</Description>
 			<Civilopedia>TXT_KEY_TECH_FEUDALISM_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>600</iCost>
+			<iCost>700</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1584,7 +1584,7 @@
 			<Description>TXT_KEY_TECH_FORTIFICATION</Description>
 			<Civilopedia>TXT_KEY_TECH_FORTIFICATION_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>500</iCost>
+			<iCost>600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1622,7 +1622,7 @@
 			<Description>TXT_KEY_TECH_MACHINERY</Description>
 			<Civilopedia>TXT_KEY_TECH_MACHINERY_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>550</iCost>
+			<iCost>650</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1662,7 +1662,7 @@
 			<Description>TXT_KEY_TECH_ALCHEMY</Description>
 			<Civilopedia>TXT_KEY_TECH_ALCHEMY_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>550</iCost>
+			<iCost>650</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1701,7 +1701,7 @@
 			<Description>TXT_KEY_TECH_GUILDS</Description>
 			<Civilopedia>TXT_KEY_TECH_GUILDS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>550</iCost>
+			<iCost>650</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1742,7 +1742,7 @@
 			<Description>TXT_KEY_TECH_CIVIL_SERVICE</Description>
 			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>600</iCost>
+			<iCost>700</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1791,7 +1791,7 @@
 			<Description>TXT_KEY_TECH_THEOLOGY</Description>
 			<Civilopedia>TXT_KEY_TECH_THEOLOGY_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>500</iCost>
+			<iCost>600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>28</iAsset>
@@ -1831,7 +1831,7 @@
 			<Description>TXT_KEY_TECH_COMMUNE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMMUNE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>600</iCost>
+			<iCost>750</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -1872,7 +1872,7 @@
 			<Description>TXT_KEY_TECH_CROP_ROTATION</Description>
 			<Civilopedia>TXT_KEY_TECH_CROP_ROTATION_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>600</iCost>
+			<iCost>750</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iFeatureProductionModifier>50</iFeatureProductionModifier>
@@ -1910,7 +1910,7 @@
 			<Description>TXT_KEY_TECH_PAPER</Description>
 			<Civilopedia>TXT_KEY_TECH_PAPER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>700</iCost>
+			<iCost>850</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -1947,7 +1947,7 @@
 			<Description>TXT_KEY_TECH_COMPASS</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPASS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>600</iCost>
+			<iCost>750</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -1983,7 +1983,7 @@
 			<Description>TXT_KEY_TECH_PATRONAGE</Description>
 			<Civilopedia>TXT_KEY_TECH_PATRONAGE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>650</iCost>
+			<iCost>800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -2027,7 +2027,7 @@
 			<Description>TXT_KEY_TECH_EDUCATION</Description>
 			<Civilopedia>TXT_KEY_TECH_EDUCATION_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>650</iCost>
+			<iCost>800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -2060,7 +2060,7 @@
 			<Description>TXT_KEY_TECH_DOCTRINE</Description>
 			<Civilopedia>TXT_KEY_TECH_DOCTRINE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>600</iCost>
+			<iCost>750</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>32</iAsset>
@@ -2098,7 +2098,7 @@
 			<Description>TXT_KEY_TECH_GUNPOWDER</Description>
 			<Civilopedia>TXT_KEY_TECH_GUNPOWDER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>700</iCost>
+			<iCost>900</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2134,7 +2134,7 @@
 			<Description>TXT_KEY_TECH_COMPANIES</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPANIES_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>700</iCost>
+			<iCost>900</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2171,7 +2171,7 @@
 			<Description>TXT_KEY_TECH_FINANCE</Description>
 			<Civilopedia>TXT_KEY_TECH_FINANCE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>700</iCost>
+			<iCost>900</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2207,7 +2207,7 @@
 			<Description>TXT_KEY_TECH_CARTOGRAPHY</Description>
 			<Civilopedia>TXT_KEY_TECH_CARTOGRAPHY_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>800</iCost>
+			<iCost>1000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2246,7 +2246,7 @@
 			<Description>TXT_KEY_TECH_HUMANITIES</Description>
 			<Civilopedia>TXT_KEY_TECH_HUMANITIES_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>800</iCost>
+			<iCost>1000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2290,7 +2290,7 @@
 			<Description>TXT_KEY_TECH_PRINTING</Description>
 			<Civilopedia>TXT_KEY_TECH_PRINTING_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>650</iCost>
+			<iCost>850</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2333,7 +2333,7 @@
 			<Description>TXT_KEY_TECH_JUDICIARY</Description>
 			<Civilopedia>TXT_KEY_TECH_JUDICIARY_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>650</iCost>
+			<iCost>850</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>36</iAsset>
@@ -2373,7 +2373,7 @@
 			<Description>TXT_KEY_TECH_FIREARMS</Description>
 			<Civilopedia>TXT_KEY_TECH_FIREARMS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>1100</iCost>
+			<iCost>1200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2407,7 +2407,7 @@
 			<Description>TXT_KEY_TECH_LOGISTICS</Description>
 			<Civilopedia>TXT_KEY_TECH_LOGISTICS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>1200</iCost>
+			<iCost>1300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2447,7 +2447,7 @@
 			<Description>TXT_KEY_TECH_EXPLORATION</Description>
 			<Civilopedia>TXT_KEY_TECH_EXPLORATION_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>1000</iCost>
+			<iCost>1100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2485,7 +2485,7 @@
 			<Description>TXT_KEY_TECH_OPTICS</Description>
 			<Civilopedia>TXT_KEY_TECH_OPTICS_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>1100</iCost>
+			<iCost>1200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2525,7 +2525,7 @@
 			<Description>TXT_KEY_TECH_ACADEMIA</Description>
 			<Civilopedia>TXT_KEY_TECH_ACADEMIA_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>1200</iCost>
+			<iCost>1300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2566,7 +2566,7 @@
 			<Description>TXT_KEY_TECH_STATECRAFT</Description>
 			<Civilopedia>TXT_KEY_TECH_STATECRAFT_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>1100</iCost>
+			<iCost>1200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
@@ -2610,7 +2610,7 @@
 			<Description>TXT_KEY_TECH_HERITAGE</Description>
 			<Civilopedia>TXT_KEY_TECH_HERITAGE_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>1000</iCost>
+			<iCost>1100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iAsset>40</iAsset>
