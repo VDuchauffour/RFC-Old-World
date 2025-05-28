@@ -229,6 +229,8 @@ def conquistadors(iTeamX, iHasMetTeamY):
 				
 				iNewWorldCiv = civ(iNewWorldPlayer)
 				
+				#breakObserverMode("%s contacted %s" % (name(iOldWorldPlayer), name(iNewWorldPlayer)))
+				
 				if player(iNewWorldCiv).isBirthProtected():
 					data.dFirstContactConquerors[iNewWorldCiv] = True
 					return
