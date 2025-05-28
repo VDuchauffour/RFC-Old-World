@@ -3348,6 +3348,7 @@ public:
 	int getCultureCostModifier() const;		// Leoreth
 	int getAdvancedStartRemoveCost() const;						// Exposed to Python
 	int getTurnDamage() const;						// Exposed to Python
+	int getGlobalWarmingDefense() const; // Leoreth
 // BUG - Global Warming Mod - start
 #ifdef _MOD_GWARM
 	int getWarmingDefense() const;						// Exposed to Python
@@ -3408,11 +3409,7 @@ protected:
 	int m_iCultureCostModifier; // Leoreth
 	int m_iAdvancedStartRemoveCost;
 	int m_iTurnDamage;
-// BUG - Global Warming Mod - start
-#ifdef _MOD_GWARM
-	int m_iWarmingDefense;
-#endif
-// BUG - Global Warming Mod - end
+	int m_iGlobalWarmingDefense; // Leoreth
 	
 	bool m_bNoCoast;				
 	bool m_bNoRiver;					
@@ -3582,6 +3579,8 @@ public:
 
 	int getWorldSoundscapeScriptId() const;
 
+	int getGlobalWarmingTerrainType() const; // Leoreth
+
 	// Arrays
 
 	int getYield(int i) const;				// Exposed to Python
@@ -3595,6 +3594,7 @@ public:
 	const TCHAR* getButton() const;
 
 	bool read(CvXMLLoadUtility* pXML);
+	bool readPass2(CvXMLLoadUtility* pXML);
 
 	//---------------------------------------PROTECTED MEMBER VARIABLES---------------------------------
 protected:
@@ -3614,6 +3614,8 @@ protected:
 	bool m_bFoundFreshWater;
 
 	int m_iWorldSoundscapeScriptId;
+
+	int m_iGlobalWarmingTerrainType; // Leoreth
 
 	// Arrays
 
