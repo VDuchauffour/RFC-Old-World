@@ -1812,7 +1812,7 @@ dTechPreferences = {
 		iFinance: 25,
 		iOptics: 25,
 		iPatronage: 30,
-		iHumanities: 3^0,
+		iHumanities: 30,
 		iAcademia: 25,
 		iFission: 12,
 		
