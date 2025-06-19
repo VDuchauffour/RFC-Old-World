@@ -8204,7 +8204,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=14,y=14
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -8745,7 +8744,6 @@ BeginPlot
 	x=15,y=11
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -8859,7 +8857,6 @@ BeginPlot
 	x=15,y=29
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -9456,7 +9453,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -9478,7 +9474,6 @@ BeginPlot
 	x=16,y=35
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -9515,7 +9510,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=16,y=40
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -9945,7 +9939,6 @@ BeginPlot
 	x=17,y=17
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -10001,7 +9994,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=17,y=26
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -10518,7 +10510,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=18,y=14
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -11040,7 +11031,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=19,y=2
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -11756,7 +11746,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=20,y=19
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -12354,7 +12343,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -12398,7 +12386,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=22
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -12423,7 +12410,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=26
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -12457,7 +12443,6 @@ BeginPlot
 	x=21,y=30
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -12488,7 +12473,6 @@ BeginPlot
 	x=21,y=34
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -12509,7 +12493,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=37
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -12534,7 +12517,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=21,y=40
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -13585,7 +13567,6 @@ BeginPlot
 	x=23,y=19
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -13649,7 +13630,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -14219,7 +14199,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=24,y=25
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -14279,7 +14258,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -14425,7 +14403,6 @@ BeginPlot
 	x=24,y=54
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -14917,7 +14894,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=37
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -14942,7 +14918,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=25,y=40
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -15413,7 +15388,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=26,y=21
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -15454,7 +15428,6 @@ BeginPlot
 	x=26,y=27
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -16100,7 +16073,6 @@ BeginPlot
 	x=27,y=32
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -16862,7 +16834,6 @@ BeginPlot
 	x=28,y=51
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -17268,7 +17239,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=29,y=19
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -17418,7 +17388,6 @@ BeginPlot
 	x=29,y=39
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -17914,7 +17883,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=22
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -17977,7 +17945,6 @@ BeginPlot
 	x=30,y=31
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -18015,7 +17982,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=36
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -18083,7 +18049,6 @@ BeginPlot
 	x=30,y=44
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -18116,7 +18081,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=30,y=48
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -18456,7 +18420,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=31,y=6
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -18816,7 +18779,6 @@ BeginPlot
 	x=31,y=55
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -19401,7 +19363,6 @@ BeginPlot
 	x=32,y=51
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -19784,7 +19745,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=33,y=21
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -19933,7 +19893,6 @@ BeginPlot
 	x=33,y=42
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -19979,7 +19938,6 @@ BeginPlot
 	x=33,y=47
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -21117,7 +21075,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=35,y=36
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -21302,7 +21259,6 @@ BeginPlot
 	x=35,y=57
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -21650,7 +21606,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=22
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -21671,7 +21626,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=36,y=25
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -21777,7 +21731,6 @@ BeginPlot
 	x=36,y=41
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -21827,7 +21780,6 @@ BeginPlot
 	x=36,y=47
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -21853,7 +21805,6 @@ BeginPlot
 	x=36,y=50
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -22531,7 +22482,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=37,y=59
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -23093,7 +23043,6 @@ BeginPlot
 	x=38,y=55
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -23125,7 +23074,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=38,y=59
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -23487,7 +23435,6 @@ BeginPlot
 	x=39,y=25
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -23636,7 +23583,6 @@ BeginPlot
 	x=39,y=47
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -23770,7 +23716,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=39,y=63
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -24024,7 +23969,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=40,y=13
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -24195,7 +24139,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=40,y=41
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -24273,7 +24216,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=40,y=51
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -24333,7 +24275,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -24922,7 +24863,6 @@ BeginPlot
 	x=41,y=55
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -25308,7 +25248,6 @@ BeginPlot
 	x=42,y=24
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -25468,7 +25407,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -25600,7 +25538,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=42,y=65
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -26054,7 +25991,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=43,y=45
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -26158,7 +26094,6 @@ BeginPlot
 	x=43,y=59
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -26503,7 +26438,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=44,y=21
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -26740,7 +26674,6 @@ BeginPlot
 	x=44,y=53
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -26812,7 +26745,6 @@ BeginPlot
 	x=44,y=62
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -26919,7 +26851,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=44,y=79
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -26945,7 +26876,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=44,y=83
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -27275,7 +27205,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=45,y=43
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -27332,7 +27261,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=45,y=50
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -27383,7 +27311,6 @@ BeginPlot
 	x=45,y=56
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -27457,7 +27384,6 @@ BeginPlot
 	x=45,y=65
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -27932,7 +27858,6 @@ BeginPlot
 	x=46,y=46
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28021,7 +27946,6 @@ BeginPlot
 	x=46,y=57
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28335,7 +28259,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=11
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -28380,7 +28303,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=18
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -28399,7 +28321,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=21
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -28428,7 +28349,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=25
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28640,7 +28560,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28693,7 +28612,6 @@ BeginPlot
 	x=47,y=60
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28720,7 +28638,6 @@ BeginPlot
 	x=47,y=63
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28771,7 +28688,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=70
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -28827,7 +28743,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=47,y=78
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -29176,7 +29091,6 @@ BeginPlot
 	x=48,y=41
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -29371,7 +29285,6 @@ BeginPlot
 	x=48,y=66
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -29385,7 +29298,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=48,y=68
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -29856,7 +29768,6 @@ BeginPlot
 	x=49,y=45
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -29912,7 +29823,6 @@ BeginPlot
 	x=49,y=52
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30088,7 +29998,6 @@ BeginPlot
 	x=49,y=74
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30473,7 +30382,6 @@ BeginPlot
 	x=50,y=41
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -30490,7 +30398,6 @@ BeginPlot
 	x=50,y=43
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30548,7 +30455,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -30594,7 +30500,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=50,y=55
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30627,7 +30532,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=50,y=59
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30653,7 +30557,6 @@ BeginPlot
 	x=50,y=62
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30683,7 +30586,6 @@ BeginPlot
 	x=50,y=66
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30775,7 +30677,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=50,y=81
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -30827,7 +30728,6 @@ BeginPlot
 	x=50,y=87
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -31038,7 +30938,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=51,y=29
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -31097,7 +30996,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -31623,7 +31521,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=16
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -31815,7 +31712,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=45
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -31883,7 +31779,6 @@ BeginPlot
 	x=52,y=53
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -32019,7 +31914,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=52,y=71
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -32052,7 +31946,6 @@ BeginPlot
 	x=52,y=76
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -32433,7 +32326,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=53,y=40
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -32611,7 +32503,6 @@ BeginPlot
 	x=53,y=63
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -32970,7 +32861,6 @@ EndPlot
 BeginPlot
 	x=54,y=26
 	BonusType=BONUS_MARBLE
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -32991,7 +32881,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=54,y=29
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -33028,7 +32917,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=54,y=35
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -33211,7 +33099,6 @@ BeginPlot
 	x=54,y=59
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -33303,7 +33190,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=54,y=71
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -33737,7 +33623,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=55,y=45
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -33761,7 +33646,6 @@ BeginPlot
 	x=55,y=48
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -33800,7 +33684,6 @@ BeginPlot
 	x=55,y=52
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -33838,7 +33721,6 @@ BeginPlot
 	x=55,y=56
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -33924,7 +33806,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -34292,7 +34173,6 @@ EndPlot
 BeginPlot
 	x=56,y=29
 	BonusType=BONUS_BANANA
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -34438,7 +34318,6 @@ BeginPlot
 	x=56,y=49
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -34718,7 +34597,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=56,y=87
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -35014,7 +34892,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=57,y=41
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35216,7 +35093,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=57,y=66
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35315,7 +35191,6 @@ BeginPlot
 	x=57,y=80
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35339,7 +35214,6 @@ BeginPlot
 	x=57,y=83
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35615,7 +35489,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=58,y=34
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -35690,7 +35563,6 @@ BeginPlot
 	x=58,y=45
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35746,7 +35618,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=58,y=52
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -35777,7 +35648,6 @@ BeginPlot
 	x=58,y=55
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35810,7 +35680,6 @@ BeginPlot
 	x=58,y=59
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -35844,7 +35713,6 @@ BeginPlot
 	x=58,y=63
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -35916,7 +35784,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=58,y=74
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -35939,7 +35806,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=58,y=77
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -36378,7 +36244,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=59,y=49
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -36426,7 +36291,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=59,y=55
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -36934,7 +36798,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=39
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -37263,7 +37126,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=83
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -37285,7 +37147,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=86
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -37596,7 +37457,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=61,y=43
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -37628,7 +37488,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=61,y=47
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -37740,7 +37599,6 @@ BeginPlot
 	x=61,y=61
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -37765,7 +37623,6 @@ BeginPlot
 	x=61,y=64
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -37791,7 +37648,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=61,y=67
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -37873,7 +37729,6 @@ BeginPlot
 	x=61,y=80
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -38180,7 +38035,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=36
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -38303,7 +38157,6 @@ BeginPlot
 	x=62,y=50
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -38329,7 +38182,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=53
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -38988,7 +38840,6 @@ BeginPlot
 	x=63,y=57
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -39202,7 +39053,6 @@ BeginPlot
 	x=63,y=89
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -39479,7 +39329,6 @@ BeginPlot
 	x=64,y=40
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -39502,7 +39351,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=43
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -39539,7 +39387,6 @@ BeginPlot
 	x=64,y=47
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -40212,7 +40059,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -40297,7 +40143,6 @@ BeginPlot
 	x=65,y=62
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -40342,7 +40187,6 @@ BeginPlot
 	x=65,y=67
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -40738,7 +40582,6 @@ BeginPlot
 	x=66,y=37
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -40803,7 +40646,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=45
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -40840,7 +40682,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=50
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -40864,7 +40705,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=53
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -40915,7 +40755,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -41332,7 +41171,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -41398,7 +41236,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=40
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -41475,7 +41312,6 @@ BeginPlot
 	x=67,y=49
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -41530,7 +41366,6 @@ BeginPlot
 	x=67,y=56
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -41556,7 +41391,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=59
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -41662,7 +41496,6 @@ BeginPlot
 	x=67,y=72
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -42004,7 +41837,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=34
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -42379,7 +42211,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=83
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -42789,7 +42620,6 @@ BeginPlot
 	x=69,y=51
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -43272,7 +43102,6 @@ EndPlot
 BeginPlot
 	x=70,y=29
 	BonusType=BONUS_SILVER
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -43342,7 +43171,6 @@ BeginPlot
 	x=70,y=39
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -43376,7 +43204,6 @@ BeginPlot
 	x=70,y=43
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -43409,7 +43236,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -43427,7 +43253,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -43485,7 +43310,6 @@ BeginPlot
 	x=70,y=56
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -43508,7 +43332,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=70,y=59
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -43531,7 +43354,6 @@ BeginPlot
 	x=70,y=62
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -43556,7 +43378,6 @@ BeginPlot
 	x=70,y=65
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -43578,7 +43399,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=70,y=68
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -44275,7 +44095,6 @@ BeginPlot
 	x=71,y=73
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -44324,7 +44143,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=71,y=79
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -44343,7 +44161,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=71,y=82
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -44642,7 +44459,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=72,y=37
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -44780,7 +44596,6 @@ BeginPlot
 	x=72,y=54
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -45323,7 +45138,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -45370,7 +45184,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=73,y=46
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -45464,7 +45277,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=73,y=58
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -45543,7 +45355,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=73,y=68
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -45766,7 +45577,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=8
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -45997,7 +45807,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=43
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -46062,7 +45871,6 @@ BeginPlot
 	x=74,y=51
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -46153,7 +45961,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -46184,7 +45991,6 @@ BeginPlot
 	x=74,y=65
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -46754,7 +46560,6 @@ BeginPlot
 	x=75,y=54
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -46893,7 +46698,6 @@ BeginPlot
 	x=75,y=71
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -46933,7 +46737,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=75,y=76
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -47243,7 +47046,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=33
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -47263,7 +47065,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=36
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -47294,7 +47095,6 @@ BeginPlot
 	x=76,y=40
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -47363,7 +47163,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=49
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -47601,7 +47400,6 @@ BeginPlot
 	x=76,y=79
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -47877,7 +47675,6 @@ BeginPlot
 	x=77,y=29
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -48002,7 +47799,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -48133,7 +47929,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=77,y=61
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -48175,7 +47970,6 @@ BeginPlot
 	x=77,y=66
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -48726,7 +48520,6 @@ BeginPlot
 	x=78,y=54
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -48897,7 +48690,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=78,y=75
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -48956,7 +48748,6 @@ BeginPlot
 	x=78,y=83
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49234,7 +49025,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=79,y=32
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -49257,7 +49047,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49414,7 +49203,6 @@ BeginPlot
 	x=79,y=57
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49432,7 +49220,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49520,7 +49307,6 @@ BeginPlot
 	x=79,y=70
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49605,7 +49391,6 @@ BeginPlot
 	x=79,y=81
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -49630,7 +49415,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=79,y=84
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -50895,7 +50679,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=81,y=77
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -51224,7 +51007,6 @@ BeginPlot
 	x=82,y=32
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -51359,7 +51141,6 @@ BeginPlot
 	x=82,y=52
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -51403,7 +51184,6 @@ BeginPlot
 	x=82,y=57
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -51517,7 +51297,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=82,y=70
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -51862,7 +51641,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=26
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -52120,7 +51898,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -52200,7 +51977,6 @@ BeginPlot
 	x=83,y=73
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -52258,7 +52034,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=83,y=81
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -52725,7 +52500,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=84,y=56
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -52756,7 +52530,6 @@ BeginPlot
 	x=84,y=60
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -53261,7 +53034,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=37
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -53366,7 +53138,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=53
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -53488,7 +53259,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=68
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -53860,7 +53630,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=86,y=28
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -53890,7 +53659,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -54621,7 +54389,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=87,y=42
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -54650,7 +54417,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=87,y=46
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -55284,7 +55050,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=88,y=44
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -55409,7 +55174,6 @@ BeginPlot
 	x=88,y=60
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -55443,7 +55207,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -55483,7 +55246,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=88,y=69
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -55995,7 +55757,6 @@ BeginPlot
 	x=89,y=52
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -56020,7 +55781,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -56163,7 +55923,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=89,y=73
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -56517,7 +56276,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=33
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -56551,7 +56309,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=90,y=38
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -56871,7 +56628,6 @@ BeginPlot
 	x=90,y=80
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -56928,7 +56684,6 @@ BeginPlot
 	x=90,y=88
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -57118,7 +56873,6 @@ BeginPlot
 	x=91,y=26
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -57143,7 +56897,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=29
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -57372,7 +57125,6 @@ BeginPlot
 	x=91,y=61
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -57393,7 +57145,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=91,y=64
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -57439,7 +57190,6 @@ BeginPlot
 	x=91,y=70
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -57501,7 +57251,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -57697,7 +57446,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=13
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -57735,7 +57483,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=18
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -57919,7 +57666,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=44
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -58000,7 +57746,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=56
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -58211,7 +57956,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=92,y=84
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -58420,7 +58164,6 @@ BeginPlot
 	x=93,y=23
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -58523,7 +58266,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=36
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -58808,7 +58550,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=93,y=74
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -58817,7 +58558,6 @@ BeginPlot
 	x=93,y=75
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -58989,7 +58729,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=8
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	TeamReveal=0,
@@ -59125,7 +58864,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=27
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -59153,7 +58891,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=31
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -59241,7 +58978,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=44
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -59307,7 +59043,6 @@ BeginPlot
 	x=94,y=53
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -59419,7 +59154,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=67
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -59455,7 +59189,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -59464,7 +59197,6 @@ BeginPlot
 	x=94,y=72
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -59517,7 +59249,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=94,y=79
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -59605,7 +59336,6 @@ BeginPlot
 	x=94,y=89
 	isNOfRiver
 	RiverWEDirection=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -59735,7 +59465,6 @@ BeginPlot
 	x=95,y=17
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -59754,7 +59483,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=95,y=20
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -60049,7 +59777,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -60438,7 +60165,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=96,y=23
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -60825,7 +60551,6 @@ BeginPlot
 	x=96,y=75
 	isNOfRiver
 	RiverWEDirection=1
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -60984,7 +60709,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=97,y=3
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=0,
@@ -61148,7 +60872,6 @@ BeginPlot
 	x=97,y=28
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -61204,7 +60927,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=97,y=35
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -61273,7 +60995,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=3
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -61293,7 +61014,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=97,y=48
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -61419,7 +61139,6 @@ BeginPlot
 	x=97,y=64
 	RiverNSDirection=0
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -61459,7 +61178,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=97,y=69
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=0,
@@ -61574,7 +61292,6 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
@@ -61811,7 +61528,6 @@ BeginPlot
 	x=98,y=25
 	RiverNSDirection=2
 	isWOfRiver
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -61858,7 +61574,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=98,y=31
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	TeamReveal=0,
@@ -62161,7 +61876,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=98,y=72
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 	TeamReveal=0,
@@ -62253,7 +61967,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=98,y=84
-	FeatureType=FEATURE_FALLOUT, FeatureVariety=0
 	TerrainType=TERRAIN_TUNDRA
 	PlotType=2
 	TeamReveal=0,
