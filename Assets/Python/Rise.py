@@ -494,8 +494,8 @@ class Birth(object):
 				plot.resetBirthProtected()
 				
 	def assignAdditionalTechs(self):
-		if self.iCiv == iChina and scenario() == i3000BC and not self.isHuman():
-			self.team.setHasTech(iAlloys, True, self.iPlayer, False, False)
+		# if self.iCiv == iChina and scenario() == i3000BC and not self.isHuman():
+		# 	self.team.setHasTech(iAlloys, True, self.iPlayer, False, False)
 	
 	def assignAttributes(self):
 		# civilization attributes

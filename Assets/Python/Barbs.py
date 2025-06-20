@@ -21,7 +21,7 @@ tMinorCities = (
 (-300, (105, 49), iBarbarian, 'Simiyan hoton', 2, iChariot, 2),	# Shenyang
 (-300, (53, 48), iCelts, 'Burdigala', 2, -1, -1),			# Bordeaux
 (-300, (91, 31), iIndependent, 'Tanjapuri', 1, iWarElephant, 1),	# Thanjavur
-(-250, (19, 35), iNative, 'Danibaan', 2, iHolkan, 1),	# Monte Albán
+(-250, (19, 35), iNative, 'Danibaan', 2, iHolkan, 1),	# Monte Albï¿½n
 (-190, (77, 44), iIndependent2, 'Artashat', 1, -1, -1),			# Artaxata
 (-100, (95, 47), iBarbarian, 'Dunhuang', 2, iArcher, 1),		# Dunhuang
 (100, (18, 37), iBarbarian, 'Tolan', 2, iJaguar, 2),		# Teotihuacan
@@ -35,7 +35,7 @@ tMinorCities = (
 (700, (30, 20), iNative, 'Tiwanaku', 1, -1, -1),			# Tihuanaco
 (800, tVienna, iIndependent, 'Vindobona', 1, iCrossbowman, 1),	# Wien
 (830, (59, 54), iIndependent, 'Hamburg', 2, iCrossbowman, 1),	# Hamburg
-(830, (60, 54), iIndependent, 'L&#252;beck', 2, iCrossbowman, 1),	# Lübeck
+(830, (60, 54), iIndependent, 'L&#252;beck', 2, iCrossbowman, 1),	# Lï¿½beck
 (866, (101, 37), iBarbarian, 'Dai La', 2, -1, -1),			# Hanoi
 (880, (65, 48), iIndependent2, 'Buda', 3, iHorseArcher, 5),		# Budapest
 (900, (24, 26), iNative, 'Tucume', 1, iArcher, 2),			# Tucume
@@ -220,8 +220,8 @@ def spawnBarbarians(iGameTurn):
 	if year().between(-210, 50):
 		checkSpawn(iBarbarian, iCamelRider, 1, (54, 31), (67, 35), spawnNomads, iGameTurn, 9-iHandicap, 3, ["TXT_KEY_ADJECTIVE_BERBER"])
 	elif year().between(50, 900):
-		if scenario() == i3000BC:  #late start condition
-			checkSpawn(iBarbarian, iCamelRider, 1 + iHandicap, (54, 31), (67, 35), spawnNomads, iGameTurn, 10-iHandicap, 5, ["TXT_KEY_ADJECTIVE_BERBER"])
+		# if scenario() == i3000BC:  #late start condition
+		# 	checkSpawn(iBarbarian, iCamelRider, 1 + iHandicap, (54, 31), (67, 35), spawnNomads, iGameTurn, 10-iHandicap, 5, ["TXT_KEY_ADJECTIVE_BERBER"])
 	elif year().between(900, 1800):
 		checkSpawn(iBarbarian, iCamelArcher, 1, (54, 27), (67, 35), spawnNomads, iGameTurn, 10-iHandicap, 4, ["TXT_KEY_ADJECTIVE_BERBER"])
 		
@@ -230,13 +230,13 @@ def spawnBarbarians(iGameTurn):
 		checkSpawn(iBarbarian, iCamelArcher, 1, (73, 30), (82, 36), spawnNomads, iGameTurn, 9-iHandicap, 7, ["TXT_KEY_ADJECTIVE_BEDOUIN"])
 	if year().between(-800, 1300) and includesActiveHuman(iEgypt, iArabia):
 		iNumUnits = iHandicap
-		if scenario() == i3000BC: iNumUnits += 1
+		# if scenario() == i3000BC: iNumUnits += 1
 		checkSpawn(iBarbarian, iMedjay, iNumUnits, (66, 28), (71, 34), spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
-	if year().between(450, 1900):
-		if scenario() == i3000BC:
-			checkSpawn(iNative, iNativeRaider, 2 + iHandicap, (60, 10), (72, 27), spawnNatives, iGameTurn, 10, 4)
-		else:
-			checkSpawn(iNative, iNativeRaider, 2 + iHandicap, (60, 10), (72, 27), spawnNatives, iGameTurn, 15, 4)
+	# if year().between(450, 1900):
+		# if scenario() == i3000BC:
+		# 	checkSpawn(iNative, iNativeRaider, 2 + iHandicap, (60, 10), (72, 27), spawnNatives, iGameTurn, 10, 4)
+		# else:
+		# 	checkSpawn(iNative, iNativeRaider, 2 + iHandicap, (60, 10), (72, 27), spawnNatives, iGameTurn, 15, 4)
 	elif year().between(1600, 1800):
 		checkSpawn(iNative, iPombos, 2 + iHandicap, (60, 10), (72, 27), spawnNatives, iGameTurn, 10, 4)
 		
@@ -253,10 +253,10 @@ def spawnBarbarians(iGameTurn):
 	#American natives
 	if year().between(600, 1100):
 		checkSpawn(iNative, iDogSoldier, 1 + iHandicap, (15, 38), (24, 47), spawnNatives, iGameTurn, 20, 0)
-		if scenario() == i3000BC:  #late start condition
-			checkSpawn(iNative, iJaguar, 3, (15, 38), (24, 47), spawnNatives, iGameTurn, 16 - 2*iHandicap, 10)
-		else:  #late start condition
-			checkSpawn(iNative, iJaguar, 2, (15, 38), (24, 47), spawnNatives, iGameTurn, 16 - 2*iHandicap, 10)
+		# if scenario() == i3000BC:  #late start condition
+		# 	checkSpawn(iNative, iJaguar, 3, (15, 38), (24, 47), spawnNatives, iGameTurn, 16 - 2*iHandicap, 10)
+		# else:  #late start condition
+		# 	checkSpawn(iNative, iJaguar, 2, (15, 38), (24, 47), spawnNatives, iGameTurn, 16 - 2*iHandicap, 10)
 	if year().between(1300, 1600):
 		checkSpawn(iNative, iDogSoldier, 2 + iHandicap, (15, 38), (24, 47), spawnNatives, iGameTurn, 8, 0)
 	if year().between(1400, 1800):
@@ -320,7 +320,7 @@ def foundMinorCities(iGameTurn):
 		bForceSpawn = False
 		
 		if sName == 'Kyiv': lReligions = [iOrthodoxy]
-		if iCiv == iCelts and scenario() != i3000BC: iCiv = civ(players.independent().random())
+		# if iCiv == iCelts and scenario() != i3000BC: iCiv = civ(players.independent().random())
 		if sName == 'Buda': bForceSpawn = True
 		if sName == 'Muqdisho': lReligions = [iIslam]
 		if sName in ['Hamburg', 'L&#252;beck']: bForceSpawn = True

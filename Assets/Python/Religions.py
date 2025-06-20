@@ -206,8 +206,8 @@ def spreadIslamIndonesia():
 
 @handler("techAcquired")
 def checkReformation(iTech, iTeam, iPlayer):
-	if scenario() == i1700AD:
-		return
+	# if scenario() == i1700AD:
+	# 	return
 
 	if iTech == iAcademia:
 		if player(iPlayer).getStateReligion() == iCatholicism:
@@ -219,8 +219,8 @@ def checkReformation(iTech, iTeam, iPlayer):
 
 @handler("firstCity")
 def checkReformationOnSpawn(city):
-	if scenario() == i1700AD:
-		return
+	# if scenario() == i1700AD:
+	# 	return
 	
 	if not game.isReligionFounded(iProtestantism):
 		if player(city.getOwner()).getStateReligion() == iCatholicism:
@@ -231,8 +231,8 @@ def checkReformationOnSpawn(city):
 
 @handler("techAcquired")
 def lateReligionFounding(iTech):
-	if scenario() == i1700AD:
-		return
+	# if scenario() == i1700AD:
+	# 	return
 				
 	for iReligion in range(iNumReligions):
 		checkLateReligionFounding(iReligion, iTech)

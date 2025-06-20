@@ -2855,13 +2855,13 @@ class TestHasCivic(TestCase):
 class TestScenarioUtils(TestCase):
 
 	def test_scenario(self):
-		self.assertEqual(scenario(), i3000BC)
+		self.assertEqual(scenario(), i500AD)
 		
 	def test_scenario_start_turn(self):
 		self.assertEqual(scenarioStartTurn(), 0)
 		
 	def test_scenario_start_year(self):
-		self.assertEqual(scenarioStartYear(), -3000)
+		self.assertEqual(scenarioStartYear(), 500)
 		
 		
 class TestUniqueUnitsAndBuildings(TestCase):

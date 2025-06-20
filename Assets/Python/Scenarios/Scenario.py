@@ -10,7 +10,7 @@ from Civilizations import *
 from Parsers import *
 
 
-START_HISTORY = -3000
+START_HISTORY = 500
 
 LEADER_DATES = {
 	iDjoser: -2700,
@@ -445,7 +445,7 @@ class Scenario(object):
 		self.updatePeriods()
 		self.createStartingUnits()
 		
-		self.greatWall.apply()
+		# self.greatWall.apply()
 		self.adjustTerritories()
 		
 		self.adjustReligions()
