@@ -1,286 +1,27 @@
+Platy Builder
 Version=11
+
 BeginGame
-	Era=ERA_ANCIENT
-	Speed=GAMESPEED_NORMAL
 	Calendar=CALENDAR_DEFAULT
-	Victory=VICTORY_TIME
-	Victory=VICTORY_CONQUEST
-	Victory=VICTORY_DOMINATION
-	Victory=VICTORY_CULTURAL
+	Option=GAMEOPTION_AGGRESSIVE_AI
+	Option=GAMEOPTION_NO_TECH_BROKERING
 	GameTurn=0
-	MaxTurns=500
-	MaxCityElimination=0
-	NumAdvancedStartPoints=720
-	TargetScore=0
-	StartYear=-4000
-	Description=
-	ModPath=
+	StartYear=500
+	Description=TXT_KEY_RHYES_WB_DESC
+	ModPath=Mods\RFC Old World
 EndGame
-BeginTeam
-	TeamID=0
-	ContactWithTeam=0
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=1
-	ContactWithTeam=1
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=2
-	ContactWithTeam=2
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=3
-	ContactWithTeam=3
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=4
-	ContactWithTeam=4
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=5
-	ContactWithTeam=5
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=6
-	ContactWithTeam=6
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=7
-	ContactWithTeam=7
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=8
-	ContactWithTeam=8
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=9
-	ContactWithTeam=9
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=10
-	ContactWithTeam=10
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=11
-	ContactWithTeam=11
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=12
-	ContactWithTeam=12
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=13
-	ContactWithTeam=13
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=14
-	ContactWithTeam=14
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=15
-	ContactWithTeam=15
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=16
-	ContactWithTeam=16
-	RevealMap=0
-EndTeam
-BeginTeam
-	TeamID=17
-	ContactWithTeam=17
-	RevealMap=0
-EndTeam
-BeginPlayer
-	Team=0
-	LeaderType=LEADER_LOUIS_XIV
-	LeaderName=Nikas Kunitz
-	CivDesc=TXT_KEY_CIV_FRANCE_DESC
-	CivShortDesc=TXT_KEY_CIV_FRANCE_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_FRANCE_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_FleurDeLis.dds
-	WhiteFlag=0
-	CivType=CIVILIZATION_FRANCE
-	Color=PLAYERCOLOR_DARK_BLUE
-	ArtStyle=ARTSTYLE_EUROPEAN
-	PlayableCiv=1
-	MinorNationStatus=0
-	StartingGold=0
-	StartingX=0, StartingY=0
-	StateReligion=
-	StartingEra=ERA_ANCIENT
-	RandomStartLocation=false
-	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
-	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
-	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
-	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=1
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=2
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=3
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=4
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=5
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=6
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=7
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=8
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=9
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=10
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=11
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=12
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=13
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=14
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=15
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=16
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
-BeginPlayer
-	Team=17
-	LeaderType=NONE
-	CivType=NONE
-	Color=NONE
-	ArtStyle=NONE
-	Handicap=HANDICAP_NOBLE
-EndPlayer
+
 BeginMap
 	grid width=100
 	grid height=92
 	top latitude=64
 	bottom latitude=1
-	wrap X=0
+	wrap X=1
 	wrap Y=0
 	world size=WORLDSIZE_HUGE
 	climate=CLIMATE_TEMPERATE
 	sealevel=SEALEVEL_MEDIUM
 	num plots written=9200
-	num signs written=0
-	Randomize Resources=false
 EndMap
 
 ### Plot Info ###
@@ -62638,5 +62379,3 @@ BeginPlot
 	PlotType=2
 	TeamReveal=0,
 EndPlot
-
-### Sign Info ###
