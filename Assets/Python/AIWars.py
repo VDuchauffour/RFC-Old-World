@@ -111,7 +111,7 @@ lConquests = [
 
 @handler("GameStart")
 def setup():
-	iTurn = year(-1200)
+	iTurn = year(525)
 	# if scenario() == i600AD:  #late start condition
 	# 	iTurn = year(900)
 	# elif scenario() == i1700AD:
