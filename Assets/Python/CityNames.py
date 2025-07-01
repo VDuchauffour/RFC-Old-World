@@ -218,7 +218,9 @@ def updateName(city, bFound=False):
 def getName(identifier, tile):
 	iCiv = civ(identifier)
 
-	name = city_names[tile]
+	# name = city_names[tile]
+	# TODO
+	name = "test"
 	
 	name = data.dChangedCities.get(name, name)
 	name = data.dRenamedCities.get(name, name)
