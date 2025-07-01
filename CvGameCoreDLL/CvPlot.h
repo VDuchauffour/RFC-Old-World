@@ -663,7 +663,7 @@ protected:
 	byte* m_aiSettlerValue;
 	byte* m_aiWarValue;
 	byte* m_aiReligionSpreadFactor;
-	byte m_iRegionID;
+	int m_iRegionID;
 
 	// Leoreth
 	byte m_bWithinGreatWall;
