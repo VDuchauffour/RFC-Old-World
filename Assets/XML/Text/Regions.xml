@@ -227,15 +227,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_18</Tag>
-		<English>Norrl&#228;nd</English>
+		<English>Norrland</English>
 		<French>
-			<Text>Norrl&#228;nd</Text>
+			<Text>Norrland</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Norrl&#228;nd</German>
-		<Italian>Norrl&#228;nd</Italian>
-		<Spanish>Norrl&#228;nd</Spanish>
+		<German>Norrland</German>
+		<Italian>Norrland</Italian>
+		<Spanish>Norrland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_19</Tag>
@@ -1061,7 +1061,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>M&#228;hren</German>
+		<German>Mahren</German>
 		<Italian>Moravia</Italian>
 		<Spanish>Moravia</Spanish>
 	</TEXT>
@@ -1277,7 +1277,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Steiermark-K&#228;rnten</German>
+		<German>Steiermark-Karnten</German>
 		<Italian>Styria-Carinthia</Italian>
 		<Spanish>Styria-Carinthia</Spanish>
 	</TEXT>
@@ -1457,7 +1457,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>&#196;g&#228;ische Inseln</German>
+		<German>&#196;gaische Inseln</German>
 		<Italian>Aegean Islands</Italian>
 		<Spanish>Aegean Islands</Spanish>
 	</TEXT>
@@ -1757,7 +1757,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pal&#228;stina</German>
+		<German>Palastina</German>
 		<Italian>Palestine</Italian>
 		<Spanish>Palestine</Spanish>
 	</TEXT>
@@ -1793,7 +1793,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Unter&#228;gypten</German>
+		<German>Unteragypten</German>
 		<Italian>Lower Egypt</Italian>
 		<Spanish>Lower Egypt</Spanish>
 	</TEXT>
@@ -1805,7 +1805,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Ober&#228;gypten</German>
+		<German>Oberagypten</German>
 		<Italian>Upper Egypt</Italian>
 		<Spanish>Upper Egypt</Spanish>
 	</TEXT>
@@ -2833,11 +2833,11 @@
 		<Tag>TXT_KEY_REGION_235</Tag>
 		<English>Lake of Vaenern</English>
 		<French>
-			<Text>Lac de V&#228;nern</Text>
+			<Text>Lac de Vanern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>V&#228;nern-See</German>
+		<German>Vanern-See</German>
 		<Italian>Lago di Vaenern</Italian>
 		<Spanish>Lago de Vaenern</Spanish>
 	</TEXT>
@@ -2845,11 +2845,11 @@
 		<Tag>TXT_KEY_REGION_236</Tag>
 		<English>Lake of Vaettern</English>
 		<French>
-			<Text>Lac de V&#228;ttern</Text>
+			<Text>Lac de Vattern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>V&#228;ttern-See</German>
+		<German>Vattern-See</German>
 		<Italian>Lago di Vaettern</Italian>
 		<Spanish>Lago de Vaettern</Spanish>
 	</TEXT>
@@ -2857,11 +2857,11 @@
 		<Tag>TXT_KEY_REGION_237</Tag>
 		<English>Lake of Hjaelmaren</English>
 		<French>
-			<Text>Lac de Hj&#228;lmaren</Text>
+			<Text>Lac de Hjalmaren</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Hj&#228;lmaren-See</German>
+		<German>Hjalmaren-See</German>
 		<Italian>Lago di Hjaelmaren</Italian>
 		<Spanish>Lago de Hjaelmaren</Spanish>
 	</TEXT>
@@ -2869,11 +2869,11 @@
 		<Tag>TXT_KEY_REGION_238</Tag>
 		<English>Lake of Maerlaen</English>
 		<French>
-			<Text>Lac de M&#228;laren</Text>
+			<Text>Lac de Malaren</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>M&#228;laren-See</German>
+		<German>Malaren-See</German>
 		<Italian>Lago di Maerlaen</Italian>
 		<Spanish>Lago de Maerlaen</Spanish>
 	</TEXT>
@@ -2881,11 +2881,11 @@
 		<Tag>TXT_KEY_REGION_239</Tag>
 		<English>Lake of Pyhajarvi</English>
 		<French>
-			<Text>Lac de Pyh&#228;j&#228;rvi</Text>
+			<Text>Lac de Pyhajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pyh&#228;j&#228;rvi-See</German>
+		<German>Pyhajarvi-See</German>
 		<Italian>Lago di Pyhajarvi</Italian>
 		<Spanish>Lago de Pyhajarvi</Spanish>
 	</TEXT>
@@ -2893,11 +2893,11 @@
 		<Tag>TXT_KEY_REGION_240</Tag>
 		<English>Lake of Lohjanjarvi</English>
 		<French>
-			<Text>Lac de Lohjan&#228;rvi</Text>
+			<Text>Lac de Lohjanarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lohjan&#228;rvi-See</German>
+		<German>Lohjanarvi-See</German>
 		<Italian>Lago di Lohjanjarvi</Italian>
 		<Spanish>Lago de Lohjanjarvi</Spanish>
 	</TEXT>
@@ -2905,11 +2905,11 @@
 		<Tag>TXT_KEY_REGION_241</Tag>
 		<English>Lake of Lappajarvi</English>
 		<French>
-			<Text>Lac de Lappaj&#228;rvi</Text>
+			<Text>Lac de Lappajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lappaj&#228;rvi-See</German>
+		<German>Lappajarvi-See</German>
 		<Italian>Lago di Lappajarvi</Italian>
 		<Spanish>Lago de Lappajarvi</Spanish>
 	</TEXT>
@@ -2917,11 +2917,11 @@
 		<Tag>TXT_KEY_REGION_242</Tag>
 		<English>Lake of Nasijarvi</English>
 		<French>
-			<Text>Lac de N&#228;sij&#228;rvi</Text>
+			<Text>Lac de Nasijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>N&#228;sij&#228;rvi-See</German>
+		<German>Nasijarvi-See</German>
 		<Italian>Lago di Nasijarvi</Italian>
 		<Spanish>Lago de Nasijarvi</Spanish>
 	</TEXT>
@@ -2941,11 +2941,11 @@
 		<Tag>TXT_KEY_REGION_244</Tag>
 		<English>Lake of Paijanne</English>
 		<French>
-			<Text>Lac de P&#228;ij&#228;nne</Text>
+			<Text>Lac de Paijanne</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>P&#228;ij&#228;nne-See</German>
+		<German>Paijanne-See</German>
 		<Italian>Lago di Paijanne</Italian>
 		<Spanish>Lago de Paijanne</Spanish>
 	</TEXT>
@@ -3013,11 +3013,11 @@
 		<Tag>TXT_KEY_REGION_250</Tag>
 		<English>Lake of Vuohijarvi</English>
 		<French>
-			<Text>Lac de Vuohij&#228;rvi</Text>
+			<Text>Lac de Vuohijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Vuohij&#228;rvi-See</German>
+		<German>Vuohijarvi-See</German>
 		<Italian>Lago di Vuohijarvi</Italian>
 		<Spanish>Lago de Vuohijarvi</Spanish>
 	</TEXT>
@@ -3061,11 +3061,11 @@
 		<Tag>TXT_KEY_REGION_254</Tag>
 		<English>Lake of Viinijarvi</English>
 		<French>
-			<Text>Lac de Viinij&#228;rvi</Text>
+			<Text>Lac de Viinijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Viinij&#228;rvi-See</German>
+		<German>Viinijarvi-See</German>
 		<Italian>Lago di Viinijarvi</Italian>
 		<Spanish>Lago de Viinijarvi</Spanish>
 	</TEXT>
@@ -3085,11 +3085,11 @@
 		<Tag>TXT_KEY_REGION_256</Tag>
 		<English>Lake of Hoytiainen</English>
 		<French>
-			<Text>Lac de H&#246;yti&#228;inen</Text>
+			<Text>Lac de H&#246;ytiainen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>H&#246;yti&#228;inen-See</German>
+		<German>H&#246;ytiainen-See</German>
 		<Italian>Lago di Hoytiainen</Italian>
 		<Spanish>Lago de Hoytiainen</Spanish>
 	</TEXT>
@@ -3289,11 +3289,11 @@
 		<Tag>TXT_KEY_REGION_273</Tag>
 		<English>Lake of Vortsjarvi</English>
 		<French>
-			<Text>Lac de V&#245;rtsj&#228;rv</Text>
+			<Text>Lac de V&#245;rtsjarv</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>V&#245;rtsj&#228;rv-See</German>
+		<German>V&#245;rtsjarv-See</German>
 		<Italian>Lago di Vortsjarvi</Italian>
 		<Spanish>Lago de Vortsjarvi</Spanish>
 	</TEXT>
@@ -3810,7 +3810,7 @@
 		<Tag>TXT_KEY_UHV_AREA_20</Tag>
 		<English>Ethiopia and Subequatorial Africa</English>
 		<French>&#201;thiopie et Afrique sub&#233;quatoriale</French>
-		<German>&#196;thiopien und Sub&#228;quatorialafrika</German>
+		<German>&#196;thiopien und Subaquatorialafrika</German>
 		<Italian>Ethiopia and Subequatorial Africa</Italian>
 		<Spanish>Ethiopia and Subequatorial Africa</Spanish>
 	</TEXT>
