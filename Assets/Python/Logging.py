@@ -11,6 +11,7 @@ TECH_LOG = "Tech.log"
 RELATIONS_LOG = "Relations.log"
 CIVICS_LOG = "Civics.log"
 GW_LOG = "GlobalWarming.log"
+DEBUG_LOG = "Debug.log"
 
 TIMER = None
 TECHS = None
@@ -249,3 +250,6 @@ def civics(message, *format):
 
 def global_warming(message, *format):
 	log(GW_LOG, message, *format)
+
+def debug(message, *format):
+	log(DEBUG_LOG, message, *format)
