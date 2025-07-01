@@ -307,11 +307,3 @@ class Lake(IntEnum):
     SALT_CHOTT_EL_HODNA = 293
     SALT_CHOTT_MELGHIR = 294
     SALT_CHOTT_EL_DEJRID = 295
-
-
-# verifier si lake/sea (ie region => 100 dans doc) a pas comportement special dans code
-# ajouter enum cpp
-# ajouter TXT regions
-
-# voir pk 2 peaks dans DOC
-# pour religion, penser a periphery
