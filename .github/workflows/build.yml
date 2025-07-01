@@ -1,0 +1,68 @@
+name: Build CvGameCoreDLL
+
+on:
+  push:
+    paths:
+      - "CvGameCoreDLL/**"
+  pull_request:
+    paths:
+      - "CvGameCoreDLL/**"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Visual C++ Toolkit 2003
+        shell: powershell
+        run: |
+          # Download and install Visual C++ Toolkit 2003
+          Invoke-WebRequest http://kael.civfanatics.net/files/VCToolkitSetup.exe -OutFile $env:TEMP\VCToolkitSetup.exe
+          & $env:TEMP\VCToolkitSetup.exe /s /v"/qb"
+          Start-Sleep -s 120
+
+          # Download required library files
+          Invoke-WebRequest http://kael.civfanatics.net/files/msvcrt.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcrt.lib"
+          Invoke-WebRequest http://kael.civfanatics.net/files/msvcrtd.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcrtd.lib"
+          Invoke-WebRequest http://kael.civfanatics.net/files/msvcprt.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcprt.lib"
+
+      - name: Build project
+        shell: cmd
+        run: |
+          msbuild CvGameCoreDLL/CvGameCoreDLL.vcxproj /p:Configuration=Release /verbosity:minimal
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: CvGameCoreDLL
+          path: Assets/CvGameCoreDLL.dll
+
+      - name: Comment on PR (success)
+        if: success() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ Build succeeded! CvGameCoreDLL.dll has been built successfully.'
+            })
+
+      - name: Comment on PR (failure)
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Build failed! Please check the logs for more details.'
+            })
