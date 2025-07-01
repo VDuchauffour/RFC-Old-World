@@ -22,15 +22,48 @@ jobs:
       - name: Setup Visual C++ Toolkit 2003
         shell: powershell
         run: |
-          # Download and install Visual C++ Toolkit 2003
-          Invoke-WebRequest http://kael.civfanatics.net/files/VCToolkitSetup.exe -OutFile $env:TEMP\VCToolkitSetup.exe
-          & $env:TEMP\VCToolkitSetup.exe /s /v"/qb"
-          Start-Sleep -s 120
+          # Download Visual C++ Toolkit 2003 with better error handling
+          $setupFile = "$env:TEMP\VCToolkitSetup.exe"
+          Write-Host "Downloading Visual C++ Toolkit setup..."
 
-          # Download required library files
-          Invoke-WebRequest http://kael.civfanatics.net/files/msvcrt.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcrt.lib"
-          Invoke-WebRequest http://kael.civfanatics.net/files/msvcrtd.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcrtd.lib"
-          Invoke-WebRequest http://kael.civfanatics.net/files/msvcprt.lib -OutFile "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib\msvcprt.lib"
+          try {
+            Invoke-WebRequest -Uri "http://kael.civfanatics.net/files/VCToolkitSetup.exe" -OutFile $setupFile -UseBasicParsing
+            
+            # Verify the file was downloaded and has content
+            if (Test-Path $setupFile) {
+              $fileSize = (Get-Item $setupFile).length
+              Write-Host "Downloaded file size: $fileSize bytes"
+              
+              if ($fileSize -gt 0) {
+                Write-Host "Installing Visual C++ Toolkit..."
+                & $setupFile /s /v"/qb"
+                Start-Sleep -s 120
+                
+                # Create lib directory if it doesn't exist
+                $libDir = "C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\lib"
+                if (-not (Test-Path $libDir)) {
+                  New-Item -ItemType Directory -Path $libDir -Force
+                }
+                
+                # Download required library files
+                Write-Host "Downloading library files..."
+                Invoke-WebRequest -Uri "http://kael.civfanatics.net/files/msvcrt.lib" -OutFile "$libDir\msvcrt.lib" -UseBasicParsing
+                Invoke-WebRequest -Uri "http://kael.civfanatics.net/files/msvcrtd.lib" -OutFile "$libDir\msvcrtd.lib" -UseBasicParsing
+                Invoke-WebRequest -Uri "http://kael.civfanatics.net/files/msvcprt.lib" -OutFile "$libDir\msvcprt.lib" -UseBasicParsing
+                
+                Write-Host "Setup completed successfully"
+              } else {
+                Write-Error "Downloaded file is empty"
+                exit 1
+              }
+            } else {
+              Write-Error "Failed to download setup file"
+              exit 1
+            }
+          } catch {
+            Write-Error "Error during download or installation: $($_.Exception.Message)"
+            exit 1
+          }
 
       - name: Build project
         shell: cmd
