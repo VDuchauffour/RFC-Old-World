@@ -18,7 +18,7 @@ BeginMap
 	# equator=30
 	top latitude=64
 	bottom latitude=1
-	wrap X=1
+	wrap X=0
 	wrap Y=0
 	world size=WORLDSIZE_HUGE
 	climate=CLIMATE_TEMPERATE

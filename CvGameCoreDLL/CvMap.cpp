@@ -1420,96 +1420,96 @@ void CvMap::calculateAreas()
 	}
 
 	// Leoreth: create different continents for Europe, Africa and South America, plus separate Scandinavia and Denmark
-	CvArea* europe = addArea();
-	CvArea* africa = addArea();
-	CvArea* southAmerica = addArea();
-	CvArea* scandinavia = addArea();
-	CvArea* denmark = addArea();
+	// CvArea* europe = addArea();
+	// CvArea* africa = addArea();
+	// CvArea* southAmerica = addArea();
+	// CvArea* scandinavia = addArea();
+	// CvArea* denmark = addArea();
 
-	int asiaID = plot(121, 52)->getArea(); // Chang'an
-	int americaID = plot(29, 54)->getArea(); // Washington
+	// int asiaID = plot(121, 52)->getArea(); // Chang'an
+	// int americaID = plot(29, 54)->getArea(); // Washington
 
-	int europeID = europe->getID();
-	int africaID = africa->getID();
-	int southAmericaID = southAmerica->getID();
-	int scandinaviaID = scandinavia->getID();
-	int denmarkID = denmark->getID();
+	// int europeID = europe->getID();
+	// int africaID = africa->getID();
+	// int southAmericaID = southAmerica->getID();
+	// int scandinaviaID = scandinavia->getID();
+	// int denmarkID = denmark->getID();
 
-	europe->init(europeID, false);
-	africa->init(africaID, false);
-	southAmerica->init(southAmericaID, false);
-	scandinavia->init(scandinaviaID, false);
-	denmark->init(denmarkID, false);
+	// europe->init(europeID, false);
+	// africa->init(africaID, false);
+	// southAmerica->init(southAmericaID, false);
+	// scandinavia->init(scandinaviaID, false);
+	// denmark->init(denmarkID, false);
 
-	CvPlot* plot;
-	for (int iX = 0; iX < getGridWidth(); iX++)
-	{
-		for (int iY = 0; iY < getGridHeight(); iY++)
-		{
-			gDLL->callUpdater();
-			plot = plotSorenINLINE(iX, iY);
+	// CvPlot* plot;
+	// for (int iX = 0; iX < getGridWidth(); iX++)
+	// {
+	// 	for (int iY = 0; iY < getGridHeight(); iY++)
+	// 	{
+	// 		gDLL->callUpdater();
+	// 		plot = plotSorenINLINE(iX, iY);
 			
-			if (!plot->isWater())
-			{
-				switch (plot->getRegionGroup())
-				{
-				case REGION_GROUP_EUROPE:
-				case REGION_GROUP_MIDDLE_EAST:
-					if (plot->getArea() == asiaID)
-					{
-						plot->setArea(europeID);
-					}
-					break;
-				case REGION_GROUP_SUB_SAHARAN_AFRICA:
-					if (plot->getArea() == asiaID)
-					{
-						plot->setArea(africaID);
-					}
-					break;
-				case REGION_GROUP_SOUTH_AMERICA:
-					if (plot->getArea() == americaID)
-					{
-						plot->setArea(southAmericaID);
-					}
-					break;
-				}
+	// 		if (!plot->isWater())
+	// 		{
+	// 			switch (plot->getRegionGroup())
+	// 			{
+	// 			case REGION_GROUP_EUROPE:
+	// 			case REGION_GROUP_MIDDLE_EAST:
+	// 				if (plot->getArea() == asiaID)
+	// 				{
+	// 					plot->setArea(europeID);
+	// 				}
+	// 				break;
+	// 			case REGION_GROUP_SUB_SAHARAN_AFRICA:
+	// 				if (plot->getArea() == asiaID)
+	// 				{
+	// 					plot->setArea(africaID);
+	// 				}
+	// 				break;
+	// 			case REGION_GROUP_SOUTH_AMERICA:
+	// 				if (plot->getArea() == americaID)
+	// 				{
+	// 					plot->setArea(southAmericaID);
+	// 				}
+	// 				break;
+	// 			}
 
-				switch (plot->getRegionID())
-				{
-				case REGION_SIBERIA:
-				case REGION_AMUR:
-				case REGION_CENTRAL_ASIAN_STEPPE:
-				case REGION_EGYPT:
-				case REGION_NUBIA:
-					if (plot->getArea() == asiaID)
-					{
-						plot->setArea(europeID);
-					}
-					break;
-				case REGION_SCANDINAVIA:
-					if (plot->getArea() == asiaID)
-					{
-						if (iX >= 66 && iX <= 68 && iY >= 66 && iY <= 69)
-						{
-							plot->setArea(denmarkID);
-						}
-						else
-						{
-							plot->setArea(scandinaviaID);
-						}
-					}
-					break;
-				case REGION_MAGHREB:
-				case REGION_SAHARA:
-					if (plot->getArea() == asiaID)
-					{
-						plot->setArea(africaID);
-					}
-					break;
-				}
-			}
-		}
-	}
+	// 			switch (plot->getRegionID())
+	// 			{
+	// 			case REGION_SIBERIA:
+	// 			case REGION_AMUR:
+	// 			case REGION_CENTRAL_ASIAN_STEPPE:
+	// 			case REGION_EGYPT:
+	// 			case REGION_NUBIA:
+	// 				if (plot->getArea() == asiaID)
+	// 				{
+	// 					plot->setArea(europeID);
+	// 				}
+	// 				break;
+	// 			case REGION_SCANDINAVIA:
+	// 				if (plot->getArea() == asiaID)
+	// 				{
+	// 					if (iX >= 66 && iX <= 68 && iY >= 66 && iY <= 69)
+	// 					{
+	// 						plot->setArea(denmarkID);
+	// 					}
+	// 					else
+	// 					{
+	// 						plot->setArea(scandinaviaID);
+	// 					}
+	// 				}
+	// 				break;
+	// 			case REGION_MAGHREB:
+	// 			case REGION_SAHARA:
+	// 				if (plot->getArea() == asiaID)
+	// 				{
+	// 					plot->setArea(africaID);
+	// 				}
+	// 				break;
+	// 			}
+	// 		}
+	// 	}
+	// }
 
 	// Leoreth: store closest area of size 30+
 	for (iI = 0; iI < numPlotsINLINE(); iI++)
