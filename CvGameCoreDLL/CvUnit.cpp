@@ -14408,109 +14408,109 @@ int CvUnit::getSelectionSoundScript() const
 
 int CvUnit::getOriginalArtStyle() const
 {
-	switch (getOriginalRegion())
-	{
-	case REGION_BRITAIN:
-	case REGION_IRELAND:
-		return GC.getCivilizationInfo(ENGLAND).getUnitArtStyleType();
-	case REGION_ARIDOAMERICA:
-	case REGION_CARIBBEAN:
-	case REGION_MESOAMERICA:
-	case REGION_CENTRAL_AMERICA:
-		return GC.getCivilizationInfo(AZTECS).getUnitArtStyleType();
-	case REGION_NUBIA:
-		return GC.getCivilizationInfo(NATIVE).getUnitArtStyleType();
-	case REGION_IBERIA:
-		return GC.getCivilizationInfo(SPAIN).getUnitArtStyleType();
-	case REGION_ITALY:
-	case REGION_BALKANS:
-		return GC.getCivilizationInfo(ROME).getUnitArtStyleType();
-	case REGION_MAGHREB:
-		if (GC.getGameINLINE().getGameTurnYear() > GC.getCivilizationInfo(ARABIA).getStartingYear())
-		{
-			return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
-		}
-		else
-		{
-			return GC.getCivilizationInfo(CARTHAGE).getUnitArtStyleType();
-		}
-	case REGION_FRANCE:
-	case REGION_QUEBEC:
-		return GC.getCivilizationInfo(FRANCE).getUnitArtStyleType();
-	case REGION_LOWER_GERMANY:
-	case REGION_CENTRAL_EUROPE:
-	case REGION_POLAND:
-		return GC.getCivilizationInfo(HOLY_ROME).getUnitArtStyleType();
-	case REGION_SCANDINAVIA:
-	case REGION_BALTICS:
-		return GC.getCivilizationInfo(NORSE).getUnitArtStyleType();
-	case REGION_RUSSIA:
-	case REGION_RUTHENIA:
-	case REGION_EUROPEAN_ARCTIC:
-	case REGION_VOLGA:
-	case REGION_URALS:
-	case REGION_SIBERIA:
-		return GC.getCivilizationInfo(RUSSIA).getUnitArtStyleType();
-	case REGION_PERSIA:
-	case REGION_KHORASAN:
-	case REGION_TRANSOXIANA:
-		return GC.getCivilizationInfo(PERSIA).getUnitArtStyleType();
-	case REGION_MESOPOTAMIA:
-		return GC.getCivilizationInfo(BABYLONIA).getUnitArtStyleType();
-	case REGION_LEVANT:
-		return GC.getCivilizationInfo(CARTHAGE).getUnitArtStyleType();
-	case REGION_ARABIA:
-		return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
-	case REGION_EGYPT:
-		if (GC.getGameINLINE().getGameTurnYear() > GC.getCivilizationInfo(ARABIA).getStartingYear())
-		{
-			return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
-		}
-		return GC.getCivilizationInfo(EGYPT).getUnitArtStyleType();
-	case REGION_SINDH:
-	case REGION_PUNJAB:
-	case REGION_HINDU_KUSH:
-	case REGION_RAJPUTANA:
-	case REGION_HINDUSTAN:
-	case REGION_BENGAL:
-		if (GC.getGameINLINE().getGameTurnYear() >= GC.getCivilizationInfo(MUGHALS).getStartingYear())
-		{
-			return GC.getCivilizationInfo(MUGHALS).getUnitArtStyleType();
-		}
-		return GC.getCivilizationInfo(INDIA).getUnitArtStyleType();
-	case REGION_DECCAN:
-	case REGION_DRAVIDA:
-		return GC.getCivilizationInfo(INDIA).getUnitArtStyleType();
-	case REGION_INDOCHINA:
-		return GC.getCivilizationInfo(KHMER).getUnitArtStyleType();
-	case REGION_INDONESIA:
-	case REGION_PHILIPPINES:
-		return GC.getCivilizationInfo(JAVA).getUnitArtStyleType();
-	case REGION_SOUTH_CHINA:
-	case REGION_NORTH_CHINA:
-	case REGION_TARIM_BASIN:
-	case REGION_TIBET:
-		return GC.getCivilizationInfo(CHINA).getUnitArtStyleType();
-	case REGION_KOREA:
-		return GC.getCivilizationInfo(KOREA).getUnitArtStyleType();
-	case REGION_JAPAN:
-		return GC.getCivilizationInfo(JAPAN).getUnitArtStyleType();
-	case REGION_MONGOLIA:
-	case REGION_MANCHURIA:
-	case REGION_AMUR:
-	case REGION_CENTRAL_ASIAN_STEPPE:
-		return GC.getCivilizationInfo(MONGOLS).getUnitArtStyleType();
-	}
+	// switch (getOriginalRegion())
+	// {
+	// case REGION_BRITAIN:
+	// case REGION_IRELAND:
+	// 	return GC.getCivilizationInfo(ENGLAND).getUnitArtStyleType();
+	// case REGION_ARIDOAMERICA:
+	// case REGION_CARIBBEAN:
+	// case REGION_MESOAMERICA:
+	// case REGION_CENTRAL_AMERICA:
+	// 	return GC.getCivilizationInfo(AZTECS).getUnitArtStyleType();
+	// case REGION_NUBIA:
+	// 	return GC.getCivilizationInfo(NATIVE).getUnitArtStyleType();
+	// case REGION_IBERIA:
+	// 	return GC.getCivilizationInfo(SPAIN).getUnitArtStyleType();
+	// case REGION_ITALY:
+	// case REGION_BALKANS:
+	// 	return GC.getCivilizationInfo(ROME).getUnitArtStyleType();
+	// case REGION_MAGHREB:
+	// 	if (GC.getGameINLINE().getGameTurnYear() > GC.getCivilizationInfo(ARABIA).getStartingYear())
+	// 	{
+	// 		return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
+	// 	}
+	// 	else
+	// 	{
+	// 		return GC.getCivilizationInfo(CARTHAGE).getUnitArtStyleType();
+	// 	}
+	// case REGION_FRANCE:
+	// case REGION_QUEBEC:
+	// 	return GC.getCivilizationInfo(FRANCE).getUnitArtStyleType();
+	// case REGION_LOWER_GERMANY:
+	// case REGION_CENTRAL_EUROPE:
+	// case REGION_POLAND:
+	// 	return GC.getCivilizationInfo(HOLY_ROME).getUnitArtStyleType();
+	// case REGION_SCANDINAVIA:
+	// case REGION_BALTICS:
+	// 	return GC.getCivilizationInfo(NORSE).getUnitArtStyleType();
+	// case REGION_RUSSIA:
+	// case REGION_RUTHENIA:
+	// case REGION_EUROPEAN_ARCTIC:
+	// case REGION_VOLGA:
+	// case REGION_URALS:
+	// case REGION_SIBERIA:
+	// 	return GC.getCivilizationInfo(RUSSIA).getUnitArtStyleType();
+	// case REGION_PERSIA:
+	// case REGION_KHORASAN:
+	// case REGION_TRANSOXIANA:
+	// 	return GC.getCivilizationInfo(PERSIA).getUnitArtStyleType();
+	// case REGION_MESOPOTAMIA:
+	// 	return GC.getCivilizationInfo(BABYLONIA).getUnitArtStyleType();
+	// case REGION_LEVANT:
+	// 	return GC.getCivilizationInfo(CARTHAGE).getUnitArtStyleType();
+	// case REGION_ARABIA:
+	// 	return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
+	// case REGION_EGYPT:
+	// 	if (GC.getGameINLINE().getGameTurnYear() > GC.getCivilizationInfo(ARABIA).getStartingYear())
+	// 	{
+	// 		return GC.getCivilizationInfo(ARABIA).getUnitArtStyleType();
+	// 	}
+	// 	return GC.getCivilizationInfo(EGYPT).getUnitArtStyleType();
+	// case REGION_SINDH:
+	// case REGION_PUNJAB:
+	// case REGION_HINDU_KUSH:
+	// case REGION_RAJPUTANA:
+	// case REGION_HINDUSTAN:
+	// case REGION_BENGAL:
+	// 	if (GC.getGameINLINE().getGameTurnYear() >= GC.getCivilizationInfo(MUGHALS).getStartingYear())
+	// 	{
+	// 		return GC.getCivilizationInfo(MUGHALS).getUnitArtStyleType();
+	// 	}
+	// 	return GC.getCivilizationInfo(INDIA).getUnitArtStyleType();
+	// case REGION_DECCAN:
+	// case REGION_DRAVIDA:
+	// 	return GC.getCivilizationInfo(INDIA).getUnitArtStyleType();
+	// case REGION_INDOCHINA:
+	// 	return GC.getCivilizationInfo(KHMER).getUnitArtStyleType();
+	// case REGION_INDONESIA:
+	// case REGION_PHILIPPINES:
+	// 	return GC.getCivilizationInfo(JAVA).getUnitArtStyleType();
+	// case REGION_SOUTH_CHINA:
+	// case REGION_NORTH_CHINA:
+	// case REGION_TARIM_BASIN:
+	// case REGION_TIBET:
+	// 	return GC.getCivilizationInfo(CHINA).getUnitArtStyleType();
+	// case REGION_KOREA:
+	// 	return GC.getCivilizationInfo(KOREA).getUnitArtStyleType();
+	// case REGION_JAPAN:
+	// 	return GC.getCivilizationInfo(JAPAN).getUnitArtStyleType();
+	// case REGION_MONGOLIA:
+	// case REGION_MANCHURIA:
+	// case REGION_AMUR:
+	// case REGION_CENTRAL_ASIAN_STEPPE:
+	// 	return GC.getCivilizationInfo(MONGOLS).getUnitArtStyleType();
+	// }
 
-	switch (CvPlot::getRegionGroupForRegion(getOriginalRegion()))
-	{
-	case REGION_GROUP_NORTH_AMERICA:
-		return GC.getCivilizationInfo(ENGLAND).getUnitArtStyleType();
-	case REGION_GROUP_SOUTH_AMERICA:
-		return GC.getCivilizationInfo(INCA).getUnitArtStyleType();
-	case REGION_GROUP_SUB_SAHARAN_AFRICA:
-		return GC.getCivilizationInfo(NATIVE).getUnitArtStyleType();
-	}
+	// switch (CvPlot::getRegionGroupForRegion(getOriginalRegion()))
+	// {
+	// case REGION_GROUP_NORTH_AMERICA:
+	// 	return GC.getCivilizationInfo(ENGLAND).getUnitArtStyleType();
+	// case REGION_GROUP_SOUTH_AMERICA:
+	// 	return GC.getCivilizationInfo(INCA).getUnitArtStyleType();
+	// case REGION_GROUP_SUB_SAHARAN_AFRICA:
+	// 	return GC.getCivilizationInfo(NATIVE).getUnitArtStyleType();
+	// }
 
 	return GC.getCivilizationInfo(INDEPENDENT).getUnitArtStyleType();
 }

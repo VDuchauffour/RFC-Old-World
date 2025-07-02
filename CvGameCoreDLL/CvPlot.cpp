@@ -5916,64 +5916,64 @@ int CvPlot::determineVariety(FeatureTypes eFeature) const
 		case TERRAIN_STEPPE:
 			return 0; // leafy
 		case TERRAIN_MOORLAND:
-			if (getRegionGroup() == REGION_GROUP_NORTH_AMERICA)
-			{
-				return 2; // snowy
-			}
-			else if (getRegionID() == REGION_SCANDINAVIA)
-			{
-				if (getLatitude() >= 78)
-				{
-					return 2; // snowy
-				}
-			}
-			else if (getLatitude() >= 70)
-			{
-				return 2; // snowy
-			}
+			// if (getRegionGroup() == REGION_GROUP_NORTH_AMERICA)
+			// {
+			// 	return 2; // snowy
+			// }
+			// else if (getRegionID() == REGION_SCANDINAVIA)
+			// {
+			// 	if (getLatitude() >= 78)
+			// 	{
+			// 		return 2; // snowy
+			// 	}
+			// }
+			// else if (getLatitude() >= 70)
+			// {
+			// 	return 2; // snowy
+			// }
 			return 1; // evergreen
 		case TERRAIN_GRASS:
 		case TERRAIN_PLAINS:
-			switch (getRegionID())
-			{
-			case REGION_IRELAND:
-			case REGION_BRITAIN:
-			case REGION_FRANCE:
-			case REGION_LOWER_GERMANY:
-			case REGION_CENTRAL_EUROPE:
-			case REGION_BALKANS:
-				return 4; // hybrid
-			case REGION_POLAND:
-			case REGION_BALTICS:
-			case REGION_SCANDINAVIA:
-			case REGION_RUSSIA:
-			case REGION_RUTHENIA:
-			case REGION_VOLGA:
-			case REGION_URALS:
-			case REGION_MANCHURIA:
-			case REGION_AMUR:
-			case REGION_SIBERIA:
-			case REGION_CAPE:
-			case REGION_ATLANTIC_SEABOARD:
-			case REGION_MIDWEST:
-			case REGION_CASCADIA:
-			case REGION_ONTARIO:
-			case REGION_QUEBEC:
-			case REGION_MARITIMES:
-			case REGION_SOUTHERN_CONE:
-			case REGION_HINDU_KUSH:
-				return 1; // evergreen
-			case REGION_SOUTH_CHINA:
-			case REGION_KOREA:
-			case REGION_JAPAN:
-				return 3; // bamboo
-			case REGION_CONGO:
-			case REGION_GUINEA:
-			case REGION_CARIBBEAN:
-			case REGION_AMAZONIA:
-			case REGION_BRAZIL:
-				return 5; // tropical
-			}
+			// switch (getRegionID())
+			// {
+			// case REGION_IRELAND:
+			// case REGION_BRITAIN:
+			// case REGION_FRANCE:
+			// case REGION_LOWER_GERMANY:
+			// case REGION_CENTRAL_EUROPE:
+			// case REGION_BALKANS:
+			// 	return 4; // hybrid
+			// case REGION_POLAND:
+			// case REGION_BALTICS:
+			// case REGION_SCANDINAVIA:
+			// case REGION_RUSSIA:
+			// case REGION_RUTHENIA:
+			// case REGION_VOLGA:
+			// case REGION_URALS:
+			// case REGION_MANCHURIA:
+			// case REGION_AMUR:
+			// case REGION_SIBERIA:
+			// case REGION_CAPE:
+			// case REGION_ATLANTIC_SEABOARD:
+			// case REGION_MIDWEST:
+			// case REGION_CASCADIA:
+			// case REGION_ONTARIO:
+			// case REGION_QUEBEC:
+			// case REGION_MARITIMES:
+			// case REGION_SOUTHERN_CONE:
+			// case REGION_HINDU_KUSH:
+			// 	return 1; // evergreen
+			// case REGION_SOUTH_CHINA:
+			// case REGION_KOREA:
+			// case REGION_JAPAN:
+			// 	return 3; // bamboo
+			// case REGION_CONGO:
+			// case REGION_GUINEA:
+			// case REGION_CARIBBEAN:
+			// case REGION_AMAZONIA:
+			// case REGION_BRAZIL:
+			// 	return 5; // tropical
+			// }
 
 			return 0; // leafy
 		}
@@ -11883,17 +11883,17 @@ bool CvPlot::canUseSlave(PlayerTypes ePlayer) const
 		return false;
 	}
 
-	switch (getRegionGroup())
-	{
-	case REGION_GROUP_NORTH_AMERICA:
-	case REGION_GROUP_SOUTH_AMERICA:
-		return true;
-	case REGION_GROUP_SUB_SAHARAN_AFRICA:
-		if (GET_PLAYER(ePlayer).getCapitalCity()->getRegionGroup() != REGION_GROUP_SUB_SAHARAN_AFRICA)
-		{
-			return true;
-		}
-	}
+	// switch (getRegionGroup())
+	// {
+	// case REGION_GROUP_NORTH_AMERICA:
+	// case REGION_GROUP_SOUTH_AMERICA:
+	// 	return true;
+	// case REGION_GROUP_SUB_SAHARAN_AFRICA:
+	// 	if (GET_PLAYER(ePlayer).getCapitalCity()->getRegionGroup() != REGION_GROUP_SUB_SAHARAN_AFRICA)
+	// 	{
+	// 		return true;
+	// 	}
+	// }
 
 	return false;
 }
@@ -12076,22 +12076,11 @@ int CvPlot::getContinentID() const
 	switch (getRegionGroup())
 	{
 	case REGION_GROUP_EUROPE:
-		return 0;	// Europe = 0
+		return 0;
 	case REGION_GROUP_MIDDLE_EAST:
+		return 1;
 	case REGION_GROUP_NORTH_AFRICA:
-		return 1; // Middle East = 1
-	case REGION_GROUP_SOUTH_ASIA:
-	case REGION_GROUP_NORTH_ASIA:
-	case REGION_GROUP_EAST_ASIA:
-		return 2;	// East Asia = 2
-	case REGION_GROUP_OCEANIA:
-		return 3;	// Australia = 3
-	case REGION_GROUP_SUB_SAHARAN_AFRICA:
-		return 4;	// Africa = 4;
-	case REGION_GROUP_NORTH_AMERICA:
-		return 5;	// North America = 5
-	case REGION_GROUP_SOUTH_AMERICA:
-		return 6;	// South America = 6
+		return 2;
 	}
 
 	return -1;
@@ -12106,97 +12095,231 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
 {
 	switch (iRegion)
 	{
-	case REGION_ATLANTIC_SEABOARD:
-	case REGION_DEEP_SOUTH:
-	case REGION_MIDWEST:
-	case REGION_GREAT_PLAINS:
-	case REGION_ARIDOAMERICA:
-	case REGION_CALIFORNIA:
-	case REGION_CASCADIA:
-	case REGION_ONTARIO:
-	case REGION_QUEBEC:
-	case REGION_AMERICAN_ARCTIC:
-	case REGION_CARIBBEAN:
-	case REGION_MESOAMERICA:
-	case REGION_CENTRAL_AMERICA:
-		return REGION_GROUP_NORTH_AMERICA;
-	case REGION_NEW_GRANADA:
-	case REGION_AMAZONIA:
-	case REGION_BRAZIL:
-	case REGION_ANDES:
-	case REGION_SOUTHERN_CONE:
-		return REGION_GROUP_SOUTH_AMERICA;
-	case REGION_BRITAIN:
-	case REGION_IRELAND:
-	case REGION_IBERIA:
-	case REGION_ITALY:
-	case REGION_FRANCE:
-	case REGION_LOWER_GERMANY:
-	case REGION_CENTRAL_EUROPE:
-	case REGION_BALKANS:
-	case REGION_GREECE:
-	case REGION_POLAND:
-	case REGION_BALTICS:
-	case REGION_SCANDINAVIA:
-	case REGION_RUSSIA:
-	case REGION_RUTHENIA:
-	case REGION_VOLGA:
-	case REGION_PONTIC_STEPPE:
-	case REGION_URALS:
+    case REGION_ICELAND:
+    case REGION_THE_ISLES:
+    case REGION_THE_HIGHLANDS:
+    case REGION_THE_LOWLANDS:
+    case REGION_ULSTER:
+    case REGION_CONNAUGHT:
+    case REGION_LEINSTER:
+    case REGION_MUNSTER:
+    case REGION_NORTHUMBRIA:
+    case REGION_MIDLANDS:
+    case REGION_WALES:
+    case REGION_EAST_ANGLIA:
+    case REGION_KENT_ESSEX:
+    case REGION_WESSEX:
+    case REGION_CORNWALL_DEVON:
+    case REGION_VESTLANDET:
+    case REGION_TRONDELAG:
+    case REGION_JAMTLAND:
+    case REGION_NORRLAND:
+    case REGION_SVEALAND:
+    case REGION_OSTLANDET:
+    case REGION_GOTALAND:
+    case REGION_SCANIA:
+    case REGION_GOTLAND:
+    case REGION_DENMARK:
+    case REGION_FINLAND:
+    case REGION_KARELIA:
+    case REGION_ONEGA:
+    case REGION_DVINA:
+    case REGION_VOLGA:
+    case REGION_MOLOGA:
+    case REGION_NOVGOROD:
+    case REGION_INGRIA:
+    case REGION_PSKOV:
+    case REGION_VALDAI:
+    case REGION_TVER:
+    case REGION_MOSKVA:
+    case REGION_SUZDAL:
+    case REGION_RYAZAN:
+    case REGION_VORONEZH:
+    case REGION_OKA_DESNA_UPLANDS:
+    case REGION_SMOLENSK:
+    case REGION_WHITE_RUS:
+    case REGION_MSTISLAW:
+    case REGION_LATGALIA:
+    case REGION_LIVLAND:
+    case REGION_ESTONIA:
+    case REGION_COURLAND:
+    case REGION_SAMOGITIA:
+    case REGION_LITHUANIA:
+    case REGION_PRUSSIA:
+    case REGION_BLACK_RUS:
+    case REGION_POLESSIA:
+    case REGION_SEVERIA:
+    case REGION_SLOBODA_UKRAINE:
+    case REGION_DON:
+    case REGION_UKRAINE:
+    case REGION_ZAPOROGIA:
+    case REGION_TAURIA:
+    case REGION_AZOV:
+    case REGION_KUBAN:
+    case REGION_CAUCASUS_COAST:
+    case REGION_CRIMEA:
+    case REGION_KIEV:
+    case REGION_VOLHYNIA:
+    case REGION_PODLACHIA:
+    case REGION_MAZOVIA:
+    case REGION_SLESWICK:
+    case REGION_HOLSTEIN:
+    case REGION_MECKLENBURG:
+    case REGION_POMERANIA:
+    case REGION_POMERELIA:
+    case REGION_BREMEN_FRISIA:
+    case REGION_EASTPHALIA:
+    case REGION_BRANDEBURG:
+    case REGION_GREATER_POLAND:
+    case REGION_WESTPHALIA:
+    case REGION_HESSE:
+    case REGION_THURINGIA:
+    case REGION_MEISSEN_LUSATIA:
+    case REGION_SILESIA:
+    case REGION_RHINELAND:
+    case REGION_PALATINATE:
+    case REGION_FRANCONIA:
+    case REGION_SWABIA:
+    case REGION_BAVARIA:
+    case REGION_BOHEMIA:
+    case REGION_MORAVIA:
+    case REGION_AUSTRIA:
+    case REGION_UPPER_HUNGARY:
+    case REGION_LESSER_POLAND:
+    case REGION_GALICIA:
+    case REGION_PODOLIA:
+    case REGION_MOLDOVIA:
+    case REGION_YEDISAN:
+    case REGION_BUDJAK:
+    case REGION_DOBRUDJA:
+    case REGION_TRANSYLVANIA:
+    case REGION_WALLACHIA:
+    case REGION_HUNGARY:
+    case REGION_PANNONIA:
+    case REGION_BANAT:
+    case REGION_SYRMIA:
+    case REGION_CROATIA_SLAVONIA:
+    case REGION_ISTRIA:
+    case REGION_STYRIA_CARINTHIA:
+    case REGION_VENETO:
+    case REGION_DALMATIA:
+    case REGION_BOSNIA:
+    case REGION_RASCIA:
+    case REGION_TORLAKIA:
+    case REGION_MOESIA:
+    case REGION_THRACE:
+    case REGION_MACEDONIA:
+    case REGION_ALBANIA:
+    case REGION_EPIRUS:
+    case REGION_THESSALY:
+    case REGION_ATTICA:
+    case REGION_MOREA:
+    case REGION_IONIAN_ISLANDS:
+    case REGION_AEGEAN_ISLANDS:
+    case REGION_RHODES:
+    case REGION_CRETE:
+	case REGION_CYPRUS:
+    case REGION_CANARIES:
+    case REGION_MADEIRA:
+    case REGION_AZORES:
+    case REGION_MALTA:
+    case REGION_SICILY:
+    case REGION_CALABRIA:
+    case REGION_APULIA:
+    case REGION_CAMPANIA:
+    case REGION_MARCHE:
+    case REGION_LAZIO:
+    case REGION_TUSCANY:
+    case REGION_EMILIA_ROMAGNA:
+    case REGION_LIGURIA:
+    case REGION_PIEDMONT:
+    case REGION_LOMBARDY:
+    case REGION_VERONA:
+    case REGION_SARDINIA:
+    case REGION_TYROL:
+    case REGION_HELVETIA:
+    case REGION_ALSACE:
+    case REGION_LORRAINE:
+    case REGION_FRISIA:
+    case REGION_HOLLAND:
+    case REGION_BRABANT:
+    case REGION_WALLONIA:
+    case REGION_FLANDERS:
+    case REGION_PICARDY_ARTOIS:
+    case REGION_CHAMPAGNE:
+    case REGION_ILE_DE_FRANCE:
+    case REGION_NORMANDY:
+    case REGION_BRITTANY:
+    case REGION_POITOU:
+    case REGION_ANJOU:
+    case REGION_BERRY:
+    case REGION_BURGUNDY_FRANCHE_COMTE:
+    case REGION_SAVOY:
+    case REGION_LYONNAIS:
+    case REGION_AUVERGNE:
+    case REGION_GUYENNE:
+    case REGION_LANGUEDOC:
+    case REGION_DAUPHINY:
+    case REGION_PROVENCE:
+    case REGION_CORSICA:
+    case REGION_CATALONIA:
+    case REGION_ARAGON:
+    case REGION_NAVARRE:
+    case REGION_CANTABRIA:
+    case REGION_ASTURIAS:
+    case REGION_GALIZA:
+    case REGION_PORTUGAL:
+    case REGION_LUSITANIA:
+    case REGION_LEON:
+    case REGION_CASTILLE:
+    case REGION_LA_MANCHA:
+    case REGION_VALENCIA:
+    case REGION_EXTREMADURA:
+    case REGION_ANDALUSIA:
+    case REGION_MURICA:
+    case REGION_GRANADA:
+    case REGION_BALEARES:
+    case REGION_GOTHIA:
 		return REGION_GROUP_EUROPE;
-	case REGION_ANATOLIA:
-	case REGION_CAUCASUS:
-	case REGION_LEVANT:
-	case REGION_MESOPOTAMIA:
-	case REGION_ARABIA:
-	case REGION_PERSIA:
-	case REGION_KHORASAN:
-	case REGION_TRANSOXIANA:
-		return REGION_GROUP_MIDDLE_EAST;
-	case REGION_EGYPT:
-	case REGION_NUBIA:
-	case REGION_MAGHREB:
+    case REGION_SINAI:
+    case REGION_LOWER_EGYPT:
+    case REGION_UPPER_EGYPT:
+    case REGION_CYRENAICA:
+    case REGION_TRIPOLITANIA:
+    case REGION_IFRIQIYA:
+    case REGION_BARBARY:
+    case REGION_MAURETANIA:
+    case REGION_RIF:
+    case REGION_FES:
+    case REGION_ATLANTIC_MOROCCO:
+    case REGION_SOUSS:
+    case REGION_MARRAKESH:
 	case REGION_SAHARA:
 		return REGION_GROUP_NORTH_AFRICA;
-	case REGION_ETHIOPIA:
-	case REGION_HORN_OF_AFRICA:
-	case REGION_SWAHILI_COAST:
-	case REGION_GREAT_LAKES:
-	case REGION_ZAMBEZI:
-	case REGION_MADAGASCAR:
-	case REGION_CAPE:
-	case REGION_KALAHARI:
-	case REGION_CONGO:
-	case REGION_GUINEA:
-	case REGION_SAHEL:
-		return REGION_GROUP_SUB_SAHARAN_AFRICA;
-	case REGION_SINDH:
-	case REGION_PUNJAB:
-	case REGION_HINDU_KUSH:
-	case REGION_RAJPUTANA:
-	case REGION_HINDUSTAN:
-	case REGION_BENGAL:
-	case REGION_DECCAN:
-	case REGION_DRAVIDA:
-	case REGION_INDOCHINA:
-	case REGION_INDONESIA:
-		return REGION_GROUP_SOUTH_ASIA;
-	case REGION_CENTRAL_ASIAN_STEPPE:
-	case REGION_SIBERIA:
-	case REGION_AMUR:
-	case REGION_MONGOLIA:
-		return REGION_GROUP_NORTH_ASIA;
-	case REGION_PHILIPPINES:
-	case REGION_SOUTH_CHINA:
-	case REGION_NORTH_CHINA:
-	case REGION_TARIM_BASIN:
-	case REGION_MANCHURIA:
-	case REGION_KOREA:
-	case REGION_JAPAN:
-		return REGION_GROUP_EAST_ASIA;
-	case REGION_AUSTRALIA:
-	case REGION_OCEANIA:
-		return REGION_GROUP_OCEANIA;
+    case REGION_DARDANELLES:
+    case REGION_IONIA:
+    case REGION_BOSPORUS:
+    case REGION_BITHYNIA:
+    case REGION_PHRYGIA:
+    case REGION_LYCIA:
+    case REGION_PAMPHYLIA:
+    case REGION_LYCAONIA:
+    case REGION_GALATIA:
+    case REGION_PAPHLAGONIA:
+    case REGION_PONTUS:
+    case REGION_CHALDIA:
+    case REGION_CAPPADOCIA:
+    case REGION_ARMENIA:
+    case REGION_CILICIA:
+    case REGION_NORTHERN_SYRIA:
+    case REGION_ANTIOCH:
+    case REGION_SYRIA:
+    case REGION_ARABIA:
+    case REGION_LEBANON:
+    case REGION_HEJAZ:
+    case REGION_TRANSJORDAN:
+    case REGION_PALESTINE:
+		return REGION_GROUP_MIDDLE_EAST;
 	default:
 		return NO_REGION_GROUP;
 	}
