@@ -1,14 +1,3 @@
-[project]
-name = "RFC-Old-World"
-version = "0.1.0"
-description = ""
-authors = []
-requires-python = ">=3.12"
-dependencies = [
-  "numpy",
-  "pillow",
-]
-
 [tool.black]
 line-length = 99
 skip_magic_trailing_comma = false
@@ -42,8 +31,7 @@ ignore = [
   "F405", # star imports are okay
 ]
 exclude = [
-  "Docs/Tools/*.py",
-  "Assets/Python/data/maps/*.py",
+  "Docs/**/*.py",
   "Assets/Python/BUFFY/",
   "Assets/Python/BUG/",
   "Assets/Python/Contrib/",
@@ -57,11 +45,6 @@ executionEnvironments = [
   { root = "Assets/Python", extraPaths = [
     # Folders of the project
     "Assets/Python/",
-    "Assets/Python/data",
-    "Assets/Python/data/maps",
-    "Assets/Python/utils",
-    "Assets/Python/models",
-    "Assets/Python/components",
     "Assets/Python/EntryPoints",
     "Assets/Python/pyWB",
     "Assets/Python/screens",
