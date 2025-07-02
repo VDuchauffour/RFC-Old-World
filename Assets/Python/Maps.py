@@ -136,7 +136,7 @@ def exportCSV():
 
 
 def exportScenario():
-	full_path = "Mods/RFC Dawn of Civilization/PrivateMaps/%s_WB" % getScenario().fileName
+	full_path = "Mods/RFC Old World/PrivateMaps/%s_WB" % getScenario().fileName
 	CvWBDesc().write(full_path, bDevelopmentOnly=True)
 
 

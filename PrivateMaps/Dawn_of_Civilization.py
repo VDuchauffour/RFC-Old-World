@@ -8,9 +8,7 @@ from CityNameManager import determineCapitalLocations
 import SettlerMaps, WarMaps, RegionMap
 
 lStartingDates = [
-	"3000 BC",
-	"600 AD",
-	"1700 AD",
+	"500 AD",
 ]
 
 
@@ -20,7 +18,7 @@ lCustomMapOptions = [
 
 
 def getDescription():
-	return "Dawn of Civilization"
+	return "RFC Old World"
 
 def getNumCustomMapOptions():
 	return len(lCustomMapOptions)

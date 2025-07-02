@@ -7,8 +7,8 @@ from CoreTypes import *
 
 gc = CyGlobalContext()
 
-iWorldX = 150
-iWorldY = 80
+iWorldX = 100
+iWorldY = 92
 
 iNumPlayers = gc.getMAX_PLAYERS()
 
@@ -1173,7 +1173,7 @@ lLateColonyCivs = lTradingCompanyCivs + [iGermany]
 
 lMongolCivs = [iPersia, iByzantium, iTurks, iArabia, iRus]
 
-(i3000BC, i600AD, i1700AD) = range(3)
+(i500AD,) = range(1)
 
 # Stability overlay and editor
 iNumPlotStabilityTypes = 4

@@ -26,8 +26,8 @@ def setup():
 	data.lGenericPlagueDates[0] = 80
 	data.lGenericPlagueDates[2] = 300 # safe value to prevent plague at start of 1700 AD scenario
 	
-	if scenario() == i3000BC:
-		data.lGenericPlagueDates[0] = year(400).deviate(20)
+	# if scenario() == i3000BC:
+		# data.lGenericPlagueDates[0] = year(400).deviate(20)
 		
 	data.lGenericPlagueDates[1] = year(1300).deviate(20)
 	
@@ -35,8 +35,8 @@ def setup():
 	if player(iIndia).isHuman() and data.lGenericPlagueDates[1] <= year(1200):
 		data.lGenericPlagueDates[1] = year(1200) + 1
 	
-	if scenario() != i1700AD:
-		data.lGenericPlagueDates[2] = year(1650).deviate(20)
+	# if scenario() != i1700AD:
+		# data.lGenericPlagueDates[2] = year(1650).deviate(20)
 		
 	data.lGenericPlagueDates[3] = year(1850).deviate(20)
 

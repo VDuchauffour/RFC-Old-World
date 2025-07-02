@@ -5863,29 +5863,29 @@ bool CvPlayer::canFound(int iX, int iY, bool bTestVisible) const
 		}
 	}
 
-	if (!isHuman() && GC.getGameINLINE().getGameTurn() < getTurnForYear(GC.getCivilizationInfo(CANADA).getStartingYear()) + getTurns(5))
-	{
-		if (getCivilizationType() == AMERICA)
-		{
-			switch (pPlot->getRegionID())
-			{
-			case REGION_MARITIMES:
-			case REGION_QUEBEC:
-			case REGION_ONTARIO:
-			case REGION_AMERICAN_ARCTIC:
-				return false;
-			}
-		}
-		else if (getCivilizationType() == FRANCE)
-		{
-			switch (pPlot->getRegionID())
-			{
-			case REGION_ONTARIO:
-			case REGION_AMERICAN_ARCTIC:
-				return false;
-			}
-		}
-	}
+	// if (!isHuman() && GC.getGameINLINE().getGameTurn() < getTurnForYear(GC.getCivilizationInfo(CANADA).getStartingYear()) + getTurns(5))
+	// {
+	// 	if (getCivilizationType() == AMERICA)
+	// 	{
+	// 		switch (pPlot->getRegionID())
+	// 		{
+	// 		case REGION_MARITIMES:
+	// 		case REGION_QUEBEC:
+	// 		case REGION_ONTARIO:
+	// 		case REGION_AMERICAN_ARCTIC:
+	// 			return false;
+	// 		}
+	// 	}
+	// 	else if (getCivilizationType() == FRANCE)
+	// 	{
+	// 		switch (pPlot->getRegionID())
+	// 		{
+	// 		case REGION_ONTARIO:
+	// 		case REGION_AMERICAN_ARCTIC:
+	// 			return false;
+	// 		}
+	// 	}
+	// }
 
 	return true;
 }
@@ -25215,18 +25215,18 @@ bool CvPlayer::canBuySlaves() const
 		return false;
 	}
 
-	if (isSlavery())
-	{
-		if (getNumCities() > 0)
-		{
-			switch (getCapitalCity()->getRegionGroup())
-			{
-			case REGION_GROUP_NORTH_AMERICA:
-			case REGION_GROUP_SOUTH_AMERICA:
-				return true;
-			}
-		}
-	}
+	// if (isSlavery())
+	// {
+	// 	if (getNumCities() > 0)
+	// 	{
+	// 		switch (getCapitalCity()->getRegionGroup())
+	// 		{
+	// 		case REGION_GROUP_NORTH_AMERICA:
+	// 		case REGION_GROUP_SOUTH_AMERICA:
+	// 			return true;
+	// 		}
+	// 	}
+	// }
 
 	if (countColonies() > 0) 
 	{

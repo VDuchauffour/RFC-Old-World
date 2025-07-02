@@ -11513,13 +11513,13 @@ bool CvUnitAI::AI_targetCity(int iFlags)
 
 
 								// Leoreth: make sure Asian barbarians focus on China
-								if (iRegionGroup == REGION_GROUP_EAST_ASIA || iRegionGroup == REGION_GROUP_NORTH_ASIA)
-								{
-									if (pLoopCity->getRegionGroup() == REGION_GROUP_EAST_ASIA)
-									{
-										iValue *= 5;
-									}
-								}
+								// if (iRegionGroup == REGION_GROUP_EAST_ASIA || iRegionGroup == REGION_GROUP_NORTH_ASIA)
+								// {
+								// 	if (pLoopCity->getRegionGroup() == REGION_GROUP_EAST_ASIA)
+								// 	{
+								// 		iValue *= 5;
+								// 	}
+								// }
 							}
 
 							iValue /= (4 + iPathTurns*iPathTurns); //Rhye  (iPathTurns + 5) in vanilla and warlords (1 in standard game)

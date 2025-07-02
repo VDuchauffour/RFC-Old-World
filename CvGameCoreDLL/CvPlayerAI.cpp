@@ -1918,13 +1918,13 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 	}
 
 	// Leoreth: prevent Europeans from expanding into the Americas again
-	if (getCivilizationType() == SPAIN || getCivilizationType() == FRANCE)
-	{
-		if (GC.getGameINLINE().getGameTurn() >= getTurnForYear(1800) && (pPlot->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pPlot->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA))
-		{
-			return 0;
-		}
-	}
+	// if (getCivilizationType() == SPAIN || getCivilizationType() == FRANCE)
+	// {
+	// 	if (GC.getGameINLINE().getGameTurn() >= getTurnForYear(1800) && (pPlot->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pPlot->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA))
+	// 	{
+	// 		return 0;
+	// 	}
+	// }
 
 	iBadTile = 0;
 	iNearbyCities = 0;
@@ -2903,16 +2903,16 @@ int CvPlayerAI::AI_targetCityValue(CvCity* pCity, bool bRandomize, bool bIgnoreA
 	}
 
 	// Leoreth: help target natives in the new world
-	if (pCity->getCivilizationType() == NATIVE)
-	{
-		if (pCity->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pCity->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA)
-		{
-			if (getNumCities() > 0 && getCapitalCity()->getRegionGroup() != REGION_GROUP_NORTH_AMERICA && getCapitalCity()->getRegionGroup() != REGION_GROUP_SOUTH_AMERICA)
-			{
-				iWarMapValue = std::max(iWarMapValue, 10);
-			}
-		}
-	}
+	// if (pCity->getCivilizationType() == NATIVE)
+	// {
+	// 	if (pCity->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pCity->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA)
+	// 	{
+	// 		if (getNumCities() > 0 && getCapitalCity()->getRegionGroup() != REGION_GROUP_NORTH_AMERICA && getCapitalCity()->getRegionGroup() != REGION_GROUP_SOUTH_AMERICA)
+	// 		{
+	// 			iWarMapValue = std::max(iWarMapValue, 10);
+	// 		}
+	// 	}
+	// }
 
 	if (iSettlerMapValue == 0)
 	{
@@ -2998,14 +2998,14 @@ int CvPlayerAI::AI_targetCityValue(CvCity* pCity, bool bRandomize, bool bIgnoreA
 		iValue += std::max(1, ((GC.getMapINLINE().maxStepDistance() * 2) - GC.getMapINLINE().calculatePathDistance(pNearestCity->plot(), pCity->plot())) * AI_getTargetDistanceValueModifier() / 100);
 	}
 
-	if (pCity->plot()->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pCity->plot()->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA)
-	{ 
-		if (iWarMapValue > 0)
-		{
-			iValue *= 4;
-			iValue /= 3;
-		}
-	}
+	// if (pCity->plot()->getRegionGroup() == REGION_GROUP_NORTH_AMERICA || pCity->plot()->getRegionGroup() == REGION_GROUP_SOUTH_AMERICA)
+	// { 
+	// 	if (iWarMapValue > 0)
+	// 	{
+	// 		iValue *= 4;
+	// 		iValue /= 3;
+	// 	}
+	// }
 
 	if (pCity->plot()->getBirthProtected() == pCity->getOwner())
 	{

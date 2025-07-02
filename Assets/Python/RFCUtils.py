@@ -1024,8 +1024,8 @@ def getDawnOfManText(iPlayer):
 	baseKey = 'TXT_KEY_DOM_%s' % str(name(iPlayer).replace(' ', '_').upper())
 	
 	fullKey = baseKey
-	if iScenario == i600AD: fullKey += "_600AD"
-	elif iScenario == i1700AD: fullKey += "_1700AD"
+	# if iScenario == i600AD: fullKey += "_600AD"
+	# elif iScenario == i1700AD: fullKey += "_1700AD"
 	
 	return text_if_exists(fullKey, otherwise=baseKey)
 	

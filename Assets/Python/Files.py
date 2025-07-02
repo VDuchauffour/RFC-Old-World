@@ -10,7 +10,7 @@ MAPS_PATH = "Assets/Maps"
 
 
 def getPath(file_name):
-	return "%s\Mods\\RFC Dawn of Civilization\\Assets\\Maps\\%s" % (os.getcwd(), file_name)
+	return "%s\Mods\\RFC Old World\\Assets\\Maps\\%s" % (os.getcwd(), file_name)
 
 
 class UnicodeWriter:

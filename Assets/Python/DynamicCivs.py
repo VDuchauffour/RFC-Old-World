@@ -568,11 +568,11 @@ dStartingLeaders = [
 def setup():
 	iScenario = scenario()
 	
-	if iScenario == i600AD:
-		data.civs[iChina].iAnarchyTurns += 3
+	# if iScenario == i600AD:
+	# 	data.civs[iChina].iAnarchyTurns += 3
 		
-	elif iScenario == i1700AD:
-		data.civs[iEgypt].iResurrections += 1
+	# elif iScenario == i1700AD:
+	# 	data.civs[iEgypt].iResurrections += 1
 	
 @handler("playerCivAssigned")
 def initName(iPlayer):
@@ -924,8 +924,8 @@ def specificName(iPlayer):
 			
 	if iCiv == iChina:
 		if bEmpire:
-			if iEra >= iIndustrial or scenario() == i1700AD:
-				return "TXT_KEY_CIV_CHINA_QING"
+			# if iEra >= iIndustrial or scenario() == i1700AD:
+			# 	return "TXT_KEY_CIV_CHINA_QING"
 			
 			if iEra == iRenaissance and turn() >= year(1400):
 				return "TXT_KEY_CIV_CHINA_MING"
@@ -951,8 +951,8 @@ def specificName(iPlayer):
 		return "TXT_KEY_CIV_POLYNESIA_TONGA"
 		
 	elif iCiv == iDravidia:
-		if getColumn(iPlayer) >= 11 or scenario() == i1700AD:
-			return "TXT_KEY_CIV_DRAVIDIA_MYSORE"
+		# if getColumn(iPlayer) >= 11 or scenario() == i1700AD:
+		# 	return "TXT_KEY_CIV_DRAVIDIA_MYSORE"
 			
 		if getColumn(iPlayer) >= 9:
 			return "TXT_KEY_CIV_DRAVIDIA_VIJAYANAGARA"
@@ -1591,11 +1591,11 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 	bWar = isAtWar(iPlayer)
 
 	if iCiv == iEgypt:
-		if bResurrected or scenario() >= i600AD:
-			if iReligion == iIslam:
-				if bTheocracy: return "TXT_KEY_CALIPHATE_ADJECTIVE"
-				return "TXT_KEY_SULTANATE_ADJECTIVE"
-			return "TXT_KEY_KINGDOM_ADJECTIVE"
+		# if bResurrected or scenario() >= i600AD:
+		# 	if iReligion == iIslam:
+		# 		if bTheocracy: return "TXT_KEY_CALIPHATE_ADJECTIVE"
+		# 		return "TXT_KEY_SULTANATE_ADJECTIVE"
+		# 	return "TXT_KEY_KINGDOM_ADJECTIVE"
 			
 		if player(iPlayer).getPeriod() == iPeriodPtolemaicEgypt or slot(iGreece) in lPreviousOwners:
 			return "TXT_KEY_CIV_EGYPT_PTOLEMAIC"
@@ -1635,8 +1635,8 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 			
 	elif iCiv == iChina:
 		if bEmpire:
-			if iEra >= iIndustrial or scenario() == i1700AD:
-				return "TXT_KEY_EMPIRE_OF"
+			# if iEra >= iIndustrial or scenario() == i1700AD:
+			# 	return "TXT_KEY_EMPIRE_OF"
 			
 			if iEra == iRenaissance and year() >= year(1400):
 				return "TXT_KEY_EMPIRE_OF"
@@ -1886,8 +1886,8 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 		if iEra >= iRenaissance and bEmpire:
 			return "TXT_KEY_CIV_POLAND_COMMONWEALTH"
 			
-		if scenario() == i1700AD and turn() < year(1790):
-			return "TXT_KEY_CIV_POLAND_COMMONWEALTH"
+		# if scenario() == i1700AD and turn() < year(1790):
+		# 	return "TXT_KEY_CIV_POLAND_COMMONWEALTH"
 			
 		if isCurrentCapital(iPlayer, "Kowno", "Medvegalis", "Wilno", "Ryga"):
 			return "TXT_KEY_CIV_POLAND_GRAND_DUCHY_OF"
@@ -2045,7 +2045,7 @@ def startingLeader(identifier):
 	if not isinstance(identifier, Civ):
 		identifier = civ(identifier)
 		
-	return dStartingLeaders[scenario()].get(identifier, dStartingLeaders[i3000BC][identifier])
+	return dStartingLeaders[scenario()].get(identifier, dStartingLeaders[i500AD][identifier])
 	
 def leader(iPlayer):
 	iCiv = civ(iPlayer)
@@ -2074,7 +2074,7 @@ def leader(iPlayer):
 	if iCiv == iEgypt:
 		if not bMonarchy and iEra >= iGlobal: return iNasser
 		
-		if bResurrected or scenario() >= i600AD: return iBaibars
+		# if bResurrected or scenario() >= i600AD: return iBaibars
 		
 		if player(iPlayer).getPeriod() == iPeriodPtolemaicEgypt: return iPtolemy
 		
@@ -2096,7 +2096,7 @@ def leader(iPlayer):
 	
 		if bResurrected: return iHongwu
 		
-		if scenario() >= i1700AD: return iHongwu
+		# if scenario() >= i1700AD: return iHongwu
 		
 		if iEra >= iMedieval: return iTaizong
 		
@@ -2134,7 +2134,7 @@ def leader(iPlayer):
 	elif iCiv == iKorea:		
 		if iEra >= iRenaissance: return iSejong
 		
-		if scenario() >= i1700AD: return iSejong
+		# if scenario() >= i1700AD: return iSejong
 	
 	elif iCiv == iKhmer:
 		if iEra >= iMedieval: return iSuryavarman
@@ -2196,14 +2196,14 @@ def leader(iPlayer):
 		
 		if iEra >= iIndustrial: return iVictoria
 		
-		if scenario() == i1700AD: return iVictoria
+		# if scenario() == i1700AD: return iVictoria
 		
 		if iEra >= iRenaissance: return iElizabeth
 		
 	elif iCiv == iHolyRome:
 		if iEra >= iIndustrial: return iFrancis
 		
-		if scenario() == i1700AD: return iFrancis
+		# if scenario() == i1700AD: return iFrancis
 		
 		if iEra >= iRenaissance: return iCharles
 			
@@ -2214,7 +2214,7 @@ def leader(iPlayer):
 	
 		if iEra >= iRenaissance: return iSobieski
 		
-		if scenario() == i1700AD: return iSobieski
+		# if scenario() == i1700AD: return iSobieski
 		
 	elif iCiv == iPortugal:
 		if iEra >= iIndustrial: return iMaria

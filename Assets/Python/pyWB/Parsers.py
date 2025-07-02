@@ -1,11 +1,10 @@
 from MapParser import *
 
-
-PATH_TEMPLATE = "Mods/RFC Dawn of Civilization/PrivateMaps/%s.txt"
+PATH_TEMPLATE = "Mods/RFC Old World/PrivateMaps/%s.txt"
 
 
 def parseBaseMap():
-	mapName = "RFC_Earth"
+	mapName = "RFC_Old_World"
 	parser = MapParser()
 	parser.read(PATH_TEMPLATE % mapName)
 	return parser
