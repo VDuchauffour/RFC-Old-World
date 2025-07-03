@@ -223,7 +223,7 @@ class Region(IntEnum):
     MURICA = 218
     GRANADA = 219
     BALEARES = 220
-    GOTHIA = 221
+    ROUSSILLON = 221
     SAHARA = 222
 
 

@@ -2663,15 +2663,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_221</Tag>
-		<English>Gothia</English>
+		<English>Roussillon</English>
 		<French>
-			<Text>Gothie</Text>
-			<Gender>Female</Gender>
+			<Text>Roussillon</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Gothien</German>
-		<Italian>Gothia</Italian>
-		<Spanish>Gothia</Spanish>
+		<German>Roussillon</German>
+		<Italian>Roussillon</Italian>
+		<Spanish>Roussillon</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_222</Tag>
