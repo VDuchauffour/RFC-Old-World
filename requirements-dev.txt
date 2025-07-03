@@ -5,4 +5,5 @@ Pillow
 typer
 pandas
 openpyxl
-odfpy
+ezodf
+typer

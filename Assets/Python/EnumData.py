@@ -1,6 +1,61 @@
 from Enum import IntEnum
 
 
+class Civ(IntEnum):
+    BYZANTIUM = 0
+    FRANCE = 1
+    ARABIA = 2
+    BULGARIA = 3
+    ANDALUSIA = 4
+    VENECIA = 5
+    BURGUNDY = 6
+    GERMANY = 7
+    NOVGOROD = 8
+    NORWAY = 9
+    KIEV = 10
+    HUNGARY = 11
+    CASTILE = 12
+    DENMARK = 13
+    SCOTLAND = 14
+    POLAND = 15
+    GENOA = 16
+    MOROCCO = 17
+    ENGLAND = 18
+    PORTUGAL = 19
+    ARAGON = 20
+    SWEDEN = 21
+    PRUSSIA = 22
+    LITHUANIA = 23
+    AUSTRIA = 24
+    OTTOMAN = 25
+    MOSCOW = 26
+    DUTCH = 27
+    POPE = 28
+    INDEPENDENT = 29
+    INDEPENDENT_2 = 30
+    INDEPENDENT_3 = 31
+    INDEPENDENT_4 = 32
+    BARBARIAN = 33
+
+
+class Language(IntEnum):
+    ENGLISH = 0
+    FRENCH = 1
+    GERMAN = 2
+    ITALIAN = 3
+    SPANISH = 4
+    PORTUGUESE = 5
+    RUSSIAN = 6
+    POLISH = 7
+    DUTCH = 8
+    NORWEGIAN = 9
+    SWEDISH = 10
+    DANISH = 11
+    ARABIAN = 12
+    BYZANTINE = 13
+    SCOTTISH = 14
+
+
 class Region(IntEnum):
     ICELAND = 0
     THE_ISLES = 1
