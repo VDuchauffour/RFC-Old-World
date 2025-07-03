@@ -38,6 +38,24 @@ class Civ(IntEnum):
     BARBARIAN = 33
 
 
+class Language(IntEnum):
+    ENGLISH = 0
+    FRENCH = 1
+    GERMAN = 2
+    ITALIAN = 3
+    SPANISH = 4
+    PORTUGUESE = 5
+    RUSSIAN = 6
+    POLISH = 7
+    DUTCH = 8
+    NORWEGIAN = 9
+    SWEDISH = 10
+    DANISH = 11
+    ARABIAN = 12
+    BYZANTINE = 13
+    SCOTTISH = 14
+
+
 class Region(IntEnum):
     ICELAND = 0
     THE_ISLES = 1
