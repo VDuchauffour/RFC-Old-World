@@ -12279,7 +12279,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_MURICA:
     case REGION_GRANADA:
     case REGION_BALEARES:
-    case REGION_GOTHIA:
+    case REGION_ROUSSILLON:
 		return REGION_GROUP_EUROPE;
     case REGION_SINAI:
     case REGION_LOWER_EGYPT:
