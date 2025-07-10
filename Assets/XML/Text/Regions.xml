@@ -71,15 +71,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_5</Tag>
-		<English>Connacht</English>
+		<English>Connaught</English>
 		<French>
-			<Text>Connacht</Text>
+			<Text>Connaught</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Connacht</German>
-		<Italian>Connacht</Italian>
-		<Spanish>Lower Germany</Spanish>
+		<German>Connaught</German>
+		<Italian>Connaught</Italian>
+		<Spanish>Connaught</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_6</Tag>
@@ -119,15 +119,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_9</Tag>
-		<English>Midlands</English>
+		<English>The Midlands</English>
 		<French>
-			<Text>Midlands</Text>
+			<Text>Les Midlands</Text>
 			<Gender>Male</Gender>
-			<Plural>0</Plural>
+			<Plural>1</Plural>
 		</French>
-		<German>Midlands</German>
-		<Italian>Midlands</Italian>
-		<Spanish>Midlands</Spanish>
+		<German>The Midlands</German>
+		<Italian>The Midlands</Italian>
+		<Spanish>The Midlands</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_10</Tag>
@@ -179,15 +179,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_14</Tag>
-		<English>Cornwall-Devon</English>
+		<English>Cornwall</English>
 		<French>
-			<Text>Cornwall-Devon</Text>
-			<Gender>Male</Gender>
+			<Text>Cornouailles</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Cornwall-Devon</German>
-		<Italian>Cornwall-Devon</Italian>
-		<Spanish>Cornwall-Devon</Spanish>
+		<German>Cornwall</German>
+		<Italian>Cornwall</Italian>
+		<Spanish>Cornwall</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_15</Tag>
@@ -215,7 +215,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_17</Tag>
-		<English>Jamtland</English>
+		<English>Jaemtland</English>
 		<French>
 			<Text>Jamtland</Text>
 			<Gender>Male</Gender>
@@ -263,7 +263,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_21</Tag>
-		<English>Gotaland</English>
+		<English>Geatland</English>
 		<French>
 			<Text>Gotaland</Text>
 			<Gender>Male</Gender>
@@ -335,15 +335,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_27</Tag>
-		<English>Ongen</English>
+		<English>Onega</English>
 		<French>
-			<Text>Ongen</Text>
-			<Gender>Male</Gender>
+			<Text>Onega</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Ongen</German>
-		<Italian>Ongen</Italian>
-		<Spanish>Ongen</Spanish>
+		<German>Onega</German>
+		<Italian>Onega</Italian>
+		<Spanish>Onega</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_28</Tag>
@@ -371,15 +371,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_30</Tag>
-		<English>Mologa</English>
+		<English>Beloozero</English>
 		<French>
-			<Text>Mologa</Text>
-			<Gender>Male</Gender>
+			<Text>Beloozero</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Mologa</German>
-		<Italian>Mologa</Italian>
-		<Spanish>Mologa</Spanish>
+		<German>Beloozero</German>
+		<Italian>Beloozero</Italian>
+		<Spanish>Beloozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_31</Tag>
@@ -443,15 +443,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_36</Tag>
-		<English>Moscow</English>
+		<English>Moskva</English>
 		<French>
-			<Text>Moscou</Text>
-			<Gender>Male</Gender>
+			<Text>Moscovie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Moskau</German>
-		<Italian>Moscow</Italian>
-		<Spanish>Moscow</Spanish>
+		<Italian>Moskva</Italian>
+		<Spanish>Moskva</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_37</Tag>
@@ -515,15 +515,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_42</Tag>
-		<English>White Russia</English>
+		<English>White Rus</English>
 		<French>
-			<Text>Russe Blanche</Text>
-			<Gender>Male</Gender>
+			<Text>Ruth&#233;nie Blanche</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>White Russia</German>
-		<Italian>White Russia</Italian>
-		<Spanish>White Russia</Spanish>
+		<German>White Rus</German>
+		<Italian>White Rus</Italian>
+		<Spanish>White Rus</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_43</Tag>
@@ -563,15 +563,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_46</Tag>
-		<English>Estonia</English>
+		<English>Estland</English>
 		<French>
-			<Text>Estonie</Text>
-			<Gender>Female</Gender>
+			<Text>Estland</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Estonien</German>
-		<Italian>Estonia</Italian>
-		<Spanish>Estonia</Spanish>
+		<German>Estland</German>
+		<Italian>Estland</Italian>
+		<Spanish>Estland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_47</Tag>
@@ -623,27 +623,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_51</Tag>
-		<English>Black Russia</English>
+		<English>Black Rus</English>
 		<French>
-			<Text>Russe Noir</Text>
-			<Gender>Male</Gender>
+			<Text>Ruthénie Noire</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Black Russia</German>
-		<Italian>Black Russia</Italian>
-		<Spanish>Black Russia</Spanish>
+		<German>Black Rus</German>
+		<Italian>Black Rus</Italian>
+		<Spanish>Black Rus</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_52</Tag>
-		<English>Pole</English>
+		<English>Polessia</English>
 		<French>
-			<Text>Pole</Text>
-			<Gender>Male</Gender>
+			<Text>Pol&#233;sie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pole</German>
-		<Italian>Pole</Italian>
-		<Spanish>Pole</Spanish>
+		<German>Polessia</German>
+		<Italian>Polessia</Italian>
+		<Spanish>Polessia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_53</Tag>
@@ -779,15 +779,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_64</Tag>
-		<English>Volhy</English>
+		<English>Volhynia</English>
 		<French>
-			<Text>Volhy</Text>
-			<Gender>Male</Gender>
+			<Text>Volhynie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Volhy</German>
-		<Italian>Volhy</Italian>
-		<Spanish>Volhy</Spanish>
+		<German>Volhynia</German>
+		<Italian>Volhynia</Italian>
+		<Spanish>Volhynia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_65</Tag>
@@ -863,15 +863,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_71</Tag>
-		<English>Pomeralia</English>
+		<English>Pomerelia</English>
 		<French>
-			<Text>Pom&#233;ralie</Text>
+			<Text>Pom&#233;r&#233;lie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pomeralia</German>
-		<Italian>Pomeralia</Italian>
-		<Spanish>Pomeralia</Spanish>
+		<German>Pomerelia</German>
+		<Italian>Pomerelia</Italian>
+		<Spanish>Pomerelia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_72</Tag>
@@ -983,15 +983,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_81</Tag>
-		<English>Rhine</English>
+		<English>Rhineland</English>
 		<French>
-			<Text>Rhin</Text>
-			<Gender>Male</Gender>
+			<Text>Rhénanie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Rhine</German>
-		<Italian>Rhine</Italian>
-		<Spanish>Rhine</Spanish>
+		<German>Rheinland</German>	
+		<Italian>Rhineland</Italian>
+		<Spanish>Rhineland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_82</Tag>
@@ -1379,15 +1379,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_114</Tag>
-		<English>Albania</English>
+		<English>Arberia</English>
 		<French>
-			<Text>Albanie</Text>
+			<Text>Arberie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Albanien</German>
-		<Italian>Albania</Italian>
-		<Spanish>Albania</Spanish>
+		<German>Arberia</German>
+		<Italian>Arberia</Italian>
+		<Spanish>Arberia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_115</Tag>
@@ -1571,15 +1571,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_130</Tag>
-		<English>Lycaonia</English>
+		<English>Anatolicon</English>
 		<French>
-			<Text>Lycaonie</Text>
+			<Text>Anatolie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lykaonien</German>
-		<Italian>Lycaonia</Italian>
-		<Spanish>Lycaonia</Spanish>
+		<German>Anatolien</German>
+		<Italian>Anatolia</Italian>
+		<Spanish>Anatolia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_131</Tag>
@@ -2351,15 +2351,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_195</Tag>
-		<English>Burgundy-Franche-Comte</English>
+		<English>Burgundy</English>
 		<French>
-			<Text>Bourgogne-Franche-Comt&#233;</Text>
+			<Text>Bourgogne</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Burgund-Franche-Comt&#233;</German>
-		<Italian>Burgundy-Franche-Comte</Italian>
-		<Spanish>Burgundy-Franche-Comte</Spanish>
+		<German>Burgund</German>
+		<Italian>Burgundy</Italian>
+		<Spanish>Burgundy</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_196</Tag>
@@ -2399,15 +2399,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_199</Tag>
-		<English>Guyenne</English>
+		<English>Gascony</English>
 		<French>
-			<Text>Guyenne</Text>
+			<Text>Gascogne</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Guyenne</German>
-		<Italian>Guyenne</Italian>
-		<Spanish>Guyenne</Spanish>
+		<German>Gascony</German>
+		<Italian>Gascony</Italian>
+		<Spanish>Gascony</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_200</Tag>
@@ -2519,15 +2519,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_209</Tag>
-		<English>Galiza</English>
+		<English>Gallaecia</English>
 		<French>
 			<Text>Galice</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Galicien</German>
-		<Italian>Galiza</Italian>
-		<Spanish>Galiza</Spanish>
+		<Italian>Gallaecia</Italian>
+		<Spanish>Gallaecia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_210</Tag>
@@ -2663,15 +2663,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_221</Tag>
-		<English>Roussillon</English>
+		<English>Septimania</English>
 		<French>
-			<Text>Roussillon</Text>
-			<Gender>Male</Gender>
+			<Text>Septimanie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Roussillon</German>
-		<Italian>Roussillon</Italian>
-		<Spanish>Roussillon</Spanish>
+		<German>Septimania</German>
+		<Italian>Septimania</Italian>
+		<Spanish>Septimania</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_222</Tag>
