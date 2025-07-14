@@ -1559,18 +1559,6 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_129</Tag>
-		<English>Pamphylia</English>
-		<French>
-			<Text>Pamphylie</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Pamphylien</German>
-		<Italian>Pamphylia</Italian>
-		<Spanish>Pamphylia</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REGION_130</Tag>
 		<English>Anatolicon</English>
 		<French>
 			<Text>Anatolie</Text>
@@ -1582,7 +1570,7 @@
 		<Spanish>Anatolia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_131</Tag>
+		<Tag>TXT_KEY_REGION_130</Tag>
 		<English>Galatia</English>
 		<French>
 			<Text>Galatie</Text>
@@ -1594,7 +1582,7 @@
 		<Spanish>Galatia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_132</Tag>
+		<Tag>TXT_KEY_REGION_131</Tag>
 		<English>Paphlagonia</English>
 		<French>
 			<Text>Paphlagonie</Text>
@@ -1606,7 +1594,7 @@
 		<Spanish>Paphlagonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_133</Tag>
+		<Tag>TXT_KEY_REGION_132</Tag>
 		<English>Pontus</English>
 		<French>
 			<Text>Pont</Text>
@@ -1618,7 +1606,7 @@
 		<Spanish>Pontus</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_134</Tag>
+		<Tag>TXT_KEY_REGION_133</Tag>
 		<English>Chaldia</English>
 		<French>
 			<Text>Chaldie</Text>
@@ -1630,7 +1618,7 @@
 		<Spanish>Chaldia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_135</Tag>
+		<Tag>TXT_KEY_REGION_134</Tag>
 		<English>Cappadocia</English>
 		<French>
 			<Text>Cappadoce</Text>
@@ -1642,7 +1630,7 @@
 		<Spanish>Cappadocia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_136</Tag>
+		<Tag>TXT_KEY_REGION_135</Tag>
 		<English>Armenia</English>
 		<French>
 			<Text>Arm&#233;nie</Text>
@@ -1654,7 +1642,7 @@
 		<Spanish>Armenia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_137</Tag>
+		<Tag>TXT_KEY_REGION_136</Tag>
 		<English>Cilicia</English>
 		<French>
 			<Text>Cilicie</Text>
@@ -1666,7 +1654,7 @@
 		<Spanish>Cilicia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_138</Tag>
+		<Tag>TXT_KEY_REGION_137</Tag>
 		<English>Northern Syria</English>
 		<French>
 			<Text>Syrie du Nord</Text>
@@ -1678,7 +1666,7 @@
 		<Spanish>Northern Syria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_139</Tag>
+		<Tag>TXT_KEY_REGION_138</Tag>
 		<English>Antioch</English>
 		<French>
 			<Text>Antioche</Text>
@@ -1690,7 +1678,7 @@
 		<Spanish>Antioch</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_140</Tag>
+		<Tag>TXT_KEY_REGION_139</Tag>
 		<English>Syria</English>
 		<French>
 			<Text>Syrie</Text>
@@ -1702,7 +1690,7 @@
 		<Spanish>Syria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_141</Tag>
+		<Tag>TXT_KEY_REGION_140</Tag>
 		<English>Arabia</English>
 		<French>
 			<Text>Arabie</Text>
@@ -1714,7 +1702,7 @@
 		<Spanish>Arabia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_142</Tag>
+		<Tag>TXT_KEY_REGION_141</Tag>
 		<English>Lebanon</English>
 		<French>
 			<Text>Liban</Text>
@@ -1726,7 +1714,7 @@
 		<Spanish>Lebanon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_143</Tag>
+		<Tag>TXT_KEY_REGION_142</Tag>
 		<English>Hejaz</English>
 		<French>
 			<Text>Hedjaz</Text>
@@ -1738,7 +1726,7 @@
 		<Spanish>Hejaz</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_144</Tag>
+		<Tag>TXT_KEY_REGION_143</Tag>
 		<English>Transjordan</English>
 		<French>
 			<Text>Transjordanie</Text>
@@ -1750,7 +1738,7 @@
 		<Spanish>Transjordan</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_145</Tag>
+		<Tag>TXT_KEY_REGION_144</Tag>
 		<English>Palestine</English>
 		<French>
 			<Text>Palestine</Text>
@@ -1762,7 +1750,7 @@
 		<Spanish>Palestine</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_146</Tag>
+		<Tag>TXT_KEY_REGION_145</Tag>
 		<English>Cyprus</English>
 		<French>
 			<Text>Chypre</Text>
@@ -1774,7 +1762,7 @@
 		<Spanish>Cyprus</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_147</Tag>
+		<Tag>TXT_KEY_REGION_146</Tag>
 		<English>Sinai</English>
 		<French>
 			<Text>Sina&#239;</Text>
@@ -1786,7 +1774,7 @@
 		<Spanish>Sinai</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_148</Tag>
+		<Tag>TXT_KEY_REGION_147</Tag>
 		<English>Lower Egypt</English>
 		<French>
 			<Text>Basse-&#201;gypte</Text>
@@ -1798,7 +1786,7 @@
 		<Spanish>Lower Egypt</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_149</Tag>
+		<Tag>TXT_KEY_REGION_148</Tag>
 		<English>Upper Egypt</English>
 		<French>
 			<Text>Haute-&#201;gypte</Text>
@@ -1810,7 +1798,7 @@
 		<Spanish>Upper Egypt</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_150</Tag>
+		<Tag>TXT_KEY_REGION_149</Tag>
 		<English>Cyrenaica</English>
 		<French>
 			<Text>Cyr&#233;na&#239;que</Text>
@@ -1822,7 +1810,7 @@
 		<Spanish>Cyrenaica</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_151</Tag>
+		<Tag>TXT_KEY_REGION_150</Tag>
 		<English>Tripolitania</English>
 		<French>
 			<Text>Tripolitaine</Text>
@@ -1834,7 +1822,7 @@
 		<Spanish>Tripolitania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_152</Tag>
+		<Tag>TXT_KEY_REGION_151</Tag>
 		<English>Ifriqiya</English>
 		<French>
 			<Text>Ifriqiya</Text>
@@ -1846,7 +1834,7 @@
 		<Spanish>Ifriqiya</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_153</Tag>
+		<Tag>TXT_KEY_REGION_152</Tag>
 		<English>Barbary</English>
 		<French>
 			<Text>Barbarie</Text>
@@ -1858,7 +1846,7 @@
 		<Spanish>Barbary</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_154</Tag>
+		<Tag>TXT_KEY_REGION_153</Tag>
 		<English>Mauretania</English>
 		<French>
 			<Text>Mauritanie</Text>
@@ -1870,7 +1858,7 @@
 		<Spanish>Mauretania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_155</Tag>
+		<Tag>TXT_KEY_REGION_154</Tag>
 		<English>Rif</English>
 		<French>
 			<Text>Rif</Text>
@@ -1882,7 +1870,7 @@
 		<Spanish>Rif</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_156</Tag>
+		<Tag>TXT_KEY_REGION_155</Tag>
 		<English>Fes</English>
 		<French>
 			<Text>F&#232;s</Text>
@@ -1894,7 +1882,7 @@
 		<Spanish>Fes</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_157</Tag>
+		<Tag>TXT_KEY_REGION_156</Tag>
 		<English>Atlantic Morocco</English>
 		<French>
 			<Text>Maroc atlantique</Text>
@@ -1906,7 +1894,7 @@
 		<Spanish>Atlantic Morocco</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_158</Tag>
+		<Tag>TXT_KEY_REGION_157</Tag>
 		<English>Souss</English>
 		<French>
 			<Text>Souss</Text>
@@ -1918,7 +1906,7 @@
 		<Spanish>Souss</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_159</Tag>
+		<Tag>TXT_KEY_REGION_158</Tag>
 		<English>Marrakesh</English>
 		<French>
 			<Text>Marrakech</Text>
@@ -1930,7 +1918,7 @@
 		<Spanish>Marrakesh</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_160</Tag>
+		<Tag>TXT_KEY_REGION_159</Tag>
 		<English>Atlas</English>
 		<French>
 			<Text>Atlas</Text>
@@ -1942,7 +1930,7 @@
 		<Spanish>Atlas</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_161</Tag>
+		<Tag>TXT_KEY_REGION_160</Tag>
 		<English>Canaries</English>
 		<French>
 			<Text>Canaries</Text>
@@ -1954,7 +1942,7 @@
 		<Spanish>Canaries</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_162</Tag>
+		<Tag>TXT_KEY_REGION_161</Tag>
 		<English>Madeira</English>
 		<French>
 			<Text>Mad&#232;re</Text>
@@ -1966,7 +1954,7 @@
 		<Spanish>Madeira</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_163</Tag>
+		<Tag>TXT_KEY_REGION_162</Tag>
 		<English>Azores</English>
 		<French>
 			<Text>A&#231;ores</Text>
@@ -1978,7 +1966,7 @@
 		<Spanish>Azores</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_164</Tag>
+		<Tag>TXT_KEY_REGION_163</Tag>
 		<English>Malta</English>
 		<French>
 			<Text>Malte</Text>
@@ -1990,7 +1978,7 @@
 		<Spanish>Malta</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_165</Tag>
+		<Tag>TXT_KEY_REGION_164</Tag>
 		<English>Sicily</English>
 		<French>
 			<Text>Sicile</Text>
@@ -2002,7 +1990,7 @@
 		<Spanish>Sicily</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_166</Tag>
+		<Tag>TXT_KEY_REGION_165</Tag>
 		<English>Calabria</English>
 		<French>
 			<Text>Calabre</Text>
@@ -2014,7 +2002,7 @@
 		<Spanish>Calabria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_167</Tag>
+		<Tag>TXT_KEY_REGION_166</Tag>
 		<English>Apulia</English>
 		<French>
 			<Text>Pouilles</Text>
@@ -2026,7 +2014,7 @@
 		<Spanish>Apulia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_168</Tag>
+		<Tag>TXT_KEY_REGION_167</Tag>
 		<English>Campania</English>
 		<French>
 			<Text>Campanie</Text>
@@ -2038,7 +2026,7 @@
 		<Spanish>Campania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_169</Tag>
+		<Tag>TXT_KEY_REGION_168</Tag>
 		<English>Marche</English>
 		<French>
 			<Text>Marches</Text>
@@ -2050,7 +2038,7 @@
 		<Spanish>Marche</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_170</Tag>
+		<Tag>TXT_KEY_REGION_169</Tag>
 		<English>Lazio</English>
 		<French>
 			<Text>Latium</Text>
@@ -2062,7 +2050,7 @@
 		<Spanish>Lazio</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_171</Tag>
+		<Tag>TXT_KEY_REGION_170</Tag>
 		<English>Tuscany</English>
 		<French>
 			<Text>Toscane</Text>
@@ -2074,7 +2062,7 @@
 		<Spanish>Tuscany</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_172</Tag>
+		<Tag>TXT_KEY_REGION_171</Tag>
 		<English>Emilia-Romagna</English>
 		<French>
 			<Text>&#201;milie-Romagne</Text>
@@ -2086,7 +2074,7 @@
 		<Spanish>Emilia-Romagna</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_173</Tag>
+		<Tag>TXT_KEY_REGION_172</Tag>
 		<English>Liguria</English>
 		<French>
 			<Text>Ligurie</Text>
@@ -2098,7 +2086,7 @@
 		<Spanish>Liguria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_174</Tag>
+		<Tag>TXT_KEY_REGION_173</Tag>
 		<English>Piedmont</English>
 		<French>
 			<Text>Pi&#233;mont</Text>
@@ -2110,7 +2098,7 @@
 		<Spanish>Piedmont</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_175</Tag>
+		<Tag>TXT_KEY_REGION_174</Tag>
 		<English>Lombardy</English>
 		<French>
 			<Text>Lombardie</Text>
@@ -2122,7 +2110,7 @@
 		<Spanish>Lombardy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_176</Tag>
+		<Tag>TXT_KEY_REGION_175</Tag>
 		<English>Verona</English>
 		<French>
 			<Text>V&#233;rone</Text>
@@ -2134,7 +2122,7 @@
 		<Spanish>Verona</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_177</Tag>
+		<Tag>TXT_KEY_REGION_176</Tag>
 		<English>Sardinia</English>
 		<French>
 			<Text>Sardaigne</Text>
@@ -2146,7 +2134,7 @@
 		<Spanish>Sardinia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_178</Tag>
+		<Tag>TXT_KEY_REGION_177</Tag>
 		<English>Tyrol</English>
 		<French>
 			<Text>Tyrol</Text>
@@ -2158,7 +2146,7 @@
 		<Spanish>Tyrol</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_179</Tag>
+		<Tag>TXT_KEY_REGION_178</Tag>
 		<English>Helvetia</English>
 		<French>
 			<Text>Helv&#233;tie</Text>
@@ -2170,7 +2158,7 @@
 		<Spanish>Helvetia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_180</Tag>
+		<Tag>TXT_KEY_REGION_179</Tag>
 		<English>Alsace</English>
 		<French>
 			<Text>Alsace</Text>
@@ -2182,7 +2170,7 @@
 		<Spanish>Alsace</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_181</Tag>
+		<Tag>TXT_KEY_REGION_180</Tag>
 		<English>Lorraine</English>
 		<French>
 			<Text>Lorraine</Text>
@@ -2194,7 +2182,7 @@
 		<Spanish>Lorraine</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_182</Tag>
+		<Tag>TXT_KEY_REGION_181</Tag>
 		<English>Frisia</English>
 		<French>
 			<Text>Frise</Text>
@@ -2206,7 +2194,7 @@
 		<Spanish>Frisia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_183</Tag>
+		<Tag>TXT_KEY_REGION_182</Tag>
 		<English>Holland</English>
 		<French>
 			<Text>Hollande</Text>
@@ -2218,7 +2206,7 @@
 		<Spanish>Holland</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_184</Tag>
+		<Tag>TXT_KEY_REGION_183</Tag>
 		<English>Brabant</English>
 		<French>
 			<Text>Brabant</Text>
@@ -2230,7 +2218,7 @@
 		<Spanish>Brabant</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_185</Tag>
+		<Tag>TXT_KEY_REGION_184</Tag>
 		<English>Wallonia</English>
 		<French>
 			<Text>Wallonie</Text>
@@ -2242,7 +2230,7 @@
 		<Spanish>Wallonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_186</Tag>
+		<Tag>TXT_KEY_REGION_185</Tag>
 		<English>Flanders</English>
 		<French>
 			<Text>Flandre</Text>
@@ -2254,7 +2242,7 @@
 		<Spanish>Flanders</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_187</Tag>
+		<Tag>TXT_KEY_REGION_186</Tag>
 		<English>Picardy-Artois</English>
 		<French>
 			<Text>Picardie-Artois</Text>
@@ -2266,7 +2254,7 @@
 		<Spanish>Picardy-Artois</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_188</Tag>
+		<Tag>TXT_KEY_REGION_187</Tag>
 		<English>Champagne</English>
 		<French>
 			<Text>Champagne</Text>
@@ -2278,7 +2266,7 @@
 		<Spanish>Champagne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_189</Tag>
+		<Tag>TXT_KEY_REGION_188</Tag>
 		<English>Ile-de-France</English>
 		<French>
 			<Text>&#206;le-de-France</Text>
@@ -2290,7 +2278,7 @@
 		<Spanish>Ile-de-France</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_190</Tag>
+		<Tag>TXT_KEY_REGION_189</Tag>
 		<English>Normandy</English>
 		<French>
 			<Text>Normandie</Text>
@@ -2302,7 +2290,7 @@
 		<Spanish>Normandy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_191</Tag>
+		<Tag>TXT_KEY_REGION_190</Tag>
 		<English>Brittany</English>
 		<French>
 			<Text>Bretagne</Text>
@@ -2314,7 +2302,7 @@
 		<Spanish>Brittany</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_192</Tag>
+		<Tag>TXT_KEY_REGION_191</Tag>
 		<English>Poitou</English>
 		<French>
 			<Text>Poitou</Text>
@@ -2326,7 +2314,7 @@
 		<Spanish>Poitou</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_193</Tag>
+		<Tag>TXT_KEY_REGION_192</Tag>
 		<English>Anjou</English>
 		<French>
 			<Text>Anjou</Text>
@@ -2338,7 +2326,7 @@
 		<Spanish>Anjou</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_194</Tag>
+		<Tag>TXT_KEY_REGION_193</Tag>
 		<English>Berry</English>
 		<French>
 			<Text>Berry</Text>
@@ -2350,7 +2338,7 @@
 		<Spanish>Berry</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_195</Tag>
+		<Tag>TXT_KEY_REGION_194</Tag>
 		<English>Burgundy</English>
 		<French>
 			<Text>Bourgogne</Text>
@@ -2362,7 +2350,7 @@
 		<Spanish>Burgundy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_196</Tag>
+		<Tag>TXT_KEY_REGION_195</Tag>
 		<English>Savoy</English>
 		<French>
 			<Text>Savoie</Text>
@@ -2374,7 +2362,7 @@
 		<Spanish>Savoy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_197</Tag>
+		<Tag>TXT_KEY_REGION_196</Tag>
 		<English>Lyonnais</English>
 		<French>
 			<Text>Lyonnais</Text>
@@ -2386,7 +2374,7 @@
 		<Spanish>Lyonnais</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_198</Tag>
+		<Tag>TXT_KEY_REGION_197</Tag>
 		<English>Auvergne</English>
 		<French>
 			<Text>Auvergne</Text>
@@ -2398,7 +2386,7 @@
 		<Spanish>Auvergne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_199</Tag>
+		<Tag>TXT_KEY_REGION_198</Tag>
 		<English>Gascony</English>
 		<French>
 			<Text>Gascogne</Text>
@@ -2410,7 +2398,7 @@
 		<Spanish>Gascony</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_200</Tag>
+		<Tag>TXT_KEY_REGION_199</Tag>
 		<English>Languedoc</English>
 		<French>
 			<Text>Languedoc</Text>
@@ -2422,7 +2410,7 @@
 		<Spanish>Languedoc</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_201</Tag>
+		<Tag>TXT_KEY_REGION_200</Tag>
 		<English>Dauphiny</English>
 		<French>
 			<Text>Dauphin&#233;</Text>
@@ -2434,7 +2422,7 @@
 		<Spanish>Dauphiny</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_202</Tag>
+		<Tag>TXT_KEY_REGION_201</Tag>
 		<English>Provence</English>
 		<French>
 			<Text>Provence</Text>
@@ -2446,7 +2434,7 @@
 		<Spanish>Provence</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_203</Tag>
+		<Tag>TXT_KEY_REGION_202</Tag>
 		<English>Corsica</English>
 		<French>
 			<Text>Corse</Text>
@@ -2458,7 +2446,7 @@
 		<Spanish>Corsica</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_204</Tag>
+		<Tag>TXT_KEY_REGION_203</Tag>
 		<English>Catalonia</English>
 		<French>
 			<Text>Catalogne</Text>
@@ -2470,7 +2458,7 @@
 		<Spanish>Catalonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_205</Tag>
+		<Tag>TXT_KEY_REGION_204</Tag>
 		<English>Aragon</English>
 		<French>
 			<Text>Aragon</Text>
@@ -2482,7 +2470,7 @@
 		<Spanish>Aragon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_206</Tag>
+		<Tag>TXT_KEY_REGION_205</Tag>
 		<English>Navarre</English>
 		<French>
 			<Text>Navarre</Text>
@@ -2494,7 +2482,7 @@
 		<Spanish>Navarre</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_207</Tag>
+		<Tag>TXT_KEY_REGION_206</Tag>
 		<English>Cantabria</English>
 		<French>
 			<Text>Cantabrie</Text>
@@ -2506,7 +2494,7 @@
 		<Spanish>Cantabria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_208</Tag>
+		<Tag>TXT_KEY_REGION_207</Tag>
 		<English>Asturias</English>
 		<French>
 			<Text>Asturies</Text>
@@ -2518,7 +2506,7 @@
 		<Spanish>Asturias</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_209</Tag>
+		<Tag>TXT_KEY_REGION_208</Tag>
 		<English>Gallaecia</English>
 		<French>
 			<Text>Galice</Text>
@@ -2530,7 +2518,7 @@
 		<Spanish>Gallaecia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_210</Tag>
+		<Tag>TXT_KEY_REGION_209</Tag>
 		<English>Portugal</English>
 		<French>
 			<Text>Portugal</Text>
@@ -2542,7 +2530,7 @@
 		<Spanish>Portugal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_211</Tag>
+		<Tag>TXT_KEY_REGION_210</Tag>
 		<English>Lusitania</English>
 		<French>
 			<Text>Lusitanie</Text>
@@ -2554,7 +2542,7 @@
 		<Spanish>Lusitania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_212</Tag>
+		<Tag>TXT_KEY_REGION_211</Tag>
 		<English>Leon</English>
 		<French>
 			<Text>Le&#243;n</Text>
@@ -2566,7 +2554,7 @@
 		<Spanish>Leon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_213</Tag>
+		<Tag>TXT_KEY_REGION_212</Tag>
 		<English>Castile</English>
 		<French>
 			<Text>Castille</Text>
@@ -2578,7 +2566,7 @@
 		<Spanish>Castile</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_214</Tag>
+		<Tag>TXT_KEY_REGION_213</Tag>
 		<English>La Mancha</English>
 		<French>
 			<Text>La Manche</Text>
@@ -2590,7 +2578,7 @@
 		<Spanish>La Mancha</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_215</Tag>
+		<Tag>TXT_KEY_REGION_214</Tag>
 		<English>Valencia</English>
 		<French>
 			<Text>Valence</Text>
@@ -2602,7 +2590,7 @@
 		<Spanish>Valencia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_216</Tag>
+		<Tag>TXT_KEY_REGION_215</Tag>
 		<English>Extremadura</English>
 		<French>
 			<Text>Estr&#233;madure</Text>
@@ -2614,7 +2602,7 @@
 		<Spanish>Extremadura</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_217</Tag>
+		<Tag>TXT_KEY_REGION_216</Tag>
 		<English>Andalusia</English>
 		<French>
 			<Text>Andalousie</Text>
@@ -2626,7 +2614,7 @@
 		<Spanish>Andalusia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_218</Tag>
+		<Tag>TXT_KEY_REGION_217</Tag>
 		<English>Murcia</English>
 		<French>
 			<Text>Murcie</Text>
@@ -2638,7 +2626,7 @@
 		<Spanish>Murcia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_219</Tag>
+		<Tag>TXT_KEY_REGION_218</Tag>
 		<English>Granada</English>
 		<French>
 			<Text>Grenade</Text>
@@ -2650,7 +2638,7 @@
 		<Spanish>Granada</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_220</Tag>
+		<Tag>TXT_KEY_REGION_219</Tag>
 		<English>Baleares</English>
 		<French>
 			<Text>Bal&#233;ares</Text>
@@ -2662,7 +2650,7 @@
 		<Spanish>Baleares</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_221</Tag>
+		<Tag>TXT_KEY_REGION_220</Tag>
 		<English>Septimania</English>
 		<French>
 			<Text>Septimanie</Text>
@@ -2674,7 +2662,7 @@
 		<Spanish>Septimania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_222</Tag>
+		<Tag>TXT_KEY_REGION_221</Tag>
 		<English>Sahara</English>
 		<French>
 			<Text>Sahara</Text>
@@ -2686,7 +2674,7 @@
 		<Spanish>Sahara</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_223</Tag>
+		<Tag>TXT_KEY_REGION_222</Tag>
 		<English>Atlantic Ocean</English>
 		<French>
 			<Text>Oc&#233;an Atlantique</Text>
@@ -2698,7 +2686,7 @@
 		<Spanish>Atlantic Ocean</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_224</Tag>
+		<Tag>TXT_KEY_REGION_223</Tag>
 		<English>Mediterranean Sea</English>
 		<French>
 			<Text>Mer M&#233;diterran&#233;e</Text>
@@ -2710,7 +2698,7 @@
 		<Spanish>Mediterranean Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_225</Tag>
+		<Tag>TXT_KEY_REGION_224</Tag>
 		<English>Red Sea</English>
 		<French>
 			<Text>Mer Rouge</Text>
@@ -2722,7 +2710,7 @@
 		<Spanish>Red Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_226</Tag>
+		<Tag>TXT_KEY_REGION_225</Tag>
 		<English>Baltic Sea</English>
 		<French>
 			<Text>Mer Baltique</Text>
@@ -2734,7 +2722,7 @@
 		<Spanish>Baltic Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_227</Tag>
+		<Tag>TXT_KEY_REGION_226</Tag>
 		<English>Black Sea</English>
 		<French>
 			<Text>Mer Noire</Text>
@@ -2746,7 +2734,7 @@
 		<Spanish>Black Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_228</Tag>
+		<Tag>TXT_KEY_REGION_227</Tag>
 		<English>Sea of Azov</English>
 		<French>
 			<Text>Mer d'Azov</Text>
@@ -2758,7 +2746,7 @@
 		<Spanish>Sea of Azov</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_229</Tag>
+		<Tag>TXT_KEY_REGION_228</Tag>
 		<English>White Sea</English>
 		<French>
 			<Text>Mer Blanche</Text>
@@ -2770,7 +2758,7 @@
 		<Spanish>White Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_230</Tag>
+		<Tag>TXT_KEY_REGION_229</Tag>
 		<English>Lake Snaasavatnet</English>
 		<French>
 			<Text>Lac Snaasavatnet</Text>
@@ -2782,7 +2770,7 @@
 		<Spanish>Lago Snaasavatnet</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_231</Tag>
+		<Tag>TXT_KEY_REGION_230</Tag>
 		<English>Lake Kallsjoen</English>
 		<French>
 			<Text>Lac Kallsjoen</Text>
@@ -2794,7 +2782,7 @@
 		<Spanish>Lago Kallsjoen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_232</Tag>
+		<Tag>TXT_KEY_REGION_231</Tag>
 		<English>Stroems Vattudal</English>
 		<French>
 			<Text>Stroems Vattudal</Text>
@@ -2806,7 +2794,7 @@
 		<Spanish>Stroems Vattudal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_233</Tag>
+		<Tag>TXT_KEY_REGION_232</Tag>
 		<English>Lake Storsjoen</English>
 		<French>
 			<Text>Lac Storsjoen</Text>
@@ -2818,7 +2806,7 @@
 		<Spanish>Lago Storsjoen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_234</Tag>
+		<Tag>TXT_KEY_REGION_233</Tag>
 		<English>Lake Siljan</English>
 		<French>
 			<Text>Lac Siljan</Text>
@@ -2830,7 +2818,7 @@
 		<Spanish>Lago Siljan</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_235</Tag>
+		<Tag>TXT_KEY_REGION_234</Tag>
 		<English>Lake Vanern</English>
 		<French>
 			<Text>Lac Vanern</Text>
@@ -2842,7 +2830,7 @@
 		<Spanish>Lago Vanern</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_236</Tag>
+		<Tag>TXT_KEY_REGION_235</Tag>
 		<English>Lake Vattern</English>
 		<French>
 			<Text>Lac Vattern</Text>
@@ -2854,7 +2842,7 @@
 		<Spanish>Lago Vattern</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_237</Tag>
+		<Tag>TXT_KEY_REGION_236</Tag>
 		<English>Lake Hjaelmaren</English>
 		<French>
 			<Text>Lac Hjalmaren</Text>
@@ -2866,7 +2854,7 @@
 		<Spanish>Lago Hjaelmaren</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_238</Tag>
+		<Tag>TXT_KEY_REGION_237</Tag>
 		<English>Lake Maelaren</English>
 		<French>
 			<Text>Lac Malar</Text>
@@ -2878,7 +2866,7 @@
 		<Spanish>Lago Maelaren</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_239</Tag>
+		<Tag>TXT_KEY_REGION_238</Tag>
 		<English>Lake Pyhajarvi</English>
 		<French>
 			<Text>Lac Pyhajarvi</Text>
@@ -2890,7 +2878,7 @@
 		<Spanish>Lago Pyhajarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_240</Tag>
+		<Tag>TXT_KEY_REGION_239</Tag>
 		<English>Lake Lohjanjarvi</English>
 		<French>
 			<Text>Lac Lohjanarvi</Text>
@@ -2902,7 +2890,7 @@
 		<Spanish>Lago Lohjanjarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_241</Tag>
+		<Tag>TXT_KEY_REGION_240</Tag>
 		<English>Lake Lappajarvi</English>
 		<French>
 			<Text>Lac Lappajarvi</Text>
@@ -2914,7 +2902,7 @@
 		<Spanish>Lago Lappajarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_242</Tag>
+		<Tag>TXT_KEY_REGION_241</Tag>
 		<English>Lake Nasijarvi</English>
 		<French>
 			<Text>Lac Nasijarvi</Text>
@@ -2926,7 +2914,7 @@
 		<Spanish>Lago Nasijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_243</Tag>
+		<Tag>TXT_KEY_REGION_242</Tag>
 		<English>Lake Vanajavesi</English>
 		<French>
 			<Text>Lac Vanajavesi</Text>
@@ -2938,7 +2926,7 @@
 		<Spanish>Lago Vanajavesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_244</Tag>
+		<Tag>TXT_KEY_REGION_243</Tag>
 		<English>Lake Paijanne</English>
 		<French>
 			<Text>Lac Paijanne</Text>
@@ -2950,7 +2938,7 @@
 		<Spanish>Lago Paijanne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_245</Tag>
+		<Tag>TXT_KEY_REGION_244</Tag>
 		<English>Lake Keitele</English>
 		<French>
 			<Text>Lac Keitele</Text>
@@ -2962,7 +2950,7 @@
 		<Spanish>Lago Keitele</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_246</Tag>
+		<Tag>TXT_KEY_REGION_245</Tag>
 		<English>Lake Nilakka</English>
 		<French>
 			<Text>Lac Nilakka</Text>
@@ -2974,7 +2962,7 @@
 		<Spanish>Lago Nilakka</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_247</Tag>
+		<Tag>TXT_KEY_REGION_246</Tag>
 		<English>Lake Onkivesi</English>
 		<French>
 			<Text>Lac Onkivesi</Text>
@@ -2986,7 +2974,7 @@
 		<Spanish>Lago Onkivesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_248</Tag>
+		<Tag>TXT_KEY_REGION_247</Tag>
 		<English>Lake Lisvesi</English>
 		<French>
 			<Text>Lac Lisvesi</Text>
@@ -2998,7 +2986,7 @@
 		<Spanish>Lago Lisvesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_249</Tag>
+		<Tag>TXT_KEY_REGION_248</Tag>
 		<English>Lake Puula</English>
 		<French>
 			<Text>Lac Puula</Text>
@@ -3010,7 +2998,7 @@
 		<Spanish>Lago Puula</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_250</Tag>
+		<Tag>TXT_KEY_REGION_249</Tag>
 		<English>Lake Vuohijarvi</English>
 		<French>
 			<Text>Lac Vuohijarvi</Text>
@@ -3022,7 +3010,7 @@
 		<Spanish>Lago Vuohijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_251</Tag>
+		<Tag>TXT_KEY_REGION_250</Tag>
 		<English>Lake Kyyvesi</English>
 		<French>
 			<Text>Lac Kyyvesi</Text>
@@ -3034,7 +3022,7 @@
 		<Spanish>Lago Kyyvesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_252</Tag>
+		<Tag>TXT_KEY_REGION_251</Tag>
 		<English>Lake Kallavesi</English>
 		<French>
 			<Text>Lac Kallavesi</Text>
@@ -3046,7 +3034,7 @@
 		<Spanish>Lago Kallavesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_253</Tag>
+		<Tag>TXT_KEY_REGION_252</Tag>
 		<English>Lake Saimaa</English>
 		<French>
 			<Text>Lac Saimaa</Text>
@@ -3058,7 +3046,7 @@
 		<Spanish>Lago Saimaa</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_254</Tag>
+		<Tag>TXT_KEY_REGION_253</Tag>
 		<English>Lake Viinijarvi</English>
 		<French>
 			<Text>Lac Viinijarvi</Text>
@@ -3070,7 +3058,7 @@
 		<Spanish>Lago Viinijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_255</Tag>
+		<Tag>TXT_KEY_REGION_254</Tag>
 		<English>Lake Orivesi</English>
 		<French>
 			<Text>Lac Orivesi</Text>
@@ -3082,7 +3070,7 @@
 		<Spanish>Lago Orivesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_256</Tag>
+		<Tag>TXT_KEY_REGION_255</Tag>
 		<English>Lake Hoytiainen</English>
 		<French>
 			<Text>Lac H&#246;ytiainen</Text>
@@ -3094,7 +3082,7 @@
 		<Spanish>Lago Hoytiainen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_257</Tag>
+		<Tag>TXT_KEY_REGION_256</Tag>
 		<English>Lake Pielinen</English>
 		<French>
 			<Text>Lac Pielinen</Text>
@@ -3106,7 +3094,7 @@
 		<Spanish>Lago Pielinen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_258</Tag>
+		<Tag>TXT_KEY_REGION_257</Tag>
 		<English>Lake Koitere</English>
 		<French>
 			<Text>Lac Koitere</Text>
@@ -3118,7 +3106,7 @@
 		<Spanish>Lago Koitere</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_259</Tag>
+		<Tag>TXT_KEY_REGION_258</Tag>
 		<English>Lake Lagoda</English>
 		<French>
 			<Text>Lac Lagoda</Text>
@@ -3130,7 +3118,7 @@
 		<Spanish>Lago Lagoda</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_260</Tag>
+		<Tag>TXT_KEY_REGION_259</Tag>
 		<English>Lake Syamozero</English>
 		<French>
 			<Text>Lac Syamozero</Text>
@@ -3142,7 +3130,7 @@
 		<Spanish>Lago Syamozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_261</Tag>
+		<Tag>TXT_KEY_REGION_260</Tag>
 		<English>Lake Segozero</English>
 		<French>
 			<Text>Lac Segozero</Text>
@@ -3154,7 +3142,7 @@
 		<Spanish>Lago Segozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_262</Tag>
+		<Tag>TXT_KEY_REGION_261</Tag>
 		<English>Lake Sandal</English>
 		<French>
 			<Text>Lac Sandal</Text>
@@ -3166,7 +3154,7 @@
 		<Spanish>Lago Sandal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_263</Tag>
+		<Tag>TXT_KEY_REGION_262</Tag>
 		<English>Lake Vygozero</English>
 		<French>
 			<Text>Lac Vygozero</Text>
@@ -3178,7 +3166,7 @@
 		<Spanish>Lago Vygozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_264</Tag>
+		<Tag>TXT_KEY_REGION_263</Tag>
 		<English>Lake Onega</English>
 		<French>
 			<Text>Lac Onega</Text>
@@ -3190,7 +3178,7 @@
 		<Spanish>Lago Onega</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_265</Tag>
+		<Tag>TXT_KEY_REGION_264</Tag>
 		<English>Lake Voldozero</English>
 		<French>
 			<Text>Lac Voldozero</Text>
@@ -3202,7 +3190,7 @@
 		<Spanish>Lago Voldozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_266</Tag>
+		<Tag>TXT_KEY_REGION_265</Tag>
 		<English>Lake Lacha</English>
 		<French>
 			<Text>Lac Lacha</Text>
@@ -3214,7 +3202,7 @@
 		<Spanish>Lago Lacha</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_267</Tag>
+		<Tag>TXT_KEY_REGION_266</Tag>
 		<English>Lake Vozhe</English>
 		<French>
 			<Text>Lac Vozhe</Text>
@@ -3226,7 +3214,7 @@
 		<Spanish>Lago Vozhe</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_268</Tag>
+		<Tag>TXT_KEY_REGION_267</Tag>
 		<English>Lake Kubena</English>
 		<French>
 			<Text>Lac Kubena</Text>
@@ -3238,7 +3226,7 @@
 		<Spanish>Lago Kubena</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_269</Tag>
+		<Tag>TXT_KEY_REGION_268</Tag>
 		<English>Lake Beloye</English>
 		<French>
 			<Text>Lac Beloye</Text>
@@ -3250,7 +3238,7 @@
 		<Spanish>Lago Beloye</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_270</Tag>
+		<Tag>TXT_KEY_REGION_269</Tag>
 		<English>Lake Ilmen</English>
 		<French>
 			<Text>Lac Ilmen</Text>
@@ -3262,7 +3250,7 @@
 		<Spanish>Lago Ilmen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_271</Tag>
+		<Tag>TXT_KEY_REGION_270</Tag>
 		<English>Lake Pihkva/Pskovskoye</English>
 		<French>
 			<Text>Lac Pihkva/Pskovskoye</Text>
@@ -3274,7 +3262,7 @@
 		<Spanish>Lago Pihkva/Pskovskoye</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_272</Tag>
+		<Tag>TXT_KEY_REGION_271</Tag>
 		<English>Lake Peipus/Chudskoye</English>
 		<French>
 			<Text>Lac Peipous/Chudskoye</Text>
@@ -3286,7 +3274,7 @@
 		<Spanish>Lago Peipus/Chudskoye</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_273</Tag>
+		<Tag>TXT_KEY_REGION_272</Tag>
 		<English>Lake Vortsjarv/Wirzsee</English>
 		<French>
 			<Text>Lac V&#245;rtsjarv/Wirzsee</Text>
@@ -3298,7 +3286,7 @@
 		<Spanish>Lago Vortsjarvi/Wirzsee</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_274</Tag>
+		<Tag>TXT_KEY_REGION_273</Tag>
 		<English>Lake Sniardwy/Spirdingsee</English>
 		<French>
 			<Text>Lac Sniardwy/Spirdingsee</Text>
@@ -3310,7 +3298,7 @@
 		<Spanish>Lago Sniardwy/Spirdingsee</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_275</Tag>
+		<Tag>TXT_KEY_REGION_274</Tag>
 		<English>Limfjord</English>
 		<French>
 			<Text>Limfjord</Text>
@@ -3322,7 +3310,7 @@
 		<Spanish>Limfjord</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_276</Tag>
+		<Tag>TXT_KEY_REGION_275</Tag>
 		<English>Lough Neagh</English>
 		<French>
 			<Text>Lough Neagh</Text>
@@ -3334,7 +3322,7 @@
 		<Spanish>Lough Neagh</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_277</Tag>
+		<Tag>TXT_KEY_REGION_276</Tag>
 		<English>Lake Geneva/Leman</English>
 		<French>
 			<Text>Lac de Genève/L&#233;man</Text>
@@ -3346,7 +3334,7 @@
 		<Spanish>Lago de Ginebra/Leman</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_278</Tag>
+		<Tag>TXT_KEY_REGION_277</Tag>
 		<English>Lake Constance/Bodensee</English>
 		<French>
 			<Text>Lac de Constance/Bodensee</Text>
@@ -3358,7 +3346,7 @@
 		<Spanish>Lago de Constanza/Bodensee</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_279</Tag>
+		<Tag>TXT_KEY_REGION_278</Tag>
 		<English>Lake Garda</English>
 		<French>
 			<Text>Lac de Garde</Text>
@@ -3370,7 +3358,7 @@
 		<Spanish>Lago Garda</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_280</Tag>
+		<Tag>TXT_KEY_REGION_279</Tag>
 		<English>Lake Balaton</English>
 		<French>
 			<Text>Lac Balaton</Text>
@@ -3382,7 +3370,7 @@
 		<Spanish>Lago Balaton</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_281</Tag>
+		<Tag>TXT_KEY_REGION_280</Tag>
 		<English>Lake Skadar/Scutari</English>
 		<French>
 			<Text>Lac Skadar/Scutari</Text>
@@ -3394,7 +3382,7 @@
 		<Spanish>Lago Skadar/Scutari</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_282</Tag>
+		<Tag>TXT_KEY_REGION_281</Tag>
 		<English>Lake Ohrid</English>
 		<French>
 			<Text>Lac Ohrid</Text>
@@ -3406,7 +3394,7 @@
 		<Spanish>Lago Ohrid</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_283</Tag>
+		<Tag>TXT_KEY_REGION_282</Tag>
 		<English>Lake Prespa</English>
 		<French>
 			<Text>Lac Prespa</Text>
@@ -3418,7 +3406,7 @@
 		<Spanish>Lago Prespa</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_284</Tag>
+		<Tag>TXT_KEY_REGION_283</Tag>
 		<English>Lake Askania/Iznik</English>
 		<French>
 			<Text>Lac Askania/Iznik</Text>
@@ -3430,7 +3418,7 @@
 		<Spanish>Lago de Askania/Iznik</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_285</Tag>
+		<Tag>TXT_KEY_REGION_284</Tag>
 		<English>Lake Akrotiri/Eghridir</English>
 		<French>
 			<Text>Lac Akrotiri/Eghridir</Text>
@@ -3442,7 +3430,7 @@
 		<Spanish>Lago Akrotiri/Eghridir</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_286</Tag>
+		<Tag>TXT_KEY_REGION_285</Tag>
 		<English>Lake Karallis/Beyshehir</English>
 		<French>
 			<Text>Lac Karallis/Beyshehir</Text>
@@ -3454,7 +3442,7 @@
 		<Spanish>Lago Karallis/Beyshehir</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_287</Tag>
+		<Tag>TXT_KEY_REGION_286</Tag>
 		<English>Lake Tatta/Tuz</English>
 		<French>
 			<Text>Lac Tatta/Tuz</Text>
@@ -3466,7 +3454,7 @@
 		<Spanish>Lago Tatta/Tuz</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_288</Tag>
+		<Tag>TXT_KEY_REGION_287</Tag>
 		<English>Lake Tiberias/Sea of Galilee</English>
 		<French>
 			<Text>Lac Tib&#233;riade/Mer de Galil&#233;e</Text>
@@ -3478,7 +3466,7 @@
 		<Spanish>Lago de Tiberias/Mar de Galilea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_289</Tag>
+		<Tag>TXT_KEY_REGION_288</Tag>
 		<English>Dead Sea</English>
 		<French>
 			<Text>Mer Morte</Text>
@@ -3490,7 +3478,7 @@
 		<Spanish>Dead Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_290</Tag>
+		<Tag>TXT_KEY_REGION_289</Tag>
 		<English>Lake Moeris</English>
 		<French>
 			<Text>Lac Moeris</Text>
@@ -3502,7 +3490,7 @@
 		<Spanish>Lago Moeris</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_291</Tag>
+		<Tag>TXT_KEY_REGION_290</Tag>
 		<English>Sebkha of Oran</English>
 		<French>
 			<Text>Sebkha d'Oran</Text>
@@ -3514,7 +3502,7 @@
 		<Spanish>Sebkha Oran</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_292</Tag>
+		<Tag>TXT_KEY_REGION_291</Tag>
 		<English>Chott ech Chergui</English>
 		<French>
 			<Text>Chott ech Chergui</Text>
@@ -3526,7 +3514,7 @@
 		<Spanish>Chott ech Chergui</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_293</Tag>
+		<Tag>TXT_KEY_REGION_292</Tag>
 		<English>Chott el Hodna</English>
 		<French>
 			<Text>Chott el Hodna</Text>
@@ -3538,7 +3526,7 @@
 		<Spanish>Chott el Hodna</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_294</Tag>
+		<Tag>TXT_KEY_REGION_293</Tag>
 		<English>Chott Melghir</English>
 		<French>
 			<Text>Chott Melghir</Text>
@@ -3550,7 +3538,7 @@
 		<Spanish>Chott Melghir</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_295</Tag>
+		<Tag>TXT_KEY_REGION_294</Tag>
 		<English>Chott el Dejrid</English>
 		<French>
 			<Text>Chott el Dejrid</Text>

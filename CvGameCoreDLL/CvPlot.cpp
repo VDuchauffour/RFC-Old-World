@@ -12302,7 +12302,6 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_BITHYNIA:
     case REGION_PHRYGIA:
     case REGION_LYCIA:
-    case REGION_PAMPHYLIA:
     case REGION_ANATOLICON:
     case REGION_GALATIA:
     case REGION_PAPHLAGONIA:
