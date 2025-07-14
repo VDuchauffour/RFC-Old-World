@@ -2771,555 +2771,555 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_230</Tag>
-		<English>Lake of Snaasavatnet</English>
+		<English>Lake Snaasavatnet</English>
 		<French>
-			<Text>Lac de Snaasavatnet</Text>
+			<Text>Lac Snaasavatnet</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Snaasavatnet-See</German>
-		<Italian>Lago di Snaasavatnet</Italian>
-		<Spanish>Lago de Snaasavatnet</Spanish>
+		<Italian>Lago Snaasavatnet</Italian>
+		<Spanish>Lago Snaasavatnet</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_231</Tag>
-		<English>Lake of Kallsjoen</English>
+		<English>Lake Kallsjoen</English>
 		<French>
-			<Text>Lac de Kallsjoen</Text>
+			<Text>Lac Kallsjoen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kallsjoen-See</German>
-		<Italian>Lago di Kallsjoen</Italian>
-		<Spanish>Lago de Kallsjoen</Spanish>
+		<Italian>Lago Kallsjoen</Italian>
+		<Spanish>Lago Kallsjoen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_232</Tag>
-		<English>Lake of Stroems Vattudal</English>
+		<English>Stroems Vattudal</English>
 		<French>
-			<Text>Lac de Stroems Vattudal</Text>
+			<Text>Stroems Vattudal</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Stroems Vattudal-See</German>
-		<Italian>Lago di Stroems Vattudal</Italian>
-		<Spanish>Lago de Stroems Vattudal</Spanish>
+		<German>Stroems Vattudal</German>
+		<Italian>Stroems Vattudal</Italian>
+		<Spanish>Stroems Vattudal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_233</Tag>
-		<English>Lake of Storsjoen</English>
+		<English>Lake Storsjoen</English>
 		<French>
-			<Text>Lac de Storsjoen</Text>
+			<Text>Lac Storsjoen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Storsjoen-See</German>
-		<Italian>Lago di Storsjoen</Italian>
-		<Spanish>Lago de Storsjoen</Spanish>
+		<Italian>Lago Storsjoen</Italian>
+		<Spanish>Lago Storsjoen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_234</Tag>
-		<English>Lake of Siljan</English>
+		<English>Lake Siljan</English>
 		<French>
-			<Text>Lac de Siljan</Text>
+			<Text>Lac Siljan</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Siljan-See</German>
-		<Italian>Lago di Siljan</Italian>
-		<Spanish>Lago de Siljan</Spanish>
+		<Italian>Lago Siljan</Italian>
+		<Spanish>Lago Siljan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_235</Tag>
-		<English>Lake of Vaenern</English>
+		<English>Lake Vanern</English>
 		<French>
-			<Text>Lac de Vanern</Text>
+			<Text>Lac Vanern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vanern-See</German>
-		<Italian>Lago di Vaenern</Italian>
-		<Spanish>Lago de Vaenern</Spanish>
+		<Italian>Lago Vanern</Italian>
+		<Spanish>Lago Vanern</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_236</Tag>
-		<English>Lake of Vaettern</English>
+		<English>Lake Vattern</English>
 		<French>
-			<Text>Lac de Vattern</Text>
+			<Text>Lac Vattern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vattern-See</German>
-		<Italian>Lago di Vaettern</Italian>
-		<Spanish>Lago de Vaettern</Spanish>
+		<Italian>Lago Vattern</Italian>
+		<Spanish>Lago Vattern</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_237</Tag>
-		<English>Lake of Hjaelmaren</English>
+		<English>Lake Hjaelmaren</English>
 		<French>
-			<Text>Lac de Hjalmaren</Text>
+			<Text>Lac Hjalmaren</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Hjalmaren-See</German>
-		<Italian>Lago di Hjaelmaren</Italian>
-		<Spanish>Lago de Hjaelmaren</Spanish>
+		<Italian>Lago Hjaelmaren</Italian>
+		<Spanish>Lago Hjaelmaren</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_238</Tag>
-		<English>Lake of Maerlaen</English>
+		<English>Lake Maelaren</English>
 		<French>
-			<Text>Lac de Malaren</Text>
+			<Text>Lac Malar</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Malaren-See</German>
-		<Italian>Lago di Maerlaen</Italian>
-		<Spanish>Lago de Maerlaen</Spanish>
+		<German>Maelaren-See</German>
+		<Italian>Lago Maelaren</Italian>
+		<Spanish>Lago Maelaren</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_239</Tag>
-		<English>Lake of Pyhajarvi</English>
+		<English>Lake Pyhajarvi</English>
 		<French>
-			<Text>Lac de Pyhajarvi</Text>
+			<Text>Lac Pyhajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Pyhajarvi-See</German>
-		<Italian>Lago di Pyhajarvi</Italian>
-		<Spanish>Lago de Pyhajarvi</Spanish>
+		<Italian>Lago Pyhajarvi</Italian>
+		<Spanish>Lago Pyhajarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_240</Tag>
-		<English>Lake of Lohjanjarvi</English>
+		<English>Lake Lohjanjarvi</English>
 		<French>
-			<Text>Lac de Lohjanarvi</Text>
+			<Text>Lac Lohjanarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lohjanarvi-See</German>
-		<Italian>Lago di Lohjanjarvi</Italian>
-		<Spanish>Lago de Lohjanjarvi</Spanish>
+		<Italian>Lago Lohjanjarvi</Italian>
+		<Spanish>Lago Lohjanjarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_241</Tag>
-		<English>Lake of Lappajarvi</English>
+		<English>Lake Lappajarvi</English>
 		<French>
-			<Text>Lac de Lappajarvi</Text>
+			<Text>Lac Lappajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lappajarvi-See</German>
-		<Italian>Lago di Lappajarvi</Italian>
-		<Spanish>Lago de Lappajarvi</Spanish>
+		<Italian>Lago Lappajarvi</Italian>
+		<Spanish>Lago Lappajarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_242</Tag>
-		<English>Lake of Nasijarvi</English>
+		<English>Lake Nasijarvi</English>
 		<French>
-			<Text>Lac de Nasijarvi</Text>
+			<Text>Lac Nasijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Nasijarvi-See</German>
-		<Italian>Lago di Nasijarvi</Italian>
-		<Spanish>Lago de Nasijarvi</Spanish>
+		<Italian>Lago Nasijarvi</Italian>
+		<Spanish>Lago Nasijarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_243</Tag>
-		<English>Lake of Vanajavesi</English>
+		<English>Lake Vanajavesi</English>
 		<French>
-			<Text>Lac de Vanajavesi</Text>
+			<Text>Lac Vanajavesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vanajavesi-See</German>
-		<Italian>Lago di Vanajavesi</Italian>
-		<Spanish>Lago de Vanajavesi</Spanish>
+		<Italian>Lago Vanajavesi</Italian>
+		<Spanish>Lago Vanajavesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_244</Tag>
-		<English>Lake of Paijanne</English>
+		<English>Lake Paijanne</English>
 		<French>
-			<Text>Lac de Paijanne</Text>
+			<Text>Lac Paijanne</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Paijanne-See</German>
-		<Italian>Lago di Paijanne</Italian>
-		<Spanish>Lago de Paijanne</Spanish>
+		<Italian>Lago Paijanne</Italian>
+		<Spanish>Lago Paijanne</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_245</Tag>
-		<English>Lake of Keitele</English>
+		<English>Lake Keitele</English>
 		<French>
-			<Text>Lac de Keitele</Text>
+			<Text>Lac Keitele</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Keitele-See</German>
-		<Italian>Lago di Keitele</Italian>
-		<Spanish>Lago de Keitele</Spanish>
+		<Italian>Lago Keitele</Italian>
+		<Spanish>Lago Keitele</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_246</Tag>
-		<English>Lake of Nilakka</English>
+		<English>Lake Nilakka</English>
 		<French>
-			<Text>Lac de Nilakka</Text>
+			<Text>Lac Nilakka</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Nilakka-See</German>
-		<Italian>Lago di Nilakka</Italian>
-		<Spanish>Lago de Nilakka</Spanish>
+		<Italian>Lago Nilakka</Italian>
+		<Spanish>Lago Nilakka</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_247</Tag>
-		<English>Lake of Onkivesi</English>
+		<English>Lake Onkivesi</English>
 		<French>
-			<Text>Lac de Onkivesi</Text>
+			<Text>Lac Onkivesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Onkivesi-See</German>
-		<Italian>Lago di Onkivesi</Italian>
-		<Spanish>Lago de Onkivesi</Spanish>
+		<Italian>Lago Onkivesi</Italian>
+		<Spanish>Lago Onkivesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_248</Tag>
-		<English>Lake of Lisvesi</English>
+		<English>Lake Lisvesi</English>
 		<French>
-			<Text>Lac de Lisvesi</Text>
+			<Text>Lac Lisvesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lisvesi-See</German>
-		<Italian>Lago di Lisvesi</Italian>
-		<Spanish>Lago de Lisvesi</Spanish>
+		<Italian>Lago Lisvesi</Italian>
+		<Spanish>Lago Lisvesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_249</Tag>
-		<English>Lake of Puula</English>
+		<English>Lake Puula</English>
 		<French>
-			<Text>Lac de Puula</Text>
+			<Text>Lac Puula</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Puula-See</German>
-		<Italian>Lago di Puula</Italian>
-		<Spanish>Lago de Puula</Spanish>
+		<Italian>Lago Puula</Italian>
+		<Spanish>Lago Puula</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_250</Tag>
-		<English>Lake of Vuohijarvi</English>
+		<English>Lake Vuohijarvi</English>
 		<French>
-			<Text>Lac de Vuohijarvi</Text>
+			<Text>Lac Vuohijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vuohijarvi-See</German>
-		<Italian>Lago di Vuohijarvi</Italian>
-		<Spanish>Lago de Vuohijarvi</Spanish>
+		<Italian>Lago Vuohijarvi</Italian>
+		<Spanish>Lago Vuohijarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_251</Tag>
-		<English>Lake of Kyyvesi</English>
+		<English>Lake Kyyvesi</English>
 		<French>
-			<Text>Lac de Kyyvesi</Text>
+			<Text>Lac Kyyvesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kyyvesi-See</German>
-		<Italian>Lago di Kyyvesi</Italian>
-		<Spanish>Lago de Kyyvesi</Spanish>
+		<Italian>Lago Kyyvesi</Italian>
+		<Spanish>Lago Kyyvesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_252</Tag>
-		<English>Lake of Kallavesi</English>
+		<English>Lake Kallavesi</English>
 		<French>
-			<Text>Lac de Kallavesi</Text>
+			<Text>Lac Kallavesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kallavesi-See</German>
-		<Italian>Lago di Kallavesi</Italian>
-		<Spanish>Lago de Kallavesi</Spanish>
+		<Italian>Lago Kallavesi</Italian>
+		<Spanish>Lago Kallavesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_253</Tag>
-		<English>Lake of Saimaa</English>
+		<English>Lake Saimaa</English>
 		<French>
-			<Text>Lac de Saimaa</Text>
+			<Text>Lac Saimaa</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Saimaa-See</German>
-		<Italian>Lago di Saimaa</Italian>
-		<Spanish>Lago de Saimaa</Spanish>
+		<Italian>Lago Saimaa</Italian>
+		<Spanish>Lago Saimaa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_254</Tag>
-		<English>Lake of Viinijarvi</English>
+		<English>Lake Viinijarvi</English>
 		<French>
-			<Text>Lac de Viinijarvi</Text>
+			<Text>Lac Viinijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Viinijarvi-See</German>
-		<Italian>Lago di Viinijarvi</Italian>
-		<Spanish>Lago de Viinijarvi</Spanish>
+		<Italian>Lago Viinijarvi</Italian>
+		<Spanish>Lago Viinijarvi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_255</Tag>
-		<English>Lake of Orivesi</English>
+		<English>Lake Orivesi</English>
 		<French>
-			<Text>Lac de Orivesi</Text>
+			<Text>Lac Orivesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Orivesi-See</German>
-		<Italian>Lago di Orivesi</Italian>
-		<Spanish>Lago de Orivesi</Spanish>
+		<Italian>Lago Orivesi</Italian>
+		<Spanish>Lago Orivesi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_256</Tag>
-		<English>Lake of Hoytiainen</English>
+		<English>Lake Hoytiainen</English>
 		<French>
-			<Text>Lac de H&#246;ytiainen</Text>
+			<Text>Lac H&#246;ytiainen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>H&#246;ytiainen-See</German>
-		<Italian>Lago di Hoytiainen</Italian>
-		<Spanish>Lago de Hoytiainen</Spanish>
+		<Italian>Lago Hoytiainen</Italian>
+		<Spanish>Lago Hoytiainen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_257</Tag>
-		<English>Lake of Pielinen</English>
+		<English>Lake Pielinen</English>
 		<French>
-			<Text>Lac de Pielinen</Text>
+			<Text>Lac Pielinen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Pielinen-See</German>
-		<Italian>Lago di Pielinen</Italian>
-		<Spanish>Lago de Pielinen</Spanish>
+		<Italian>Lago Pielinen</Italian>
+		<Spanish>Lago Pielinen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_258</Tag>
-		<English>Lake of Koitere</English>
+		<English>Lake Koitere</English>
 		<French>
-			<Text>Lac de Koitere</Text>
+			<Text>Lac Koitere</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Koitere-See</German>
-		<Italian>Lago di Koitere</Italian>
-		<Spanish>Lago de Koitere</Spanish>
+		<Italian>Lago Koitere</Italian>
+		<Spanish>Lago Koitere</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_259</Tag>
-		<English>Lake of Lagoda</English>
+		<English>Lake Lagoda</English>
 		<French>
-			<Text>Lac de Lagoda</Text>
+			<Text>Lac Lagoda</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lagoda-See</German>
-		<Italian>Lago di Lagoda</Italian>
-		<Spanish>Lago de Lagoda</Spanish>
+		<Italian>Lago Lagoda</Italian>
+		<Spanish>Lago Lagoda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_260</Tag>
-		<English>Lake of Syamozero</English>
+		<English>Lake Syamozero</English>
 		<French>
-			<Text>Lac de Syamozero</Text>
+			<Text>Lac Syamozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Syamozero-See</German>
-		<Italian>Lago di Syamozero</Italian>
-		<Spanish>Lago de Syamozero</Spanish>
+		<Italian>Lago Syamozero</Italian>
+		<Spanish>Lago Syamozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_261</Tag>
-		<English>Lake of Segozero</English>
+		<English>Lake Segozero</English>
 		<French>
-			<Text>Lac de Segozero</Text>
+			<Text>Lac Segozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Segozero-See</German>
-		<Italian>Lago di Segozero</Italian>
-		<Spanish>Lago de Segozero</Spanish>
+		<Italian>Lago Segozero</Italian>
+		<Spanish>Lago Segozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_262</Tag>
-		<English>Lake of Sandal</English>
+		<English>Lake Sandal</English>
 		<French>
-			<Text>Lac de Sandal</Text>
+			<Text>Lac Sandal</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Sandal-See</German>
-		<Italian>Lago di Sandal</Italian>
-		<Spanish>Lago de Sandal</Spanish>
+		<Italian>Lago Sandal</Italian>
+		<Spanish>Lago Sandal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_263</Tag>
-		<English>Lake of Vygozero</English>
+		<English>Lake Vygozero</English>
 		<French>
-			<Text>Lac de Vygozero</Text>
+			<Text>Lac Vygozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vygozero-See</German>
-		<Italian>Lago di Vygozero</Italian>
-		<Spanish>Lago de Vygozero</Spanish>
+		<Italian>Lago Vygozero</Italian>
+		<Spanish>Lago Vygozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_264</Tag>
-		<English>Lake of Onega</English>
+		<English>Lake Onega</English>
 		<French>
-			<Text>Lac d'Onega</Text>
+			<Text>Lac Onega</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Onegasee</German>
-		<Italian>Lago di Onega</Italian>
-		<Spanish>Lago de Onega</Spanish>
+		<Italian>Lago Onega</Italian>
+		<Spanish>Lago Onega</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_265</Tag>
-		<English>Lake of Voldozero</English>
+		<English>Lake Voldozero</English>
 		<French>
-			<Text>Lac de Voldozero</Text>
+			<Text>Lac Voldozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Voldozero-See</German>
-		<Italian>Lago di Voldozero</Italian>
-		<Spanish>Lago de Voldozero</Spanish>
+		<Italian>Lago Voldozero</Italian>
+		<Spanish>Lago Voldozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_266</Tag>
-		<English>Lake of Lacha</English>
+		<English>Lake Lacha</English>
 		<French>
-			<Text>Lac de Lacha</Text>
+			<Text>Lac Lacha</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lacha-See</German>
-		<Italian>Lago di Lacha</Italian>
-		<Spanish>Lago de Lacha</Spanish>
+		<Italian>Lago Lacha</Italian>
+		<Spanish>Lago Lacha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_267</Tag>
-		<English>Lake of Vozhe</English>
+		<English>Lake Vozhe</English>
 		<French>
-			<Text>Lac de Vozhe</Text>
+			<Text>Lac Vozhe</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vozhe-See</German>
-		<Italian>Lago di Vozhe</Italian>
-		<Spanish>Lago de Vozhe</Spanish>
+		<Italian>Lago Vozhe</Italian>
+		<Spanish>Lago Vozhe</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_268</Tag>
-		<English>Lake of Kubena</English>
+		<English>Lake Kubena</English>
 		<French>
-			<Text>Lac de Kubena</Text>
+			<Text>Lac Kubena</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kubena-See</German>
-		<Italian>Lago di Kubena</Italian>
-		<Spanish>Lago de Kubena</Spanish>
+		<Italian>Lago Kubena</Italian>
+		<Spanish>Lago Kubena</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_269</Tag>
-		<English>Lake of Beloye</English>
+		<English>Lake Beloye</English>
 		<French>
-			<Text>Lac de Beloye</Text>
+			<Text>Lac Beloye</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Beloye-See</German>
-		<Italian>Lago di Beloye</Italian>
-		<Spanish>Lago de Beloye</Spanish>
+		<Italian>Lago Beloye</Italian>
+		<Spanish>Lago Beloye</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_270</Tag>
-		<English>Lake of Ilmen</English>
+		<English>Lake Ilmen</English>
 		<French>
-			<Text>Lac d'Ilmen</Text>
+			<Text>Lac Ilmen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Ilmen-See</German>
-		<Italian>Lago di Ilmen</Italian>
-		<Spanish>Lago de Ilmen</Spanish>
+		<Italian>Lago Ilmen</Italian>
+		<Spanish>Lago Ilmen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_271</Tag>
-		<English>Lake of Pihkva</English>
+		<English>Lake Pihkva/Pskovskoye</English>
 		<French>
-			<Text>Lac de Pihkva</Text>
+			<Text>Lac Pihkva/Pskovskoye</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pihkva-See</German>
-		<Italian>Lago di Pihkva</Italian>
-		<Spanish>Lago de Pihkva</Spanish>
+		<German>Pihkva-See/Pskovskoye-See</German>
+		<Italian>Lago Pihkva/Pskovskoye</Italian>
+		<Spanish>Lago Pihkva/Pskovskoye</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_272</Tag>
-		<English>Lake Peipus</English>
+		<English>Lake Peipus/Chudskoye</English>
 		<French>
-			<Text>Lac Peipous</Text>
+			<Text>Lac Peipous/Chudskoye</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Peipussee</German>
-		<Italian>Lago di Peipus</Italian>
-		<Spanish>Lago de Peipus</Spanish>
+		<German>Peipussee/Chudskoye-See</German>
+		<Italian>Lago Peipus/Chudskoye</Italian>
+		<Spanish>Lago Peipus/Chudskoye</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_273</Tag>
-		<English>Lake of Vortsjarvi</English>
+		<English>Lake Vortsjarv/Wirzsee</English>
 		<French>
-			<Text>Lac de V&#245;rtsjarv</Text>
+			<Text>Lac V&#245;rtsjarv/Wirzsee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>V&#245;rtsjarv-See</German>
-		<Italian>Lago di Vortsjarvi</Italian>
-		<Spanish>Lago de Vortsjarvi</Spanish>
+		<German>V&#245;rtsjarv-See/Wirzsee</German>
+		<Italian>Lago Vortsjarvi/Wirzsee</Italian>
+		<Spanish>Lago Vortsjarvi/Wirzsee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_274</Tag>
-		<English>Lake of Spirdingse</English>
+		<English>Lake Sniardwy/Spirdingsee</English>
 		<French>
-			<Text>Lac de Spirdingse</Text>
+			<Text>Lac Sniardwy/Spirdingsee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Spirdingse-See</German>
-		<Italian>Lago di Spirdingse</Italian>
-		<Spanish>Lago de Spirdingse</Spanish>
+		<German>Sniardwy-See/Spirdingsee</German>
+		<Italian>Lago Sniardwy/Spirdingsee</Italian>
+		<Spanish>Lago Sniardwy/Spirdingsee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_275</Tag>
-		<English>Lake of Limfjord</English>
+		<English>Limfjord</English>
 		<French>
-			<Text>Lac de Limfjord</Text>
+			<Text>Limfjord</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Limfjord-See</German>
-		<Italian>Lago di Limfjord</Italian>
-		<Spanish>Lago de Limfjord</Spanish>
+		<German>Limfjord</German>
+		<Italian>Limfjord</Italian>
+		<Spanish>Limfjord</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_276</Tag>
@@ -3330,152 +3330,152 @@
 			<Plural>0</Plural>
 		</French>
 		<German>Lough Neagh</German>
-		<Italian>Lago di Neagh</Italian>
-		<Spanish>Lago de Neagh</Spanish>
+		<Italian>Lough Neagh</Italian>
+		<Spanish>Lough Neagh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_277</Tag>
-		<English>Lake Leman</English>
+		<English>Lake Geneva/Leman</English>
 		<French>
-			<Text>Lac L&#233;man</Text>
+			<Text>Lac de Genève/L&#233;man</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Genfersee</German>
-		<Italian>Lago di Leman</Italian>
-		<Spanish>Lago de Leman</Spanish>
+		<German>Genfersee/Leman</German>
+		<Italian>Lago di Genova/Leman</Italian>
+		<Spanish>Lago de Ginebra/Leman</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_278</Tag>
-		<English>Lake of Bodense</English>
+		<English>Lake Constance/Bodensee</English>
 		<French>
-			<Text>Lac de Constance</Text>
+			<Text>Lac de Constance/Bodensee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Bodensee</German>
-		<Italian>Lago di Bodense</Italian>
-		<Spanish>Lago de Bodense</Spanish>
+		<German>Bodensee/Konstanzsee</German>
+		<Italian>Lago di Costanza/Bodensee</Italian>
+		<Spanish>Lago de Constanza/Bodensee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_279</Tag>
-		<English>Lake of Garda</English>
+		<English>Lake Garda</English>
 		<French>
 			<Text>Lac de Garde</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Gardasee</German>
-		<Italian>Lago di Garda</Italian>
-		<Spanish>Lago de Garda</Spanish>
+		<Italian>Lago Garda</Italian>
+		<Spanish>Lago Garda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_280</Tag>
-		<English>Lake of Balaton</English>
+		<English>Lake Balaton</English>
 		<French>
-			<Text>Lac de Balaton</Text>
+			<Text>Lac Balaton</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Plattensee</German>
-		<Italian>Lago di Balaton</Italian>
-		<Spanish>Lago de Balaton</Spanish>
+		<Italian>Lago Balaton</Italian>
+		<Spanish>Lago Balaton</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_281</Tag>
-		<English>Lake Skadar</English>
+		<English>Lake Skadar/Scutari</English>
 		<French>
-			<Text>Lac de Scutari</Text>
+			<Text>Lac Skadar/Scutari</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Skutarisee</German>
-		<Italian>Lago di Skadar</Italian>
-		<Spanish>Lago de Skadar</Spanish>
+		<German>Skutarissee/Scutari</German>
+		<Italian>Lago Skadar/Scutari</Italian>
+		<Spanish>Lago Skadar/Scutari</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_282</Tag>
-		<English>Lake of Ohrid</English>
+		<English>Lake Ohrid</English>
 		<French>
-			<Text>Lac d'Ohrid</Text>
+			<Text>Lac Ohrid</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Ohridsee</German>
-		<Italian>Lago di Ohrid</Italian>
-		<Spanish>Lago de Ohrid</Spanish>
+		<Italian>Lago Ohrid</Italian>
+		<Spanish>Lago Ohrid</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_283</Tag>
-		<English>Lake of Prespa</English>
+		<English>Lake Prespa</English>
 		<French>
-			<Text>Lac de Prespa</Text>
+			<Text>Lac Prespa</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Prespasee</German>
-		<Italian>Lago di Prespa</Italian>
-		<Spanish>Lago de Prespa</Spanish>
+		<Italian>Lago Prespa</Italian>
+		<Spanish>Lago Prespa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_284</Tag>
-		<English>Lake of Askania</English>
+		<English>Lake Askania/Iznik</English>
 		<French>
-			<Text>Lac d'Askania</Text>
+			<Text>Lac Askania/Iznik</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Askania-See</German>
-		<Italian>Lago di Askania</Italian>
-		<Spanish>Lago de Askania</Spanish>
+		<German>Askania-See/Iznik-See</German>
+		<Italian>Lago di Askania/Iznik</Italian>
+		<Spanish>Lago de Askania/Iznik</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_285</Tag>
-		<English>Lake of Akrotiri</English>
+		<English>Lake Akrotiri/Eghridir</English>
 		<French>
-			<Text>Lac d'Akrotiri</Text>
+			<Text>Lac Akrotiri/Eghridir</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Akrotiri-See</German>
-		<Italian>Lago di Akrotiri</Italian>
-		<Spanish>Lago de Akrotiri</Spanish>
+		<German>Akrotiri-See/Eghridir</German>
+		<Italian>Lago Akrotiri/Eghridir</Italian>
+		<Spanish>Lago Akrotiri/Eghridir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_286</Tag>
-		<English>Lake of Karallis</English>
+		<English>Lake Karallis/Beyshehir</English>
 		<French>
-			<Text>Lac de Karallis</Text>
+			<Text>Lac Karallis/Beyshehir</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Karallis-See</German>
-		<Italian>Lago di Karallis</Italian>
-		<Spanish>Lago de Karallis</Spanish>
+		<German>Karallis-See/Beyshehir</German>
+		<Italian>Lago Karallis/Beyshehir</Italian>
+		<Spanish>Lago Karallis/Beyshehir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_287</Tag>
-		<English>Lake of Tatta</English>
+		<English>Lake Tatta/Tuz</English>
 		<French>
-			<Text>Lac de Tatta</Text>
+			<Text>Lac Tatta/Tuz</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Tatta-See</German>
-		<Italian>Lago di Tatta</Italian>
-		<Spanish>Lago de Tatta</Spanish>
+		<German>Tatta-See/Tuzsee</German>
+		<Italian>Lago Tatta/Tuz</Italian>
+		<Spanish>Lago Tatta/Tuz</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_288</Tag>
-		<English>Galilee Sea</English>
+		<English>Lake Tiberias/Sea of Galilee</English>
 		<French>
-			<Text>Lac de Tib&#233;riade</Text>
+			<Text>Lac Tib&#233;riade/Mer de Galil&#233;e</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>See Genezareth</German>
-		<Italian>Galilee Sea</Italian>
-		<Spanish>Galilee Sea</Spanish>
+		<German>Tiberiassee/See Genezareth</German>
+		<Italian>Lago di Tiberiade/Mare di Galilea</Italian>
+		<Spanish>Lago de Tiberias/Mar de Galilea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_289</Tag>
@@ -3491,75 +3491,75 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_290</Tag>
-		<English>Lake of Moeris</English>
+		<English>Lake Moeris</English>
 		<French>
-			<Text>Lac de Lac de Moeris</Text>
+			<Text>Lac Moeris</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Moeris-See</German>
-		<Italian>Lago di Moeris</Italian>
-		<Spanish>Lago de Moeris</Spanish>
+		<Italian>Lago Moeris</Italian>
+		<Spanish>Lago Moeris</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_291</Tag>
-		<English>Salt Sebkha of Oran</English>
+		<English>Sebkha of Oran</English>
 		<French>
 			<Text>Sebkha d'Oran</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Salzsee von Oran</German>
-		<Italian>Salt Sebkha of Oran</Italian>
-		<Spanish>Salt Sebkha of Oran</Spanish>
+		<German>Sebkha von Oran</German>
+		<Italian>Sebkha Oran</Italian>
+		<Spanish>Sebkha Oran</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_292</Tag>
-		<English>Salt Chott ech Chergui</English>
+		<English>Chott ech Chergui</English>
 		<French>
 			<Text>Chott ech Chergui</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott ech Chergui</German>
-		<Italian>Salt Chott ech Chergui</Italian>
-		<Spanish>Salt Chott ech Chergui</Spanish>
+		<Italian>Chott ech Chergui</Italian>
+		<Spanish>Chott ech Chergui</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_293</Tag>
-		<English>Salt Chott el Hodna</English>
+		<English>Chott el Hodna</English>
 		<French>
 			<Text>Chott el Hodna</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott el Hodna</German>
-		<Italian>Salt Chott el Hodna</Italian>
-		<Spanish>Salt Chott el Hodna</Spanish>
+		<Italian>Chott el Hodna</Italian>
+		<Spanish>Chott el Hodna</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_294</Tag>
-		<English>Salt Chott Melghir</English>
+		<English>Chott Melghir</English>
 		<French>
 			<Text>Chott Melghir</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott Melghir</German>
-		<Italian>Salt Chott Melghir</Italian>
-		<Spanish>Salt Chott Melghir</Spanish>
+		<Italian>Chott Melghir</Italian>
+		<Spanish>Chott Melghir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_295</Tag>
-		<English>Salt Chott el Dejrid</English>
+		<English>Chott el Dejrid</English>
 		<French>
 			<Text>Chott el Dejrid</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott el Dejrid</German>
-		<Italian>Salt Chott el Dejrid</Italian>
-		<Spanish>Salt Chott el Dejrid</Spanish>
+		<Italian>Chott el Dejrid</Italian>
+		<Spanish>Chott el Dejrid</Spanish>
 	</TEXT>
 	
 	<TEXT>
