@@ -53,7 +53,7 @@ class Region(IntEnum):
     SAMOGITIA = 48
     LITHUANIA = 49
     PRUSSIA = 50
-    BLACK_RUS = 51
+    NEMAN = 51
     POLESSIA = 52
     SEVERIA = 53
     SLOBODA_UKRAINE = 54

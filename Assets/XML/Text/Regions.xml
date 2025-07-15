@@ -623,15 +623,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_51</Tag>
-		<English>Black Rus</English>
+		<English>Neman</English>
 		<French>
-			<Text>Ruthénie Noire</Text>
+			<Text>Neman</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Black Rus</German>
-		<Italian>Black Rus</Italian>
-		<Spanish>Black Rus</Spanish>
+		<German>Neman</German>
+		<Italian>Neman</Italian>
+		<Spanish>Neman</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_52</Tag>

@@ -12146,7 +12146,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_SAMOGITIA:
     case REGION_LITHUANIA:
     case REGION_PRUSSIA:
-    case REGION_BLACK_RUS:
+    case REGION_NEMAN:
     case REGION_POLESSIA:
     case REGION_SEVERIA:
     case REGION_SLOBODA_UKRAINE:
