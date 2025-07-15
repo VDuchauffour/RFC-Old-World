@@ -3107,15 +3107,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_258</Tag>
-		<English>Lake Lagoda</English>
+		<English>Lake Ladoga</English>
 		<French>
-			<Text>Lac Lagoda</Text>
+			<Text>Lac Ladoga</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lagoda-See</German>
-		<Italian>Lago Lagoda</Italian>
-		<Spanish>Lago Lagoda</Spanish>
+		<German>Ladoga-See</German>
+		<Italian>Lago Ladoga</Italian>
+		<Spanish>Lago Ladoga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_259</Tag>

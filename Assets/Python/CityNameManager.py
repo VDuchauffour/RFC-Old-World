@@ -2153,7 +2153,7 @@ dIdentifiers = {
 	"St. Augustine"	:	"St. Augustine",
 	"Aldeigjuborg"	:	"Staraja Ladoga",
 	"Staraja Ladoga":	"Staraja Ladoga",
-	"Staraja Lagoda":	"Staraja Ladoga",
+	"Staraja Ladoga":	"Staraja Ladoga",
 	"Stockholm"		:	"Stockholm",
 	"Sztokholm"		:	"Stockholm",
 	"Argentoratus"	:	"Strasbourg",
