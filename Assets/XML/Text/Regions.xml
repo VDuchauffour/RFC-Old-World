@@ -71,15 +71,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_5</Tag>
-		<English>Connacht</English>
+		<English>Connaught</English>
 		<French>
-			<Text>Connacht</Text>
+			<Text>Connaught</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Connacht</German>
-		<Italian>Connacht</Italian>
-		<Spanish>Lower Germany</Spanish>
+		<German>Connaught</German>
+		<Italian>Connaught</Italian>
+		<Spanish>Connaught</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_6</Tag>
@@ -119,15 +119,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_9</Tag>
-		<English>Midlands</English>
+		<English>The Midlands</English>
 		<French>
-			<Text>Midlands</Text>
+			<Text>Les Midlands</Text>
 			<Gender>Male</Gender>
-			<Plural>0</Plural>
+			<Plural>1</Plural>
 		</French>
-		<German>Midlands</German>
-		<Italian>Midlands</Italian>
-		<Spanish>Midlands</Spanish>
+		<German>The Midlands</German>
+		<Italian>The Midlands</Italian>
+		<Spanish>The Midlands</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_10</Tag>
@@ -179,15 +179,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_14</Tag>
-		<English>Cornwall-Devon</English>
+		<English>Cornwall</English>
 		<French>
-			<Text>Cornwall-Devon</Text>
-			<Gender>Male</Gender>
+			<Text>Cornouailles</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Cornwall-Devon</German>
-		<Italian>Cornwall-Devon</Italian>
-		<Spanish>Cornwall-Devon</Spanish>
+		<German>Cornwall</German>
+		<Italian>Cornwall</Italian>
+		<Spanish>Cornwall</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_15</Tag>
@@ -215,7 +215,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_17</Tag>
-		<English>Jamtland</English>
+		<English>Jaemtland</English>
 		<French>
 			<Text>Jamtland</Text>
 			<Gender>Male</Gender>
@@ -263,7 +263,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_21</Tag>
-		<English>Gotaland</English>
+		<English>Geatland</English>
 		<French>
 			<Text>Gotaland</Text>
 			<Gender>Male</Gender>
@@ -335,15 +335,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_27</Tag>
-		<English>Ongen</English>
+		<English>Onega</English>
 		<French>
-			<Text>Ongen</Text>
-			<Gender>Male</Gender>
+			<Text>Onega</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Ongen</German>
-		<Italian>Ongen</Italian>
-		<Spanish>Ongen</Spanish>
+		<German>Onega</German>
+		<Italian>Onega</Italian>
+		<Spanish>Onega</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_28</Tag>
@@ -371,15 +371,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_30</Tag>
-		<English>Mologa</English>
+		<English>Beloozero</English>
 		<French>
-			<Text>Mologa</Text>
-			<Gender>Male</Gender>
+			<Text>Beloozero</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Mologa</German>
-		<Italian>Mologa</Italian>
-		<Spanish>Mologa</Spanish>
+		<German>Beloozero</German>
+		<Italian>Beloozero</Italian>
+		<Spanish>Beloozero</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_31</Tag>
@@ -443,15 +443,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_36</Tag>
-		<English>Moscow</English>
+		<English>Moskva</English>
 		<French>
-			<Text>Moscou</Text>
-			<Gender>Male</Gender>
+			<Text>Moscovie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Moskau</German>
-		<Italian>Moscow</Italian>
-		<Spanish>Moscow</Spanish>
+		<Italian>Moskva</Italian>
+		<Spanish>Moskva</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_37</Tag>
@@ -515,15 +515,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_42</Tag>
-		<English>White Russia</English>
+		<English>White Rus</English>
 		<French>
-			<Text>Russe Blanche</Text>
-			<Gender>Male</Gender>
+			<Text>Ruth&#233;nie Blanche</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>White Russia</German>
-		<Italian>White Russia</Italian>
-		<Spanish>White Russia</Spanish>
+		<German>White Rus</German>
+		<Italian>White Rus</Italian>
+		<Spanish>White Rus</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_43</Tag>
@@ -563,15 +563,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_46</Tag>
-		<English>Estonia</English>
+		<English>Estland</English>
 		<French>
-			<Text>Estonie</Text>
-			<Gender>Female</Gender>
+			<Text>Estland</Text>
+			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Estonien</German>
-		<Italian>Estonia</Italian>
-		<Spanish>Estonia</Spanish>
+		<German>Estland</German>
+		<Italian>Estland</Italian>
+		<Spanish>Estland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_47</Tag>
@@ -623,27 +623,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_51</Tag>
-		<English>Black Russia</English>
+		<English>Neman</English>
 		<French>
-			<Text>Russe Noir</Text>
-			<Gender>Male</Gender>
+			<Text>Neman</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Black Russia</German>
-		<Italian>Black Russia</Italian>
-		<Spanish>Black Russia</Spanish>
+		<German>Neman</German>
+		<Italian>Neman</Italian>
+		<Spanish>Neman</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_52</Tag>
-		<English>Pole</English>
+		<English>Polessia</English>
 		<French>
-			<Text>Pole</Text>
-			<Gender>Male</Gender>
+			<Text>Pol&#233;sie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pole</German>
-		<Italian>Pole</Italian>
-		<Spanish>Pole</Spanish>
+		<German>Polessia</German>
+		<Italian>Polessia</Italian>
+		<Spanish>Polessia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_53</Tag>
@@ -779,15 +779,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_64</Tag>
-		<English>Volhy</English>
+		<English>Volhynia</English>
 		<French>
-			<Text>Volhy</Text>
-			<Gender>Male</Gender>
+			<Text>Volhynie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Volhy</German>
-		<Italian>Volhy</Italian>
-		<Spanish>Volhy</Spanish>
+		<German>Volhynia</German>
+		<Italian>Volhynia</Italian>
+		<Spanish>Volhynia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_65</Tag>
@@ -863,15 +863,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_71</Tag>
-		<English>Pomeralia</English>
+		<English>Pomerelia</English>
 		<French>
-			<Text>Pom&#233;ralie</Text>
+			<Text>Pom&#233;r&#233;lie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pomeralia</German>
-		<Italian>Pomeralia</Italian>
-		<Spanish>Pomeralia</Spanish>
+		<German>Pomerelia</German>
+		<Italian>Pomerelia</Italian>
+		<Spanish>Pomerelia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_72</Tag>
@@ -983,15 +983,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_81</Tag>
-		<English>Rhine</English>
+		<English>Rhineland</English>
 		<French>
-			<Text>Rhin</Text>
-			<Gender>Male</Gender>
+			<Text>Rhénanie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Rhine</German>
-		<Italian>Rhine</Italian>
-		<Spanish>Rhine</Spanish>
+		<German>Rheinland</German>	
+		<Italian>Rhineland</Italian>
+		<Spanish>Rhineland</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_82</Tag>
@@ -1379,15 +1379,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_114</Tag>
-		<English>Albania</English>
+		<English>Arberia</English>
 		<French>
-			<Text>Albanie</Text>
+			<Text>Arberie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Albanien</German>
-		<Italian>Albania</Italian>
-		<Spanish>Albania</Spanish>
+		<German>Arberia</German>
+		<Italian>Arberia</Italian>
+		<Spanish>Arberia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_115</Tag>
@@ -1559,30 +1559,18 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_129</Tag>
-		<English>Pamphylia</English>
+		<English>Anatolicon</English>
 		<French>
-			<Text>Pamphylie</Text>
+			<Text>Anatolie</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pamphylien</German>
-		<Italian>Pamphylia</Italian>
-		<Spanish>Pamphylia</Spanish>
+		<German>Anatolien</German>
+		<Italian>Anatolia</Italian>
+		<Spanish>Anatolia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_130</Tag>
-		<English>Lycaonia</English>
-		<French>
-			<Text>Lycaonie</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Lykaonien</German>
-		<Italian>Lycaonia</Italian>
-		<Spanish>Lycaonia</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REGION_131</Tag>
 		<English>Galatia</English>
 		<French>
 			<Text>Galatie</Text>
@@ -1594,7 +1582,7 @@
 		<Spanish>Galatia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_132</Tag>
+		<Tag>TXT_KEY_REGION_131</Tag>
 		<English>Paphlagonia</English>
 		<French>
 			<Text>Paphlagonie</Text>
@@ -1606,7 +1594,7 @@
 		<Spanish>Paphlagonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_133</Tag>
+		<Tag>TXT_KEY_REGION_132</Tag>
 		<English>Pontus</English>
 		<French>
 			<Text>Pont</Text>
@@ -1618,7 +1606,7 @@
 		<Spanish>Pontus</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_134</Tag>
+		<Tag>TXT_KEY_REGION_133</Tag>
 		<English>Chaldia</English>
 		<French>
 			<Text>Chaldie</Text>
@@ -1630,7 +1618,7 @@
 		<Spanish>Chaldia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_135</Tag>
+		<Tag>TXT_KEY_REGION_134</Tag>
 		<English>Cappadocia</English>
 		<French>
 			<Text>Cappadoce</Text>
@@ -1642,7 +1630,7 @@
 		<Spanish>Cappadocia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_136</Tag>
+		<Tag>TXT_KEY_REGION_135</Tag>
 		<English>Armenia</English>
 		<French>
 			<Text>Arm&#233;nie</Text>
@@ -1654,7 +1642,7 @@
 		<Spanish>Armenia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_137</Tag>
+		<Tag>TXT_KEY_REGION_136</Tag>
 		<English>Cilicia</English>
 		<French>
 			<Text>Cilicie</Text>
@@ -1666,7 +1654,7 @@
 		<Spanish>Cilicia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_138</Tag>
+		<Tag>TXT_KEY_REGION_137</Tag>
 		<English>Northern Syria</English>
 		<French>
 			<Text>Syrie du Nord</Text>
@@ -1678,7 +1666,7 @@
 		<Spanish>Northern Syria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_139</Tag>
+		<Tag>TXT_KEY_REGION_138</Tag>
 		<English>Antioch</English>
 		<French>
 			<Text>Antioche</Text>
@@ -1690,7 +1678,7 @@
 		<Spanish>Antioch</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_140</Tag>
+		<Tag>TXT_KEY_REGION_139</Tag>
 		<English>Syria</English>
 		<French>
 			<Text>Syrie</Text>
@@ -1702,7 +1690,7 @@
 		<Spanish>Syria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_141</Tag>
+		<Tag>TXT_KEY_REGION_140</Tag>
 		<English>Arabia</English>
 		<French>
 			<Text>Arabie</Text>
@@ -1714,7 +1702,7 @@
 		<Spanish>Arabia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_142</Tag>
+		<Tag>TXT_KEY_REGION_141</Tag>
 		<English>Lebanon</English>
 		<French>
 			<Text>Liban</Text>
@@ -1726,7 +1714,7 @@
 		<Spanish>Lebanon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_143</Tag>
+		<Tag>TXT_KEY_REGION_142</Tag>
 		<English>Hejaz</English>
 		<French>
 			<Text>Hedjaz</Text>
@@ -1738,7 +1726,7 @@
 		<Spanish>Hejaz</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_144</Tag>
+		<Tag>TXT_KEY_REGION_143</Tag>
 		<English>Transjordan</English>
 		<French>
 			<Text>Transjordanie</Text>
@@ -1750,7 +1738,7 @@
 		<Spanish>Transjordan</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_145</Tag>
+		<Tag>TXT_KEY_REGION_144</Tag>
 		<English>Palestine</English>
 		<French>
 			<Text>Palestine</Text>
@@ -1762,7 +1750,7 @@
 		<Spanish>Palestine</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_146</Tag>
+		<Tag>TXT_KEY_REGION_145</Tag>
 		<English>Cyprus</English>
 		<French>
 			<Text>Chypre</Text>
@@ -1774,7 +1762,7 @@
 		<Spanish>Cyprus</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_147</Tag>
+		<Tag>TXT_KEY_REGION_146</Tag>
 		<English>Sinai</English>
 		<French>
 			<Text>Sina&#239;</Text>
@@ -1786,7 +1774,7 @@
 		<Spanish>Sinai</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_148</Tag>
+		<Tag>TXT_KEY_REGION_147</Tag>
 		<English>Lower Egypt</English>
 		<French>
 			<Text>Basse-&#201;gypte</Text>
@@ -1798,7 +1786,7 @@
 		<Spanish>Lower Egypt</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_149</Tag>
+		<Tag>TXT_KEY_REGION_148</Tag>
 		<English>Upper Egypt</English>
 		<French>
 			<Text>Haute-&#201;gypte</Text>
@@ -1810,7 +1798,7 @@
 		<Spanish>Upper Egypt</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_150</Tag>
+		<Tag>TXT_KEY_REGION_149</Tag>
 		<English>Cyrenaica</English>
 		<French>
 			<Text>Cyr&#233;na&#239;que</Text>
@@ -1822,7 +1810,7 @@
 		<Spanish>Cyrenaica</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_151</Tag>
+		<Tag>TXT_KEY_REGION_150</Tag>
 		<English>Tripolitania</English>
 		<French>
 			<Text>Tripolitaine</Text>
@@ -1834,7 +1822,7 @@
 		<Spanish>Tripolitania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_152</Tag>
+		<Tag>TXT_KEY_REGION_151</Tag>
 		<English>Ifriqiya</English>
 		<French>
 			<Text>Ifriqiya</Text>
@@ -1846,7 +1834,7 @@
 		<Spanish>Ifriqiya</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_153</Tag>
+		<Tag>TXT_KEY_REGION_152</Tag>
 		<English>Barbary</English>
 		<French>
 			<Text>Barbarie</Text>
@@ -1858,7 +1846,7 @@
 		<Spanish>Barbary</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_154</Tag>
+		<Tag>TXT_KEY_REGION_153</Tag>
 		<English>Mauretania</English>
 		<French>
 			<Text>Mauritanie</Text>
@@ -1870,7 +1858,7 @@
 		<Spanish>Mauretania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_155</Tag>
+		<Tag>TXT_KEY_REGION_154</Tag>
 		<English>Rif</English>
 		<French>
 			<Text>Rif</Text>
@@ -1882,7 +1870,7 @@
 		<Spanish>Rif</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_156</Tag>
+		<Tag>TXT_KEY_REGION_155</Tag>
 		<English>Fes</English>
 		<French>
 			<Text>F&#232;s</Text>
@@ -1894,7 +1882,7 @@
 		<Spanish>Fes</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_157</Tag>
+		<Tag>TXT_KEY_REGION_156</Tag>
 		<English>Atlantic Morocco</English>
 		<French>
 			<Text>Maroc atlantique</Text>
@@ -1906,7 +1894,7 @@
 		<Spanish>Atlantic Morocco</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_158</Tag>
+		<Tag>TXT_KEY_REGION_157</Tag>
 		<English>Souss</English>
 		<French>
 			<Text>Souss</Text>
@@ -1918,7 +1906,7 @@
 		<Spanish>Souss</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_159</Tag>
+		<Tag>TXT_KEY_REGION_158</Tag>
 		<English>Marrakesh</English>
 		<French>
 			<Text>Marrakech</Text>
@@ -1930,7 +1918,7 @@
 		<Spanish>Marrakesh</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_160</Tag>
+		<Tag>TXT_KEY_REGION_159</Tag>
 		<English>Atlas</English>
 		<French>
 			<Text>Atlas</Text>
@@ -1942,7 +1930,7 @@
 		<Spanish>Atlas</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_161</Tag>
+		<Tag>TXT_KEY_REGION_160</Tag>
 		<English>Canaries</English>
 		<French>
 			<Text>Canaries</Text>
@@ -1954,7 +1942,7 @@
 		<Spanish>Canaries</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_162</Tag>
+		<Tag>TXT_KEY_REGION_161</Tag>
 		<English>Madeira</English>
 		<French>
 			<Text>Mad&#232;re</Text>
@@ -1966,7 +1954,7 @@
 		<Spanish>Madeira</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_163</Tag>
+		<Tag>TXT_KEY_REGION_162</Tag>
 		<English>Azores</English>
 		<French>
 			<Text>A&#231;ores</Text>
@@ -1978,7 +1966,7 @@
 		<Spanish>Azores</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_164</Tag>
+		<Tag>TXT_KEY_REGION_163</Tag>
 		<English>Malta</English>
 		<French>
 			<Text>Malte</Text>
@@ -1990,7 +1978,7 @@
 		<Spanish>Malta</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_165</Tag>
+		<Tag>TXT_KEY_REGION_164</Tag>
 		<English>Sicily</English>
 		<French>
 			<Text>Sicile</Text>
@@ -2002,7 +1990,7 @@
 		<Spanish>Sicily</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_166</Tag>
+		<Tag>TXT_KEY_REGION_165</Tag>
 		<English>Calabria</English>
 		<French>
 			<Text>Calabre</Text>
@@ -2014,7 +2002,7 @@
 		<Spanish>Calabria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_167</Tag>
+		<Tag>TXT_KEY_REGION_166</Tag>
 		<English>Apulia</English>
 		<French>
 			<Text>Pouilles</Text>
@@ -2026,7 +2014,7 @@
 		<Spanish>Apulia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_168</Tag>
+		<Tag>TXT_KEY_REGION_167</Tag>
 		<English>Campania</English>
 		<French>
 			<Text>Campanie</Text>
@@ -2038,7 +2026,7 @@
 		<Spanish>Campania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_169</Tag>
+		<Tag>TXT_KEY_REGION_168</Tag>
 		<English>Marche</English>
 		<French>
 			<Text>Marches</Text>
@@ -2050,7 +2038,7 @@
 		<Spanish>Marche</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_170</Tag>
+		<Tag>TXT_KEY_REGION_169</Tag>
 		<English>Lazio</English>
 		<French>
 			<Text>Latium</Text>
@@ -2062,7 +2050,7 @@
 		<Spanish>Lazio</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_171</Tag>
+		<Tag>TXT_KEY_REGION_170</Tag>
 		<English>Tuscany</English>
 		<French>
 			<Text>Toscane</Text>
@@ -2074,7 +2062,7 @@
 		<Spanish>Tuscany</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_172</Tag>
+		<Tag>TXT_KEY_REGION_171</Tag>
 		<English>Emilia-Romagna</English>
 		<French>
 			<Text>&#201;milie-Romagne</Text>
@@ -2086,7 +2074,7 @@
 		<Spanish>Emilia-Romagna</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_173</Tag>
+		<Tag>TXT_KEY_REGION_172</Tag>
 		<English>Liguria</English>
 		<French>
 			<Text>Ligurie</Text>
@@ -2098,7 +2086,7 @@
 		<Spanish>Liguria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_174</Tag>
+		<Tag>TXT_KEY_REGION_173</Tag>
 		<English>Piedmont</English>
 		<French>
 			<Text>Pi&#233;mont</Text>
@@ -2110,7 +2098,7 @@
 		<Spanish>Piedmont</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_175</Tag>
+		<Tag>TXT_KEY_REGION_174</Tag>
 		<English>Lombardy</English>
 		<French>
 			<Text>Lombardie</Text>
@@ -2122,7 +2110,7 @@
 		<Spanish>Lombardy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_176</Tag>
+		<Tag>TXT_KEY_REGION_175</Tag>
 		<English>Verona</English>
 		<French>
 			<Text>V&#233;rone</Text>
@@ -2134,7 +2122,7 @@
 		<Spanish>Verona</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_177</Tag>
+		<Tag>TXT_KEY_REGION_176</Tag>
 		<English>Sardinia</English>
 		<French>
 			<Text>Sardaigne</Text>
@@ -2146,7 +2134,7 @@
 		<Spanish>Sardinia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_178</Tag>
+		<Tag>TXT_KEY_REGION_177</Tag>
 		<English>Tyrol</English>
 		<French>
 			<Text>Tyrol</Text>
@@ -2158,7 +2146,7 @@
 		<Spanish>Tyrol</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_179</Tag>
+		<Tag>TXT_KEY_REGION_178</Tag>
 		<English>Helvetia</English>
 		<French>
 			<Text>Helv&#233;tie</Text>
@@ -2170,7 +2158,7 @@
 		<Spanish>Helvetia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_180</Tag>
+		<Tag>TXT_KEY_REGION_179</Tag>
 		<English>Alsace</English>
 		<French>
 			<Text>Alsace</Text>
@@ -2182,7 +2170,7 @@
 		<Spanish>Alsace</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_181</Tag>
+		<Tag>TXT_KEY_REGION_180</Tag>
 		<English>Lorraine</English>
 		<French>
 			<Text>Lorraine</Text>
@@ -2194,7 +2182,7 @@
 		<Spanish>Lorraine</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_182</Tag>
+		<Tag>TXT_KEY_REGION_181</Tag>
 		<English>Frisia</English>
 		<French>
 			<Text>Frise</Text>
@@ -2206,7 +2194,7 @@
 		<Spanish>Frisia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_183</Tag>
+		<Tag>TXT_KEY_REGION_182</Tag>
 		<English>Holland</English>
 		<French>
 			<Text>Hollande</Text>
@@ -2218,7 +2206,7 @@
 		<Spanish>Holland</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_184</Tag>
+		<Tag>TXT_KEY_REGION_183</Tag>
 		<English>Brabant</English>
 		<French>
 			<Text>Brabant</Text>
@@ -2230,7 +2218,7 @@
 		<Spanish>Brabant</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_185</Tag>
+		<Tag>TXT_KEY_REGION_184</Tag>
 		<English>Wallonia</English>
 		<French>
 			<Text>Wallonie</Text>
@@ -2242,7 +2230,7 @@
 		<Spanish>Wallonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_186</Tag>
+		<Tag>TXT_KEY_REGION_185</Tag>
 		<English>Flanders</English>
 		<French>
 			<Text>Flandre</Text>
@@ -2254,7 +2242,7 @@
 		<Spanish>Flanders</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_187</Tag>
+		<Tag>TXT_KEY_REGION_186</Tag>
 		<English>Picardy-Artois</English>
 		<French>
 			<Text>Picardie-Artois</Text>
@@ -2266,7 +2254,7 @@
 		<Spanish>Picardy-Artois</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_188</Tag>
+		<Tag>TXT_KEY_REGION_187</Tag>
 		<English>Champagne</English>
 		<French>
 			<Text>Champagne</Text>
@@ -2278,7 +2266,7 @@
 		<Spanish>Champagne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_189</Tag>
+		<Tag>TXT_KEY_REGION_188</Tag>
 		<English>Ile-de-France</English>
 		<French>
 			<Text>&#206;le-de-France</Text>
@@ -2290,7 +2278,7 @@
 		<Spanish>Ile-de-France</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_190</Tag>
+		<Tag>TXT_KEY_REGION_189</Tag>
 		<English>Normandy</English>
 		<French>
 			<Text>Normandie</Text>
@@ -2302,7 +2290,7 @@
 		<Spanish>Normandy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_191</Tag>
+		<Tag>TXT_KEY_REGION_190</Tag>
 		<English>Brittany</English>
 		<French>
 			<Text>Bretagne</Text>
@@ -2314,7 +2302,7 @@
 		<Spanish>Brittany</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_192</Tag>
+		<Tag>TXT_KEY_REGION_191</Tag>
 		<English>Poitou</English>
 		<French>
 			<Text>Poitou</Text>
@@ -2326,7 +2314,7 @@
 		<Spanish>Poitou</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_193</Tag>
+		<Tag>TXT_KEY_REGION_192</Tag>
 		<English>Anjou</English>
 		<French>
 			<Text>Anjou</Text>
@@ -2338,7 +2326,7 @@
 		<Spanish>Anjou</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_194</Tag>
+		<Tag>TXT_KEY_REGION_193</Tag>
 		<English>Berry</English>
 		<French>
 			<Text>Berry</Text>
@@ -2350,19 +2338,19 @@
 		<Spanish>Berry</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_195</Tag>
-		<English>Burgundy-Franche-Comte</English>
+		<Tag>TXT_KEY_REGION_194</Tag>
+		<English>Burgundy</English>
 		<French>
-			<Text>Bourgogne-Franche-Comt&#233;</Text>
+			<Text>Bourgogne</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Burgund-Franche-Comt&#233;</German>
-		<Italian>Burgundy-Franche-Comte</Italian>
-		<Spanish>Burgundy-Franche-Comte</Spanish>
+		<German>Burgund</German>
+		<Italian>Burgundy</Italian>
+		<Spanish>Burgundy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_196</Tag>
+		<Tag>TXT_KEY_REGION_195</Tag>
 		<English>Savoy</English>
 		<French>
 			<Text>Savoie</Text>
@@ -2374,7 +2362,7 @@
 		<Spanish>Savoy</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_197</Tag>
+		<Tag>TXT_KEY_REGION_196</Tag>
 		<English>Lyonnais</English>
 		<French>
 			<Text>Lyonnais</Text>
@@ -2386,7 +2374,7 @@
 		<Spanish>Lyonnais</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_198</Tag>
+		<Tag>TXT_KEY_REGION_197</Tag>
 		<English>Auvergne</English>
 		<French>
 			<Text>Auvergne</Text>
@@ -2398,19 +2386,19 @@
 		<Spanish>Auvergne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_199</Tag>
-		<English>Guyenne</English>
+		<Tag>TXT_KEY_REGION_198</Tag>
+		<English>Gascony</English>
 		<French>
-			<Text>Guyenne</Text>
+			<Text>Gascogne</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Guyenne</German>
-		<Italian>Guyenne</Italian>
-		<Spanish>Guyenne</Spanish>
+		<German>Gascony</German>
+		<Italian>Gascony</Italian>
+		<Spanish>Gascony</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_200</Tag>
+		<Tag>TXT_KEY_REGION_199</Tag>
 		<English>Languedoc</English>
 		<French>
 			<Text>Languedoc</Text>
@@ -2422,7 +2410,7 @@
 		<Spanish>Languedoc</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_201</Tag>
+		<Tag>TXT_KEY_REGION_200</Tag>
 		<English>Dauphiny</English>
 		<French>
 			<Text>Dauphin&#233;</Text>
@@ -2434,7 +2422,7 @@
 		<Spanish>Dauphiny</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_202</Tag>
+		<Tag>TXT_KEY_REGION_201</Tag>
 		<English>Provence</English>
 		<French>
 			<Text>Provence</Text>
@@ -2446,7 +2434,7 @@
 		<Spanish>Provence</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_203</Tag>
+		<Tag>TXT_KEY_REGION_202</Tag>
 		<English>Corsica</English>
 		<French>
 			<Text>Corse</Text>
@@ -2458,7 +2446,7 @@
 		<Spanish>Corsica</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_204</Tag>
+		<Tag>TXT_KEY_REGION_203</Tag>
 		<English>Catalonia</English>
 		<French>
 			<Text>Catalogne</Text>
@@ -2470,7 +2458,7 @@
 		<Spanish>Catalonia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_205</Tag>
+		<Tag>TXT_KEY_REGION_204</Tag>
 		<English>Aragon</English>
 		<French>
 			<Text>Aragon</Text>
@@ -2482,7 +2470,7 @@
 		<Spanish>Aragon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_206</Tag>
+		<Tag>TXT_KEY_REGION_205</Tag>
 		<English>Navarre</English>
 		<French>
 			<Text>Navarre</Text>
@@ -2494,7 +2482,7 @@
 		<Spanish>Navarre</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_207</Tag>
+		<Tag>TXT_KEY_REGION_206</Tag>
 		<English>Cantabria</English>
 		<French>
 			<Text>Cantabrie</Text>
@@ -2506,7 +2494,7 @@
 		<Spanish>Cantabria</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_208</Tag>
+		<Tag>TXT_KEY_REGION_207</Tag>
 		<English>Asturias</English>
 		<French>
 			<Text>Asturies</Text>
@@ -2518,19 +2506,19 @@
 		<Spanish>Asturias</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_209</Tag>
-		<English>Galiza</English>
+		<Tag>TXT_KEY_REGION_208</Tag>
+		<English>Gallaecia</English>
 		<French>
 			<Text>Galice</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Galicien</German>
-		<Italian>Galiza</Italian>
-		<Spanish>Galiza</Spanish>
+		<Italian>Gallaecia</Italian>
+		<Spanish>Gallaecia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_210</Tag>
+		<Tag>TXT_KEY_REGION_209</Tag>
 		<English>Portugal</English>
 		<French>
 			<Text>Portugal</Text>
@@ -2542,7 +2530,7 @@
 		<Spanish>Portugal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_211</Tag>
+		<Tag>TXT_KEY_REGION_210</Tag>
 		<English>Lusitania</English>
 		<French>
 			<Text>Lusitanie</Text>
@@ -2554,7 +2542,7 @@
 		<Spanish>Lusitania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_212</Tag>
+		<Tag>TXT_KEY_REGION_211</Tag>
 		<English>Leon</English>
 		<French>
 			<Text>Le&#243;n</Text>
@@ -2566,7 +2554,7 @@
 		<Spanish>Leon</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_213</Tag>
+		<Tag>TXT_KEY_REGION_212</Tag>
 		<English>Castile</English>
 		<French>
 			<Text>Castille</Text>
@@ -2578,7 +2566,7 @@
 		<Spanish>Castile</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_214</Tag>
+		<Tag>TXT_KEY_REGION_213</Tag>
 		<English>La Mancha</English>
 		<French>
 			<Text>La Manche</Text>
@@ -2590,7 +2578,7 @@
 		<Spanish>La Mancha</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_215</Tag>
+		<Tag>TXT_KEY_REGION_214</Tag>
 		<English>Valencia</English>
 		<French>
 			<Text>Valence</Text>
@@ -2602,7 +2590,7 @@
 		<Spanish>Valencia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_216</Tag>
+		<Tag>TXT_KEY_REGION_215</Tag>
 		<English>Extremadura</English>
 		<French>
 			<Text>Estr&#233;madure</Text>
@@ -2614,7 +2602,7 @@
 		<Spanish>Extremadura</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_217</Tag>
+		<Tag>TXT_KEY_REGION_216</Tag>
 		<English>Andalusia</English>
 		<French>
 			<Text>Andalousie</Text>
@@ -2626,7 +2614,7 @@
 		<Spanish>Andalusia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_218</Tag>
+		<Tag>TXT_KEY_REGION_217</Tag>
 		<English>Murcia</English>
 		<French>
 			<Text>Murcie</Text>
@@ -2638,7 +2626,7 @@
 		<Spanish>Murcia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_219</Tag>
+		<Tag>TXT_KEY_REGION_218</Tag>
 		<English>Granada</English>
 		<French>
 			<Text>Grenade</Text>
@@ -2650,7 +2638,7 @@
 		<Spanish>Granada</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_220</Tag>
+		<Tag>TXT_KEY_REGION_219</Tag>
 		<English>Baleares</English>
 		<French>
 			<Text>Bal&#233;ares</Text>
@@ -2662,19 +2650,19 @@
 		<Spanish>Baleares</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_221</Tag>
-		<English>Roussillon</English>
+		<Tag>TXT_KEY_REGION_220</Tag>
+		<English>Septimania</English>
 		<French>
-			<Text>Roussillon</Text>
-			<Gender>Male</Gender>
+			<Text>Septimanie</Text>
+			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Roussillon</German>
-		<Italian>Roussillon</Italian>
-		<Spanish>Roussillon</Spanish>
+		<German>Septimania</German>
+		<Italian>Septimania</Italian>
+		<Spanish>Septimania</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_222</Tag>
+		<Tag>TXT_KEY_REGION_221</Tag>
 		<English>Sahara</English>
 		<French>
 			<Text>Sahara</Text>
@@ -2686,7 +2674,7 @@
 		<Spanish>Sahara</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_223</Tag>
+		<Tag>TXT_KEY_REGION_222</Tag>
 		<English>Atlantic Ocean</English>
 		<French>
 			<Text>Oc&#233;an Atlantique</Text>
@@ -2698,7 +2686,7 @@
 		<Spanish>Atlantic Ocean</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_224</Tag>
+		<Tag>TXT_KEY_REGION_223</Tag>
 		<English>Mediterranean Sea</English>
 		<French>
 			<Text>Mer M&#233;diterran&#233;e</Text>
@@ -2710,7 +2698,7 @@
 		<Spanish>Mediterranean Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_225</Tag>
+		<Tag>TXT_KEY_REGION_224</Tag>
 		<English>Red Sea</English>
 		<French>
 			<Text>Mer Rouge</Text>
@@ -2722,7 +2710,7 @@
 		<Spanish>Red Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_226</Tag>
+		<Tag>TXT_KEY_REGION_225</Tag>
 		<English>Baltic Sea</English>
 		<French>
 			<Text>Mer Baltique</Text>
@@ -2734,7 +2722,7 @@
 		<Spanish>Baltic Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_227</Tag>
+		<Tag>TXT_KEY_REGION_226</Tag>
 		<English>Black Sea</English>
 		<French>
 			<Text>Mer Noire</Text>
@@ -2746,7 +2734,7 @@
 		<Spanish>Black Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_228</Tag>
+		<Tag>TXT_KEY_REGION_227</Tag>
 		<English>Sea of Azov</English>
 		<French>
 			<Text>Mer d'Azov</Text>
@@ -2758,7 +2746,7 @@
 		<Spanish>Sea of Azov</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_229</Tag>
+		<Tag>TXT_KEY_REGION_228</Tag>
 		<English>White Sea</English>
 		<French>
 			<Text>Mer Blanche</Text>
@@ -2770,559 +2758,559 @@
 		<Spanish>White Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_230</Tag>
-		<English>Lake of Snaasavatnet</English>
+		<Tag>TXT_KEY_REGION_229</Tag>
+		<English>Lake Snaasavatnet</English>
 		<French>
-			<Text>Lac de Snaasavatnet</Text>
+			<Text>Lac Snaasavatnet</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Snaasavatnet-See</German>
-		<Italian>Lago di Snaasavatnet</Italian>
-		<Spanish>Lago de Snaasavatnet</Spanish>
+		<Italian>Lago Snaasavatnet</Italian>
+		<Spanish>Lago Snaasavatnet</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_231</Tag>
-		<English>Lake of Kallsjoen</English>
+		<Tag>TXT_KEY_REGION_230</Tag>
+		<English>Lake Kallsjoen</English>
 		<French>
-			<Text>Lac de Kallsjoen</Text>
+			<Text>Lac Kallsjoen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kallsjoen-See</German>
-		<Italian>Lago di Kallsjoen</Italian>
-		<Spanish>Lago de Kallsjoen</Spanish>
+		<Italian>Lago Kallsjoen</Italian>
+		<Spanish>Lago Kallsjoen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_232</Tag>
-		<English>Lake of Stroems Vattudal</English>
+		<Tag>TXT_KEY_REGION_231</Tag>
+		<English>Stroems Vattudal</English>
 		<French>
-			<Text>Lac de Stroems Vattudal</Text>
+			<Text>Stroems Vattudal</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Stroems Vattudal-See</German>
-		<Italian>Lago di Stroems Vattudal</Italian>
-		<Spanish>Lago de Stroems Vattudal</Spanish>
+		<German>Stroems Vattudal</German>
+		<Italian>Stroems Vattudal</Italian>
+		<Spanish>Stroems Vattudal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_233</Tag>
-		<English>Lake of Storsjoen</English>
+		<Tag>TXT_KEY_REGION_232</Tag>
+		<English>Lake Storsjoen</English>
 		<French>
-			<Text>Lac de Storsjoen</Text>
+			<Text>Lac Storsjoen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Storsjoen-See</German>
-		<Italian>Lago di Storsjoen</Italian>
-		<Spanish>Lago de Storsjoen</Spanish>
+		<Italian>Lago Storsjoen</Italian>
+		<Spanish>Lago Storsjoen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_234</Tag>
-		<English>Lake of Siljan</English>
+		<Tag>TXT_KEY_REGION_233</Tag>
+		<English>Lake Siljan</English>
 		<French>
-			<Text>Lac de Siljan</Text>
+			<Text>Lac Siljan</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Siljan-See</German>
-		<Italian>Lago di Siljan</Italian>
-		<Spanish>Lago de Siljan</Spanish>
+		<Italian>Lago Siljan</Italian>
+		<Spanish>Lago Siljan</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_235</Tag>
-		<English>Lake of Vaenern</English>
+		<Tag>TXT_KEY_REGION_234</Tag>
+		<English>Lake Vanern</English>
 		<French>
-			<Text>Lac de Vanern</Text>
+			<Text>Lac Vanern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vanern-See</German>
-		<Italian>Lago di Vaenern</Italian>
-		<Spanish>Lago de Vaenern</Spanish>
+		<Italian>Lago Vanern</Italian>
+		<Spanish>Lago Vanern</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_236</Tag>
-		<English>Lake of Vaettern</English>
+		<Tag>TXT_KEY_REGION_235</Tag>
+		<English>Lake Vattern</English>
 		<French>
-			<Text>Lac de Vattern</Text>
+			<Text>Lac Vattern</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vattern-See</German>
-		<Italian>Lago di Vaettern</Italian>
-		<Spanish>Lago de Vaettern</Spanish>
+		<Italian>Lago Vattern</Italian>
+		<Spanish>Lago Vattern</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_237</Tag>
-		<English>Lake of Hjaelmaren</English>
+		<Tag>TXT_KEY_REGION_236</Tag>
+		<English>Lake Hjaelmaren</English>
 		<French>
-			<Text>Lac de Hjalmaren</Text>
+			<Text>Lac Hjalmaren</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Hjalmaren-See</German>
-		<Italian>Lago di Hjaelmaren</Italian>
-		<Spanish>Lago de Hjaelmaren</Spanish>
+		<Italian>Lago Hjaelmaren</Italian>
+		<Spanish>Lago Hjaelmaren</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_238</Tag>
-		<English>Lake of Maerlaen</English>
+		<Tag>TXT_KEY_REGION_237</Tag>
+		<English>Lake Maelaren</English>
 		<French>
-			<Text>Lac de Malaren</Text>
+			<Text>Lac Malar</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Malaren-See</German>
-		<Italian>Lago di Maerlaen</Italian>
-		<Spanish>Lago de Maerlaen</Spanish>
+		<German>Maelaren-See</German>
+		<Italian>Lago Maelaren</Italian>
+		<Spanish>Lago Maelaren</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_239</Tag>
-		<English>Lake of Pyhajarvi</English>
+		<Tag>TXT_KEY_REGION_238</Tag>
+		<English>Lake Pyhajarvi</English>
 		<French>
-			<Text>Lac de Pyhajarvi</Text>
+			<Text>Lac Pyhajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Pyhajarvi-See</German>
-		<Italian>Lago di Pyhajarvi</Italian>
-		<Spanish>Lago de Pyhajarvi</Spanish>
+		<Italian>Lago Pyhajarvi</Italian>
+		<Spanish>Lago Pyhajarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_240</Tag>
-		<English>Lake of Lohjanjarvi</English>
+		<Tag>TXT_KEY_REGION_239</Tag>
+		<English>Lake Lohjanjarvi</English>
 		<French>
-			<Text>Lac de Lohjanarvi</Text>
+			<Text>Lac Lohjanarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lohjanarvi-See</German>
-		<Italian>Lago di Lohjanjarvi</Italian>
-		<Spanish>Lago de Lohjanjarvi</Spanish>
+		<Italian>Lago Lohjanjarvi</Italian>
+		<Spanish>Lago Lohjanjarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_241</Tag>
-		<English>Lake of Lappajarvi</English>
+		<Tag>TXT_KEY_REGION_240</Tag>
+		<English>Lake Lappajarvi</English>
 		<French>
-			<Text>Lac de Lappajarvi</Text>
+			<Text>Lac Lappajarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lappajarvi-See</German>
-		<Italian>Lago di Lappajarvi</Italian>
-		<Spanish>Lago de Lappajarvi</Spanish>
+		<Italian>Lago Lappajarvi</Italian>
+		<Spanish>Lago Lappajarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_242</Tag>
-		<English>Lake of Nasijarvi</English>
+		<Tag>TXT_KEY_REGION_241</Tag>
+		<English>Lake Nasijarvi</English>
 		<French>
-			<Text>Lac de Nasijarvi</Text>
+			<Text>Lac Nasijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Nasijarvi-See</German>
-		<Italian>Lago di Nasijarvi</Italian>
-		<Spanish>Lago de Nasijarvi</Spanish>
+		<Italian>Lago Nasijarvi</Italian>
+		<Spanish>Lago Nasijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_243</Tag>
-		<English>Lake of Vanajavesi</English>
+		<Tag>TXT_KEY_REGION_242</Tag>
+		<English>Lake Vanajavesi</English>
 		<French>
-			<Text>Lac de Vanajavesi</Text>
+			<Text>Lac Vanajavesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vanajavesi-See</German>
-		<Italian>Lago di Vanajavesi</Italian>
-		<Spanish>Lago de Vanajavesi</Spanish>
+		<Italian>Lago Vanajavesi</Italian>
+		<Spanish>Lago Vanajavesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_244</Tag>
-		<English>Lake of Paijanne</English>
+		<Tag>TXT_KEY_REGION_243</Tag>
+		<English>Lake Paijanne</English>
 		<French>
-			<Text>Lac de Paijanne</Text>
+			<Text>Lac Paijanne</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Paijanne-See</German>
-		<Italian>Lago di Paijanne</Italian>
-		<Spanish>Lago de Paijanne</Spanish>
+		<Italian>Lago Paijanne</Italian>
+		<Spanish>Lago Paijanne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_245</Tag>
-		<English>Lake of Keitele</English>
+		<Tag>TXT_KEY_REGION_244</Tag>
+		<English>Lake Keitele</English>
 		<French>
-			<Text>Lac de Keitele</Text>
+			<Text>Lac Keitele</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Keitele-See</German>
-		<Italian>Lago di Keitele</Italian>
-		<Spanish>Lago de Keitele</Spanish>
+		<Italian>Lago Keitele</Italian>
+		<Spanish>Lago Keitele</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_246</Tag>
-		<English>Lake of Nilakka</English>
+		<Tag>TXT_KEY_REGION_245</Tag>
+		<English>Lake Nilakka</English>
 		<French>
-			<Text>Lac de Nilakka</Text>
+			<Text>Lac Nilakka</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Nilakka-See</German>
-		<Italian>Lago di Nilakka</Italian>
-		<Spanish>Lago de Nilakka</Spanish>
+		<Italian>Lago Nilakka</Italian>
+		<Spanish>Lago Nilakka</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_247</Tag>
-		<English>Lake of Onkivesi</English>
+		<Tag>TXT_KEY_REGION_246</Tag>
+		<English>Lake Onkivesi</English>
 		<French>
-			<Text>Lac de Onkivesi</Text>
+			<Text>Lac Onkivesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Onkivesi-See</German>
-		<Italian>Lago di Onkivesi</Italian>
-		<Spanish>Lago de Onkivesi</Spanish>
+		<Italian>Lago Onkivesi</Italian>
+		<Spanish>Lago Onkivesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_248</Tag>
-		<English>Lake of Lisvesi</English>
+		<Tag>TXT_KEY_REGION_247</Tag>
+		<English>Lake Lisvesi</English>
 		<French>
-			<Text>Lac de Lisvesi</Text>
+			<Text>Lac Lisvesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lisvesi-See</German>
-		<Italian>Lago di Lisvesi</Italian>
-		<Spanish>Lago de Lisvesi</Spanish>
+		<Italian>Lago Lisvesi</Italian>
+		<Spanish>Lago Lisvesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_249</Tag>
-		<English>Lake of Puula</English>
+		<Tag>TXT_KEY_REGION_248</Tag>
+		<English>Lake Puula</English>
 		<French>
-			<Text>Lac de Puula</Text>
+			<Text>Lac Puula</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Puula-See</German>
-		<Italian>Lago di Puula</Italian>
-		<Spanish>Lago de Puula</Spanish>
+		<Italian>Lago Puula</Italian>
+		<Spanish>Lago Puula</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_250</Tag>
-		<English>Lake of Vuohijarvi</English>
+		<Tag>TXT_KEY_REGION_249</Tag>
+		<English>Lake Vuohijarvi</English>
 		<French>
-			<Text>Lac de Vuohijarvi</Text>
+			<Text>Lac Vuohijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vuohijarvi-See</German>
-		<Italian>Lago di Vuohijarvi</Italian>
-		<Spanish>Lago de Vuohijarvi</Spanish>
+		<Italian>Lago Vuohijarvi</Italian>
+		<Spanish>Lago Vuohijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_251</Tag>
-		<English>Lake of Kyyvesi</English>
+		<Tag>TXT_KEY_REGION_250</Tag>
+		<English>Lake Kyyvesi</English>
 		<French>
-			<Text>Lac de Kyyvesi</Text>
+			<Text>Lac Kyyvesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kyyvesi-See</German>
-		<Italian>Lago di Kyyvesi</Italian>
-		<Spanish>Lago de Kyyvesi</Spanish>
+		<Italian>Lago Kyyvesi</Italian>
+		<Spanish>Lago Kyyvesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_252</Tag>
-		<English>Lake of Kallavesi</English>
+		<Tag>TXT_KEY_REGION_251</Tag>
+		<English>Lake Kallavesi</English>
 		<French>
-			<Text>Lac de Kallavesi</Text>
+			<Text>Lac Kallavesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kallavesi-See</German>
-		<Italian>Lago di Kallavesi</Italian>
-		<Spanish>Lago de Kallavesi</Spanish>
+		<Italian>Lago Kallavesi</Italian>
+		<Spanish>Lago Kallavesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_253</Tag>
-		<English>Lake of Saimaa</English>
+		<Tag>TXT_KEY_REGION_252</Tag>
+		<English>Lake Saimaa</English>
 		<French>
-			<Text>Lac de Saimaa</Text>
+			<Text>Lac Saimaa</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Saimaa-See</German>
-		<Italian>Lago di Saimaa</Italian>
-		<Spanish>Lago de Saimaa</Spanish>
+		<Italian>Lago Saimaa</Italian>
+		<Spanish>Lago Saimaa</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_254</Tag>
-		<English>Lake of Viinijarvi</English>
+		<Tag>TXT_KEY_REGION_253</Tag>
+		<English>Lake Viinijarvi</English>
 		<French>
-			<Text>Lac de Viinijarvi</Text>
+			<Text>Lac Viinijarvi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Viinijarvi-See</German>
-		<Italian>Lago di Viinijarvi</Italian>
-		<Spanish>Lago de Viinijarvi</Spanish>
+		<Italian>Lago Viinijarvi</Italian>
+		<Spanish>Lago Viinijarvi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_255</Tag>
-		<English>Lake of Orivesi</English>
+		<Tag>TXT_KEY_REGION_254</Tag>
+		<English>Lake Orivesi</English>
 		<French>
-			<Text>Lac de Orivesi</Text>
+			<Text>Lac Orivesi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Orivesi-See</German>
-		<Italian>Lago di Orivesi</Italian>
-		<Spanish>Lago de Orivesi</Spanish>
+		<Italian>Lago Orivesi</Italian>
+		<Spanish>Lago Orivesi</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_256</Tag>
-		<English>Lake of Hoytiainen</English>
+		<Tag>TXT_KEY_REGION_255</Tag>
+		<English>Lake Hoytiainen</English>
 		<French>
-			<Text>Lac de H&#246;ytiainen</Text>
+			<Text>Lac H&#246;ytiainen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>H&#246;ytiainen-See</German>
-		<Italian>Lago di Hoytiainen</Italian>
-		<Spanish>Lago de Hoytiainen</Spanish>
+		<Italian>Lago Hoytiainen</Italian>
+		<Spanish>Lago Hoytiainen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_257</Tag>
-		<English>Lake of Pielinen</English>
+		<Tag>TXT_KEY_REGION_256</Tag>
+		<English>Lake Pielinen</English>
 		<French>
-			<Text>Lac de Pielinen</Text>
+			<Text>Lac Pielinen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Pielinen-See</German>
-		<Italian>Lago di Pielinen</Italian>
-		<Spanish>Lago de Pielinen</Spanish>
+		<Italian>Lago Pielinen</Italian>
+		<Spanish>Lago Pielinen</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_258</Tag>
-		<English>Lake of Koitere</English>
+		<Tag>TXT_KEY_REGION_257</Tag>
+		<English>Lake Koitere</English>
 		<French>
-			<Text>Lac de Koitere</Text>
+			<Text>Lac Koitere</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Koitere-See</German>
-		<Italian>Lago di Koitere</Italian>
-		<Spanish>Lago de Koitere</Spanish>
+		<Italian>Lago Koitere</Italian>
+		<Spanish>Lago Koitere</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_259</Tag>
-		<English>Lake of Lagoda</English>
+		<Tag>TXT_KEY_REGION_258</Tag>
+		<English>Lake Ladoga</English>
 		<French>
-			<Text>Lac de Lagoda</Text>
+			<Text>Lac Ladoga</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lagoda-See</German>
-		<Italian>Lago di Lagoda</Italian>
-		<Spanish>Lago de Lagoda</Spanish>
+		<German>Ladoga-See</German>
+		<Italian>Lago Ladoga</Italian>
+		<Spanish>Lago Ladoga</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_260</Tag>
-		<English>Lake of Syamozero</English>
+		<Tag>TXT_KEY_REGION_259</Tag>
+		<English>Lake Syamozero</English>
 		<French>
-			<Text>Lac de Syamozero</Text>
+			<Text>Lac Syamozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Syamozero-See</German>
-		<Italian>Lago di Syamozero</Italian>
-		<Spanish>Lago de Syamozero</Spanish>
+		<Italian>Lago Syamozero</Italian>
+		<Spanish>Lago Syamozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_261</Tag>
-		<English>Lake of Segozero</English>
+		<Tag>TXT_KEY_REGION_260</Tag>
+		<English>Lake Segozero</English>
 		<French>
-			<Text>Lac de Segozero</Text>
+			<Text>Lac Segozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Segozero-See</German>
-		<Italian>Lago di Segozero</Italian>
-		<Spanish>Lago de Segozero</Spanish>
+		<Italian>Lago Segozero</Italian>
+		<Spanish>Lago Segozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_262</Tag>
-		<English>Lake of Sandal</English>
+		<Tag>TXT_KEY_REGION_261</Tag>
+		<English>Lake Sandal</English>
 		<French>
-			<Text>Lac de Sandal</Text>
+			<Text>Lac Sandal</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Sandal-See</German>
-		<Italian>Lago di Sandal</Italian>
-		<Spanish>Lago de Sandal</Spanish>
+		<Italian>Lago Sandal</Italian>
+		<Spanish>Lago Sandal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_263</Tag>
-		<English>Lake of Vygozero</English>
+		<Tag>TXT_KEY_REGION_262</Tag>
+		<English>Lake Vygozero</English>
 		<French>
-			<Text>Lac de Vygozero</Text>
+			<Text>Lac Vygozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vygozero-See</German>
-		<Italian>Lago di Vygozero</Italian>
-		<Spanish>Lago de Vygozero</Spanish>
+		<Italian>Lago Vygozero</Italian>
+		<Spanish>Lago Vygozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_264</Tag>
-		<English>Lake of Onega</English>
+		<Tag>TXT_KEY_REGION_263</Tag>
+		<English>Lake Onega</English>
 		<French>
-			<Text>Lac d'Onega</Text>
+			<Text>Lac Onega</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Onegasee</German>
-		<Italian>Lago di Onega</Italian>
-		<Spanish>Lago de Onega</Spanish>
+		<Italian>Lago Onega</Italian>
+		<Spanish>Lago Onega</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_265</Tag>
-		<English>Lake of Voldozero</English>
+		<Tag>TXT_KEY_REGION_264</Tag>
+		<English>Lake Voldozero</English>
 		<French>
-			<Text>Lac de Voldozero</Text>
+			<Text>Lac Voldozero</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Voldozero-See</German>
-		<Italian>Lago di Voldozero</Italian>
-		<Spanish>Lago de Voldozero</Spanish>
+		<Italian>Lago Voldozero</Italian>
+		<Spanish>Lago Voldozero</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_266</Tag>
-		<English>Lake of Lacha</English>
+		<Tag>TXT_KEY_REGION_265</Tag>
+		<English>Lake Lacha</English>
 		<French>
-			<Text>Lac de Lacha</Text>
+			<Text>Lac Lacha</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Lacha-See</German>
-		<Italian>Lago di Lacha</Italian>
-		<Spanish>Lago de Lacha</Spanish>
+		<Italian>Lago Lacha</Italian>
+		<Spanish>Lago Lacha</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_267</Tag>
-		<English>Lake of Vozhe</English>
+		<Tag>TXT_KEY_REGION_266</Tag>
+		<English>Lake Vozhe</English>
 		<French>
-			<Text>Lac de Vozhe</Text>
+			<Text>Lac Vozhe</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Vozhe-See</German>
-		<Italian>Lago di Vozhe</Italian>
-		<Spanish>Lago de Vozhe</Spanish>
+		<Italian>Lago Vozhe</Italian>
+		<Spanish>Lago Vozhe</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_268</Tag>
-		<English>Lake of Kubena</English>
+		<Tag>TXT_KEY_REGION_267</Tag>
+		<English>Lake Kubena</English>
 		<French>
-			<Text>Lac de Kubena</Text>
+			<Text>Lac Kubena</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Kubena-See</German>
-		<Italian>Lago di Kubena</Italian>
-		<Spanish>Lago de Kubena</Spanish>
+		<Italian>Lago Kubena</Italian>
+		<Spanish>Lago Kubena</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_269</Tag>
-		<English>Lake of Beloye</English>
+		<Tag>TXT_KEY_REGION_268</Tag>
+		<English>Lake Beloye</English>
 		<French>
-			<Text>Lac de Beloye</Text>
+			<Text>Lac Beloye</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Beloye-See</German>
-		<Italian>Lago di Beloye</Italian>
-		<Spanish>Lago de Beloye</Spanish>
+		<Italian>Lago Beloye</Italian>
+		<Spanish>Lago Beloye</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_270</Tag>
-		<English>Lake of Ilmen</English>
+		<Tag>TXT_KEY_REGION_269</Tag>
+		<English>Lake Ilmen</English>
 		<French>
-			<Text>Lac d'Ilmen</Text>
+			<Text>Lac Ilmen</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Ilmen-See</German>
-		<Italian>Lago di Ilmen</Italian>
-		<Spanish>Lago de Ilmen</Spanish>
+		<Italian>Lago Ilmen</Italian>
+		<Spanish>Lago Ilmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_270</Tag>
+		<English>Lake Pihkva/Pskovskoye</English>
+		<French>
+			<Text>Lac Pihkva/Pskovskoye</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Pihkva-See/Pskovskoye-See</German>
+		<Italian>Lago Pihkva/Pskovskoye</Italian>
+		<Spanish>Lago Pihkva/Pskovskoye</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_271</Tag>
-		<English>Lake of Pihkva</English>
+		<English>Lake Peipus/Chudskoye</English>
 		<French>
-			<Text>Lac de Pihkva</Text>
+			<Text>Lac Peipous/Chudskoye</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Pihkva-See</German>
-		<Italian>Lago di Pihkva</Italian>
-		<Spanish>Lago de Pihkva</Spanish>
+		<German>Peipussee/Chudskoye-See</German>
+		<Italian>Lago Peipus/Chudskoye</Italian>
+		<Spanish>Lago Peipus/Chudskoye</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_272</Tag>
-		<English>Lake Peipus</English>
+		<English>Lake Vortsjarv/Wirzsee</English>
 		<French>
-			<Text>Lac Peipous</Text>
+			<Text>Lac V&#245;rtsjarv/Wirzsee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Peipussee</German>
-		<Italian>Lago di Peipus</Italian>
-		<Spanish>Lago de Peipus</Spanish>
+		<German>V&#245;rtsjarv-See/Wirzsee</German>
+		<Italian>Lago Vortsjarvi/Wirzsee</Italian>
+		<Spanish>Lago Vortsjarvi/Wirzsee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_273</Tag>
-		<English>Lake of Vortsjarvi</English>
+		<English>Lake Sniardwy/Spirdingsee</English>
 		<French>
-			<Text>Lac de V&#245;rtsjarv</Text>
+			<Text>Lac Sniardwy/Spirdingsee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>V&#245;rtsjarv-See</German>
-		<Italian>Lago di Vortsjarvi</Italian>
-		<Spanish>Lago de Vortsjarvi</Spanish>
+		<German>Sniardwy-See/Spirdingsee</German>
+		<Italian>Lago Sniardwy/Spirdingsee</Italian>
+		<Spanish>Lago Sniardwy/Spirdingsee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_274</Tag>
-		<English>Lake of Spirdingse</English>
+		<English>Limfjord</English>
 		<French>
-			<Text>Lac de Spirdingse</Text>
+			<Text>Limfjord</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Spirdingse-See</German>
-		<Italian>Lago di Spirdingse</Italian>
-		<Spanish>Lago de Spirdingse</Spanish>
+		<German>Limfjord</German>
+		<Italian>Limfjord</Italian>
+		<Spanish>Limfjord</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_275</Tag>
-		<English>Lake of Limfjord</English>
-		<French>
-			<Text>Lac de Limfjord</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Limfjord-See</German>
-		<Italian>Lago di Limfjord</Italian>
-		<Spanish>Lago de Limfjord</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REGION_276</Tag>
 		<English>Lough Neagh</English>
 		<French>
 			<Text>Lough Neagh</Text>
@@ -3330,155 +3318,155 @@
 			<Plural>0</Plural>
 		</French>
 		<German>Lough Neagh</German>
-		<Italian>Lago di Neagh</Italian>
-		<Spanish>Lago de Neagh</Spanish>
+		<Italian>Lough Neagh</Italian>
+		<Spanish>Lough Neagh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_276</Tag>
+		<English>Lake Geneva/Leman</English>
+		<French>
+			<Text>Lac de Genève/L&#233;man</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Genfersee/Leman</German>
+		<Italian>Lago di Genova/Leman</Italian>
+		<Spanish>Lago de Ginebra/Leman</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_277</Tag>
-		<English>Lake Leman</English>
+		<English>Lake Constance/Bodensee</English>
 		<French>
-			<Text>Lac L&#233;man</Text>
+			<Text>Lac de Constance/Bodensee</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Genfersee</German>
-		<Italian>Lago di Leman</Italian>
-		<Spanish>Lago de Leman</Spanish>
+		<German>Bodensee/Konstanzsee</German>
+		<Italian>Lago di Costanza/Bodensee</Italian>
+		<Spanish>Lago de Constanza/Bodensee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_278</Tag>
-		<English>Lake of Bodense</English>
-		<French>
-			<Text>Lac de Constance</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Bodensee</German>
-		<Italian>Lago di Bodense</Italian>
-		<Spanish>Lago de Bodense</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REGION_279</Tag>
-		<English>Lake of Garda</English>
+		<English>Lake Garda</English>
 		<French>
 			<Text>Lac de Garde</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Gardasee</German>
-		<Italian>Lago di Garda</Italian>
-		<Spanish>Lago de Garda</Spanish>
+		<Italian>Lago Garda</Italian>
+		<Spanish>Lago Garda</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_280</Tag>
-		<English>Lake of Balaton</English>
+		<Tag>TXT_KEY_REGION_279</Tag>
+		<English>Lake Balaton</English>
 		<French>
-			<Text>Lac de Balaton</Text>
+			<Text>Lac Balaton</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Plattensee</German>
-		<Italian>Lago di Balaton</Italian>
-		<Spanish>Lago de Balaton</Spanish>
+		<Italian>Lago Balaton</Italian>
+		<Spanish>Lago Balaton</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_281</Tag>
-		<English>Lake Skadar</English>
+		<Tag>TXT_KEY_REGION_280</Tag>
+		<English>Lake Skadar/Scutari</English>
 		<French>
-			<Text>Lac de Scutari</Text>
+			<Text>Lac Skadar/Scutari</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Skutarisee</German>
-		<Italian>Lago di Skadar</Italian>
-		<Spanish>Lago de Skadar</Spanish>
+		<German>Skutarissee/Scutari</German>
+		<Italian>Lago Skadar/Scutari</Italian>
+		<Spanish>Lago Skadar/Scutari</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_282</Tag>
-		<English>Lake of Ohrid</English>
+		<Tag>TXT_KEY_REGION_281</Tag>
+		<English>Lake Ohrid</English>
 		<French>
-			<Text>Lac d'Ohrid</Text>
+			<Text>Lac Ohrid</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Ohridsee</German>
-		<Italian>Lago di Ohrid</Italian>
-		<Spanish>Lago de Ohrid</Spanish>
+		<Italian>Lago Ohrid</Italian>
+		<Spanish>Lago Ohrid</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_283</Tag>
-		<English>Lake of Prespa</English>
+		<Tag>TXT_KEY_REGION_282</Tag>
+		<English>Lake Prespa</English>
 		<French>
-			<Text>Lac de Prespa</Text>
+			<Text>Lac Prespa</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Prespasee</German>
-		<Italian>Lago di Prespa</Italian>
-		<Spanish>Lago de Prespa</Spanish>
+		<Italian>Lago Prespa</Italian>
+		<Spanish>Lago Prespa</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_284</Tag>
-		<English>Lake of Askania</English>
+		<Tag>TXT_KEY_REGION_283</Tag>
+		<English>Lake Askania/Iznik</English>
 		<French>
-			<Text>Lac d'Askania</Text>
+			<Text>Lac Askania/Iznik</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Askania-See</German>
-		<Italian>Lago di Askania</Italian>
-		<Spanish>Lago de Askania</Spanish>
+		<German>Askania-See/Iznik-See</German>
+		<Italian>Lago di Askania/Iznik</Italian>
+		<Spanish>Lago de Askania/Iznik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_REGION_284</Tag>
+		<English>Lake Akrotiri/Eghridir</English>
+		<French>
+			<Text>Lac Akrotiri/Eghridir</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Akrotiri-See/Eghridir</German>
+		<Italian>Lago Akrotiri/Eghridir</Italian>
+		<Spanish>Lago Akrotiri/Eghridir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_285</Tag>
-		<English>Lake of Akrotiri</English>
+		<English>Lake Karallis/Beyshehir</English>
 		<French>
-			<Text>Lac d'Akrotiri</Text>
+			<Text>Lac Karallis/Beyshehir</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Akrotiri-See</German>
-		<Italian>Lago di Akrotiri</Italian>
-		<Spanish>Lago de Akrotiri</Spanish>
+		<German>Karallis-See/Beyshehir</German>
+		<Italian>Lago Karallis/Beyshehir</Italian>
+		<Spanish>Lago Karallis/Beyshehir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_286</Tag>
-		<English>Lake of Karallis</English>
+		<English>Lake Tatta/Tuz</English>
 		<French>
-			<Text>Lac de Karallis</Text>
+			<Text>Lac Tatta/Tuz</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Karallis-See</German>
-		<Italian>Lago di Karallis</Italian>
-		<Spanish>Lago de Karallis</Spanish>
+		<German>Tatta-See/Tuzsee</German>
+		<Italian>Lago Tatta/Tuz</Italian>
+		<Spanish>Lago Tatta/Tuz</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_287</Tag>
-		<English>Lake of Tatta</English>
+		<English>Lake Tiberias/Sea of Galilee</English>
 		<French>
-			<Text>Lac de Tatta</Text>
+			<Text>Lac Tib&#233;riade/Mer de Galil&#233;e</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Tatta-See</German>
-		<Italian>Lago di Tatta</Italian>
-		<Spanish>Lago de Tatta</Spanish>
+		<German>Tiberiassee/See Genezareth</German>
+		<Italian>Lago di Tiberiade/Mare di Galilea</Italian>
+		<Spanish>Lago de Tiberias/Mar de Galilea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REGION_288</Tag>
-		<English>Galilee Sea</English>
-		<French>
-			<Text>Lac de Tib&#233;riade</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>See Genezareth</German>
-		<Italian>Galilee Sea</Italian>
-		<Spanish>Galilee Sea</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REGION_289</Tag>
 		<English>Dead Sea</English>
 		<French>
 			<Text>Mer Morte</Text>
@@ -3490,76 +3478,76 @@
 		<Spanish>Dead Sea</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_290</Tag>
-		<English>Lake of Moeris</English>
+		<Tag>TXT_KEY_REGION_289</Tag>
+		<English>Lake Moeris</English>
 		<French>
-			<Text>Lac de Lac de Moeris</Text>
+			<Text>Lac Moeris</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Moeris-See</German>
-		<Italian>Lago di Moeris</Italian>
-		<Spanish>Lago de Moeris</Spanish>
+		<Italian>Lago Moeris</Italian>
+		<Spanish>Lago Moeris</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_291</Tag>
-		<English>Salt Sebkha of Oran</English>
+		<Tag>TXT_KEY_REGION_290</Tag>
+		<English>Sebkha of Oran</English>
 		<French>
 			<Text>Sebkha d'Oran</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Salzsee von Oran</German>
-		<Italian>Salt Sebkha of Oran</Italian>
-		<Spanish>Salt Sebkha of Oran</Spanish>
+		<German>Sebkha von Oran</German>
+		<Italian>Sebkha Oran</Italian>
+		<Spanish>Sebkha Oran</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_292</Tag>
-		<English>Salt Chott ech Chergui</English>
+		<Tag>TXT_KEY_REGION_291</Tag>
+		<English>Chott ech Chergui</English>
 		<French>
 			<Text>Chott ech Chergui</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott ech Chergui</German>
-		<Italian>Salt Chott ech Chergui</Italian>
-		<Spanish>Salt Chott ech Chergui</Spanish>
+		<Italian>Chott ech Chergui</Italian>
+		<Spanish>Chott ech Chergui</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_293</Tag>
-		<English>Salt Chott el Hodna</English>
+		<Tag>TXT_KEY_REGION_292</Tag>
+		<English>Chott el Hodna</English>
 		<French>
 			<Text>Chott el Hodna</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott el Hodna</German>
-		<Italian>Salt Chott el Hodna</Italian>
-		<Spanish>Salt Chott el Hodna</Spanish>
+		<Italian>Chott el Hodna</Italian>
+		<Spanish>Chott el Hodna</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_294</Tag>
-		<English>Salt Chott Melghir</English>
+		<Tag>TXT_KEY_REGION_293</Tag>
+		<English>Chott Melghir</English>
 		<French>
 			<Text>Chott Melghir</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott Melghir</German>
-		<Italian>Salt Chott Melghir</Italian>
-		<Spanish>Salt Chott Melghir</Spanish>
+		<Italian>Chott Melghir</Italian>
+		<Spanish>Chott Melghir</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_REGION_295</Tag>
-		<English>Salt Chott el Dejrid</English>
+		<Tag>TXT_KEY_REGION_294</Tag>
+		<English>Chott el Dejrid</English>
 		<French>
 			<Text>Chott el Dejrid</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>Chott el Dejrid</German>
-		<Italian>Salt Chott el Dejrid</Italian>
-		<Spanish>Salt Chott el Dejrid</Spanish>
+		<Italian>Chott el Dejrid</Italian>
+		<Spanish>Chott el Dejrid</Spanish>
 	</TEXT>
 	
 	<TEXT>

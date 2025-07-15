@@ -12104,19 +12104,19 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_LEINSTER:
     case REGION_MUNSTER:
     case REGION_NORTHUMBRIA:
-    case REGION_MIDLANDS:
+    case REGION_THE_MIDLANDS:
     case REGION_WALES:
     case REGION_EAST_ANGLIA:
     case REGION_KENT_ESSEX:
     case REGION_WESSEX:
-    case REGION_CORNWALL_DEVON:
+    case REGION_CORNWALL:
     case REGION_VESTLANDET:
     case REGION_TRONDELAG:
-    case REGION_JAMTLAND:
+    case REGION_JAEMTLAND:
     case REGION_NORRLAND:
     case REGION_SVEALAND:
     case REGION_OSTLANDET:
-    case REGION_GOTALAND:
+    case REGION_GEATLAND:
     case REGION_SCANIA:
     case REGION_GOTLAND:
     case REGION_DENMARK:
@@ -12125,7 +12125,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_ONEGA:
     case REGION_DVINA:
     case REGION_VOLGA:
-    case REGION_MOLOGA:
+    case REGION_BELOOZERO:
     case REGION_NOVGOROD:
     case REGION_INGRIA:
     case REGION_PSKOV:
@@ -12141,12 +12141,12 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_MSTISLAW:
     case REGION_LATGALIA:
     case REGION_LIVLAND:
-    case REGION_ESTONIA:
+    case REGION_ESTLAND:
     case REGION_COURLAND:
     case REGION_SAMOGITIA:
     case REGION_LITHUANIA:
     case REGION_PRUSSIA:
-    case REGION_BLACK_RUS:
+    case REGION_NEMAN:
     case REGION_POLESSIA:
     case REGION_SEVERIA:
     case REGION_SLOBODA_UKRAINE:
@@ -12209,7 +12209,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_MOESIA:
     case REGION_THRACE:
     case REGION_MACEDONIA:
-    case REGION_ALBANIA:
+    case REGION_ARBERIA:
     case REGION_EPIRUS:
     case REGION_THESSALY:
     case REGION_ATTICA:
@@ -12253,11 +12253,11 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_POITOU:
     case REGION_ANJOU:
     case REGION_BERRY:
-    case REGION_BURGUNDY_FRANCHE_COMTE:
+    case REGION_BURGUNDY:
     case REGION_SAVOY:
     case REGION_LYONNAIS:
     case REGION_AUVERGNE:
-    case REGION_GUYENNE:
+    case REGION_GASCONY:
     case REGION_LANGUEDOC:
     case REGION_DAUPHINY:
     case REGION_PROVENCE:
@@ -12267,7 +12267,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_NAVARRE:
     case REGION_CANTABRIA:
     case REGION_ASTURIAS:
-    case REGION_GALIZA:
+    case REGION_GALLAAECIA:
     case REGION_PORTUGAL:
     case REGION_LUSITANIA:
     case REGION_LEON:
@@ -12279,7 +12279,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_MURICA:
     case REGION_GRANADA:
     case REGION_BALEARES:
-    case REGION_ROUSSILLON:
+    case REGION_SEPTIMANIA:
 		return REGION_GROUP_EUROPE;
     case REGION_SINAI:
     case REGION_LOWER_EGYPT:
@@ -12302,8 +12302,7 @@ int CvPlot::getRegionGroupForRegion(int iRegion)
     case REGION_BITHYNIA:
     case REGION_PHRYGIA:
     case REGION_LYCIA:
-    case REGION_PAMPHYLIA:
-    case REGION_LYCAONIA:
+    case REGION_ANATOLICON:
     case REGION_GALATIA:
     case REGION_PAPHLAGONIA:
     case REGION_PONTUS:
